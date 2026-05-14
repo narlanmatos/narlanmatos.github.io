@@ -15,7 +15,7 @@ feature_row:
     title: "Selected Poems"
     excerpt: "Selected Poetry in English"
     url: "/poetry/selected/"
-    btn_label: "Read Narlan's Poetry!"
+    btn_label: "Read Poetry!"
     btn_class: "btn--primary"
   - image_path: /assets/images/books.jpg
     alt: ""
