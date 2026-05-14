@@ -1,5 +1,5 @@
 ---
-title: "Narlan Matos"
+title: "N M"
 layout: splash
 permalink: /
 header:
