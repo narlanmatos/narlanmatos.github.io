@@ -7,10 +7,10 @@ minimal_mistakes_skin    : "dark" # "default", "air", "aqua", "contrast", "dark"
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "N M"
+title                    : "Narlan Matos"
 title_separator          : "-"
 subtitle                 : "Poet" # site tagline that appears below site title in masthead
-name                     : "N M"
+name                     : "Narlan Matos"
 description              : ""
 url                      : "https://narlanmatos.github.io"
 baseurl                  : ""   # the subpath of your site, e.g. "/blog" .  empty for user/organization sites
