@@ -1,5 +1,8 @@
 # main links
 main:
+  - title: "Home"
+    url: /
+
   - title: "About"
     url: /about/
     children:
@@ -75,13 +78,14 @@ main:
       - title: "Videos"
         path: "/media/videos"
 
-  - title: "Awards"
-    path: "/awards"
+  - title: "Recognition"
     children:
-      - title: "Honors & Prizes"
-        path: "/awards/honors"
-      - title: "Nominations"
-        path: "/awards/nominations"
+      - title: "Awards & Honors"
+        url: /awards/
+      - title: "Reviews"
+        url: /reviews/
+      - title: "Media & Interviews"
+        url: /media/
 
   - title: "Events"
     path: "/events"
