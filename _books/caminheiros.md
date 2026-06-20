@@ -10,7 +10,14 @@ languages:
   - Portuguese
 ---
 
-*Eu e Tu, Caminheiros Dessa Vida*...
+*Eu e Tu, Caminheiros Dessa Vida*... 
+
+{% if page.cover %}
+<figure class="align-center">
+  <img src="{{ site.baseurl }}/{{ page.cover }}" alt="{{ page.title }} cover">
+  <figcaption>{{ page.title }}</figcaption>
+</figure>
+{% endif %}
 
 ## Editions
 
