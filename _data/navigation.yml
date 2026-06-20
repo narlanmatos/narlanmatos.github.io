@@ -1,0 +1,102 @@
+# main links
+main:
+  - title: "Home"
+    url: /
+
+  - title: "About"
+    url: /about/
+    children:
+      - title: "Biography"
+        path: "/about/biography"
+      - title: "Timeline"
+        path: "/about/timeline"
+      - title: "Portrait Gallery"
+        path: "/about/gallery"
+
+  - title: "Poetry"
+    path: "/poetry"
+    children:
+      - title: "Selected Poems"
+        path: "/poetry/selected"
+      - title: "Poems in Portuguese"
+        path: "/poetry/portuguese"
+      - title: "Poems in English Translation"
+        path: "/poetry/english"
+      - title: "Multilingual Editions"
+        path: "/poetry/multilingual"
+      - title: "Audio Readings"
+        path: "/poetry/audio"
+      - title: "Video Performances"
+        path: "/poetry/video"
+
+  - title: "Books"
+    path: "/books"
+    children:
+      - title: "All Books"
+        path: "/books/all"
+      - title: "Latest Release"
+        path: "/books/latest"
+      - title: "Collected Works"
+        path: "/books/collected"
+      - title: "Anthologies"
+        path: "/books/anthologies"
+      - title: "International Editions"
+        path: "/books/international"
+      - title: "Sample Pages"
+        path: "/books/samples"
+
+  - title: "Translations"
+    path: "/translations"
+    children:
+      - title: "Languages"
+        path: "/translations/languages"
+      - title: "Translators"
+        path: "/translations/translators"
+
+
+  - title: "Global Publications"
+    path: "/publications"
+    children:
+      - title: "By Country"
+        path: "/publications/countries"
+      - title: "Magazines & Journals"
+        path: "/publications/journals"
+      - title: "Publishers"
+        path: "/publications/publishers"
+      - title: "Literary Festivals"
+        path: "/publications/festivals"
+
+  - title: "Media"
+    path: "/media"
+    children:
+      - title: "Interviews"
+        path: "/media/interviews"
+      - title: "Essays & Articles"
+        path: "/media/articles"
+      - title: "Photos"
+        path: "/media/photos"
+      - title: "Videos"
+        path: "/media/videos"
+
+  - title: "Recognition"
+    children:
+      - title: "Awards & Honors"
+        url: /awards/
+      - title: "Reviews"
+        url: /reviews/
+      - title: "Media & Interviews"
+        url: /media/
+
+  - title: "Events"
+    path: "/events"
+    children:
+      - title: "Upcoming Readings"
+        path: "/events/upcoming"
+      - title: "Past Events"
+        path: "/events/archive"
+      - title: "Festival Appearances"
+        path: "/events/festivals"
+
+
+  - title: "Contact"
+    path: "/contact"
