@@ -286,6 +286,12 @@ compress_html:
     envs: development
 
 
+# Collections
+collections:
+books:
+output: true
+permalink: /books//
+
 # Defaults
 defaults:
   # _posts
@@ -299,4 +305,10 @@ defaults:
       comments: # true
       share: true
       related: true
+  - scope:
+      path: ""
+      type: books
+    values:
+      layout: single
+      author_profile: true
 
