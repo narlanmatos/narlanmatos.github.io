@@ -9,7 +9,7 @@ locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "Narlan Matos"
 title_separator          : "-"
-subtitle                 : "Poet" # site tagline that appears below site title in masthead
+subtitle                 : "Poetry, Music, and Culture Across Borders" # site tagline that appears below site title in masthead
 name                     : "Narlan Matos"
 description              : ""
 url                      : "https://narlanmatos.github.io"
