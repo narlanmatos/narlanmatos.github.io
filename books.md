@@ -15,6 +15,10 @@ header:
 
 ### [{{ book.title }}]({{ book.url }})
 
+{% if book.cover %}
+  <img src="{{ book.cover }}" alt="{{ book.title }} cover" style="max-width:200px;">
+{% endif %}
+
 **Year:** {{ book.year }}
 
 {{ book.excerpt }}
