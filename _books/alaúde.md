@@ -1,16 +1,16 @@
 ---
-title: "Canto aos Homens de Boa Vontade"
-year: 2018
+title: "Um Alaúde, a Península e Teus Olhos Negros"
+year: 2017
 publisher: "Penalux"
-isbn: " 8558333645"
-cover: "/assets/images/books/canto.jpg"
-buy_link: "https://loja.editoralitteralux.com.br/canto-aos-homens-de-boa-vontade"
+isbn: "8558332274"
+cover: "/assets/images/books/alaude.jpg"
+buy_link: "https://loja.editoralitteralux.com.br/um-alaude-a-peninsula-e-teus-olhos-negros"
 
 languages:
   - Portuguese
 ---
 
-*Canto aos Homens de Boa Vontade*... 
+*Um Alaúde, a Península e Teus Olhos Negros*... 
 
 {% if page.cover %}
 <figure class="align-center">
