@@ -10,6 +10,11 @@ languages:
   - Portuguese
 ---
 
+{% if page.cover %}
+  <img src="{{ site.baseurl }}/{{ page.cover }}"
+       alt="{{ page.title }} cover"
+       style="max-width:300px;">
+{% endif %}
 
 ## Editions
 
