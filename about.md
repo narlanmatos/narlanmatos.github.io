@@ -10,16 +10,6 @@ header:
 
 ---
 
-<div style="display:flex; gap:2rem; align-items:center; flex-wrap:wrap;">
-
-<div>
-  <img src="/assets/images/profile.jpg"
-       alt="Profile Photo"
-       width="450"
-       style="border-radius:12px;">
-</div>
-
-<div>
 
 # Biography
 
