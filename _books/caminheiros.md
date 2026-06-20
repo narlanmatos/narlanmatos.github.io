@@ -18,6 +18,17 @@ languages:
 </figure>
 {% endif %}
 
+{% if page.buy_link %}
+<p>
+  <a href="{{ page.buy_link }}"
+     class="btn btn--primary"
+     target="_blank"
+     rel="noopener">
+     Buy this Book
+  </a>
+</p>
+{% endif %}
+
 ## Editions
 
 ### Portuguese Edition
