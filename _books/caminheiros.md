@@ -15,7 +15,6 @@ languages:
 {% if page.cover %}
 <figure class="align-center">
   <img src="{{ page.cover | relative_url }}" alt="{{ page.title }} cover">
-  <figcaption>{{ page.title }}</figcaption>
 </figure>
 {% endif %}
 
