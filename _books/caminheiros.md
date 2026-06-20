@@ -10,6 +10,8 @@ languages:
   - Portuguese
 ---
 
+*Eu e Tu, Caminheiros Dessa Vida*...
+
 ## Editions
 
 ### Portuguese Edition
