@@ -17,6 +17,7 @@ languages:
   <img src="{{ site.baseurl }}/{{ page.cover }}" alt="{{ page.title }} cover">
   <figcaption>{{ page.title }}</figcaption>
 </figure>
+<p>{{ site.baseurl }}/{{ page.cover }}</p>
 {% endif %}
 
 ## Editions
