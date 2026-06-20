@@ -10,19 +10,11 @@ languages:
   - Portuguese
 ---
 
-*Eu e Tu, Caminheiros Dessa Vida* .....
 
 ## Editions
 
-### Original Language Edition
-Published 2018 by Example Press.
+### Portuguese Edition
+Published 2019 by Penalux.
 
-### English Translation
-Translated by xx, published xx.
 
-### French Translation
-Translated by xx, published xx.
 
-## Reviews
-
-Selected reviews and commentary may be listed here.
