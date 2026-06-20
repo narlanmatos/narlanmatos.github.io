@@ -288,9 +288,9 @@ compress_html:
 
 # Collections
 collections:
-books:
-output: true
-permalink: /books//
+  books:
+    output: true
+    permalink: /books/:path/
 
 # Defaults
 defaults:
