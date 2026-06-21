@@ -6,7 +6,6 @@ isbn: ""
 cover: "/assets/images/books/narciso.jpg"
 publisher_link: "https://loja.editoralitteralux.com.br/narciso-selvagem"
 read_link: "https://loja.editoralitteralux.com.br/image/catalog/PDF/9786558623397.pdf"
-buy_link: "https://loja.editoralitteralux.com.br/narciso-selvagem"
 
 languages:
   - Portuguese
@@ -58,7 +57,7 @@ languages:
 ## Editions
 
 ### Portuguese Edition
-Published 2019 by Penalux.
+Published 2022 by Penalux.
 
 
 
