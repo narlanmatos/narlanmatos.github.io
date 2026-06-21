@@ -290,7 +290,7 @@ compress_html:
 collections:
   books:
     output: true
-    permalink: /books/:path/
+    permalink: poetry/books/:path/
 
 # Defaults
 defaults:
