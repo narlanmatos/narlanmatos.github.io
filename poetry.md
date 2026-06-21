@@ -35,7 +35,7 @@ feature_row2:
     url: "/translations/"
     btn_label: "View Translations"
   - image_path: /assets/images/features/bibliography.jpg
-    title: "Translations"
+    title: "Bibliography"
     excerpt: "Comprehensive publication history."
     url: "/poetry/bibliography"
     btn_label: "View Bibliography"
