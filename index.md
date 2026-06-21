@@ -13,7 +13,7 @@ feature_row:
   - image_path: /assets/images/selected_poems.jpg
     alt: ""
     title: "Selected Poems"
-    excerpt: "Selected Poetry in English"
+    excerpt: "Selected Poetry in English."
     url: "/poetry/selected/"
     btn_label: "Read Poetry!"
     btn_class: "btn--primary"
@@ -27,8 +27,8 @@ feature_row:
   - image_path: /assets/images/books.jpg
     alt: ""
     title: "Books"
-    excerpt: "All books."
-    url: "/books/all/"
+    excerpt: "Original collections in Portuguese."
+    url: "/poetry/books"
     btn_label: "Explore books"
     btn_class: "btn--primary"
 
