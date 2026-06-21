@@ -16,7 +16,7 @@ feature_row:
     title: "Selected Poems"
     excerpt: "A selection of poems available online."
     url: /poetry/selected-poems/
-    btn_label: "Explore Books"
+    btn_label: "Explore Poems"
   - image_path: /assets/images/features/performances.jpg
     title: "Readings & Recordings"
     excerpt: "Audio and video performances of poetry, including live readings and interpretations."
