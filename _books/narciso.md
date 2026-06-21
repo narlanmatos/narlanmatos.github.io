@@ -9,6 +9,7 @@ read_link: "https://loja.editoralitteralux.com.br/image/catalog/PDF/978655862339
 
 languages:
   - Portuguese
+  - Italian
 ---
 
 *Narciso selvagem*... 
@@ -54,10 +55,16 @@ languages:
 </p>
 {% endif %}
 
-## Editions
+
+
+## Editions & Translations
 
 ### Portuguese Edition
 Published 2022 by Penalux.
 
+### Italian Translation
+- [Selected Poems translated by Manuela Colombo, published by *Fili d’Aquilone*](https://www.filidaquilone.it/num063colombo.html)
 
+## Reviews
 
+- Colombo, Manuela. “Narlan Matos, Narciso selvagem.” Fili d’Aquilone, no. 63 (2023). Italian introduction and translations from *Narciso selvagem*. [Read article](https://www.filidaquilone.it/num063colombo.html).
