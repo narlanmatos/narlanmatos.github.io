@@ -30,9 +30,9 @@ feature_row:
     btn_class: "btn--primary"
     
 feature_row_translations:
-  - image_path: /assets/images/translations/antología.jpg
+  - image_path: /assets/images/translations/antologia.jpg
     title: "Antología Poética Bilingüe"
-    url: /translations/antología/
+    url: /translations/antologia/
     btn_label: "View Book"
     btn_class: "btn--primary"
     
