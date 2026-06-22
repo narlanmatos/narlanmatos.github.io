@@ -1,6 +1,6 @@
 ---
 type: translated_anthology
-title: "Cómo nacen las estrellas "
+title: "Cómo nacen las estrellas"
 
 translators:
   - Lily Martínez Evangelista
