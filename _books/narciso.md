@@ -15,6 +15,7 @@ has_translations: true
 translation_group: "narciso-selvagem"
 translation_languages:
   - Italian
+  - English
 ---
 
 
@@ -68,7 +69,7 @@ Written in {{ page.language }}, it forms part of Narlan Matos’s core poetic co
 {% if page.translation_languages %}
 ## International Reception
 
-This collection has appeared in translation in
+Poems of *{{ page.title }}* have appeared in translation in
 
 {% for lang in page.translation_languages %}
   {% if forloop.length == 1 %}
