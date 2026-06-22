@@ -35,7 +35,12 @@ feature_row_translations:
     url: /translations/antologia/
     btn_label: "View Book"
     btn_class: "btn--primary"
-    
+  - image_path: /assets/images/translations/poetry-mens-lives.jpg
+    title: "The Poetry of Men's Lives: an International Anthology"
+    url: translations/poetry-mens-lives/
+    btn_label: "View Book"
+    btn_class: "btn--primary"   
+
 ---
 
 # Translations
