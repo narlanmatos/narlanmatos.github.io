@@ -16,6 +16,7 @@ translation_group: "narciso-selvagem"
 translation_languages:
   - Italian
   - English
+  - French
 ---
 
 
