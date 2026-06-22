@@ -4,7 +4,7 @@ author: Narlan Matos
 title: "Canto aos Homens de Boa Vontade"
 year: 2018
 publisher: "Penalux"
-isbn: " 8558333645"
+isbn: "978-8558333641"
 cover: "/assets/images/books/canto.jpg"
 publisher_link: "https://loja.editoralitteralux.com.br/canto-aos-homens-de-boa-vontade"
 read_link: "https://loja.editoralitteralux.com.br/image/catalog/PDF/9788558333641.pdf"

@@ -4,7 +4,7 @@ author: Narlan Matos
 title: "Eu e Tu, Caminheiros Dessa Vida"
 year: 2019
 publisher: "Penalux"
-isbn: "8558335672"
+isbn: "978-8558335676"
 cover: "/assets/images/books/caminheiros.jpg"
 publisher_link: "https://loja.editoralitteralux.com.br/eu-e-tu-caminheiros-dessa-vida"
 read_link: "https://loja.editoralitteralux.com.br/image/catalog/PDF/9788558335676.pdf"

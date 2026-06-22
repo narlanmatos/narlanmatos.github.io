@@ -4,7 +4,7 @@ author: Narlan Matos
 title: "Um Alaúde, a Península e Teus Olhos Negros"
 year: 2017
 publisher: "Penalux"
-isbn: "8558332274"
+isbn: "978-8558332279"
 cover: "/assets/images/books/alaude.jpg"
 publisher_link: "https://loja.editoralitteralux.com.br/um-alaude-a-peninsula-e-teus-olhos-negros"
 read_link: "https://loja.editoralitteralux.com.br/image/catalog/PDF/9788558332279.pdf"
