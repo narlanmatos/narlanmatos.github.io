@@ -291,6 +291,9 @@ collections:
   books:
     output: true
     permalink: poetry/books/:path/
+  translations:
+    output: true
+    permalink: /translations/books/:path/
 
 # Defaults
 defaults:
