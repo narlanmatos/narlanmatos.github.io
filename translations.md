@@ -35,6 +35,7 @@ feature_row_translations:
     url: /translations/antología/
     btn_label: "View Book"
     btn_class: "btn--primary"
+    
 ---
 
 # Translations
