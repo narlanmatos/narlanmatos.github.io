@@ -27,7 +27,8 @@ translation_languages:
 
 ## Overview
 
-*{{ page.title }}* is a poetry collection first published in {{ page.year }} by {{ page.publisher }}. Written in {{ page.language }}, it forms part of the author’s core poetic corpus.
+*{{ page.title }}* is a poetry collection first published in {{ page.year }} by {{ page.publisher }}.
+Written in {{ page.language }}, it forms part of Narlan Matos’s core poetic corpus.
 
 <!--The work explores themes of memory, language, landscape, and transformation.-->
 

@@ -23,7 +23,7 @@ header:
 
 **Year:** {{ book.year }}
 
-{{ book.excerpt }}
+
 
 ---
 
