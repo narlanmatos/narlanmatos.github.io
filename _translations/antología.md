@@ -50,6 +50,14 @@ This bilingual edition presents *{{ page.original_title }}* in its original lang
 
 ---
 
+## Illustrator
+
+{% for t in page.illustrator %}
+- {{ t }}
+{% endfor %}
+
+---
+
 ## Publication
 
 - Publisher: {{ page.publisher }}
