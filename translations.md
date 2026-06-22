@@ -30,6 +30,12 @@ feature_row:
     btn_class: "btn--primary"
     
 feature_row_translations:
+  - image_path: /assets/images/translations/como-nacen.jpg
+    title: "Cómo nacen las estrellas"
+    url: /translations/como-nacen/
+    btn_label: "View Book"
+    btn_class: "btn--primary"
+    
   - image_path: /assets/images/translations/antologia.jpg
     title: "Antología Poética Bilingüe"
     url: /translations/antologia/
