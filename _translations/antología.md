@@ -31,6 +31,18 @@ original_work: "xx"
 
 This bilingual edition presents *{{ page.original_title }}* in its original language alongside its English translation. It allows readers to engage with the musicality of the original text while following the translated version.-->
 
+
+{% if page.read_link %}
+<p>
+  <a href="{{ page.read_link }}"
+     class="btn btn--primary"
+     target="_blank"
+     rel="noopener">
+     Read Sample
+  </a>
+</p>
+{% endif %}
+
 ---
 
 ## Languages
@@ -86,17 +98,6 @@ This edition is based on:
 </p>
 {% endif %}
 
-
-{% if page.read_link %}
-<p>
-  <a href="{{ page.read_link }}"
-     class="btn btn--primary"
-     target="_blank"
-     rel="noopener">
-     Read Sample
-  </a>
-</p>
-{% endif %}
 
 
 {% if page.buy_link %}
