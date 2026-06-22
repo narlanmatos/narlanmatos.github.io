@@ -63,6 +63,7 @@ This bilingual edition presents *{{ page.original_title }}* in its original lang
 - Publisher: {{ page.publisher }}
 - Year: {{ page.year }}
 
+<!--
 ---
 
 ## Related Work
@@ -71,7 +72,7 @@ This edition is based on:
 
   **{{ page.original_title }}**
 
-<!--(Original-language collection in the Poetry section)-->
+(Original-language collection in the Poetry section)-->
 
 ---
 
