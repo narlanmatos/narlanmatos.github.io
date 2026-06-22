@@ -4,7 +4,6 @@ author: Narlan Matos
 title: "Narciso selvagem"
 year: 2022
 publisher: "Penalux"
-isbn: ""
 cover: "/assets/images/books/narciso.jpg"
 publisher_link: "https://loja.editoralitteralux.com.br/narciso-selvagem"
 read_link: "https://loja.editoralitteralux.com.br/image/catalog/PDF/9786558623397.pdf"
@@ -44,6 +43,33 @@ Written in {{ page.language }}, it forms part of Narlan Matos’s core poetic co
 {% endif %}
 
 
+{% if page.translation_languages %}
+## International Reception
+
+This collection has appeared in translation in
+
+{% for lang in page.translation_languages %}
+  {% if forloop.length == 1 %}
+    {{ lang }}
+  {% elsif forloop.last %}
+    and {{ lang }}
+  {% elsif forloop.first %}
+    {{ lang }}
+  {% else %}
+    {{ lang }},
+  {% endif %}
+{% endfor %}.
+
+{% endif %}
+
+### Italian Translation
+[Selected Poems translated by Manuela Colombo, published by *Fili d’Aquilone*](https://www.filidaquilone.it/num063colombo.html)
+
+## Reviews
+
+- Colombo, Manuela. “Narlan Matos, Narciso selvagem.” *Fili d’Aquilone*, no. 63 (2023). Italian introduction and translations from *Narciso selvagem*. [Read article](https://www.filidaquilone.it/num063colombo.html).
+
+
 {% if page.publisher_link %}
 <p>
   <a href="{{ page.publisher_link }}"
@@ -78,30 +104,3 @@ Written in {{ page.language }}, it forms part of Narlan Matos’s core poetic co
   </a>
 </p>
 {% endif %}
-
-
-{% if page.translation_languages %}
-## International Reception
-
-This collection has appeared in translation in
-
-{% for lang in page.translation_languages %}
-  {% if forloop.length == 1 %}
-    {{ lang }}
-  {% elsif forloop.last %}
-    and {{ lang }}
-  {% elsif forloop.first %}
-    {{ lang }}
-  {% else %}
-    {{ lang }},
-  {% endif %}
-{% endfor %}.
-
-{% endif %}
-
-### Italian Translation
-[Selected Poems translated by Manuela Colombo, published by *Fili d’Aquilone*](https://www.filidaquilone.it/num063colombo.html)
-
-## Reviews
-
-- Colombo, Manuela. “Narlan Matos, Narciso selvagem.” *Fili d’Aquilone*, no. 63 (2023). Italian introduction and translations from *Narciso selvagem*. [Read article](https://www.filidaquilone.it/num063colombo.html).
