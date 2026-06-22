@@ -66,23 +66,30 @@ Written in {{ page.language }}, it forms part of Narlan Matos’s core poetic co
 {% endif %}
 
 --- 
-{% if page.translation_languages %}
+
 ## International Reception
 
-Poems of *{{ page.title }}* have appeared in translation in
+{% if page.translation_languages %}
+<p>
+Poems from <em>{{ page.title }}</em> have appeared in translation in
 
-{% for lang in page.translation_languages %}
-  {% if forloop.length == 1 %}
-    {{ lang }}
-  {% elsif forloop.last %}
-    and {{ lang }}
-  {% elsif forloop.first %}
-    {{ lang }}
-  {% else %}
-    {{ lang }},
-  {% endif %}
-{% endfor %}.
+{% assign langs = page.translation_languages %}
 
+{% if langs.size == 1 %}
+  {{ langs[0] }}
+{% elsif langs.size == 2 %}
+  {{ langs[0] }} and {{ langs[1] }}
+{% else %}
+  {% for lang in langs %}
+    {% if forloop.last %}
+      and {{ lang }}
+    {% else %}
+      {{ lang }}{% unless forloop.index == langs.size | minus: 1 %},{% endunless %}
+    {% endif %}
+  {% endfor %}
+{% endif %}.
+
+</p>
 {% endif %}
 
 ### Italian Translation
@@ -97,7 +104,6 @@ Poems of *{{ page.title }}* have appeared in translation in
 
 
 {% if page.buy_link %}
-## Buy
 <p>
   <a href="{{ page.buy_link }}"
      class="btn btn--primary"
