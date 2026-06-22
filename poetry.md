@@ -12,16 +12,19 @@ feature_row:
     excerpt: "Original poetry collections."
     url: /poetry/books
     btn_label: "Explore Books"
+    btn_class: "btn--primary"
   - image_path: /assets/images/features/poems.jpg
     title: "Selected Poems"
     excerpt: "A selection of poems available online."
     url: /poetry/selected-poems/
     btn_label: "Explore Poems"
+    btn_class: "btn--primary"
   - image_path: /assets/images/features/performances.jpg
     title: "Readings & Recordings"
     excerpt: "Audio and video performances of poetry, including live readings and interpretations."
     url: "/poetry/performances"
     btn_label: "Listen & Watch"
+    btn_class: "btn--primary"
 
 feature_row2:
   - image_path: /assets/images/features/anthologies.jpg
@@ -29,16 +32,19 @@ feature_row2:
     excerpt: "Poems published in collective and international volumes."
     url: /poetry/anthologies
     btn_label: "View Anthologies"
+    btn_class: "btn--primary"
   - image_path: /assets/images/features/translations.jpg
     title: "Translations"
     excerpt: "Poetry published across multiple languages, countries, and cultural contexts."
     url: "/translations/"
     btn_label: "View Translations"
+    btn_class: "btn--primary"
   - image_path: /assets/images/features/bibliography.jpg
     title: "Bibliography"
     excerpt: "Comprehensive publication history."
     url: "/poetry/bibliography"
     btn_label: "View Bibliography"
+    btn_class: "btn--primary"
 ---
 
 
