@@ -2,7 +2,7 @@
 type: bilingual_edition
 title: "Antología Poética Bilingüe"
 year: 2017
-publisher: "Maoli Editorial"
+publisher: "Editorial Maolí"
 isbn: "978-8494492433"
 cover: "/assets/images/translations/antología.jpg"
 buy_link: "https://www.amazon.com/gp/product/8494492438"
