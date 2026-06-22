@@ -73,7 +73,7 @@ Written in {{ page.language }}, it forms part of Narlan Matos’s core poetic co
 <p>Poems from <em>{{ page.title }}</em> have appeared in translation in {% assign langs = page.translation_languages %}{% if langs.size == 1 %}{{ langs[0] }}{% elsif langs.size == 2 %}{{ langs[0] }} and {{ langs[1] }}{% else %}{% for lang in langs %}{% if forloop.last %}and {{ lang }}{% else %}{{ lang }}{% unless forloop.index == langs.size | minus: 1 %}, {% endunless %}{% endif %}{% endfor %}{% endif %}.</p>
 {% endif %}
 
-### Italian Translation
+#### Italian Translation
 [Selected Poems translated by Manuela Colombo, published by *Fili d’Aquilone*](https://www.filidaquilone.it/num063colombo.html)
 
 ## Reviews
