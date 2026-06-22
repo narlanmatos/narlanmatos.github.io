@@ -290,27 +290,35 @@ compress_html:
 collections:
   books:
     output: true
-    permalink: poetry/books/:path/
+    permalink: /poetry/books/:name/
+
   translations:
     output: true
-    permalink: /translations/books/:path/
+    permalink: /translations/:name/
+
+  anthologies:
+    output: true
+    permalink: /poetry/anthologies/:name/
 
 # Defaults
 defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: # true
-      share: true
-      related: true
   - scope:
       path: ""
       type: books
+    values:
+      layout: single
+      author_profile: true
+
+  - scope:
+      path: ""
+      type: translations
+    values:
+      layout: single
+      author_profile: true
+
+  - scope:
+      path: ""
+      type: anthologies
     values:
       layout: single
       author_profile: true
