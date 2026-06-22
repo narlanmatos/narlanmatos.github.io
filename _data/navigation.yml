@@ -25,7 +25,7 @@ main:
         url: /poetry/selected-poems/
       - title: "Performances & Recordings"
         url: /poetry/performances/
-      - title: "Anthologies"
+      - title: "Anthologies & Collected Poems"
         url: /poetry/anthologies/
       - title: "Bibliography"
         url: /poetry/bibliography/
@@ -35,6 +35,10 @@ main:
     children:
       - title: "Books in Translation"
         url: /translations/books/
+      - title: "Anthologies & Collected Poems (translated)"
+        url: /translations/anthologies-translated/
+      - title: "Bilingual Editions"
+        url: /translations/bilingual/
       - title: "Poems in Translation"
         url: /translations/poems/
       - title: "By Language"
