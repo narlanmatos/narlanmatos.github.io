@@ -80,13 +80,24 @@ Written in {{ page.language }}, it forms part of Narlan Matos’s core poetic co
 {% endif %}
 
 
----
+{% if page.translation_languages %}
+## International Reception
 
-## Related Translations
+This collection has appeared in translation in
 
-{% if page.has_translations %}
-<!--This work has been translated and published in {{ page.translation_languages }}.-->
-{% endif %}”
+{% for lang in page.translation_languages %}
+  {% if forloop.length == 1 %}
+    {{ lang }}
+  {% elsif forloop.last %}
+    and {{ lang }}
+  {% elsif forloop.first %}
+    {{ lang }}
+  {% else %}
+    {{ lang }},
+  {% endif %}
+{% endfor %}.
+
+{% endif %}
 
 ### Italian Translation
 [Selected Poems translated by Manuela Colombo, published by *Fili d’Aquilone*](https://www.filidaquilone.it/num063colombo.html)
