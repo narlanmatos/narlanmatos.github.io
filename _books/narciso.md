@@ -14,8 +14,7 @@ language: Portuguese
 # Link to translations (important bridge)
 has_translations: true
 translation_group: "narciso-selvagem"
-translation_languages:
-  - Italian
+
 ---
 
 
