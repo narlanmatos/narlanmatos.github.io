@@ -20,26 +20,46 @@ feature_row:
     excerpt: "Poetry published across multiple languages, countries, and cultural contexts."
     url: "/translations/"
     btn_label: "View translations"
-  - image_path: /assets/images/features/performances.jpg
-    title: "Readings & Recordings"
-    excerpt: "Audio and video performances of poetry, including live readings and interpretations."
-    url: "/poetry/performances"
-    btn_label: "Listen & Watch"
   - image_path: /assets/images/features/reception.jpg
     title: "Reception"
     excerpt: "Essays, reviews, interviews, and critical responses to the work."
     url: "/reception/"
     btn_label: "Read Criticism"
-
+    
+feature_row_books:
+  - image_path: /assets/images/books/narciso.jpg
+    title: "Narciso selvagem"
+    excerpt: ""
+    url: /poetry/
+    btn_label: "View Book"
+  - image_path: /assets/images/books/caminheiros.jpg
+    title: "Eu e Tu, Caminheiros Dessa Vida"
+    excerpt: ""
+    url: /poetry/
+    btn_label: "View Book"
+  - image_path: /assets/images/books/canto.jpg
+    title: "Canto aos Homens de Boa Vontade"
+    excerpt: ""
+    url: /poetry/
+    btn_label: "View Book"
 ---
 
-# **Welcome!** 
+(portrait, 2-3 sentences introducting Narlan and his work)
 
 
 
 {% include feature_row id="feature_row" %}
 
+## Featured Books
+{% include feature_row id="feature_row_books" %}
 
+
+## Translation Highlight
+
+## Featured Recording
+
+## News and Events
+<!--(3-5 recent items)-->
 
 
 
