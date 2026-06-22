@@ -1,4 +1,6 @@
 ---
+type: book
+author: Narlan Matos
 title: "Narciso selvagem"
 year: 2022
 publisher: "Penalux"
@@ -7,18 +9,39 @@ cover: "/assets/images/books/narciso.jpg"
 publisher_link: "https://loja.editoralitteralux.com.br/narciso-selvagem"
 read_link: "https://loja.editoralitteralux.com.br/image/catalog/PDF/9786558623397.pdf"
 
-languages:
-  - Portuguese
+language: Portuguese
+
+# Link to translations (important bridge)
+has_translations: true
+translation_group: "narciso-selvagem"
+translation_languages:
   - Italian
 ---
 
-*Narciso selvagem*... 
 
 {% if page.cover %}
 <figure class="align-center">
   <img src="{{ page.cover | relative_url }}" alt="{{ page.title }} cover">
 </figure>
 {% endif %}
+
+## Overview
+
+*{{ page.title }}* is a poetry collection first published in {{ page.year }} by {{ page.publisher }}. Written in {{ page.language }}, it forms part of the author’s core poetic corpus.
+
+<!--The work explores themes of memory, language, landscape, and transformation.-->
+
+---
+
+## Publication
+
+- Year: {{ page.year }}
+- Publisher: {{ page.publisher }}
+- Language: {{ page.language }}
+{% if page.isbn %}
+- ISBN: {{ page.isbn }}
+{% endif %}
+
 
 {% if page.publisher_link %}
 <p>
@@ -56,11 +79,12 @@ languages:
 {% endif %}
 
 
+---
 
-## Editions & Translations
+## Related Translations
 
-### Portuguese Edition
-Published 2022 by Penalux.
+{% if page.has_translations %}
+This work has been translated and published in {{ page.translation_languages }}.
 
 ### Italian Translation
 [Selected Poems translated by Manuela Colombo, published by *Fili d’Aquilone*](https://www.filidaquilone.it/num063colombo.html)
