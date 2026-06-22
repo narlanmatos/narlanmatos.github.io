@@ -1,0 +1,68 @@
+# main links
+main:
+  - title: "Home"
+    url: /
+
+  - title: "About"
+    url: /about/
+    children:
+      - title: "Biography"
+        path: "/about/biography"
+      - title: "Awards & Honors"
+        url: /awards/
+      - title: "Timeline"
+        path: "/about/timeline"
+      - title: "Portrait Gallery"
+        path: "/about/gallery"
+
+
+  - title: "Poetry"
+    url: /poetry/
+    children:
+      - title: "Books"
+        url: /poetry/books/
+      - title: "Selected Poems"
+        url: /poetry/selected-poems/
+      - title: "Performances & Recordings"
+        url: /poetry/performances/
+      - title: "Anthologies"
+        url: /poetry/anthologies/
+      - title: "Bibliography"
+        url: /poetry/bibliography/
+
+  - title: "Translations"
+    url: /translations/
+    children:
+      - title: "Books in Translation"
+        url: /translations/books/
+      - title: "Poems in Translation"
+        url: /translations/poems/
+      - title: "By Language"
+        url: /translations/languages/
+      - title: "By Country"
+        url: /translations/countries/
+
+  - title: "Reception"
+    url: /reception/
+    children:
+      - title: "Reviews"
+        url: /reception/reviews/
+      - title: "Essays & Criticism"
+        url: /reception/essays/
+      - title: "Interviews"
+        url: /reception/interviews/
+
+
+  - title: "News & Events"
+    path: "/events"
+    children:
+      - title: "Upcoming Readings"
+        path: "/events/upcoming"
+      - title: "Past Events"
+        path: "/events/archive"
+      - title: "Festival Appearances"
+        path: "/events/festivals"
+
+
+  - title: "Contact"
+    path: "/contact"
