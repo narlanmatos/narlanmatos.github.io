@@ -63,7 +63,9 @@ beginning with his first book in 1997, [*Senhoras e Senhores: o Aamanhecer*]().
 
 ## Translators
 
-{{ page.translators }}
+{% for translator in page.translators %}
+- {{ translator }}
+{% endfor %}
 
 ---
 
