@@ -31,6 +31,16 @@ Written in {{ page.language }}, it forms part of Narlan Matos’s core poetic co
 
 <!--The work explores themes of memory, language, landscape, and transformation.-->
 
+{% if page.read_link %}
+<p>
+  <a href="{{ page.read_link }}"
+     class="btn btn--primary"
+     target="_blank"
+     rel="noopener">
+     Read Sample
+  </a>
+</p>
+{% endif %}
 ---
 
 ## Publication
@@ -81,17 +91,6 @@ This collection has appeared in translation in
 </p>
 {% endif %}
 
-
-{% if page.read_link %}
-<p>
-  <a href="{{ page.read_link }}"
-     class="btn btn--primary"
-     target="_blank"
-     rel="noopener">
-     Read Sample
-  </a>
-</p>
-{% endif %}
 
 
 {% if page.buy_link %}
