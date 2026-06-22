@@ -10,8 +10,7 @@ publisher_link: "https://loja.editoralitteralux.com.br/eu-e-tu-caminheiros-dessa
 read_link: "https://loja.editoralitteralux.com.br/image/catalog/PDF/9788558335676.pdf"
 buy_link: "https://www.amazon.com.br/Eu-tu-caminheiros-dessa-vida/dp/8558335672/"
 
-languages:
-  - Portuguese
+language: Portuguese
 ---
 
 
