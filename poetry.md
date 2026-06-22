@@ -44,7 +44,7 @@ feature_row2:
 
 # Poetry
 
-*(3-5 sentence introduction)*
+<!--(3-5 sentence introduction)-->
 
 
 {% include feature_row id="feature_row" %}

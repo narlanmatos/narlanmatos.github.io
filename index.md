@@ -30,21 +30,21 @@ feature_row_books:
   - image_path: /assets/images/books/narciso.jpg
     title: "Narciso selvagem"
     excerpt: ""
-    url: /poetry/
+    url: poetry/books/narciso/
     btn_label: "View Book"
   - image_path: /assets/images/books/caminheiros.jpg
     title: "Eu e Tu, Caminheiros Dessa Vida"
     excerpt: ""
-    url: /poetry/
+    url: poetry/books/caminheiros/
     btn_label: "View Book"
   - image_path: /assets/images/books/canto.jpg
     title: "Canto aos Homens de Boa Vontade"
     excerpt: ""
-    url: /poetry/
+    url: poetry/books/canto/
     btn_label: "View Book"
 ---
 
-(portrait, 2-3 sentences introducting Narlan and his work)
+<!--(portrait, 2-3 sentences introducting Narlan and his work)-->
 
 
 
