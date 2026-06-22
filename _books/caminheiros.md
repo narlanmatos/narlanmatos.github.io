@@ -73,10 +73,7 @@ language: Portuguese
 </p>
 {% endif %}
 
-## Editions
 
-### Portuguese Edition
-Published 2019 by Penalux.
 
 
 
