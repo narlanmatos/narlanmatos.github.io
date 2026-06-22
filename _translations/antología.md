@@ -21,8 +21,6 @@ illustrator:
 original_work: "xx"
 ---
 
-*Antología poética bilingüe*... 
-
 {% if page.cover %}
 <figure class="align-center">
   <img src="{{ page.cover | relative_url }}" alt="{{ page.title }} cover">
