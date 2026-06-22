@@ -68,10 +68,16 @@ This English-language anthology, edited by Fred Moramarco and Al Zolynas, brings
 - Translation: English
 
 ---
+## Contributors
 
-## Translators
+### Editors
 
-Translators include Narlan Matos and Al Zolynas (translators of Narlan Matos's poem "My Fathers House") and many more.
+Fred Moramarco and Al Zolynas
+
+
+### Translators
+
+Narlan Matos and Al Zolynas (translators of Narlan Matos's poem "My Fathers House"), many more.
 
 ---
 
