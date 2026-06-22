@@ -1,4 +1,6 @@
 ---
+type: book
+author: Narlan Matos
 title: "Canto aos Homens de Boa Vontade"
 year: 2018
 publisher: "Penalux"
@@ -8,17 +10,33 @@ publisher_link: "https://loja.editoralitteralux.com.br/canto-aos-homens-de-boa-v
 read_link: "https://loja.editoralitteralux.com.br/image/catalog/PDF/9788558333641.pdf"
 buy_link: "https://www.amazon.com.br/Canto-aos-homens-boa-vontade/dp/8558333645/"
 
-languages:
-  - Portuguese
+language: Portuguese
 ---
 
-*Canto aos Homens de Boa Vontade*... 
 
 {% if page.cover %}
 <figure class="align-center">
   <img src="{{ page.cover | relative_url }}" alt="{{ page.title }} cover">
 </figure>
 {% endif %}
+
+## Overview
+
+*{{ page.title }}* is a poetry collection first published in {{ page.year }} by {{ page.publisher }}. Written in {{ page.language }}, it forms part of the author’s core poetic corpus.
+
+<!--The work explores themes of memory, language, landscape, and transformation.-->
+
+---
+
+## Publication
+
+- Year: {{ page.year }}
+- Publisher: {{ page.publisher }}
+- Language: {{ page.language }}
+{% if page.isbn %}
+- ISBN: {{ page.isbn }}
+{% endif %}
+
 
 {% if page.publisher_link %}
 <p>
@@ -55,10 +73,7 @@ languages:
 </p>
 {% endif %}
 
-## Editions
 
-### Portuguese Edition
-Published 2018 by Penalux.
 
 
 
