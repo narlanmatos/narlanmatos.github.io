@@ -53,6 +53,18 @@ Written in {{ page.language }}, it forms part of Narlan Matos’s core poetic co
 {% endif %}
 
 
+{% if page.publisher_link %}
+<p>
+  <a href="{{ page.publisher_link }}"
+     class="btn btn--primary"
+     target="_blank"
+     rel="noopener">
+     View on Publisher's Site
+  </a>
+</p>
+{% endif %}
+
+--- 
 {% if page.translation_languages %}
 ## International Reception
 
@@ -80,20 +92,11 @@ This collection has appeared in translation in
 - Colombo, Manuela. “Narlan Matos, Narciso selvagem.” *Fili d’Aquilone*, no. 63 (2023). Italian introduction and translations from *Narciso selvagem*. [Read article](https://www.filidaquilone.it/num063colombo.html).
 
 
-{% if page.publisher_link %}
-<p>
-  <a href="{{ page.publisher_link }}"
-     class="btn btn--primary"
-     target="_blank"
-     rel="noopener">
-     View on Publisher's Site
-  </a>
-</p>
-{% endif %}
 
 
 
 {% if page.buy_link %}
+## Buy
 <p>
   <a href="{{ page.buy_link }}"
      class="btn btn--primary"
