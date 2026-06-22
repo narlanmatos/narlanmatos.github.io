@@ -15,16 +15,19 @@ feature_row:
     excerpt: "Original poetry collections, selected poems, and the evolving body of work."
     url: /poetry/
     btn_label: "Explore Poetry"
+    btn_class: "btn--primary"
   - image_path: /assets/images/features/translations.jpg
     title: "Translations"
     excerpt: "Poetry published across multiple languages, countries, and cultural contexts."
     url: "/translations/"
     btn_label: "View translations"
+    btn_class: "btn--primary"
   - image_path: /assets/images/features/reception.jpg
     title: "Reception"
     excerpt: "Essays, reviews, interviews, and critical responses to the work."
     url: "/reception/"
     btn_label: "Read Criticism"
+    btn_class: "btn--primary"
     
 feature_row_books:
   - image_path: /assets/images/books/narciso.jpg
@@ -32,11 +35,13 @@ feature_row_books:
     excerpt: ""
     url: poetry/books/narciso/
     btn_label: "View Book"
+    btn_class: "btn--primary"
   - image_path: /assets/images/books/caminheiros.jpg
     title: "Eu e Tu, Caminheiros Dessa Vida"
     excerpt: ""
     url: poetry/books/caminheiros/
     btn_label: "View Book"
+    btn_class: "btn--primary"
   - image_path: /assets/images/books/canto.jpg
     title: "Canto aos Homens de Boa Vontade"
     excerpt: ""
