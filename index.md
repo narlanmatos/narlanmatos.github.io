@@ -42,6 +42,7 @@ feature_row_books:
     excerpt: ""
     url: poetry/books/canto/
     btn_label: "View Book"
+    btn_class: "btn--primary"
 ---
 
 <!--(portrait, 2-3 sentences introducting Narlan and his work)-->
