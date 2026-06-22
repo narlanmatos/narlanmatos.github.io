@@ -1,5 +1,7 @@
 ---
+type: book
 title: "Eu e Tu, Caminheiros Dessa Vida"
+author: Narlan Matos
 year: 2019
 publisher: "Penalux"
 isbn: "8558335672"
@@ -12,13 +14,30 @@ languages:
   - Portuguese
 ---
 
-*Eu e Tu, Caminheiros Dessa Vida*... 
 
 {% if page.cover %}
 <figure class="align-center">
   <img src="{{ page.cover | relative_url }}" alt="{{ page.title }} cover">
 </figure>
 {% endif %}
+
+## Overview
+
+*{{ page.title }}* is a poetry collection first published in {{ page.year }} by {{ page.publisher }}. Written in {{ page.language }}, it forms part of the author’s core poetic corpus.
+
+<!--The work explores themes of memory, language, landscape, and transformation.-->
+
+---
+
+## Publication
+
+- Year: {{ page.year }}
+- Publisher: {{ page.publisher }}
+- Language: {{ page.language }}
+{% if page.isbn %}
+- ISBN: {{ page.isbn }}
+{% endif %}
+
 
 {% if page.publisher_link %}
 <p>
