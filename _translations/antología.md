@@ -10,6 +10,15 @@ buy_link: "https://www.amazon.com/gp/product/8494492438"
 languages:
   - Portuguese
   - Spanish
+  
+translator:
+  - "José Ángel García Caballero"
+
+illustrator:
+  - "Juan Carlos Mestre"
+  
+# Link back to original work (important for structure)
+original_work: "xx"
 ---
 
 *Antología poética bilingüe*... 
@@ -19,6 +28,45 @@ languages:
   <img src="{{ page.cover | relative_url }}" alt="{{ page.title }} cover">
 </figure>
 {% endif %}
+
+## Overview
+
+This bilingual edition presents *{{ page.original_title }}* in its original language alongside its English translation. It allows readers to engage with the musicality of the original text while following the translated version.
+
+---
+
+## Languages
+
+- Original language: {{ page.languages[0] }}
+- Translation: {{ page.languages[1] }}
+
+---
+
+## Translator
+
+{% for t in page.translator %}
+- {{ t }}
+{% endfor %}
+
+---
+
+## Publication
+
+- Publisher: {{ page.publisher }}
+- Year: {{ page.year }}
+
+---
+
+## Related Work
+
+This edition is based on:
+
+  **{{ page.original_title }}**
+
+<!--(Original-language collection in the Poetry section)-->
+
+---
+
 
 {% if page.publisher_link %}
 <p>
@@ -55,10 +103,6 @@ languages:
 </p>
 {% endif %}
 
-## Editions
-
-### Portuguese Edition
-Published 2017 by Maoli Editorial.
 
 
 
