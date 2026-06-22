@@ -29,9 +29,9 @@ original_work: "xx"
 </figure>
 {% endif %}
 
-## Overview
+<!--## Overview
 
-This bilingual edition presents *{{ page.original_title }}* in its original language alongside its English translation. It allows readers to engage with the musicality of the original text while following the translated version.
+This bilingual edition presents *{{ page.original_title }}* in its original language alongside its English translation. It allows readers to engage with the musicality of the original text while following the translated version.-->
 
 ---
 
