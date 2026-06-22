@@ -23,8 +23,6 @@ header:
 
 **Year:** {{ book.year }}
 
-
-
 ---
 
 {% endfor %}
