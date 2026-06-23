@@ -11,6 +11,8 @@ read_link: "https://loja.editoralitteralux.com.br/image/catalog/PDF/978855833567
 buy_link: "https://www.amazon.com.br/Eu-tu-caminheiros-dessa-vida/dp/8558335672/"
 
 language: Portuguese
+
+excerpt: "xxx"
 ---
 
 

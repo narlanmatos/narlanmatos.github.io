@@ -11,6 +11,8 @@ read_link: "https://loja.editoralitteralux.com.br/image/catalog/PDF/978855833364
 buy_link: "https://www.amazon.com.br/Canto-aos-homens-boa-vontade/dp/8558333645/"
 
 language: Portuguese
+
+excerpt: "xxx"
 ---
 
 

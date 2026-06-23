@@ -11,6 +11,8 @@ read_link: "https://loja.editoralitteralux.com.br/image/catalog/PDF/978855833227
 buy_link: "https://www.amazon.com.br/Ala%C3%BAde-Pen%C3%ADnsula-Teus-Olhos-Negros/dp/8558332274/"
 
 language: Portuguese
+
+excerpt: "xxx"
 ---
 
 

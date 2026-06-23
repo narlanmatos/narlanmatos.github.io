@@ -37,6 +37,8 @@ countries_represented:
   
 # Link back to original work (important for structure)
 original_work: "xx"
+
+excerpt: "xxx"
 ---
 
 {% if page.cover %}

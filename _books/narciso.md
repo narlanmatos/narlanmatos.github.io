@@ -15,6 +15,8 @@ has_translations: true
 translation_group: "narciso-selvagem"
 translation_languages:
   - Italian
+  
+excerpt: "xxx"
 ---
 
 
