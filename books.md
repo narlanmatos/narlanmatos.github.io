@@ -59,5 +59,8 @@ feature_row:
     
 ---
 
+# Original Books
+
+The following original books, written in Portuguese, form Narlan Matos’s core poetic corpus.
 
 {% include feature_row id="feature_row" %}
