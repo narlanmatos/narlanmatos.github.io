@@ -15,13 +15,25 @@ header:
 
 {% for book in books %}
 
-### [{{ book.title }}]({{ book.url }})
+{% capture feature_row %}
+- image_path: {{ book.cover }}
+  alt: "{{ book.title }}"
+  title: "{{ book.title }}"
+  excerpt: >
+    {{ book.author }}
+    {% if book.translator %}
+    <br><em>Translated by {{ book.translator }}</em>
+    {% endif %}
+    <br><br>
+    {{ book.excerpt }}
+  url: {{ book.url }}
+  btn_label: "View Book"
+  btn_class: "btn--primary"
+{% endcapture %}
 
-{% if book.cover %}
-  <img src="{{ book.cover }}" alt="{{ book.title }} cover" style="max-width:200px;">
-{% endif %}
+{% assign feature_row = feature_row | yaml_to_object %}
 
-**Year:** {{ book.year }}
+{% include feature_row id=feature_row type="left" %}
 
 ---
 
