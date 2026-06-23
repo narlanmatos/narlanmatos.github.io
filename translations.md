@@ -51,7 +51,7 @@ feature_row_translations:
 
 ---
 
-# Translations
+
 
 
 {% include feature_row id="feature_row" %}
