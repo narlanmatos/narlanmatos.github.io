@@ -19,7 +19,7 @@ feature_row:
     
 ---
 
-# Original Books
+# Recitations
 
 
 {% include feature_row id="feature_row" %}
