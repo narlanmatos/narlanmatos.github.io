@@ -45,26 +45,26 @@ While some translations have appeared as complete books, others have been publis
 This page provides an overview of translations and bilingual editions by language.
 Entries include original books, anthologies, periodical publications, festival publications or recordings, and translations of individual poems.
 
-## English
+# English
 {% include feature_row id="feature_row_English" %}
 
 ### Other English publications
 
-## Italian
+# Italian
 {% include feature_row id="feature_row_Italian" %}
 
 ### Other Italian publications
 - [Selected poems, translated by Giorgio Mobili](https://www.filidaquilone.it/num035mobili.html) <!--*MANCA QUALCOSA NELLA STANZA: La poesia di Narlan Matos*. saved in assets/docs/Fili d'aquilo..-->
 
-## Japanese
+# Japanese
 
-## Lithuanian
+# Lithuanian
 
-## Slovenian
+# Slovenian
 
-## Spanish
+# Spanish
 {% include feature_row id="feature_row_Spanish" %}
 ### Other Spanish publications
 
-## Swedish
+# Swedish
 
