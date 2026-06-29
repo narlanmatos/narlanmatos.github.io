@@ -29,7 +29,7 @@ feature_row2:
     url: "/about/awards/"
     btn_label: "View Awards"
     btn_class: "btn--primary"  
-  - image_path: /assets/images/features/profile.jpg
+  - image_path: /assets/images/portraits/profile.jpg
     title: "Portrait Gallery"
     excerpt: ""
     url: "/about/gallery/"
