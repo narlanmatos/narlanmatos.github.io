@@ -40,7 +40,7 @@ main:
       - title: "Bilingual Editions"
         url: /translations/bilingual/
       - title: "Poems in Translation"
-        url: /translations/poems/
+        url: /translations/poems-translated/
       - title: "By Language"
         url: /translations/languages/
       - title: "By Country"
