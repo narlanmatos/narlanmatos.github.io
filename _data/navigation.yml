@@ -34,7 +34,7 @@ main:
     url: /translations/
     children:
       - title: "Books in Translation"
-        url: /translations/books/
+        url: /translations/books-translated/
       - title: "Anthologies & Collected Poems (translated)"
         url: /translations/anthologies-translated/
       - title: "Bilingual Editions"

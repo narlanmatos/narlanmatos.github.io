@@ -12,7 +12,7 @@ feature_row:
   - image_path: /assets/images/features/anthologies.jpg
     title: "Anthologies in Translation"
     excerpt: "Selected and collected works published internationally."
-    url: /translations/anthologies/
+    url: /translations/anthologies-translated/
     btn_label: "Explore"
     btn_class: "btn--primary"
 
