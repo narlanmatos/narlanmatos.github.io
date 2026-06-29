@@ -15,11 +15,11 @@ cover: "/assets/images/translations/provincia.jpg"
 
 
 # Languages
-original_languages:
+original_language:
   - Portuguese
 
-translated_languages:
-  - English
+translated_language:
+  - Italian
 
 
 # Scope metadata
