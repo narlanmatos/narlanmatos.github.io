@@ -15,16 +15,11 @@ cover: "/assets/images/translations/provincia.jpg"
 
 
 # Languages
-original_language:
-  - Portuguese
+original_language: Portuguese
 
-translated_language:
-  - Italian
+translated_language: Italian
 
-# Scope metadata
-countries_represented:
-  - Brazil
-  - many more countries
+
   
 # Link back to original work (important for structure)
 original_work: "xx"
