@@ -9,9 +9,7 @@ header:
 feature_row:
   - image_path: /assets/images/Narlan-casa.jpg
     title: ""
-    excerpt: " "
-    url: /about/biography/
-    btn_label: ""
+    excerpt: ""
   - image_path: /assets/images/features/bio.jpg
     title: "Biography"
     excerpt: " "
