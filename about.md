@@ -1,6 +1,6 @@
 ---
 title: "Narlan Matos"
-layout: wide
+layout: splash
 permalink: /about/
 header:
   overlay_image: /assets/images/header.jpg  # header image
