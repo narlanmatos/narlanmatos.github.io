@@ -8,8 +8,6 @@ header:
 
 feature_row:
   - image_path: /assets/images/portraits/Narlan-casa.jpg
-    title: ""
-    excerpt: ""
   - image_path: /assets/images/portraits/profile.jpg
     title: "Biography"
     excerpt: " "
@@ -23,13 +21,14 @@ feature_row:
     btn_label: "View Timeline"
     btn_class: "btn--primary"
 feature_row2:
+  - image_path: /assets/images/portraits/profile.jpg
   - image_path: /assets/images/features/awards.jpg
     title: "Awards & Honors"
     excerpt: ""
     url: "/about/awards/"
     btn_label: "View Awards"
     btn_class: "btn--primary"  
-  - image_path: /assets/images/portraits/profile.jpg
+  - image_path: /assets/images/features/profile.jpg
     title: "Portrait Gallery"
     excerpt: ""
     url: "/about/gallery/"
