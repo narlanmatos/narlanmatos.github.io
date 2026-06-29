@@ -1,6 +1,6 @@
 ---
 title: "Narlan Matos"
-layout: splash
+layout: wide
 permalink: /about/
 header:
   overlay_image: /assets/images/header.jpg  # header image
@@ -10,8 +10,8 @@ feature_row:
   - image_path: /assets/images/profile.jpg
     title: ""
     excerpt: " "
-    url: /about/biography/
-    btn_label: ""
+    url: 
+    btn_label: " "
   - image_path: /assets/images/features/bio.jpg
     title: "Biography"
     excerpt: " "
