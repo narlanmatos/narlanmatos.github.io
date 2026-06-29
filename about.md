@@ -29,7 +29,7 @@ feature_row2:
   - image_path: /assets/images/features/portraits.jpg
     title: "Portrait Gallery"
     excerpt: ""
-    url: "/about/awards/"
+    url: "/about/gallery/"
     btn_label: "View Portraits"
     btn_class: "btn--primary"  
 
