@@ -58,7 +58,7 @@ main:
 
 
   - title: "News & Events"
-    path: "/events/"
+    url: /events/
 
 
   - title: "Contact"
