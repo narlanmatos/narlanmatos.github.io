@@ -106,7 +106,7 @@ analytics:
 # Site Author
 author:
   name             : "Narlan Matos"
-  avatar           : "/assets/images/avatar.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "" # path of avatar image, e.g. "/assets/images/avatar.jpg"
   bio              : "Poet"
   location         : ""
   email            :
