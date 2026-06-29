@@ -65,6 +65,12 @@ feature_row_translations:
     url: translations/poetry-mens-lives/
     btn_label: "View Book"
     btn_class: "btn--primary"   
+    
+  - image_path: /assets/images/translations/provincia.jpg
+    title: "La Provincia Oscura"
+    url: translations/provincia/
+    btn_label: "View Book"
+    btn_class: "btn--primary" 
 
 ---
 
