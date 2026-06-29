@@ -8,7 +8,51 @@ header:
   caption: "Detail from artwork in Narlan Matos' *Antología poética bilingüe*, by legendary Spanish poet and artist Juan Carlos Mestre."
 
 
+feature_row_English:    
+  - image_path: /assets/images/translations/poetry-mens-lives.jpg
+    title: "The Poetry of Men's Lives: an International Anthology"
+    url: translations/poetry-mens-lives/
+    btn_label: "View Book"
+    btn_class: "btn--primary" 
+    
+feature_row_Spanish:
+  - image_path: /assets/images/translations/como-nacen.jpg
+    title: "Cómo nacen las estrellas"
+    url: /translations/como-nacen/
+    btn_label: "View Book"
+    btn_class: "btn--primary"
+    
+  - image_path: /assets/images/translations/antologia.jpg
+    title: "Antología Poética Bilingüe"
+    url: /translations/antologia/
+    btn_label: "View Book"
+    btn_class: "btn--primary"
+
+  
     
 ---
 
-Page under development.
+The poetry of Narlan Matos has been translated from Portuguese and published in ## languages and ## [countries](/translations/countries/).
+While some translations have appeared as complete books, others have been published in anthologies, literary journals, newspapers, and online magazines.
+
+This page provides an overview of translations and bilingual editions by language.
+Entries include original books, anthologies, periodical publications, festival publications or recordings, and translations of individual poems.
+
+## English
+{% include feature_row id="feature_row_English" %}
+
+### Other English publications
+
+## Italian
+
+## Japanese
+
+## Lithuanian
+
+## Slovenian
+
+## Spanish
+{% include feature_row id="feature_row_Spanish" %}
+### Other Spanish publications
+
+## Swedish
