@@ -21,7 +21,6 @@ original_language:
 translated_language:
   - Italian
 
-
 # Scope metadata
 countries_represented:
   - Brazil
