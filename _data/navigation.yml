@@ -62,4 +62,4 @@ main:
 
 
   - title: "Contact"
-    path: "/contact"
+    url: /contact/
