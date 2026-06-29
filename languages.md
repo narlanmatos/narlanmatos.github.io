@@ -51,6 +51,8 @@ Entries include original books, anthologies, periodical publications, festival p
 #### Other English translations
 #### Sample English poems
 
+## French
+
 ## Italian
 {% include feature_row id="feature_row_Italian" %}
 
