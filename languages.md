@@ -48,15 +48,18 @@ Entries include original books, anthologies, periodical publications, festival p
 ## English
 {% include feature_row id="feature_row_English" %}
 
-#### Other English publications
+#### Other English translations
+#### Sample English poems
 
 ## Italian
 {% include feature_row id="feature_row_Italian" %}
 
-#### Other Italian publications
+#### Other Italian translations
 - [Selected poems, translated by Giorgio Mobili](https://www.filidaquilone.it/num035mobili.html) <!--*MANCA QUALCOSA NELLA STANZA: La poesia di Narlan Matos*. saved in assets/docs/Fili d'aquilo..-->
 
 ## Japanese
+
+## Hindi
 
 ## Lithuanian
 
@@ -64,7 +67,7 @@ Entries include original books, anthologies, periodical publications, festival p
 
 ## Spanish
 {% include feature_row id="feature_row_Spanish" %}
-#### Other Spanish publications
+#### Other Spanish translations
 
 ## Swedish
 
