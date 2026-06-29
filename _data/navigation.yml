@@ -7,13 +7,13 @@ main:
     url: /about/
     children:
       - title: "Biography"
-        path: "/about/biography"
+        url: "/about/biography"
       - title: "Awards & Honors"
         url: /awards/
       - title: "Timeline"
-        path: "/about/timeline"
+        url: "/about/timeline"
       - title: "Portrait Gallery"
-        path: "/about/gallery"
+        url: "/about/gallery"
 
 
   - title: "Poetry"
