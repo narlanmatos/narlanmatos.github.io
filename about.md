@@ -8,7 +8,7 @@ header:
 
 feature_row:
   - image_path: /assets/images/portraits/Narlan-casa.jpg
-  - image_path: /assets/images/portraits/profile.jpg
+  - image_path: /assets/images/portraits/p.jpg
     title: "Biography"
     excerpt: " "
     url: /about/biography/
