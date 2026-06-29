@@ -58,14 +58,7 @@ main:
 
 
   - title: "News & Events"
-    path: "/events"
-    children:
-      - title: "Upcoming Readings"
-        path: "/events/upcoming"
-      - title: "Past Events"
-        path: "/events/archive"
-      - title: "Festival Appearances"
-        path: "/events/festivals"
+    path: "/events/"
 
 
   - title: "Contact"
