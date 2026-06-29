@@ -26,7 +26,7 @@ feature_row:
   - image_path: /assets/images/features/books-translation.jpg
     title: "Books in Translation"
     excerpt: "Original poetry collections published in other languages."
-    url: /translations/books/
+    url: /translations/books-translated/
     btn_label: "Explore"
     btn_class: "btn--primary"
     
