@@ -107,13 +107,13 @@ analytics:
 author:
   name             : "Narlan Matos"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : ""
-  location         : ""
+  bio              : "Poet, Musician, Scholar"
+  location         : 
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      # url: "mailto:narlanmatos@hotmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
