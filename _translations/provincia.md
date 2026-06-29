@@ -51,7 +51,7 @@ excerpt: "xxx"
 ## Languages
 
 - Original language: {{ page.original_language }}
-- Translation: {{ page.translated_languages }}
+- Translation: {{ page.translated_language }}
 
 ---
 
