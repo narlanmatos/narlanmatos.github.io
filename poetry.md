@@ -45,6 +45,14 @@ feature_row2:
     url: "/poetry/bibliography"
     btn_label: "View Bibliography"
     btn_class: "btn--primary"
+    
+feature_row_recording:
+  - image_path: /assets/images/audio/sarau.jpg
+    title: "Sarao no Pátio das Flores"
+    excerpt: "A recitation of Narlan's poetry by Luiz Caldas."
+    url: https://www.luizcaldas.com.br/
+    btn_label: "Listen on Luiz Caldas's Website"
+    btn_class: "btn--primary"
 ---
 
 
@@ -62,6 +70,6 @@ feature_row2:
 ## Featured Poem
 
 ## Featured Recording
-
+{% include feature_row id="feature_row_recording" %}
 
 
