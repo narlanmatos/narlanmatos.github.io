@@ -8,15 +8,15 @@ title: "Elegia ao Novo Mundo"
 language: pt
 
 translations:
-  en:
+  - language: en
     title: Elegy to the New World
     slug: elegy-to-the-new-world
   
-  it: 
+  - language: it
     title: Elegia al Nuovo Mondo
     slug: elegia-al-nuovo-mondo 
     
-  lt:
+  - language: lt
 
 author: "Narlan Matos"
 
@@ -148,5 +148,5 @@ Eu estive comigo.
 
 </div>
 
----
-{% include poem-footer-original.html %}
+
+{% include poem-footer.html %}
