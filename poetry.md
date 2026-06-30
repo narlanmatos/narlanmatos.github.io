@@ -75,7 +75,7 @@ feature_row_recording:
 
 ## Featured Books
 
-## Featured Poem
+## Featured Poems
 {% include feature_row id="feature_row_poetry" %}
 
 ## Featured Recording
