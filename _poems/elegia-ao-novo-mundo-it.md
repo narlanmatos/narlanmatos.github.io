@@ -34,97 +34,97 @@ performance:
 
 <div class="poem"> 
 
-tu mi domandi amico mio dove sono stato durante il mio lungo silenzio
+tu mi domandi amico mio dove sono stato durante il mio lungo silenzio<br>
 
-       sono stato nella dolcezza della canna da zucchero e nell’amarezza
+       sono stato nella dolcezza della canna da zucchero e nell’amarezza<br>
 
-              delle sue piantagioni
+              delle sue piantagioni<br>
 
-       dove le foglie tremavano per paura degli uomini
+       dove le foglie tremavano per paura degli uomini<br>
 
-       le piantagioni mi sussurravano con grida orrende
+       le piantagioni mi sussurravano con grida orrende<br>
 
-       il sangue amaro che ne addolcì la bocca
+       il sangue amaro che ne addolcì la bocca<br>
 
-       le mani ruvide che ne asciugarono la faccia
+       le mani ruvide che ne asciugarono la faccia<br>
 
-       la piantagione che moriva di fame prima di compiere 27 anni
+       la piantagione che moriva di fame prima di compiere 27 anni<br>
 
-       delle voci senza stelle che cullavano da lontano lingue strane
+       delle voci senza stelle che cullavano da lontano lingue strane<br>
 
-       o piantagione verde, di che colore è il mio sangue rosso?
+       o piantagione verde, di che colore è il mio sangue rosso?<br>
 
-       il mio sangue ha paura della morte della frusta della notte
+       il mio sangue ha paura della morte della frusta della notte<br>
 
-       il mio sangue ha paura di me
-
- 
-
-tu mi domandi amico mio
-
-dove sono stato durante il mio lungo silenzio
-
-       sono stato sulle navi negriere
-
-       che barattarono il mio destino fino all’America fino ad oggi
-
-       bevvero le mie leggende come si beve un barile di rum marcito
+       il mio sangue ha paura di me<br>
 
  
 
-       barattarono ogni stella del cielo e del mare infinito
+tu mi domandi amico mio<br>
 
-       ogni uccello ogni piuma della mia coccarda
+dove sono stato durante il mio lungo silenzio<br>
 
-       e disegnarono mappe col mio sangue
+       sono stato sulle navi negriere<br>
 
-       ed eressero totem sulla mia tribù
+       che barattarono il mio destino fino all’America fino ad oggi<br>
 
-       e misero il fuoco ai campi sacri del mio popolo
+       bevvero le mie leggende come si beve un barile di rum marcito<br>
 
-       e le loro lance mi spaccarono le vene in continenti 
+ <br>
 
-              distanti diversi
+       barattarono ogni stella del cielo e del mare infinito<br>
 
+       ogni uccello ogni piuma della mia coccarda<br>
+
+       e disegnarono mappe col mio sangue<br>
+
+       ed eressero totem sulla mia tribù<br>
+
+       e misero il fuoco ai campi sacri del mio popolo<br>
+
+       e le loro lance mi spaccarono le vene in continenti <br>
+
+              distanti diversi<br>
+<br>
  
 
-tu mi domandi amico mio
+tu mi domandi amico mio<br>
 
-dove sono stato durante il mio lungo silenzio
+dove sono stato durante il mio lungo silenzio<br>
 
-sono stato per le spume di mari mai solcati
+sono stato per le spume di mari mai solcati<br>
 
-per dove vennero la polvere da sparo la baionetta lo specchio la 
+per dove vennero la polvere da sparo la baionetta lo specchio la <br>
 
-       tubercolosi la sifilide
+       tubercolosi la sifilide<br>
 
-per dove vennero la spada e l’elmo – le nubi non lo scorderanno mai!
+per dove vennero la spada e l’elmo – le nubi non lo scorderanno mai!<br>
 
- 
+ <br>
 
-o mare salato, quanto del tuo sale sono genocidi di Portogallo!
+o mare salato, quanto del tuo sale sono genocidi di Portogallo!<br>
 
- 
+ <br>
 
-nell’Atlantico nero
+nell’Atlantico nero<br>
 
-nei casseri di poppa delle vecchie navi pirata
+nei casseri di poppa delle vecchie navi pirata<br>
 
-nelle carceri della crudeltà umana
+nelle carceri della crudeltà umana<br>
 
-nelle prigioni della Sierra Leone – che ancora fanno male in qualche piega del 
+nelle prigioni della Sierra Leone – che ancora fanno male in qualche piega del <br>
 
-mio corpo
+mio corpo<br>
 
-in Angola
+in Angola<br>
 
-nella Guinea-Bissau
+nella Guinea-Bissau<br>
 
-nel Senegal
+nel Senegal<br>
 
-nel Benin
+nel Benin<br>
 
- 
+<br> 
 
 sono stato nel regno del Guatemala
 
