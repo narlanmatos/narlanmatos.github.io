@@ -49,6 +49,7 @@ Entries include original books, anthologies, periodical publications, festival p
 {% include feature_row id="feature_row_English" %}
 
 #### Other English translations
+
 #### Poems in English
 
 ## French
@@ -60,6 +61,7 @@ Entries include original books, anthologies, periodical publications, festival p
 - [Selected poems, translated by Giorgio Mobili](https://www.filidaquilone.it/num035mobili.html) <!--*MANCA QUALCOSA NELLA STANZA: La poesia di Narlan Matos*. saved in assets/docs/Fili d'aquilo..-->
 
 #### Poems in Italian
+
 - https://narlanmatos.github.io/poems/elegia-ao-novo-mundo-it
 
 ## Japanese
