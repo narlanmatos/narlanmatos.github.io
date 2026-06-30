@@ -59,99 +59,99 @@ tu mi domandi amico mio dove sono stato durante il mio lungo silenzio<br><br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;il mio sangue ha paura di me<br><br>
 
+ <br><br>
+
+tu mi domandi amico mio<br><br>
+
+dove sono stato durante il mio lungo silenzio<br><br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sono stato sulle navi negriere<br><br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;che barattarono il mio destino fino all’America fino ad oggi<br><br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bevvero le mie leggende come si beve un barile di rum marcito<br><br>
+
+ <br><br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;barattarono ogni stella del cielo e del mare infinito<br><br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ogni uccello ogni piuma della mia coccarda<br><br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;e disegnarono mappe col mio sangue<br><br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ed eressero totem sulla mia tribù<br><br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;e misero il fuoco ai campi sacri del mio popolo<br><br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;e le loro lance mi spaccarono le vene in continenti <br><br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;distanti diversi<br><br>
+<br><br>
  
 
-tu mi domandi amico mio<br>
+tu mi domandi amico mio<br><br>
 
-dove sono stato durante il mio lungo silenzio<br>
+dove sono stato durante il mio lungo silenzio<br><br>
 
-       sono stato sulle navi negriere<br>
+sono stato per le spume di mari mai solcati<br><br>
 
-       che barattarono il mio destino fino all’America fino ad oggi<br>
+per dove vennero la polvere da sparo la baionetta lo specchio la <br><br>
 
-       bevvero le mie leggende come si beve un barile di rum marcito<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tubercolosi la sifilide<br><br>
 
- <br>
+per dove vennero la spada e l’elmo – le nubi non lo scorderanno mai!<br><br>
 
-       barattarono ogni stella del cielo e del mare infinito<br>
+ <br><br>
 
-       ogni uccello ogni piuma della mia coccarda<br>
+o mare salato, quanto del tuo sale sono genocidi di Portogallo!<br><br>
 
-       e disegnarono mappe col mio sangue<br>
+ <br><br>
 
-       ed eressero totem sulla mia tribù<br>
+nell’Atlantico nero<br><br>
 
-       e misero il fuoco ai campi sacri del mio popolo<br>
+nei casseri di poppa delle vecchie navi pirata<br><br>
 
-       e le loro lance mi spaccarono le vene in continenti <br>
+nelle carceri della crudeltà umana<br><br>
 
-              distanti diversi<br>
-<br>
- 
+nelle prigioni della Sierra Leone – che ancora fanno male in qualche piega del <br><br>
 
-tu mi domandi amico mio<br>
+mio corpo<br><br>
 
-dove sono stato durante il mio lungo silenzio<br>
+in Angola<br><br>
 
-sono stato per le spume di mari mai solcati<br>
+nella Guinea-Bissau<br><br>
 
-per dove vennero la polvere da sparo la baionetta lo specchio la <br>
+nel Senegal<br><br>
 
-       tubercolosi la sifilide<br>
+nel Benin<br><br>
 
-per dove vennero la spada e l’elmo – le nubi non lo scorderanno mai!<br>
+<br><br>
 
- <br>
+sono stato nel regno del Guatemala<br><br>
 
-o mare salato, quanto del tuo sale sono genocidi di Portogallo!<br>
+e nella provincia di Yucatán<br><br>
 
- <br>
+e nella provincia di Cartagena delle Indie<br><br>
 
-nell’Atlantico nero<br>
+e nei grandi regni e grande provincia del Perù<br><br>
 
-nei casseri di poppa delle vecchie navi pirata<br>
+e nel nuovo regno di Granada<br><br>
 
-nelle carceri della crudeltà umana<br>
+e nelle isole di Cuba e Trinidad<br><br>
 
-nelle prigioni della Sierra Leone – che ancora fanno male in qualche piega del <br>
+e nel regno degli Aztechi<br><br>
 
-mio corpo<br>
+dove spade di brutalità fendettero il mio corpo nudo<br><br>
 
-in Angola<br>
+dove i cani da caccia dei baroni delle Indie si nutrivano delle braccia <br><br>
 
-nella Guinea-Bissau<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;e delle gambe di bambini indifesi<br><br>
 
-nel Senegal<br>
+ <br><br>
 
-nel Benin<br>
+tu mi chiedi dove sono stato amico mio<br><br>
 
-<br> 
-
-sono stato nel regno del Guatemala
-
-e nella provincia di Yucatán
-
-e nella provincia di Cartagena delle Indie
-
-e nei grandi regni e grande provincia del Perù
-
-e nel nuovo regno di Granada
-
-e nelle isole di Cuba e Trinidad
-
-e nel regno degli Aztechi
-
-dove spade di brutalità fendettero il mio corpo nudo
-
-dove i cani da caccia dei baroni delle Indie si nutrivano delle braccia 
-
-       e delle gambe di bambini indifesi
-
- 
-
-tu mi chiedi dove sono stato amico mio
-
-e solo ora posso rompere il mio silenzio
+e solo ora posso rompere il mio silenzio<br><br>
 
 sono stato con me.
 
