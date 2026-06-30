@@ -46,6 +46,17 @@ feature_row2:
     url: /translations/books-translated/
     btn_label: "Explore"
     btn_class: "btn--primary"
+
+feature_row_poem_translations:
+  - image_path: /assets/images/translations/italian.jpg
+    title: "Elegia al Nuovo Mondo"
+    excerpt: |
+      tu mi domandi amico mio 
+      
+      dove sono stato durante il mio lungo silenzio...
+    url: poetry/poems/elegia-ao-novo-mundo-it/
+    btn_label: "Read Full Poem"
+    btn_class: "btn--primary" 
     
 feature_row_translations:
   - image_path: /assets/images/translations/como-nacen.jpg
@@ -78,6 +89,11 @@ feature_row_translations:
 
 {% include feature_row id="feature_row1" %}
 {% include feature_row id="feature_row2" %}
+
+## Featured Poem in Translation
+### [Elegia ao Novo Mundo](https://narlanmatos.github.io/poetry/poems/elegia-ao-novo-mundo/)
+
+{% include feature_row id="feature_row_poem_translations" %}
 
 ## Featured Translations
 
