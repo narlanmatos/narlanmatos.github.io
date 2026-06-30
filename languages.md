@@ -21,6 +21,16 @@ feature_row_Italian:
     url: translations/provincia/
     btn_label: "View Book"
     btn_class: "btn--primary" 
+feature_row_Italian_poems:
+  - image_path: /assets/images/translations/x.jpg
+    title: "Elegia al Nuovo Mondo"
+    excerpt: |
+      tu mi domandi amico mio 
+      
+      dove sono stato durante il mio lungo silenzio...
+    url: poetry/poems/elegia-ao-novo-mundo-it/
+    btn_label: "Read Full Poem"
+    btn_class: "btn--primary" 
     
 feature_row_Spanish:
   - image_path: /assets/images/translations/como-nacen.jpg
@@ -46,23 +56,29 @@ This page provides an overview of translations and bilingual editions by languag
 Entries include original books, anthologies, periodical publications, festival publications or recordings, and translations of individual poems.
 
 ## English
+#### Books in English
 {% include feature_row id="feature_row_English" %}
+
+
+#### Poems in English
 
 #### Other English translations
 
-#### Poems in English
 
 ## French
 
 ## Italian
+#### Books in Italian
 {% include feature_row id="feature_row_Italian" %}
+
+
+#### Poems in Italian
+
+{% include feature_row id="feature_row_Italian_poems" %}
 
 #### Other Italian translations
 - [Selected poems, translated by Giorgio Mobili](https://www.filidaquilone.it/num035mobili.html) <!--*MANCA QUALCOSA NELLA STANZA: La poesia di Narlan Matos*. saved in assets/docs/Fili d'aquilo..-->
 
-#### Poems in Italian
-
-- [ELEGIA AL NUOVO MONDO](https://narlanmatos.github.io/poetry/poems/elegia-ao-novo-mundo-it/)
 
 ## Japanese
 
