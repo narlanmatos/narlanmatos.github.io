@@ -300,7 +300,7 @@ collections:
     output: true
     permalink: /poetry/anthologies/:name/
 
-  Poems:
+  poems:
     output: true
     permalink: /poetry/poems/:name/
 
