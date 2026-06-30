@@ -49,7 +49,7 @@ feature_row2:
 feature_row_poetry:
   - image_path: /assets/images/feature/xx.jpg
     title: "Elegia ao Novo Mundo"
-    excerpt: ""
+    excerpt: "Tu me perguntas meu amigo..."
     url: https://narlanmatos.github.io/poetry/poems/elegia-ao-novo-mundo/
     btn_label: "Read Poem"
     btn_class: "btn--primary"
