@@ -17,36 +17,33 @@
 <p class="p2"><span class="s1"></span><br></p>
 <p class="p1"><span class="s1">&lt;div class="poem-footer"&gt;</span></p>
 <p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>{% assign book = site.books | where: "id", page.book_id | first %}</span></p>
+<p class="p1"><span class="s1">{% assign book = site.books | where: "id", page.book_id | first %}</span></p>
 <p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>{% if book %}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;h3&gt;Originally published&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1">{% if book %}</span></p>
+<p class="p1"><span class="s1">&lt;h3&gt;Originally published&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1">&lt;p&gt;</span></p>
+<p class="p1"><span class="s1">{{ book.title }}</span></p>
+<p class="p1"><span class="s1">{% if book.year %} ({{ book.year }}){% endif %}</span></p>
+<p class="p1"><span class="s1">&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">{% endif %}</span></p>
 <p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>{{ book.title }}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>{% if book.year %} ({{ book.year }}){% endif %}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>{% endif %}</span></p>
+<p class="p1"><span class="s1">{% if page.translations %}</span></p>
+<p class="p1"><span class="s1">&lt;h3&gt;Available translations&lt;/h3&gt;</span></p>
 <p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>{% if page.translations %}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;h3&gt;Available translations&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1">&lt;ul&gt;</span></p>
+<p class="p1"><span class="s1">{% for lang in page.translations %}</span></p>
+<p class="p1"><span class="s1">{% assign t = page.translations[lang] %}</span></p>
+<p class="p1"><span class="s1">&lt;li&gt;{{ t.title }}&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1">{% endfor %}</span></p>
+<p class="p1"><span class="s1">&lt;/ul&gt;</span></p>
+<p class="p1"><span class="s1">{% endif %}</span></p>
 <p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;ul&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>{% for t in page.translations %}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;li&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>{{ t.title }} ({{ t.language | upcase }})</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/li&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>{% endfor %}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/ul&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>{% endif %}</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>{% if page.performance and page.performance.available %}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;h3&gt;Performance&lt;/h3&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;a href="{{ page.performance.url }}"&gt;Watch performance&lt;/a&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>{% endif %}</span></p>
+<p class="p1"><span class="s1">{% if page.performance and page.performance.available %}</span></p>
+<p class="p1"><span class="s1">&lt;h3&gt;Performance&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1">&lt;p&gt;</span></p>
+<p class="p1"><span class="s1">&lt;a href="{{ page.performance.url }}"&gt;Watch performance&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">{% endif %}</span></p>
 <p class="p2"><span class="s1"></span><br></p>
 <p class="p1"><span class="s1">&lt;/div&gt;</span></p>
 </body>
