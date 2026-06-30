@@ -36,9 +36,9 @@ performance:
 
 tu mi domandi amico mio dove sono stato durante il mio lungo silenzio<br>
 
-       sono stato nella dolcezza della canna da zucchero e nell’amarezza<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sono stato nella dolcezza della canna da zucchero e nell’amarezza<br>
 
-              delle sue piantagioni<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; delle sue piantagioni<br>
 
        dove le foglie tremavano per paura degli uomini<br>
 
