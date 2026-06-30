@@ -100,7 +100,7 @@ Onde eu estive durante meu longo silêncio
 
        Por onde vieram a espada e o elmo
 
--           As nuvens jamais se esquecerão disso !
+           As nuvens jamais se esquecerão disso !
 
 
 No atlântico negro
