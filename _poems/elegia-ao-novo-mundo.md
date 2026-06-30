@@ -147,4 +147,3 @@ Eu estive comigo.
 </div>
 
 
-{% include poem-footer.html %}

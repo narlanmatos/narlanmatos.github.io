@@ -156,5 +156,3 @@ e solo ora posso rompere il mio silenzio<br><br>
 sono stato con me.
 
 </div>
-
-{% include poem-footer-translation.html %}
