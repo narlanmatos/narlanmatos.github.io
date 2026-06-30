@@ -15,12 +15,12 @@ book_id: elegia
 
 original_language: pt
 
+publication_id:  
+
 translator: 
    name: "Giorgio Mobili"
    translated: 
    
-publications:
-  - translation_id:  
   
 images:
    book_cover: "/assets/images/books/elegia.jpg"
