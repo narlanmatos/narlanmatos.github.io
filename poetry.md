@@ -1,5 +1,5 @@
 ---
-title: "Narlan Matos"
+title: "Poetry"
 layout: splash
 permalink: /poetry/
 header:
@@ -67,7 +67,6 @@ feature_row_recording:
 ---
 
 
-# Poetry
 
 <!--(3-5 sentence introduction)-->
 This page focuses on Narlan Matos's original poetry in Portuguese. For translations to English and other languages, see [Translations](https://narlanmatos.github.io/translations/).
