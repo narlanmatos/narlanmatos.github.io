@@ -158,5 +158,5 @@ e solo ora posso rompere il mio silenzio
 
 sono stato con me.
 
----
-{% include poem-footer-translation.html %}
+
+<!--% include poem-footer-translation.html %}-->
