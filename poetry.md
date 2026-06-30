@@ -50,7 +50,7 @@ feature_row_poetry:
   - image_path: /assets/images/feature/xx.jpg
     title: "Elegia ao Novo Mundo"
     excerpt: |
-      Tu me perguntas meu amigo  
+      Tu me perguntas meu amigo
       
       Onde eu estive durante meu longo silêncio...
     url: https://narlanmatos.github.io/poetry/poems/elegia-ao-novo-mundo/
@@ -70,7 +70,7 @@ feature_row_recording:
 # Poetry
 
 <!--(3-5 sentence introduction)-->
-
+This page focuses on Narlan Matos's original poetry in Portuguese. For translations to English and other languages, see [Translations](https://narlanmatos.github.io/translations/).
 
 {% include feature_row id="feature_row" %}
 {% include feature_row id="feature_row2" %}
