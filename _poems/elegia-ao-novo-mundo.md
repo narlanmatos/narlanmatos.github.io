@@ -146,4 +146,5 @@ E somente agora posso quebrar meu silêncio:
 
 Eu estive comigo.
 
-<!--{% include poem-footer-original.html %}-->
+---
+{% include poem-footer-original.html %}
