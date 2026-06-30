@@ -1,5 +1,5 @@
 ---
-layout: wide
+layout: single
 
 type: poem
 
