@@ -32,11 +32,9 @@ performance:
 
 **translation: {{ page.translator.name }}**
 
- 
+<div class="poem"> 
 
 tu mi domandi amico mio dove sono stato durante il mio lungo silenzio
-
- 
 
        sono stato nella dolcezza della canna da zucchero e nell’amarezza
 
@@ -156,5 +154,6 @@ e solo ora posso rompere il mio silenzio
 
 sono stato con me.
 
+</div>
 
 <!--% include poem-footer-translation.html %}-->
