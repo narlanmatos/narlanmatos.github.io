@@ -49,7 +49,9 @@ feature_row2:
 feature_row_poetry:
   - image_path: /assets/images/feature/xx.jpg
     title: "Elegia ao Novo Mundo"
-    excerpt: "Tu me perguntas meu amigo   Onde eu estive durante meu longo silêncio..."
+    excerpt: |
+      Tu me perguntas meu amigo
+      Onde eu estive durante meu longo silêncio...
     url: https://narlanmatos.github.io/poetry/poems/elegia-ao-novo-mundo/
     btn_label: "Read Poem"
     btn_class: "btn--primary"
