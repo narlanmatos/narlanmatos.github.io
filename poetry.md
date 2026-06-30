@@ -45,6 +45,14 @@ feature_row2:
     url: "/poetry/bibliography"
     btn_label: "View Bibliography"
     btn_class: "btn--primary"
+
+feature_row_poetry:
+  - image_path: /assets/images/feature/xx.jpg
+    title: "Elegia ao Novo Mundo"
+    excerpt: ""
+    url: https://narlanmatos.github.io/poetry/poems/elegia-ao-novo-mundo/
+    btn_label: "Read Poem"
+    btn_class: "btn--primary"
     
 feature_row_recording:
   - image_path: /assets/images/audio/sarau.jpg
@@ -68,6 +76,7 @@ feature_row_recording:
 ## Featured Books
 
 ## Featured Poem
+{% include feature_row id="feature_row_poetry" %}
 
 ## Featured Recording
 {% include feature_row id="feature_row_recording" %}
