@@ -30,8 +30,6 @@ performance:
   
 ---
 
-## ELEGIA AL NUOVO MONDO
-
 **translation: {{ page.translator.name }}**
 
  
