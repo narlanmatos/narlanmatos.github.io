@@ -17,106 +17,108 @@
 <p class="p2"><span class="s1"></span><br></p>
 <p class="p1"><span class="s1">&lt;div class="poem-footer"&gt;</span></p>
 <p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">{% assign original = site.poems</span></p>
-<p class="p1"><span class="s1">| where: "id", page.id</span></p>
-<p class="p1"><span class="s1">| where: "language", page.original_language</span></p>
-<p class="p1"><span class="s1">| first %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>{% assign original = site.poems</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>| where: "id", page.id</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>| where: "language", page.original_language</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>| first %}</span></p>
 <p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">{% assign original_book = site.books</span></p>
-<p class="p1"><span class="s1">| where: "id", page.book_id</span></p>
-<p class="p1"><span class="s1">| first %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>{% assign original_book = site.books</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>| where: "id", page.book_id</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>| first %}</span></p>
 <p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">{% assign publication = site.publications</span></p>
-<p class="p1"><span class="s1">| where: "id", page.publication_id</span></p>
-<p class="p1"><span class="s1">| first %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>{% assign publication = site.publications</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>| where: "id", page.publication_id</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>| first %}</span></p>
 <p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">{% if original %}</span></p>
-<p class="p1"><span class="s1">&lt;h3&gt;Original poem&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>{% if original %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;h3&gt;Original poem&lt;/h3&gt;</span></p>
 <p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">&lt;p&gt;</span></p>
-<p class="p1"><span class="s1">&lt;a href="{{ original.url }}"&gt;{{ original.title }}&lt;/a&gt;</span></p>
-<p class="p1"><span class="s1">({{ original.language | upcase }})</span></p>
-<p class="p1"><span class="s1">&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1">{% endif %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;p&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;a href="{{ original.url }}"&gt;{{ original.title }}&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>({{ original.language | upcase }})</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>{% endif %}</span></p>
 <p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">{% if page.translator %}</span></p>
-<p class="p1"><span class="s1">&lt;h3&gt;Translated by&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>{% if page.translator %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;h3&gt;Translated by&lt;/h3&gt;</span></p>
 <p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">&lt;p&gt;</span></p>
-<p class="p1"><span class="s1">{{ page.translator.name }}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;p&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>{{ page.translator.name }}</span></p>
 <p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">{% if page.translator.translated %}</span></p>
-<p class="p1"><span class="s1">({{ page.translator.translated }})</span></p>
-<p class="p1"><span class="s1">{% endif %}</span></p>
-<p class="p1"><span class="s1">&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1">{% endif %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>{% if page.translator.translated %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>({{ page.translator.translated }})</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>{% endif %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>{% endif %}</span></p>
 <p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">{% if publication %}</span></p>
-<p class="p1"><span class="s1">&lt;h3&gt;Published in translation&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>{% if publication %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;h3&gt;Published in translation&lt;/h3&gt;</span></p>
 <p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">&lt;p&gt;</span></p>
-<p class="p1"><span class="s1">&lt;a href="{{ publication.url }}"&gt;{{ publication.title }}&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;p&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;a href="{{ publication.url }}"&gt;{{ publication.title }}&lt;/a&gt;</span></p>
 <p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">{% if publication.year %}</span></p>
-<p class="p1"><span class="s1">({{ publication.year }})</span></p>
-<p class="p1"><span class="s1">{% endif %}</span></p>
-<p class="p1"><span class="s1">&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1">{% endif %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>{% if publication.year %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>({{ publication.year }})</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>{% endif %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>{% endif %}</span></p>
 <p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">{% if original_book %}</span></p>
-<p class="p1"><span class="s1">&lt;h3&gt;Original publication&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>{% if original_book %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;h3&gt;Original publication&lt;/h3&gt;</span></p>
 <p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">&lt;p&gt;</span></p>
-<p class="p1"><span class="s1">&lt;a href="{{ original_book.url }}"&gt;{{ original_book.title }}&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;p&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;a href="{{ original_book.url }}"&gt;{{ original_book.title }}&lt;/a&gt;</span></p>
 <p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">{% if original_book.year %}</span></p>
-<p class="p1"><span class="s1">({{ original_book.year }})</span></p>
-<p class="p1"><span class="s1">{% endif %}</span></p>
-<p class="p1"><span class="s1">&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1">{% endif %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>{% if original_book.year %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>({{ original_book.year }})</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>{% endif %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>{% endif %}</span></p>
 <p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">{% if original.translations %}</span></p>
-<p class="p1"><span class="s1">&lt;h3&gt;Available languages&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>{% if original and original.translations %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;h3&gt;Available languages&lt;/h3&gt;</span></p>
 <p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">&lt;ul&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;ul&gt;</span></p>
 <p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">&lt;li&gt;</span></p>
-<p class="p1"><span class="s1">&lt;a href="{{ original.url }}"&gt;</span></p>
-<p class="p1"><span class="s1">{{ original.title }}</span></p>
-<p class="p1"><span class="s1">&lt;/a&gt;</span></p>
-<p class="p1"><span class="s1">({{ original.language | upcase }})</span></p>
-<p class="p1"><span class="s1">&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;li&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;a href="{{ original.url }}"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>{{ original.title }}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>({{ original.language | upcase }})</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;/li&gt;</span></p>
 <p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">{% for t in original.translations %}</span></p>
-<p class="p1"><span class="s1">&lt;li&gt;</span></p>
-<p class="p1"><span class="s1">&lt;a href="/poems/{{ t.slug }}/"&gt;</span></p>
-<p class="p1"><span class="s1">{{ t.title }}</span></p>
-<p class="p1"><span class="s1">&lt;/a&gt;</span></p>
-<p class="p1"><span class="s1">({{ t.language | upcase }})</span></p>
-<p class="p1"><span class="s1">&lt;/li&gt;</span></p>
-<p class="p1"><span class="s1">{% endfor %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>{% for t in original.translations %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;li&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;a href="/poems/{{ t.slug }}/"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>{{ t.title }}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>({{ t.language | upcase }})</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>{% endfor %}</span></p>
 <p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">&lt;/ul&gt;</span></p>
-<p class="p1"><span class="s1">{% endif %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/ul&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>{% endif %}</span></p>
 <p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">{% assign audio_url = page.audio[page.language] %}</span></p>
-<p class="p1"><span class="s1">{% if audio_url %}</span></p>
-<p class="p1"><span class="s1">&lt;h3&gt;Audio&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>{% assign audio_url = nil %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>{% if page.audio and page.audio[page.language] %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>{% assign audio_url = page.audio[page.language] %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>{% endif %}</span></p>
 <p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">&lt;p&gt;</span></p>
-<p class="p1"><span class="s1">&lt;a href="{{ audio_url }}"&gt;Listen&lt;/a&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1">{% endif %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>{% if audio_url %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;h3&gt;Audio&lt;/h3&gt;</span></p>
 <p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">{% if page.performance.available %}</span></p>
-<p class="p1"><span class="s1">&lt;h3&gt;Performance&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;p&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;a href="{{ audio_url }}"&gt;Listen&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>{% endif %}</span></p>
 <p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">&lt;p&gt;</span></p>
-<p class="p1"><span class="s1">&lt;a href="{{ page.performance.url }}"&gt;</span></p>
-<p class="p1"><span class="s1">Watch performance</span></p>
-<p class="p1"><span class="s1">&lt;/a&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1">{% endif %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>{% if page.performance and page.performance.available %}</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;h3&gt;Performance&lt;/h3&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;p&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;a href="{{ page.performance.url }}"&gt;Watch performance&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>{% endif %}</span></p>
 <p class="p2"><span class="s1"></span><br></p>
 <p class="p1"><span class="s1">&lt;/div&gt;</span></p>
 </body>
