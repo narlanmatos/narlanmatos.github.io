@@ -1,7 +1,7 @@
 ---
 layout: poem
 
-id: it_elegia-ao-novo-mundo
+id: elegia-ao-novo-mundo
 
 title: "Elegia ao Novo Mundo"
 language: pt
