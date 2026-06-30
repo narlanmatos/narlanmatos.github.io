@@ -48,7 +48,7 @@ feature_row2:
     btn_class: "btn--primary"
 
 feature_row_poem_translations:
-  - image_path: /assets/images/translations/italian.jpg
+  - image_path: /assets/images/features/italian.jpg
     title: "Elegia al Nuovo Mondo"
     excerpt: |
       tu mi domandi amico mio 
@@ -90,8 +90,7 @@ feature_row_translations:
 {% include feature_row id="feature_row1" %}
 {% include feature_row id="feature_row2" %}
 
-## Featured Poem in Translation
-### [Elegia ao Novo Mundo](https://narlanmatos.github.io/poetry/poems/elegia-ao-novo-mundo/)
+## Featured Poem in Translation: [Elegia ao Novo Mundo](https://narlanmatos.github.io/poetry/poems/elegia-ao-novo-mundo/)
 
 {% include feature_row id="feature_row_poem_translations" %}
 
