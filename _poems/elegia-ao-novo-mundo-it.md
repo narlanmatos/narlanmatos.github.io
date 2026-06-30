@@ -34,29 +34,29 @@ performance:
 
 <div class="poem"> 
 
-tu mi domandi amico mio dove sono stato durante il mio lungo silenzio<br>
+tu mi domandi amico mio dove sono stato durante il mio lungo silenzio<br><br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sono stato nella dolcezza della canna da zucchero e nell’amarezza<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sono stato nella dolcezza della canna da zucchero e nell’amarezza<br><br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; delle sue piantagioni<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; delle sue piantagioni<br><br>
 
-       dove le foglie tremavano per paura degli uomini<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dove le foglie tremavano per paura degli uomini<br><br>
 
-       le piantagioni mi sussurravano con grida orrende<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;le piantagioni mi sussurravano con grida orrende<br><br>
 
-       il sangue amaro che ne addolcì la bocca<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;il sangue amaro che ne addolcì la bocca<br><br>
 
-       le mani ruvide che ne asciugarono la faccia<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;le mani ruvide che ne asciugarono la faccia<br><br>
 
-       la piantagione che moriva di fame prima di compiere 27 anni<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;la piantagione che moriva di fame prima di compiere 27 anni<br><br>
 
-       delle voci senza stelle che cullavano da lontano lingue strane<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;delle voci senza stelle che cullavano da lontano lingue strane<br><br>
 
-       o piantagione verde, di che colore è il mio sangue rosso?<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;o piantagione verde, di che colore è il mio sangue rosso?<br><br>
 
-       il mio sangue ha paura della morte della frusta della notte<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;il mio sangue ha paura della morte della frusta della notte<br><br>
 
-       il mio sangue ha paura di me<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;il mio sangue ha paura di me<br><br>
 
  
 
