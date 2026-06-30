@@ -15,8 +15,6 @@ translations:
   - language: it
     title: Elegia al Nuovo Mondo
     slug: elegia-al-nuovo-mondo 
-    
-  - language: lt
 
 author: "Narlan Matos"
 
