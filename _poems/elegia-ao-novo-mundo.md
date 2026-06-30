@@ -8,15 +8,15 @@ title: "Elegia ao Novo Mundo"
 language: pt
 
 translations:
-   en:
-     title: Elegy to the New World
-     slug: elegy-to-the-new-world
+  en:
+    title: Elegy to the New World
+    slug: elegy-to-the-new-world
   
   it: 
     title: Elegia al Nuovo Mondo
     slug: elegia-al-nuovo-mondo 
     
-#  lt:
+  lt:
 
 author: "Narlan Matos"
 
