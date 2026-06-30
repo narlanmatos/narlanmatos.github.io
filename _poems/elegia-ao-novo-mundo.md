@@ -37,114 +37,116 @@ performance:
   
 ---
 
-## ELEGIA AO NOVO MUNDO
+<div class="poem"> 
 
 
-Tu me perguntas meu amigo
+Tu me perguntas meu amigo<br><br>
 
-Onde eu estive durante meu longo silêncio
+Onde eu estive durante meu longo silêncio<br><br>
 
-Estive na açucena das canas e na amargura dos canaviais
+Estive na açucena das canas e na amargura dos canaviais<br><br>
 
-onde as folhas tremiam de medo dos homens
+onde as folhas tremiam de medo dos homens<br><br>
 
-Os canaviais me sussuraram em gritos horrendos
+Os canaviais me sussuraram em gritos horrendos<br><br>
 
-o sangue amargo que lhe adocicou a boca
+o sangue amargo que lhe adocicou a boca<br><br>
 
-As mãos ásperas que lhe enxugaram a face
+As mãos ásperas que lhe enxugaram a face<br><br>
 
-O canavial que morria de fome antes de completer 27 anos de idade
+O canavial que morria de fome antes de completer 27 anos de idade<br><br>
 
-Das vozes sem estrela que embalavam ao longe línguas estranhas
+Das vozes sem estrela que embalavam ao longe línguas estranhas<br><br>
 
-Ó canavial verde, de que cor é meu sangue vermelho ?
+Ó canavial verde, de que cor é meu sangue vermelho ?<br><br>
 
-Meu sangue tem medo da morte do açoite da noite
+Meu sangue tem medo da morte do açoite da noite<br><br>
 
-Meu sangue tem medo de mim
+Meu sangue tem medo de mim<br><br>
 
-Tu me perguntas meu amigo
+Tu me perguntas meu amigo<br><br>
 
-Onde eu estive durante meu longo silêncio
-
-
-       Eu estive nos navios negreiros mercantes
+Onde eu estive durante meu longo silêncio<br><br>
 
 
-que mercaram meu destino até a América até agora
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Eu estive nos navios negreiros mercantes<br><br>
 
 
-       beberam minhas lendas como se bebe um barril de rum podre
-
-       mercaram cada estrela do céu e do mar infinito
-
-       cada pássaro cada pluma de meu cocar
-
-       e desenharam mapas com meu sangue
-
-       e ergueram totens sobre minha tribo
-
-       e atearam fogo nos campos sagrados do meu povo
-
-       e suas lanças me repartiram as veias em continentes distantes
+que mercaram meu destino até a América até agora<br><br>
 
 
-Tu me perguntas meu amigo
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;beberam minhas lendas como se bebe um barril de rum podre<br><br>
 
-Onde eu estive durante meu longo silêncio
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mercaram cada estrela do céu e do mar infinito<br><br>
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cada pássaro cada pluma de meu cocar<br><br>
 
-       Estive pelas escumas dos mares nunca d’antes
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;e desenharam mapas com meu sangue<br><br>
 
-       Por onde vieram a pólvora a baioneta o espelho a tuberculose a siflis
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;e ergueram totens sobre minha tribo<br><br>
 
-       Por onde vieram a espada e o elmo
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;e atearam fogo nos campos sagrados do meu povo<br><br>
 
-           As nuvens jamais se esquecerão disso !
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;e suas lanças me repartiram as veias em continentes distantes<br><br>
 
+<br><br>
+Tu me perguntas meu amigo<br><br>
 
-No atlântico negro
-
-Nos tombadilhos de velhos navios piratas
-
-Nos cababouços da crueldade humana
-
-Nas prisões da Serra Leoa – que ainda doem em alguma dobra do meu corpo
-
-Em Angola
-
-Na Guiné-Bissau
-
-No Senegal
-
-No Benin
+Onde eu estive durante meu longo silêncio<br><br>
 
 
-Estive no reino da Guatemala
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Estive pelas escumas dos mares nunca d’antes<br><br>
 
-E na provincia de Yucatán
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Por onde vieram a pólvora a baioneta o espelho a tuberculose a siflis<br><br>
 
-E na provincia de Cartagena de las  Indias
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Por onde vieram a espada e o elmo<br><br>
 
-E nos grandes reinos e grande provincia do Peru
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As nuvens jamais se esquecerão disso !<br><br>
 
-E no novo reino de Granada
+<br><br>
+No atlântico negro<br><br>
 
-E nas ilhas de Cuba e Trinidad
+Nos tombadilhos de velhos navios piratas<br><br>
 
-E nos reino dos Aztecas
+Nos cababouços da crueldade humana<br><br>
 
-Onde espadas de brutalidade fenderam meu corpo nu
+Nas prisões da Serra Leoa – que ainda doem em alguma dobra do meu corpo<br><br>
 
-Onde os cães de caça dos barões das índias se alimentavam dos braços e das pernas de crianças indefesas
+Em Angola<br><br>
+
+Na Guiné-Bissau<br><br>
+
+No Senegal<br><br>
+
+No Benin<br><br>
+
+<br><br>
+Estive no reino da Guatemala<br><br>
+
+E na provincia de Yucatán<br><br>
+
+E na provincia de Cartagena de las  Indias<br><br>
+
+E nos grandes reinos e grande provincia do Peru<br><br>
+
+E no novo reino de Granada<br><br>
+
+E nas ilhas de Cuba e Trinidad<br><br>
+
+E nos reino dos Aztecas<br><br>
+
+Onde espadas de brutalidade fenderam meu corpo nu<br><br>
+
+Onde os cães de caça dos barões das índias se alimentavam dos braços e das pernas de crianças indefesas<br><br>
 
 
-Tu me perguntas onde eu estive meu amigo
+Tu me perguntas onde eu estive meu amigo<br><br>
 
-E somente agora posso quebrar meu silêncio:
+E somente agora posso quebrar meu silêncio:<br><br>
 
 Eu estive comigo.
+
+</div>
 
 ---
 {% include poem-footer-original.html %}
