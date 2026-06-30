@@ -300,6 +300,10 @@ collections:
     output: true
     permalink: /poetry/anthologies/:name/
 
+  Poems:
+    output: true
+    permalink: /poetry/poems/:name/
+
 # Defaults
 defaults:
   - scope:
