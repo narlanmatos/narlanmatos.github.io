@@ -157,4 +157,4 @@ sono stato con me.
 
 </div>
 
-<!--% include poem-footer-translation.html %}-->
+{% include poem-footer-translation.html %}
