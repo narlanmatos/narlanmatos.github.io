@@ -11,7 +11,7 @@ feature_row1:
 
   - image_path: /assets/images/features/languages.jpg
     title: "Translations by Language"
-    excerpt: "Translations sorted by language."
+    excerpt: "Translations and performances by language."
     url: /translations/languages/
     btn_label: "See Translations"
     btn_class: "btn--primary"
