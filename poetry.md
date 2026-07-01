@@ -42,9 +42,9 @@ feature_row2:
 
 <!--1. Short curatorial introduction  (2–4 sentences).-->
 
-This section explores Narlan Matos’s original poetry in Portuguese, including collections, selected poems, readings, and related works.
+*This section explores Narlan Matos’s original poetry in Portuguese, including collections, selected poems, readings, and related works.
 Spanning decades of creative practice, his poetry engages questions of memory, language, place, and belonging.
-For translations into English and other languages, visit the [Translations](/translations/) section.
+For translations into English and other languages, visit the [Translations](/translations/) section.*
 
 {% include feature_row id="feature_row" %}
 {% include feature_row id="feature_row2" %}

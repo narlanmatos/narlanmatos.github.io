@@ -45,7 +45,7 @@ feature_row:
     
 ---
 
-This section brings together reviews, interviews, essays, academic studies, and media coverage documenting the critical reception of Narlan Matos's work in Brazil and internationally.
-These materials trace the evolving scholarly and public engagement with his poetry across literary, academic, and cultural contexts.
+*This section brings together reviews, interviews, essays, academic studies, and media coverage documenting the critical reception of Narlan Matos's work in Brazil and internationally.
+These materials trace the evolving scholarly and public engagement with his poetry across literary, academic, and cultural contexts.*
 
 {% include feature_row id="feature_row" %}
