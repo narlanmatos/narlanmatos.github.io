@@ -6,8 +6,8 @@ year: 2023
 publisher: "Bestiário"
 isbn: "978-6585039451"
 cover: "/assets/images/books/rebanhos.jpg"
-publisher_link: " "
-read_link: "https://www.amazon.com.br/Rebanhos-estrelas-outros-poemas-Narlan/dp/6585039459"
+publisher_link: "https://editoralumina.com.br/produto/rebanhos-de-estrelas/"
+buy_link: "https://www.amazon.com.br/Rebanhos-estrelas-outros-poemas-Narlan/dp/6585039459"
 
 language: Portuguese
 
