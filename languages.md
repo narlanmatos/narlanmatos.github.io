@@ -51,7 +51,12 @@ feature_row_Spanish:
     url: /translations/antologia/
     btn_label: "View Book"
     btn_class: "btn--primary"
-
+    
+  - image_path: /assets/images/translations/duet-es.jpg
+    title: "Dueto de puntos (Spanish Edition; 2020)"
+    url: translations/duet-es/
+    btn_label: "View Book"
+    btn_class: "btn--primary"
   
     
 ---

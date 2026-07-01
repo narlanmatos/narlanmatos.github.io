@@ -1,11 +1,12 @@
 ---
 type: translated_anthology
-title: "Duet of Dots (Japanese Edition)"
+title: "Duet of Dots (Spanish Edition)"
 year: 2015
 publisher: "JUNPA Books"
-cover: "/assets/images/translations/duet.jpg"
-buy_link: "https://www.amazon.com/Duet-Dots-Japanese-Maki-Starfield-ebook/dp/B018PH0YCS/"
-read_link: "https://www.amazon.com/Duet-Dots-Japanese-Maki-Starfield-ebook/dp/B018PH0YCS/"
+ISBN: " 978-1071565483"
+cover: "/assets/images/translations/duet-es.jpg"
+buy_link: "https://www.amazon.com/Dueto-puntos-Occidente-Oriente-Solidaridad-Dialogo-ebook/dp/B08K9G45B9/ref=sr_1_5"
+read_link: "https://www.amazon.com/Dueto-puntos-Occidente-Oriente-Solidaridad-Dialogo-ebook/dp/B08K9G45B9/ref=sr_1_5"
 
 authors:
   - Narlan Matos
@@ -15,7 +16,7 @@ original_languages:
   - Portuguese
   - Japanese
 
-language: Japanese
+language: Spanish
   
 editions:
   - Japanese
@@ -24,7 +25,7 @@ editions:
   - Italian
 
 translator: 
-  - "Maki Starfield"
+  - "Hadit Montero"
   
 editor: 
   - "Mariko Sumikura"
@@ -32,8 +33,8 @@ editor:
 illustrator:
   - "James Spitzer "
   
-# Link back to original work (important for structure)
-original_work: "xx"
+# Link back to original work 
+original_work: "/translations/duet/"
 
 excerpt: "*Duet of Dots* is a collaboration by Narlan Matos and the Japanese poetess Maki Starfield, with translations published in multiple languages."
 ---
@@ -92,9 +93,9 @@ excerpt: "*Duet of Dots* is a collaboration by Narlan Matos and the Japanese poe
 --- 
 
 ## Editions
-- Japanese (this edition)
+- [Japanese](translations/duet/) (original edition)
 - [Portuguese](/poetry/anthologies/duet-pt)
-- [Spanish](/translations/duet-es)
+- Spanish (this edition)
 - [Italian](/translations/duet-it)
 
 ---
