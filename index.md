@@ -25,13 +25,15 @@ feature_row_book:
     btn_label: "View Book"
     btn_class: "btn--primary"
 
-    
-feature_row_recording:
-  - image_path: /assets/images/audio/sarau.jpg
-    title: "Sarao no Pátio das Flores"
-    excerpt: "A recitation of Narlan's poetry by Luiz Caldas."
-    url: https://www.luizcaldas.com.br/
-    btn_label: "Listen on Luiz Caldas's Website"
+feature_row_poems:
+  - image_path: /assets/images/feature/xx.jpg
+    title: "Elegia ao Novo Mundo"
+    excerpt: |
+      Tu me perguntas meu amigo
+      
+      Onde eu estive durante meu longo silêncio...
+    url: https://narlanmatos.github.io/poetry/poems/elegia-ao-novo-mundo/
+    btn_label: "Read Full Poem"
     btn_class: "btn--primary"
     
 feature_row_explore:
@@ -70,6 +72,7 @@ optional call-to-action: Explore the Poetry or Latest Book-->
 
 ## Featured Poems
 <!--One to three representative poems or excerpts with links to read more.-->
+{% include feature_row id="feature_row_poems" %}
 
 ## International Reach
 <!--A brief section noting translations, major awards, or publications in multiple languages, linking to the Translations page.-->
