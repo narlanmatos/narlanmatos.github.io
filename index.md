@@ -77,7 +77,7 @@ optional call-to-action: Explore the Poetry or Latest Book-->
 
 ## Featured Books
 <!--Highlight the most recent or most significant poetry collection with cover, brief description, and link.-->
-{% include feature_row id="feature_row_book" %}
+{% include feature_row id="feature_row_books" %}
 
 ## Introduction
 <!--A concise biography (75–150 words), with a link to the full Biography page.-->
