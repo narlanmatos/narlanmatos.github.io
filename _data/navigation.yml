@@ -25,10 +25,11 @@ main:
         url: /poetry/books/
       - title: "Selected Poems"
         url: /poetry/selected-poems/
-      - title: "Performances & Readings"
-        url: /poetry/performances/
       - title: "Collected Poems & Anthologies"
         url: /poetry/anthologies/
+      - title: "Performances & Readings"
+        url: /poetry/performances/
+
 
   - title: "Translations"
     url: /translations/
