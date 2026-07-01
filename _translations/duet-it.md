@@ -3,10 +3,10 @@ type: translated_anthology
 title: "Duet of Dots (Spanish Edition)"
 year: 2020
 publisher: "JUNPA Books"
-ISBN: " 978-1071565483"
-cover: "/assets/images/translations/duet-es.jpg"
-buy_link: "https://www.amazon.com/Dueto-puntos-Occidente-Oriente-Solidaridad-Dialogo-ebook/dp/B08K9G45B9/ref=sr_1_5"
-read_link: "https://www.amazon.com/Dueto-puntos-Occidente-Oriente-Solidaridad-Dialogo-ebook/dp/B08K9G45B9/ref=sr_1_5"
+ISBN: " 978-1071551486"
+cover: "/assets/images/translations/duet-it.jpg"
+buy_link: "https://www.amazon.com/Duetto-Punti-Italian-Maki-Starfield-ebook/dp/B08BZ4ZJCZ/ref=sr_1_6"
+read_link: "https://www.amazon.com/Duetto-Punti-Italian-Maki-Starfield-ebook/dp/B08BZ4ZJCZ/ref=sr_1_6"
 
 authors:
   - Narlan Matos
@@ -16,7 +16,7 @@ original_languages:
   - Portuguese
   - Japanese
 
-language: Spanish
+language: Italian
   
 editions:
   - Japanese
@@ -25,7 +25,6 @@ editions:
   - Italian
 
 translator: 
-  - "Hadit Montero"
   
 editor: 
   - "Mariko Sumikura"
@@ -95,8 +94,8 @@ excerpt: "*Duet of Dots* is a collaboration by Narlan Matos and the Japanese poe
 ## Editions
 - [Japanese](/translations/duet/) (original edition)
 - [Portuguese](/poetry/anthologies/duet-pt)
-- Spanish (this edition)
-- [Italian](/translations/duet-it)
+- [Spanish](/translations/duet-es)
+- Italian  (this edition)
 
 ---
 
