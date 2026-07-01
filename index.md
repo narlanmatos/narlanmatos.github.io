@@ -10,7 +10,7 @@ header:
       url: "/about/"
 
 feature_row_hero: 
-  - image_path: /assets/images/portraits/profile.jpg
+  - image_path: /assets/images/portraits/Narlan-casa.jpg
   - title: "Narlan Matos"
     excerpt: "Brazilian-American poet, scholar, and musician."
     url: /poetry/
