@@ -9,7 +9,7 @@ header:
 
 feature_row:
   - image_path: /assets/images/books/rebanhos.jpg
-    title: "Rebanhos de Estrelas"
+    title: "Rebanhos de Estrelas (2023)"
     excerpt: ""
     url: poetry/books/rebanhos/
     btn_label: "View Book"
