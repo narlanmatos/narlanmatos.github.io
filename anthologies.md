@@ -11,7 +11,7 @@ feature_row:
   - image_path: /assets/images/books/duet-pt.jpg
     title: "Dueto de Pontos (Portuguese Edition)"
     url: /poetry/anthologies/duet-pt/
-    excerpt: "*Collaboration between Narlan Matos and the Japanese poetess Maki Starfield, with translations published in multiple languages."
+    excerpt: "Collaboration between Narlan Matos and the Japanese poetess Maki Starfield, with translations published in multiple languages."
     btn_label: "View Book"
     btn_class: "btn--primary"
   - image_path: /assets/images/books/mim.jpg
