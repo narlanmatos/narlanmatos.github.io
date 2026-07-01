@@ -1,6 +1,6 @@
 ---
 type: anthology
-title: "Duet of Dots (Spanish Edition)"
+title: "Dueto de Pontos (Portuguese Edition)"
 year: 2020
 publisher: "JUNPA Books"
 ISBN: " 978-1071580684"

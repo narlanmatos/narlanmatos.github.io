@@ -1,6 +1,6 @@
 ---
 type: translated_anthology
-title: "Dueto de puntos (Spanish Edition)"
+title: "Dueto de Puntos (Spanish Edition)"
 year: 2020
 publisher: "JUNPA Books"
 ISBN: " 978-1071565483"
