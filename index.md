@@ -76,6 +76,7 @@ optional call-to-action: Explore the Poetry or Latest Book-->
 
 ## International Reach
 <!--A brief section noting translations, major awards, or publications in multiple languages, linking to the Translations page.-->
+Narlan's poetry has been translated into numerous languages and circulates through both published editions and international literary communities.
 
 ## Latest News
 <!--The two or three most recent events, publications, or readings.-->
