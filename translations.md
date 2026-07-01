@@ -20,7 +20,7 @@ feature_row1:
 feature_row2:
 
   - image_path: /assets/images/features/anthologies.jpg
-    title: "Anthologies"
+    title: "Collected Poems & Anthologies"
     excerpt: "Selected and collected works published internationally."
     url: /translations/anthologies-translated/
     btn_label: "Explore"
@@ -76,6 +76,14 @@ feature_row_translations:
     btn_label: "View Book"
     btn_class: "btn--primary" 
 
+feature_row_community_translations:
+  - image_path: /assets/images/translations/lyrics-translate.jpg
+    title: ""
+    except: "In addition to published translations, readers and volunteer translators have translated Narlan Matos' poems into numerous languages through online literary communities, reflecting an international readership."
+    url: https://lyricstranslate.com/en/narlan-matos-lyrics.html
+    btn_label: "View Translations on Lyrics Translate"
+    btn_class: "btn--primary" 
+
 ---
 
 
@@ -90,3 +98,9 @@ feature_row_translations:
 ## Featured Translations
 
 {% include feature_row id="feature_row_translations" %}
+
+## Community Translations
+
+
+{% include feature_row id="feature_row_community_translations" %}
+

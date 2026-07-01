@@ -54,6 +54,8 @@ While some translations have appeared as complete books, others have been publis
 
 This page provides an overview of translations and bilingual editions by language.
 Entries include original books, anthologies, periodical publications, festival publications or recordings, and translations of individual poems.
+## Dutch
+<!--https://lyricstranslate.com/en/narlan-matos-lyrics.html-->
 
 ## English
 #### Books in English
@@ -63,9 +65,14 @@ Entries include original books, anthologies, periodical publications, festival p
 #### Poems in English
 
 #### Other English translations
+<!--https://lyricstranslate.com/en/narlan-matos-lyrics.html-->
 
 
 ## French
+<!--https://lyricstranslate.com/en/narlan-matos-lyrics.html-->
+
+## German
+<!--https://lyricstranslate.com/en/narlan-matos-lyrics.html-->
 
 ## Italian
 #### Books in Italian
@@ -78,7 +85,7 @@ Entries include original books, anthologies, periodical publications, festival p
 
 #### Other Italian translations
 - [Selected poems, translated by Giorgio Mobili](https://www.filidaquilone.it/num035mobili.html) <!--*MANCA QUALCOSA NELLA STANZA: La poesia di Narlan Matos*. saved in assets/docs/Fili d'aquilo..-->
-
+<!--https://lyricstranslate.com/en/narlan-matos-lyrics.html-->
 
 ## Japanese
 
@@ -86,11 +93,18 @@ Entries include original books, anthologies, periodical publications, festival p
 
 ## Lithuanian
 
+## Persian
+<!--https://lyricstranslate.com/en/narlan-matos-lyrics.html-->
+
+## Russian
+<!--https://lyricstranslate.com/en/narlan-matos-lyrics.html-->
+
 ## Slovenian
 
 ## Spanish
 {% include feature_row id="feature_row_Spanish" %}
 #### Other Spanish translations
+<!--https://lyricstranslate.com/en/narlan-matos-lyrics.html-->
 
 ## Swedish
 
