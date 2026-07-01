@@ -3,7 +3,7 @@ type: translated_anthology
 title: "Duet of Dots"
 year: 2015
 publisher: "Nihon Kokusai Shijin Kyokai"
-cover: "/assets/images/translations/antologia.jpg"
+cover: "/assets/images/translations/duet.jpg"
 buy_link: "https://www.amazon.com/Duet-Dots-Japanese-Maki-Starfield-ebook/dp/B018PH0YCS/"
 
 authors:
@@ -39,8 +39,7 @@ excerpt: "xxx"
 {% endif %}
 
 <!--## Overview
-
-This bilingual edition presents *{{ page.original_title }}* in its original language alongside its English translation. It allows readers to engage with the musicality of the original text while following the translated version.-->
+-->
 
 
 {% if page.read_link %}
@@ -58,8 +57,8 @@ This bilingual edition presents *{{ page.original_title }}* in its original lang
 
 ## Languages
 
-- Original language: {{ page.original_languages }}
-- Translation: {{ page.languages }}
+- Original languages: Portuguese, Japanese 
+- Translation: {{ page.language }}
 
 ---
 
