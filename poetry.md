@@ -68,7 +68,22 @@ feature_row_recording:
 
 
 
-<!--(3-5 sentence introduction)-->
+<!--1. Short curatorial introduction (not biography)
+
+A brief opening paragraph (2–4 sentences).
+
+Purpose:
+
+establish poetry as the central body of work
+give context
+orient the reader
+
+Example structure:
+
+Poetry has been the central artistic practice of Narlan Matos. Across collections, performances, and translations, his work explores...
+
+Then immediately move into the archive.-->
+
 This page focuses on Narlan Matos's original poetry in Portuguese. For translations to English and other languages, see [Translations](https://narlanmatos.github.io/translations/).
 
 {% include feature_row id="feature_row" %}
@@ -76,6 +91,8 @@ This page focuses on Narlan Matos's original poetry in Portuguese. For translati
 
 
 ## Featured Books
+
+## Selected Poems
 
 ## Featured Poems
 {% include feature_row id="feature_row_poetry" %}
