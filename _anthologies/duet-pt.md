@@ -1,12 +1,12 @@
 ---
-type: translated_anthology
-title: "Dueto de puntos (Spanish Edition)"
+type: anthology
+title: "Duet of Dots (Spanish Edition)"
 year: 2020
 publisher: "JUNPA Books"
-ISBN: " 978-1071565483"
-cover: "/assets/images/translations/duet-es.jpg"
-buy_link: "https://www.amazon.com/Dueto-puntos-Occidente-Oriente-Solidaridad-Dialogo-ebook/dp/B08K9G45B9/ref=sr_1_5"
-read_link: "https://www.amazon.com/Dueto-puntos-Occidente-Oriente-Solidaridad-Dialogo-ebook/dp/B08K9G45B9/ref=sr_1_5"
+ISBN: " 978-1071580684"
+cover: "/assets/images/books/duet-pt.jpg"
+buy_link: "https://www.amazon.com/Dueto-Pontos-Portuguese-Narlan-Matos-ebook/dp/B08TVZM6HN/"
+read_link: "https://www.amazon.com/Dueto-Pontos-Portuguese-Narlan-Matos-ebook/dp/B08TVZM6HN/"
 
 authors:
   - Narlan Matos
@@ -16,7 +16,7 @@ original_languages:
   - Portuguese
   - Japanese
 
-language: Spanish
+language: Portuguese
   
 editions:
   - Japanese
@@ -24,8 +24,8 @@ editions:
   - Spanish
   - Italian
 
-translator: 
-  - "Hadit Montero"
+translator:
+  - Marcelo Martins
   
 editor: 
   - "Mariko Sumikura"
@@ -65,7 +65,7 @@ excerpt: "*Duet of Dots* is a collaboration by Narlan Matos and the Japanese poe
 ## Languages
 
 - Original languages: Portuguese, Japanese 
-- Translation: {{ page.language }}
+- Translation: {{ page.language }} 
 
 ---
 
@@ -94,8 +94,8 @@ excerpt: "*Duet of Dots* is a collaboration by Narlan Matos and the Japanese poe
 
 ## Editions
 - [Japanese](/translations/duet/) (original edition)
-- [Portuguese](/anthologies/duet-pt)
-- Spanish (this edition)
+- Portuguese (this edition)
+- [Spanish](/translations/duet-es)
 - [Italian](/translations/duet-it)
 
 ---

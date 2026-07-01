@@ -1,10 +1,10 @@
 ---
 type: translated_anthology
-title: "Duet of Dots (Spanish Edition)"
+title: "Duetto di Punti (Italian Edition)"
 year: 2020
 publisher: "JUNPA Books"
 ISBN: " 978-1071551486"
-cover: "/assets/images/translations/duet-it.jpg"
+cover: "/assets/images/books/duet-pt.jpg"
 buy_link: "https://www.amazon.com/Duetto-Punti-Italian-Maki-Starfield-ebook/dp/B08BZ4ZJCZ/ref=sr_1_6"
 read_link: "https://www.amazon.com/Duetto-Punti-Italian-Maki-Starfield-ebook/dp/B08BZ4ZJCZ/ref=sr_1_6"
 

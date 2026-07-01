@@ -30,7 +30,7 @@ feature_row_Italian:
     btn_class: "btn--primary" 
     
   - image_path: /assets/images/translations/duet-it.jpg
-    title: "Dueto de puntos (Italian Edition; 2020)"
+    title: "Duetto di Punti (Italian Edition)"
     url: translations/duet-it/
     btn_label: "View Book"
     btn_class: "btn--primary"
