@@ -23,7 +23,7 @@ feature_row:
 
 feature_row2:
   - image_path: /assets/images/features/cv.jpg
-    title: "Curriculum Vitae"
+    title: "Curriculum Vitae (CV)"
     excerpt: ""
     url: "/about/cv/"
     btn_label: "View CV"
@@ -35,7 +35,7 @@ feature_row2:
     btn_label: "View Timeline"
     btn_class: "btn--primary"
   - image_path: /assets/images/features/profile.jpg
-    title: "Portrait Gallery"
+    title: "Gallery"
     excerpt: ""
     url: "/about/gallery/"
     btn_label: "View Portraits"

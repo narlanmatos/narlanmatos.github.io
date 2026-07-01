@@ -10,7 +10,7 @@ header:
 feature_row1:
 
   - image_path: /assets/images/features/languages.jpg
-    title: "Translations by Language"
+    title: "Languages"
     excerpt: "Translations and performances by language."
     url: /translations/languages/
     btn_label: "See Translations"
@@ -20,7 +20,7 @@ feature_row1:
 feature_row2:
 
   - image_path: /assets/images/features/anthologies.jpg
-    title: "Anthologies in Translation"
+    title: "Anthologies"
     excerpt: "Selected and collected works published internationally."
     url: /translations/anthologies-translated/
     btn_label: "Explore"
@@ -34,7 +34,7 @@ feature_row2:
     btn_class: "btn--primary"
 
   - image_path: /assets/images/features/books-translation.jpg
-    title: "Books in Translation"
+    title: "Books"
     excerpt: "Original poetry collections published in other languages."
     url: /translations/books-translated/
     btn_label: "Explore"

@@ -23,7 +23,7 @@ feature_row:
     btn_label: "View translations"
     btn_class: "btn--primary"
   - image_path: /assets/images/features/reception.jpg
-    title: "Reception"
+    title: "Critical Reception"
     excerpt: "Essays, reviews, interviews, and critical responses to the work."
     url: "/reception/"
     btn_label: "Read Criticism"
