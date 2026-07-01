@@ -75,6 +75,12 @@ feature_row_translations:
     url: translations/provincia/
     btn_label: "View Book"
     btn_class: "btn--primary" 
+    
+  - image_path: /assets/images/translations/duet.jpg
+    title: "Duet of Dots"
+    url: translations/duet/
+    btn_label: "View Book"
+    btn_class: "btn--primary" 
 
 feature_row_community_translations:
   - image_path: /assets/images/translations/lyrics-translate.jpg
