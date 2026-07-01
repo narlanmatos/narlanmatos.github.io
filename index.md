@@ -17,11 +17,23 @@ feature_row_hero:
     btn_label: "Explore Poetry"
     btn_class: "btn--primary"
 
-feature_row_book:
+feature_row_books:
   - image_path: /assets/images/books/narciso.jpg
     title: "Narciso selvagem"
     excerpt: ""
     url: poetry/books/narciso/
+    btn_label: "View Book"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/books/caminheiros.jpg
+    title: "Eu e Tu, Caminheiros Dessa Vida"
+    excerpt: ""
+    url: poetry/books/caminheiros/
+    btn_label: "View Book"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/books/canto.jpg
+    title: "Canto aos Homens de Boa Vontade"
+    excerpt: ""
+    url: poetry/books/canto/
     btn_label: "View Book"
     btn_class: "btn--primary"
 
@@ -63,7 +75,7 @@ optional call-to-action: Explore the Poetry or Latest Book-->
 
 {% include feature_row id="feature_row_hero" %}
 
-## Featured Book
+## Featured Books
 <!--Highlight the most recent or most significant poetry collection with cover, brief description, and link.-->
 {% include feature_row id="feature_row_book" %}
 

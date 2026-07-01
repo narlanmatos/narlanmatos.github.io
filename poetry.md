@@ -36,44 +36,6 @@ feature_row2:
     btn_label: "View Anthologies"
     btn_class: "btn--primary"
 
-feature_row_books:
-  - image_path: /assets/images/books/narciso.jpg
-    title: "Narciso selvagem"
-    excerpt: ""
-    url: poetry/books/narciso/
-    btn_label: "View Book"
-    btn_class: "btn--primary"
-  - image_path: /assets/images/books/caminheiros.jpg
-    title: "Eu e Tu, Caminheiros Dessa Vida"
-    excerpt: ""
-    url: poetry/books/caminheiros/
-    btn_label: "View Book"
-    btn_class: "btn--primary"
-  - image_path: /assets/images/books/canto.jpg
-    title: "Canto aos Homens de Boa Vontade"
-    excerpt: ""
-    url: poetry/books/canto/
-    btn_label: "View Book"
-    btn_class: "btn--primary"
-
-feature_row_poems:
-  - image_path: /assets/images/feature/xx.jpg
-    title: "Elegia ao Novo Mundo"
-    excerpt: |
-      Tu me perguntas meu amigo
-      
-      Onde eu estive durante meu longo silêncio...
-    url: https://narlanmatos.github.io/poetry/poems/elegia-ao-novo-mundo/
-    btn_label: "Read Full Poem"
-    btn_class: "btn--primary"
-    
-feature_row_recording:
-  - image_path: /assets/images/audio/sarau.jpg
-    title: "Sarao no Pátio das Flores"
-    excerpt: "A recitation of Narlan's poetry by Luiz Caldas."
-    url: https://www.luizcaldas.com.br/
-    btn_label: "Listen on Luiz Caldas's Website"
-    btn_class: "btn--primary"
 ---
 
 
@@ -100,14 +62,15 @@ This page focuses on Narlan Matos's original poetry in Portuguese. For translati
 {% include feature_row id="feature_row2" %}
 
 
-## Featured Books
+## Interpretive Content
 
+| Aspect                 | Description                                                          |
+| ---------------------- | -------------------------------------------------------------------- |
+| **Recurring Concerns** | Memory, migration, language, landscape                               |
+| **Forms**              | Lyric, prose poem, long poem                                         |
+| **Languages**          | Originally written in Portuguese; translated into multiple languages |
+| **Publication Span**   | From 1997 to present                                                 |
 
-## Featured Poems
-{% include feature_row id="feature_row_poems" %}
-
-## Featured Recording
-{% include feature_row id="feature_row_recording" %}
 
 <!--Optional quotation
 
