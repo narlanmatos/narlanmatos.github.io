@@ -1,7 +1,7 @@
 ---
 
-title: "Poems in Translation"
-permalink: /translations/poems-translated/
+title: "Books"
+permalink: /translations/books-translated/
 layout: splash
 header:
   overlay_image: /assets/images/header.jpg  # header image

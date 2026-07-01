@@ -10,7 +10,7 @@ main:
         url: "/about/biography/"
       - title: "Awards & Honors"
         url: /awards/
-      - title: "Curriculum Vitae"
+      - title: "Curriculum Vitae (CV)"
         url: /cv/
       - title: "Timeline"
         url: "/about/timeline/"
@@ -33,15 +33,15 @@ main:
   - title: "Translations"
     url: /translations/
     children:
-      - title: "Books in Translation"
+      - title: "Books"
         url: /translations/books-translated/
-      - title: "Anthologies & Collected Poems (translated)"
+      - title: "Poems"
+        url: /translations/poems-translated/
+      - title: "Collected Poems & Anthologies"
         url: /translations/anthologies-translated/
       - title: "Bilingual Editions"
         url: /translations/bilingual/
-      - title: "Poems in Translation"
-        url: /translations/poems-translated/
-      - title: "By Language"
+      - title: "Languages"
         url: /translations/languages/
 
 
@@ -65,7 +65,7 @@ main:
   - title: "Music"
     url: /music/
     children:
-      - title: "Album"
+      - title: "Albums"
         url: /music/album/
       - title: "Songs"
         url: /music/songs/
@@ -91,5 +91,7 @@ main:
   - title: "Contact"
     url: /contact/
     children:
+      - title: "Contact Information"
+        url: /contact/contact/
       - title: "Press Kit"
         url: /contact/press/
