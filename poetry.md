@@ -19,6 +19,12 @@ feature_row:
     url: /poetry/selected-poems/
     btn_label: "Explore Poems"
     btn_class: "btn--primary"
+  - image_path: /assets/images/features/anthologies.jpg
+    title: "Collected Poems & Anthologies"
+    excerpt: "Poems published in collective and international volumes."
+    url: /poetry/anthologies
+    btn_label: "View Anthologies"
+    btn_class: "btn--primary"
     
 feature_row2:
 
@@ -29,12 +35,6 @@ feature_row2:
     btn_label: "Listen & Watch"
     btn_class: "btn--primary"
 
-  - image_path: /assets/images/features/anthologies.jpg
-    title: "Collected Poems & Anthologies"
-    excerpt: "Poems published in collective and international volumes."
-    url: /poetry/anthologies
-    btn_label: "View Anthologies"
-    btn_class: "btn--primary"
 
 ---
 
