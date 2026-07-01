@@ -15,6 +15,13 @@ feature_row_English:
     btn_label: "View Book"
     btn_class: "btn--primary" 
     
+feature_row_Japanese:
+  - image_path: /assets/images/translations/duet.jpg
+    title: "Duet of Dots"
+    url: translations/duet/
+    btn_label: "View Book"
+    btn_class: "btn--primary" 
+    
 feature_row_Italian:
   - image_path: /assets/images/translations/provincia.jpg
     title: "La Provincia Oscura"
@@ -88,6 +95,7 @@ Entries include original books, anthologies, periodical publications, festival p
 <!--https://lyricstranslate.com/en/narlan-matos-lyrics.html-->
 
 ## Japanese
+{% include feature_row id="feature_row_Japanese" %}
 
 ## Hindi
 
