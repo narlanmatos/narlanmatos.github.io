@@ -7,6 +7,7 @@ place: "Belo Horizonte, Brazil"
 publisher: "Projecto Leve um Livro"
 pages: 16
 notes: "Micro-anthology distributed free as part of the Coleção Leve um Livro poetry project."
+goodreads_link: "https://www.goodreads.com/book/show/37551683-mim-fim"
 
 author:
   - Narlan Matos
@@ -43,6 +44,16 @@ excerpt: "Micro-anthology distributed free as part of the *Leve um Livro* poetry
 
 *Mim, Fim* is a micro-anthology distributed free as part of the  *[Leve um Livro](https://anadigital.pro.br/2020/07/27/leve-um-livro/?utm_source=chatgpt.com)* poetry project.
 
+{% if page.goodreads_link %}
+<p>
+  <a href="{{ page.goodreads_link }}"
+     class="btn btn--primary"
+     target="_blank"
+     rel="noopener">
+     View on Goodreads
+  </a>
+</p>
+{% endif %}
 ---
 
 ## Publication
