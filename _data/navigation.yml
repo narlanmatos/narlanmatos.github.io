@@ -51,7 +51,7 @@ main:
     children:
       - title: "Reviews"
         url: /reception/reviews/
-      - title: "Essays & Criticism"
+      - title: "Critical Essays"
         url: /reception/essays/
       - title: "Interviews"
         url: /reception/interviews/
