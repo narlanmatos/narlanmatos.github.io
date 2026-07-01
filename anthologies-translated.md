@@ -20,6 +20,12 @@ feature_row:
     btn_label: "View Book"
     btn_class: "btn--primary" 
     
+  - image_path: /assets/images/translations/duet.jpg
+    title: "Duet of Dots (Japanese Edition; 2015)"
+    url: translations/duet/
+    btn_label: "View Book"
+    btn_class: "btn--primary"   
+    
 ---
 
 {% include feature_row id="feature_row" %}
