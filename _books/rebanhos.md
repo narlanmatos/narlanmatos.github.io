@@ -1,7 +1,7 @@
 ---
 type: book
 author: Narlan Matos
-title: "Rebanhos de estrelas"
+title: "Rebanhos de Estrelas"
 year: 2023
 publisher: "Bestiário"
 isbn: "978-6585039451"

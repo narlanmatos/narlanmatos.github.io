@@ -13,6 +13,11 @@ feature_row:
     url: /poetry/anthologies/duet-pt/
     btn_label: "View Book"
     btn_class: "btn--primary"
+  - image_path: /assets/images/books/mim.jpg
+    title: "Mim, Fim"
+    url: /poetry/anthologies/mim/
+    btn_label: "View Micro-anthology"
+    btn_class: "btn--primary"
     
 ---
 

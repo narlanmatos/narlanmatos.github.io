@@ -18,16 +18,16 @@ feature_row_hero:
     btn_class: "btn--primary"
 
 feature_row_books:
+  - image_path: /assets/images/books/rebanhos.jpg
+    title: "Rebanhos de Estrelas"
+    excerpt: ""
+    url: poetry/books/rebanhos/
+    btn_label: "View Book"
+    btn_class: "btn--primary"
   - image_path: /assets/images/books/narciso.jpg
     title: "Narciso selvagem"
     excerpt: ""
     url: poetry/books/narciso/
-    btn_label: "View Book"
-    btn_class: "btn--primary"
-  - image_path: /assets/images/books/caminheiros.jpg
-    title: "Eu e Tu, Caminheiros Dessa Vida"
-    excerpt: ""
-    url: poetry/books/caminheiros/
     btn_label: "View Book"
     btn_class: "btn--primary"
   - image_path: /assets/images/books/canto.jpg

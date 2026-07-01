@@ -8,6 +8,13 @@ header:
   caption: "Detail from artwork in Narlan Matos' *Antología poética bilingüe*, by legendary Spanish poet and artist Juan Carlos Mestre."
 
 feature_row:
+  - image_path: /assets/images/books/rebanhos.jpg
+    title: "Rebanhos de Estrelas"
+    excerpt: ""
+    url: poetry/books/rebanhos/
+    btn_label: "View Book"
+    btn_class: "btn--primary"
+    
   - image_path: /assets/images/books/narciso.jpg
     title: "Narciso selvagem (2022)"
     excerpt: ""
