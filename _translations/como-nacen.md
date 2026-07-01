@@ -19,7 +19,7 @@ buy_link: "https://www.amazon.com/C%C3%B3mo-nacen-estrellas-Narlan-Matos/dp/8410
 
 
 # Languages
-original_language:
+original_languages:
   - Portuguese
 
 translated_languages:
@@ -58,7 +58,7 @@ beginning with his first book in 1997, [*Senhoras e Senhores: o Aamanhecer*]().
 
 ## Languages
 
-- Original language: {{ page.original_language }}
+- Original language: {{ page.original_languages }}
 - Translation: {{ page.translated_languages }}
 
 ---
