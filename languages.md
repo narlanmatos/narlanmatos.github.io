@@ -97,6 +97,7 @@ Entries include original books, anthologies, periodical publications, festival p
 
 #### Other English translations
 <!--https://lyricstranslate.com/en/narlan-matos-lyrics.html-->
+- [Ten Poems translated by José F. Bañuelos-Montes and Sally Perret (Interim, 2018)](https://www.interimpoetics.org/35-4/narlan-matos-trans-jose-f-banuelos-montes-sally-perret)
 
 
 ## French
