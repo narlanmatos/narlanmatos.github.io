@@ -1,6 +1,6 @@
 ---
 
-title: "Performances and Recordings"
+title: "Performances and Readings"
 permalink: /poetry/performances
 layout: splash
 header:

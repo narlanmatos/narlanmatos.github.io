@@ -10,9 +10,11 @@ main:
         url: "/about/biography/"
       - title: "Awards & Honors"
         url: /awards/
+      - title: "Curriculum Vitae"
+        url: /cv/
       - title: "Timeline"
         url: "/about/timeline/"
-      - title: "Portrait Gallery"
+      - title: "Gallery"
         url: "/about/gallery/"
 
 
@@ -23,12 +25,10 @@ main:
         url: /poetry/books/
       - title: "Selected Poems"
         url: /poetry/selected-poems/
-      - title: "Performances & Recordings"
+      - title: "Performances & Readings"
         url: /poetry/performances/
-      - title: "Anthologies & Collected Poems"
+      - title: "Collected Poems & Anthologies"
         url: /poetry/anthologies/
-      - title: "Bibliography"
-        url: /poetry/bibliography/
 
   - title: "Translations"
     url: /translations/
@@ -43,10 +43,9 @@ main:
         url: /translations/poems-translated/
       - title: "By Language"
         url: /translations/languages/
-      - title: "By Country"
-        url: /translations/countries/
 
-  - title: "Reception"
+
+  - title: "Critical Reception"
     url: /reception/
     children:
       - title: "Reviews"
@@ -55,11 +54,42 @@ main:
         url: /reception/essays/
       - title: "Interviews"
         url: /reception/interviews/
+      - title: "Academic Studies"
+        url: /reception/academic-studies/
+      - title: "Media Coverage"
+        url: /reception/media/
 
+  - title: "Scholarship"
+    url: /scholarship/
+
+  - title: "Music"
+    url: /music/
+    children:
+      - title: "Album"
+        url: /music/album/
+      - title: "Songs"
+        url: /music/songs/
+      - title: "Musical Collaborations"
+        url: /music/collaborations/
+      - title: "Lyrics"
+        url: /music/lyrics/
 
   - title: "News & Events"
     url: /events/
+    children:
+      - title: "News"
+        url: /events/news/
+      - title: "Readings"
+        url: /events/readings/
+      - title: "Appearances"
+        url: /events/appearances/
+      - title: "Archive"
+        url: /events/archive/
+
 
 
   - title: "Contact"
     url: /contact/
+    children:
+      - title: "Press Kit"
+        url: /contact/press/

@@ -16,13 +16,6 @@ feature_row1:
     btn_label: "See Translations"
     btn_class: "btn--primary"
 
-  - image_path: /assets/images/features/countries.jpg
-    title: "Translations by Country"
-    excerpt: "Translations sorted by country."
-    url: /translations/countries/
-    btn_label: "See Translations"
-    btn_class: "btn--primary"
-
     
 feature_row2:
 

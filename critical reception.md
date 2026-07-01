@@ -1,6 +1,6 @@
 ---
 
-title: "Reception"
+title: "Critical Reception"
 permalink: /reception/
 layout: splash
 header:
