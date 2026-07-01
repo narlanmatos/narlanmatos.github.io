@@ -14,7 +14,18 @@ feature_row_English:
     url: translations/poetry-mens-lives/
     btn_label: "View Book"
     btn_class: "btn--primary" 
-    
+
+feature_row_English_poems: 
+  - image_path: /assets/images/features/english.jpg
+    title: "Elegy to the New World"
+    excerpt: |
+      You ask me, my companion 
+      
+      Where had I been during my long silence...
+    url: poetry/poems/elegia-ao-novo-mundo-en/
+    btn_label: "Read Full Poem"
+    btn_class: "btn--primary" 
+
 feature_row_Japanese:
   - image_path: /assets/images/translations/duet.jpg
     title: "Duet of Dots"
@@ -82,6 +93,7 @@ Entries include original books, anthologies, periodical publications, festival p
 
 
 #### Poems in English
+{% include feature_row id="feature_row_English_poems" %}
 
 #### Other English translations
 <!--https://lyricstranslate.com/en/narlan-matos-lyrics.html-->
