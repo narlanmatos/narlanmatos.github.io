@@ -24,7 +24,8 @@ editions:
   - Spanish
   - Italian
 
-translator: 
+translator:
+  - Carlotta Cutrale
   
 editor: 
   - "Mariko Sumikura"
