@@ -93,7 +93,7 @@ excerpt: "*Duet of Dots* is a collaboration by Narlan Matos and the Japanese poe
 --- 
 
 ## Editions
-- [Japanese](translations/duet/) (original edition)
+- [Japanese](/translations/duet/) (original edition)
 - [Portuguese](/poetry/anthologies/duet-pt)
 - Spanish (this edition)
 - [Italian](/translations/duet-it)
