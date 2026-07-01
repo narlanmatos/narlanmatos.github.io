@@ -35,7 +35,7 @@ illustrator:
 # Link back to original work (important for structure)
 original_work: "xx"
 
-excerpt: "*Duet of Dots* is a collaboration by Narlan Matos and the Japanese poetess Maki Starfield, with translations published in multiple languages."
+excerpt: "*Duet of Dots* is a collaboration between Narlan Matos and the Japanese poetess Maki Starfield, with translations published in multiple languages."
 ---
 
 {% if page.cover %}

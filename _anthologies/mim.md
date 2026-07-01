@@ -14,7 +14,7 @@ author:
 
 language: Portuguese
 
-
+excerpt: "Micro-anthology distributed free as part of the *Leve um Livro* poetry project."
 
 ---
 
