@@ -98,7 +98,7 @@ Entries include original books, anthologies, periodical publications, festival p
 #### Other English translations
 <!--https://lyricstranslate.com/en/narlan-matos-lyrics.html-->
 - [Ten Poems translated by José F. Bañuelos-Montes and Sally Perret (Interim, 2018)](https://www.interimpoetics.org/35-4/narlan-matos-trans-jose-f-banuelos-montes-sally-perret)
-
+- [Narlan Matos – Genesis – translated by José F. Bañuelos-Montes & Sally Perret (Tupelo Quarterly, 2022)](https://www.tupeloquarterly.com/translation/narlan-matos-genesis-translated-from-portuguese-by-jose-f-banuelos-montes-sally-perret/)
 
 ## French
 <!--https://lyricstranslate.com/en/narlan-matos-lyrics.html-->
