@@ -311,19 +311,19 @@ defaults:
       type: books
     values:
       layout: single
-      author_profile: true
+      author_profile: false
 
   - scope:
       path: ""
       type: translations
     values:
       layout: single
-      author_profile: true
+      author_profile: false
 
   - scope:
       path: ""
       type: anthologies
     values:
       layout: single
-      author_profile: true
+      author_profile: false
 
