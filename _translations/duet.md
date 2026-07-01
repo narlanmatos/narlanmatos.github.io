@@ -14,8 +14,11 @@ original_languages:
   - Portuguese
   - Japanese
   
-language: 
+editions:
   - Japanese
+  - Portuguese
+  - Spanish
+  - Italian
 
 translator: 
   - "Maki Starfield"
@@ -29,7 +32,7 @@ illustrator:
 # Link back to original work (important for structure)
 original_work: "xx"
 
-excerpt: "xxx"
+excerpt: "*Duet of Dots* is a collaboration by Narlan Matos and the Japanese poetess Maki Starfield, with translations published in multiple languages."
 ---
 
 {% if page.cover %}
@@ -58,7 +61,7 @@ excerpt: "xxx"
 ## Languages
 
 - Original languages: Portuguese, Japanese 
-- Translation: {{ page.language }}
+- Translation: Japanese
 
 ---
 

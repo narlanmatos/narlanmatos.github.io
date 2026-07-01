@@ -1,6 +1,6 @@
 ---
 
-title: "Books"
+title: "Translated Books"
 permalink: /translations/books-translated/
 layout: splash
 header:

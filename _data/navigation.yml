@@ -33,9 +33,9 @@ main:
   - title: "Translations"
     url: /translations/
     children:
-      - title: "Books"
+      - title: "Translated Books"
         url: /translations/books-translated/
-      - title: "Poems"
+      - title: "Poems in Translation"
         url: /translations/poems-translated/
       - title: "Collected Poems & Anthologies"
         url: /translations/anthologies-translated/
