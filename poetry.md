@@ -62,22 +62,14 @@ This page focuses on Narlan Matos's original poetry in Portuguese. For translati
 {% include feature_row id="feature_row2" %}
 
 
-## Interpretive Content
+<!-- ## About the Poetry
+some sort of interpretive content-->
 
-| Aspect                 | Description                                                          |
-| ---------------------- | -------------------------------------------------------------------- |
-| **Recurring Concerns** | Memory, migration, language, landscape                               |
-| **Forms**              | Lyric, prose poem, long poem                                         |
-| **Languages**          | Originally written in Portuguese; translated into multiple languages |
-| **Publication Span**   | From 1997 to present                                                 |
-
-
-<!--Optional quotation
-
-I like ending literary pages with something reflective.
+<!--Optional  quotation
 
 Perhaps
 
+critical quotation
 a short quotation from an interview
 a brief statement on poetry
 an epigraph
