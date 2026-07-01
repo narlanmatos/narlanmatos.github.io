@@ -79,7 +79,7 @@ feature_row_translations:
 feature_row_community_translations:
   - image_path: /assets/images/translations/lyrics-translate.jpg
     title: ""
-    except: "In addition to published translations, readers and volunteer translators have translated Narlan Matos' poems into numerous languages through online literary communities, reflecting an international readership."
+    excerpt: "In addition to published translations, readers and volunteer translators have translated Narlan Matos's poems into numerous languages through online literary communities, reflecting an international readership."
     url: https://lyricstranslate.com/en/narlan-matos-lyrics.html
     btn_label: "View Translations on Lyrics Translate"
     btn_class: "btn--primary" 
