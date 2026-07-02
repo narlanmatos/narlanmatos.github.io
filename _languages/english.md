@@ -1,10 +1,6 @@
 ---
 
 title: "English Translations"
-header:
-  overlay_image: /assets/images/header.jpg  # header image
-  caption: "Detail from artwork in Narlan Matos's *Antología poética bilingüe*, by legendary Spanish poet and artist Juan Carlos Mestre."
-  
 
 feature_row_books:    
   - image_path: /assets/images/translations/poetry-mens-lives.jpg
