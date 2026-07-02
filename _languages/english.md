@@ -49,7 +49,7 @@ feature_row_community_translations:
     btn_label: "View Translations on Lyrics Translate"
     btn_class: "btn--primary" 
 
-feature_row_performances: 
+feature_row_performances: []
 
 
     
