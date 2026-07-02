@@ -11,7 +11,8 @@ header:
 
 feature_row_hero: 
   - image_path: /assets/images/portraits/Narlan-casa.jpg
-
+  - title: "Narlan Matos"
+    excerpt: "..."
 
 feature_row_languages:
   - title: "Original Poetry in Portuguese"
