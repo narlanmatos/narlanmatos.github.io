@@ -15,6 +15,6 @@ feature_row_books:
 ---
 
 
-## 書籍やアンソロジー 
+## 書籍やアンソロジー (Books & Anthologies)
 {% include feature_row id="feature_row_books" %}
 
