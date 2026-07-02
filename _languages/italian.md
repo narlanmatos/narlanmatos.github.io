@@ -42,7 +42,7 @@ feature_row_poems:
 feature_row_community_translations:
   - image_path: /assets/images/translations/lyrics-translate.jpg
     title: ""
-    excerpt: "Las traducciones al español realizadas por lectores y traductores voluntarios aparecen en Lyrics Translate."
+    excerpt: "Le traduzioni in italiano realizzate da lettori e traduttori volontari compaiono su Lyrics Translate."
     url: https://lyricstranslate.com/en/narlan-matos-lyrics.html
     btn_label: "View Translations on Lyrics Translate"
     btn_class: "btn--primary" 
