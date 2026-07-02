@@ -60,7 +60,7 @@ feature_row_performances:
 ## Poesie
 {% include feature_row id="feature_row_poems" %}
 
-## Traduzioni della Community
+## Traduzioni della Comunità
 
 {% include feature_row id="feature_row_community_translations" %}
 
