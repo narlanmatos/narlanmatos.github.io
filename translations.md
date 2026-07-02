@@ -24,7 +24,7 @@ feature_row_languages:
     btn_class: "btn--primary"
 
     
-feature_row2:
+feature_row_children:
 
   - image_path: /assets/images/features/anthologies.jpg
     title: "Collected Poems & Anthologies"
@@ -117,8 +117,10 @@ feature_row_community_translations:
 These translations reflect the continuing international circulation of his work through the efforts of translators, editors, publishers, and literary organizations.
 This section documents translated books, individual poems, multilingual publications, and the languages in which his poetry is available.*
 
-{% include feature_row id="feature_row1" %}
-{% include feature_row id="feature_row2" %}
+## Languages
+{% include feature_row id="feature_row_languages" %}
+
+{% include feature_row id="feature_row_children" %}
 
 ## Featured Poem in Translation: [Elegia ao Novo Mundo](https://narlanmatos.github.io/poetry/poems/elegia-ao-novo-mundo/)
 
