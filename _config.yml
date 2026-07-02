@@ -304,6 +304,10 @@ collections:
     output: true
     permalink: /poetry/poems/:name/
 
+  languages:
+    output: true
+    permalink: /translations/languages/:name/
+
 # Defaults
 defaults:
   - scope:
@@ -325,5 +329,21 @@ defaults:
       type: anthologies
     values:
       layout: single
+      author_profile: false
+
+  - scope:
+      path: ""
+      type: poems
+    values:
+      layout: single
+      classes: wide
+      author_profile: false
+
+  - scope:
+      path: ""
+      type: languages
+    values:
+      layout: single
+      classes: wide
       author_profile: false
 
