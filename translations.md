@@ -8,23 +8,28 @@ header:
   caption: "Detail from artwork in Narlan Matos' *Antología poética bilingüe*, by legendary Spanish poet and artist Juan Carlos Mestre."
 
 feature_row_languages:
-  - title: "English"
-    image_path: /assets/images/languages/english.jpg
-    url: /translations/languages/english/
-    btn_label: "Read Poetry"
+  - url: /translations/languages/english/
+    btn_label: "English"
     btn_class: "btn--primary"
     
-  - title: "Italian"
-    image_path: /assets/images/languages/italian.jpg
-    url: /translations/languages/italian/
-    btn_label: "Leggi la Poesia"
+  - url: /translations/languages/japanese/
+    btn_label: "Japanese"
+    btn_class: "btn--primary"
+    
+  - url: /translations/languages/italian/
+    btn_label: "Italian"
+    btn_class: "btn--primary"
+    
+  - url: /translations/languages/russian/
+    btn_label: "Russian"
+    btn_class: "btn--primary"
+    
+  - url: /translations/languages/spanish/
+    btn_label: "Spanish"
     btn_class: "btn--primary"
 
-  - image_path: /assets/images/features/languages.jpg
-    title: "All Languages"
-    excerpt: "Translations and performances by language."
-    url: /translations/languages/
-    btn_label: "See All Languages"
+  - url: /translations/languages/
+    btn_label: "All Languages"
     btn_class: "btn--primary"
 
     
