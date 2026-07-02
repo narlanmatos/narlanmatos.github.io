@@ -21,10 +21,16 @@ feature_row_languages:
     btn_label: "Explore Original Poetry"
     btn_class: "btn--primary"
     
-  - title: "Translations in Multiple Languages"
-    excerpt: ""
+  - title: "Read in English"
+    excerpt: "Begin with books and selected poems available in English translation."
+    url: /poetry/
+    btn_label: "Explore English Translations"
+    btn_class: "btn--primary"
+    
+  - title: "Explore World Translations"
+    excerpt: "Discover translations published in numerous languages through books, anthologies, literary journals, and multilingual editions."
     url: /translations/
-    btn_label: "View Translations"
+    btn_label: "Explore All Translations"
     btn_class: "btn--primary"
 
 feature_row_books:
