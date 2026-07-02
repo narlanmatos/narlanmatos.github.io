@@ -14,12 +14,12 @@ feature_row_books:
   - image_path: /assets/images/translations/duet-it.jpg
     title: "Duetto di Punti (Italian Edition)"
     url: translations/duet-it/
-    btn_label: "View Book"
+    btn_label: "Visualizza il Libro"
     btn_class: "btn--primary"
     
 feature_row_j&m:
   - image_path: /assets/images/features/interim.jpg
-    title: "MANCA QUALCOSA NELLA STANZA: La poesia di Narlan Matos"
+    title: "Manca Qualcosa Nella Stanza: La poesia di Narlan Matos"
     excerpt: |
       Translations by Giorgio Mobili
       
