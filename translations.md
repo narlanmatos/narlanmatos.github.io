@@ -16,7 +16,7 @@ feature_row_languages:
     
   - title: "Italian"
     image_path: /assets/images/languages/italian.jpg
-    url: /translations/languages/english/
+    url: /translations/languages/italian/
     btn_label: "Leggi la Poesia"
     btn_class: "btn--primary"
 
