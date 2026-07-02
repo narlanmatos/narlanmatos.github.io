@@ -1,6 +1,6 @@
 ---
 
-title: "Japanese Translations" <!--日本語訳-->
+title: "Japanese Translations"
 
 feature_row_books:    
   - image_path: /assets/images/translations/duet.jpg
