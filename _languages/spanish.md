@@ -32,7 +32,7 @@ feature_row_community_translations:
     title: ""
     excerpt: "Las traducciones al español realizadas por lectores y traductores voluntarios aparecen en Lyrics Translate."
     url: https://lyricstranslate.com/en/narlan-matos-lyrics.html
-    btn_label: "View Translations on Lyrics Translate"
+    btn_label: "Ver Traducciones en Lyrics Translate"
     btn_class: "btn--primary" 
 
 feature_row_performances: 
