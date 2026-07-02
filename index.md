@@ -19,7 +19,7 @@ feature_row_hero:
     
 feature_row_languages:
   - title: "Original Poetry in Portuguese"
-    excerpt: ""
+    excerpt: "Explore Narlan Matos's poetry in its original language through published collections, selected poems, and performances."
     url: /poetry/
     btn_label: "Explore Original Poetry"
     btn_class: "btn--primary"
