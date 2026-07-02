@@ -41,7 +41,7 @@ feature_row:
   - image_path: /assets/images/translations/pesem.jpg
     title: "Pesem o Vetru in Mojem Zivljenju (2015)"
     url: /translations/pesem/
-    btn_label: "Glej Knjigo"
+    btn_label: "View Book"
     btn_class: "btn--primary"
     
 ---
