@@ -10,12 +10,7 @@ header:
 
 
 
-feature_row_Japanese:
-  - image_path: /assets/images/translations/duet.jpg
-    title: "Duet of Dots"
-    url: translations/duet/
-    btn_label: "View Book"
-    btn_class: "btn--primary" 
+
     
 feature_row_languages:
   - url: /translations/languages/english/
