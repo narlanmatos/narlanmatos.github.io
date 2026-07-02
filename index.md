@@ -11,7 +11,7 @@ feature_row_hero:
   - image_path: /assets/images/portraits/Narlan-casa.jpg
   - title: "Narlan Matos"
     excerpt: "Narlan Matos is a Brazilian poet, scholar, and musician whose work explores memory, language, identity, and the human condition. Written originally in Portuguese, his poetry has been translated into numerous languages and published internationally in books, anthologies, literary journals, and multilingual editions."
-    url: /poetry/
+    url: /about/
     btn_label: "Meet Narlan"
     btn_class: "btn--primary"
     
