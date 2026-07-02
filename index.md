@@ -12,8 +12,11 @@ header:
 feature_row_hero: 
   - image_path: /assets/images/portraits/Narlan-casa.jpg
   - title: "Narlan Matos"
-    excerpt: "..."
-
+    excerpt: "Narlan Matos is a Brazilian poet, scholar, and musician whose work explores memory, language, identity, and the human condition. Written originally in Portuguese, his poetry has been translated into numerous languages and published internationally in books, anthologies, literary journals, and multilingual editions."
+    url: /poetry/
+    btn_label: "Meet Narlan"
+    btn_class: "btn--primary"
+    
 feature_row_languages:
   - title: "Original Poetry in Portuguese"
     excerpt: ""
@@ -99,9 +102,6 @@ optional call-to-action: Explore the Poetry or Latest Book-->
 ## Featured Books
 <!--Highlight the most recent or most significant poetry collection with cover, brief description, and link.-->
 {% include feature_row id="feature_row_books" %}
-
-## Introduction
-<!--A concise biography (75–150 words), with a link to the full Biography page.-->
 
 ## Featured Poems
 <!--One to three representative poems or excerpts with links to read more.-->
