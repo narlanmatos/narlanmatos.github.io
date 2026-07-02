@@ -7,10 +7,6 @@ header:
   overlay_image: /assets/images/header.jpg  # header image
   caption: "Detail from artwork in Narlan Matos' *Antología poética bilingüe*, by legendary Spanish poet and artist Juan Carlos Mestre."
 
-
-
-
-
     
 feature_row_languages:
   - url: /translations/languages/english/
@@ -55,8 +51,6 @@ feature_row_languages:
 <!--https://lyricstranslate.com/en/narlan-matos-lyrics.html-->
 
 
-
-
 ## Hindi
 
 ## Lithuanian
@@ -66,9 +60,6 @@ feature_row_languages:
 
 ## Russian
 <!--https://lyricstranslate.com/en/narlan-matos-lyrics.html-->
-
-## Slovenian
-
 
 
 ## Swedish
