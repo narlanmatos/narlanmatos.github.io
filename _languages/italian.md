@@ -39,7 +39,15 @@ feature_row_poems:
     btn_label: "Leggi la Poesia Completa"
     btn_class: "btn--primary" 
   
-    
+feature_row_community_translations:
+  - image_path: /assets/images/translations/lyrics-translate.jpg
+    title: ""
+    excerpt: "Las traducciones al español realizadas por lectores y traductores voluntarios aparecen en Lyrics Translate."
+    url: https://lyricstranslate.com/en/narlan-matos-lyrics.html
+    btn_label: "View Translations on Lyrics Translate"
+    btn_class: "btn--primary" 
+
+feature_row_performances: 
 ---
 
 ## Libri & Antologie
@@ -51,6 +59,10 @@ feature_row_poems:
 
 ## Poesie
 {% include feature_row id="feature_row_poems" %}
+
+## Traduzioni della Community
+
+{% include feature_row id="feature_row_community_translations" %}
 
 
 ## Performance & Letture
