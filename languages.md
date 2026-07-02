@@ -29,6 +29,10 @@ feature_row_languages:
     btn_label: "Russian"
     btn_class: "btn--primary"
     
+  - url: /translations/languages/slovenian/
+    btn_label: "Slovenian"
+    btn_class: "btn--primary"
+    
   - url: /translations/languages/spanish/
     btn_label: "Spanish"
     btn_class: "btn--primary"

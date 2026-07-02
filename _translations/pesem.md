@@ -66,7 +66,7 @@ excerpt: "xxx"
 
 ## Publication
 
-- Publisher: {{ page.publisher }}
+- Publisher: [Center za slovensko književnost](Center za slovensko književnost)
 - Year: {{ page.year }}
 
 
