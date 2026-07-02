@@ -11,10 +11,19 @@ header:
 
 feature_row_hero: 
   - image_path: /assets/images/portraits/Narlan-casa.jpg
-  - title: "Narlan Matos"
-    excerpt: "Brazilian-American poet, scholar, and musician."
+
+
+feature_row_languages:
+  - title: "Original Poetry in Portuguese"
+    excerpt: ""
     url: /poetry/
-    btn_label: "Explore Poetry"
+    btn_label: "Explore Original Poetry"
+    btn_class: "btn--primary"
+    
+  - title: "Translations in Multiple Languages"
+    excerpt: ""
+    url: /translations/
+    btn_label: "View Translations"
     btn_class: "btn--primary"
 
 feature_row_books:
@@ -75,6 +84,11 @@ optional call-to-action: Explore the Poetry or Latest Book-->
 
 {% include feature_row id="feature_row_hero" %}
 
+## Poetry Across Languages
+*Narlan Matos writes original poetry in Portuguese. His work has been translated into multiple languages and published internationally in books, anthologies, literary journals, and multilingual editions, extending its reach across diverse literary and cultural traditions.*
+
+{% include feature_row id="feature_row_languages" %}
+
 ## Featured Books
 <!--Highlight the most recent or most significant poetry collection with cover, brief description, and link.-->
 {% include feature_row id="feature_row_books" %}
@@ -86,9 +100,7 @@ optional call-to-action: Explore the Poetry or Latest Book-->
 <!--One to three representative poems or excerpts with links to read more.-->
 {% include feature_row id="feature_row_poems" %}
 
-## International Reach
-<!--A brief section noting translations, major awards, or publications in multiple languages, linking to the Translations page.-->
-Narlan's poetry has been translated into numerous languages and circulates through both published editions and international literary communities.
+
 
 ## Latest News
 <!--The two or three most recent events, publications, or readings.-->
