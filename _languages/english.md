@@ -9,7 +9,7 @@ feature_row_books:
     btn_label: "View Book"
     btn_class: "btn--primary" 
     
-feature_row_j&m:
+feature_row_jm:
   - image_path: /assets/images/features/interim.jpg
     title: "Ten Poems"
     excerpt: |
@@ -61,7 +61,7 @@ feature_row_performances: []
 
 ## Literary Journals & Magazines
 
-{% include feature_row id="feature_row_j&m" %}
+{% include feature_row id="feature_row_jm" %}
 
 ## Poems
 {% include feature_row id="feature_row_poems" %}

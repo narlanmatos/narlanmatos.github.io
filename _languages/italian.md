@@ -17,7 +17,7 @@ feature_row_books:
     btn_label: "Visualizza il Libro"
     btn_class: "btn--primary"
     
-feature_row_j&m:
+feature_row_jm:
   - image_path: /assets/images/features/interim.jpg
     title: "Manca Qualcosa Nella Stanza: La poesia di Narlan Matos"
     excerpt: |
@@ -55,7 +55,7 @@ feature_row_performances:
 
 ## Riviste & Pubblicazioni Letterarie
 
-{% include feature_row id="feature_row_j&m" %}
+{% include feature_row id="feature_row_jm" %}
 
 ## Poesie
 {% include feature_row id="feature_row_poems" %}

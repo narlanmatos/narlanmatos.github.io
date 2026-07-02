@@ -23,7 +23,7 @@ feature_row_books:
     btn_label: "Ver Libro"
     btn_class: "btn--primary"
 
-feature_row_j&m:
+feature_row_jm:
     
 feature_row_poems:
 
@@ -45,7 +45,7 @@ feature_row_performances:
 
 ## Revistas Literarias
 
-{% include feature_row id="feature_row_j&m" %}
+{% include feature_row id="feature_row_jm" %}
 
 ## Poemas
 {% include feature_row id="feature_row_poems" %}
