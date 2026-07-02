@@ -65,9 +65,9 @@ feature_row_poems:
     btn_label: "Read Full Poem"
     btn_class: "btn--primary"
     
-feature_row_explore:
+feature_row_reception:
   - image_path: /assets/images/features/reception.jpg
-  - excerpt: "Narlan Matos’s poetry has received sustained critical attention in Brazil and internationally, with reviews, essays, and academic studies published across literary journals, anthologies, and scholarly work. Critics and scholars highlight the formal breadth of his poetry and its engagement with language, memory, and cultural exchange."
+  - excerpt: "Narlan Matos’s poetry has received sustained critical attention in Brazil and internationally. It has been the subject of reviews, essays, and academic studies, and is frequently discussed within the broader context of contemporary Latin American poetry."  
   - image_path: /assets/images/features/reception.jpg
     title: "Critical Reception"
     excerpt: "Essays, reviews, interviews, and critical responses to the work."
@@ -96,6 +96,7 @@ optional call-to-action: Explore the Poetry or Latest Book-->
 {% include feature_row id="feature_row_poems" %}
 
 ## Critical Reception
+{% include feature_row id="feature_row_reception" %}
 
 ## Latest News
 <!--The two or three most recent events, publications, or readings.-->
