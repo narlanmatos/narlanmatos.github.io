@@ -41,11 +41,7 @@ feature_row_languages:
     
 ---
 
-*The poetry of Narlan Matos has been translated from Portuguese and published in multiple languages and [countries](/translations/countries/).
-While some translations have appeared as complete books, others have been published in anthologies, literary journals, newspapers, and online magazines.
-
-This page links to translations and bilingual editions by language.
-Entries include original books, anthologies, periodical publications, festival publications or recordings, and translations of individual poems.*
+*This page links to translations and bilingual editions by language.Entries include original books, anthologies, periodical publications, festival publications or recordings, and translations of individual poems.*
 
 {% include feature_row id="feature_row_languages" %}
 
