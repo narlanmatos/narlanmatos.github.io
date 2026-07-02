@@ -1,6 +1,4 @@
 ---
-layout: single
-classes: wide
 
 id: elegia-ao-novo-mundo
 

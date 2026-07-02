@@ -1,6 +1,4 @@
 ---
-layout: single
-classes: wide
 
 type: poem
 
