@@ -14,7 +14,7 @@ feature_row_books:
     
 ---
 
-
+# 日本語訳
 ## 書籍やアンソロジー 
 {% include feature_row id="feature_row_books" %}
 
