@@ -8,19 +8,19 @@ feature_row_books:
   - image_path: /assets/images/translations/como-nacen.jpg
     title: "Cómo nacen las estrellas"
     url: /translations/como-nacen/
-    btn_label: "View Book"
+    btn_label: "Ver Libro"
     btn_class: "btn--primary"
     
   - image_path: /assets/images/translations/antologia.jpg
     title: "Antología Poética Bilingüe"
     url: /translations/antologia/
-    btn_label: "View Book"
+    btn_label: "Ver Libro"
     btn_class: "btn--primary"
     
   - image_path: /assets/images/translations/duet-es.jpg
     title: "Dueto de puntos (Spanish Edition; 2020)"
     url: translations/duet-es/
-    btn_label: "View Book"
+    btn_label: "Ver Libro"
     btn_class: "btn--primary"
 
 feature_row_j&m:
