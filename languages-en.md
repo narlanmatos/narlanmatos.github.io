@@ -1,7 +1,7 @@
 ---
 
-title: "Translations by Language"
-permalink: /translations/languages/
+title: "English Translations"
+permalink: /translations/languages/languages-en
 layout: splash
 header:
   overlay_image: /assets/images/header.jpg  # header image
