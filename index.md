@@ -24,7 +24,7 @@ feature_row_languages:
     
   - title: "Read in English"
     excerpt: "Begin with books and selected poems available in English translation."
-    url: /poetry/
+    url: /translations/languages/english/
     btn_label: "Explore English Translations"
     btn_class: "btn--primary"
     
