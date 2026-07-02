@@ -68,9 +68,6 @@ feature_row_poems:
 feature_row_reception:
   - image_path: /assets/images/features/reception.jpg
   - excerpt: "Narlan Matos’s poetry has received sustained critical attention in Brazil and internationally. It has been the subject of reviews, essays, and academic studies, and is frequently discussed within the broader context of contemporary Latin American poetry."  
-  - image_path: /assets/images/features/reception.jpg
-    title: "Critical Reception"
-    excerpt: "Essays, reviews, interviews, and critical responses to the work."
     url: "/reception/"
     btn_label: "Read Criticism"
     btn_class: "btn--primary"
@@ -82,7 +79,7 @@ optional call-to-action: Explore the Poetry or Latest Book-->
 
 {% include feature_row id="feature_row_hero" %}
 
-## Poetry Across Languages
+# Poetry Across Languages
 *Narlan Matos writes original poetry in Portuguese. His work has been translated into multiple languages and published internationally in books, anthologies, literary journals, and multilingual editions, extending its reach across diverse literary and cultural traditions.*
 
 {% include feature_row id="feature_row_languages" %}
@@ -98,10 +95,13 @@ optional call-to-action: Explore the Poetry or Latest Book-->
 ## Critical Reception
 {% include feature_row id="feature_row_reception" %}
 
-## Latest News
+# Culture Across Borders
+
+# Music
+
+# Latest News
 <!--The two or three most recent events, publications, or readings.-->
 
-## Explore the Archive
 
 <!--Visual cards linking to the site's major sections:
 Poetry
