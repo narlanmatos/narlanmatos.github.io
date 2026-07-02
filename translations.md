@@ -10,11 +10,13 @@ header:
 feature_row_languages:
   - title: "English"
     image_path: /assets/images/languages/english.jpg
+    url: /translations/languages/english/
     btn_label: "Read Poetry"
     btn_class: "btn--primary"
     
-  - title: "Italiano"
+  - title: "Italian"
     image_path: /assets/images/languages/italian.jpg
+    url: /translations/languages/english/
     btn_label: "Leggi la Poesia"
     btn_class: "btn--primary"
 
