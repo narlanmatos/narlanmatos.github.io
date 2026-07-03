@@ -56,14 +56,25 @@ feature_row_books:
 
 feature_row_poems:
   - image_path: /assets/images/feature/xx.jpg
-    title: "Elegia ao Novo Mundo"
+    title: "Featured Poem (Portuguese)"
     excerpt: |
+      <b>Elegia ao Novo Mundo</b>  
+      
       Tu me perguntas meu amigo
       
       Onde eu estive durante meu longo silêncio...
     url: https://narlanmatos.github.io/poetry/poems/elegia-ao-novo-mundo/
     btn_label: "Read Full Poem"
     btn_class: "btn--primary"
+  - image_path: /assets/images/features/english.jpg
+    title: "Elegy to the New World"
+    excerpt: |
+      You ask me, my companion 
+      
+      Where had I been during my long silence...
+    url: poetry/poems/elegia-ao-novo-mundo-en/
+    btn_label: "Read Full Poem"
+    btn_class: "btn--primary" 
   - image_path: /assets/images/feature/xx.jpg
     title: "Featured Reading"
     excerpt: "Watch Narlan Matos reading a selection of poems at the 2012 Druskininkai International Fall Poetic Festival."
