@@ -101,7 +101,7 @@ feature_row_beyond:
     url: "/scholarship/"
     btn_label: "Learn More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/features/music.jpg
+  - image_path: /assets/images/portraits/guitar.jpeg
     title: "Music"
     excerpt: "Musical compositions and collaborations extending poetic language into sound, performance, and recorded work."  
     url: "/music/"
