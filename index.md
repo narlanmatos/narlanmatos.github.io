@@ -56,7 +56,7 @@ feature_row_books:
 
 feature_row_poems:
   - image_path: /assets/images/feature/xx.jpg
-    title: "Featured Poem (Portuguese)"
+    title: "Featured Portuguese Original"
     excerpt: |
       <b>Elegia ao Novo Mundo</b>  
       
@@ -67,8 +67,10 @@ feature_row_poems:
     btn_label: "Read Full Poem"
     btn_class: "btn--primary"
   - image_path: /assets/images/features/english.jpg
-    title: "Elegy to the New World"
+    title: "Featured English Translation"
     excerpt: |
+      <b>Elegy to the New World</b> 
+      
       You ask me, my companion 
       
       Where had I been during my long silence...
@@ -77,7 +79,7 @@ feature_row_poems:
     btn_class: "btn--primary" 
   - image_path: /assets/images/feature/xx.jpg
     title: "Featured Reading"
-    excerpt: "Watch Narlan Matos reading a selection of poems at the 2012 Druskininkai International Fall Poetic Festival."
+    excerpt: "Watch Narlan Matos reading a selection of poems, starting with <b>Elegy to the New World</b>, at the 2012 Druskininkai International Fall Poetic Festival."
     url: https://narlanmatos.github.io/poetry/performances#druskininkai-international-fall-poetic-festival-lithuania-2012/
     btn_label: "Watch the Readings"
     btn_class: "btn--primary"
