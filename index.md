@@ -92,6 +92,20 @@ feature_row_reception:
     btn_class: "btn--primary"
   - image_path: /assets/images/features/quotes.jpg
     
+feature_row_beyond:
+  - image_path: /assets/images/features/scholarship.jpg
+    title: "Scholarship"
+    excerpt: "..."  
+    url: "/scholarship/"
+    btn_label: "Learn More"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/features/music.jpg
+    title: "Music"
+    excerpt: "..."  
+    url: "/music/"
+    btn_label: "Listen"
+    btn_class: "btn--primary"
+    
 feature_row_events:
   - image_path: /assets/images/events/poetas_iberoamericanos.jpg
     excerpt: "Narlan Matos will participate in the *XXIX Encuentro de Poetas Iberoamericanos* in Salamanca, Spain."  
@@ -122,9 +136,7 @@ optional call-to-action: Explore the Poetry or Latest Book-->
 # Critical Reception
 {% include feature_row id="feature_row_reception" %}
 
-<!--# Cultural Scholarship
-
-# Music-->
+# Beyond Poetry
 
 # Latest News
 <!--The two or three most recent events, publications, or readings.-->
