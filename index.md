@@ -95,13 +95,13 @@ feature_row_reception:
 feature_row_beyond:
   - image_path: /assets/images/features/scholarship.jpg
     title: "Scholarship"
-    excerpt: "..."  
+    excerpt: "Academic research in Latin American literature and culture."  
     url: "/scholarship/"
     btn_label: "Learn More"
     btn_class: "btn--primary"
   - image_path: /assets/images/features/music.jpg
     title: "Music"
-    excerpt: "..."  
+    excerpt: "Musical compositions and collaborations extending poetic language into sound, performance, and recorded work."  
     url: "/music/"
     btn_label: "Listen"
     btn_class: "btn--primary"
