@@ -38,19 +38,19 @@ feature_row_books:
   - image_path: /assets/images/books/rebanhos.jpg
     title: "Rebanhos de Estrelas"
     excerpt: ""
-    url: poetry/books/rebanhos/
+    url: /poetry/books/rebanhos/
     btn_label: "View Book"
     btn_class: "btn--primary"
   - image_path: /assets/images/books/narciso.jpg
     title: "Narciso selvagem"
     excerpt: ""
-    url: poetry/books/narciso/
+    url: /poetry/books/narciso/
     btn_label: "View Book"
     btn_class: "btn--primary"
   - image_path: /assets/images/books/canto.jpg
     title: "Canto aos Homens de Boa Vontade"
     excerpt: ""
-    url: poetry/books/canto/
+    url: /poetry/books/canto/
     btn_label: "View Book"
     btn_class: "btn--primary"
 
@@ -74,7 +74,7 @@ feature_row_poems:
       You ask me, my companion 
       
       Where had I been during my long silence...
-    url: poetry/poems/elegia-ao-novo-mundo-en/
+    url: /poetry/poems/elegia-ao-novo-mundo-en/
     btn_label: "Read Full Poem"
     btn_class: "btn--primary" 
   - image_path: /assets/images/feature/xx.jpg
@@ -141,7 +141,7 @@ optional call-to-action: Explore the Poetry or Latest Book-->
 
 # Latest News
 <!--The two or three most recent events, publications, or readings.-->
-{% include feature_row id="feature_row_news" %}
+{% include feature_row id="feature_row_events" %}
 
 
 
