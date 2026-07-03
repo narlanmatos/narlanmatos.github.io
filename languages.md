@@ -40,7 +40,7 @@ feature_row_languages:
     
 ---
 
-*This page links to translations and bilingual editions by language.Entries include original books, anthologies, periodical publications, festival publications or recordings, and translations of individual poems.*
+*This page links to translations and bilingual editions by language. Entries include original books, anthologies, periodical publications, translations of individual poems, and festival publications or recordings.*
 
 {% include feature_row id="feature_row_languages" %}
 
