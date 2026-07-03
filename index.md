@@ -111,20 +111,20 @@ optional call-to-action: Explore the Poetry or Latest Book-->
 
 {% include feature_row id="feature_row_languages" %}
 
-## Experience the Poetry
+# Experience the Poetry
 <!--One to three representative poems or excerpts with links to read more.-->
 {% include feature_row id="feature_row_poems" %}
 
-## Featured Books
+# Featured Books
 <!--Highlight the most recent or most significant poetry collection with cover, brief description, and link.-->
 {% include feature_row id="feature_row_books" %}
 
-## Critical Reception
+# Critical Reception
 {% include feature_row id="feature_row_reception" %}
 
-# Cultural Scholarship
+<!--# Cultural Scholarship
 
-# Music
+# Music-->
 
 # Latest News
 <!--The two or three most recent events, publications, or readings.-->
