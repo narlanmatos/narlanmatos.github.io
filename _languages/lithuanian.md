@@ -10,7 +10,7 @@ title: "Vertimai į Lietuvių Kalbą"
 *Žemiau pateikiami trys Narlano Matoso pasirodymų 2012 m. Druskininkų tarptautiniame rudens poezijos festivalyje vaizdo įrašai su vertimais.*
 <div class="responsive-video-container">
   <iframe
-    src="https://www.youtube.com/embed/I_ol-ZwWP0s&t=6s"
+    src="https://www.youtube.com/embed/I_ol-ZwWP0s"
     title="Elegia ao novo mundo" 
     frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
