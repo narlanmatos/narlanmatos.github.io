@@ -93,7 +93,7 @@ feature_row_reception:
     
 feature_row_events:
   - image_path: /assets/images/events/poetas_iberoamericanos.jpg
-  - excerpt: "Narlan Matos will participate in the *XXIX Encuentro de Poetas Iberoamericanos* in Salamanca, Spain."  
+    excerpt: "Narlan Matos will participate in the *XXIX Encuentro de Poetas Iberoamericanos* in Salamanca, Spain."  
     url: "/events/"
     btn_label: "See all Events"
     btn_class: "btn--primary"
