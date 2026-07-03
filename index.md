@@ -87,12 +87,18 @@ feature_row_books:
     btn_class: "btn--primary"
     
 feature_row_reception:
-  - image_path: /assets/images/portraits/stockholm.jpeg
+  - image_path: /assets/images/features/Luiz.jpg
+    title: "Recognition from Writers and Artists"
+    excerpt: "Watch Brazilian musician Luiz Caldas reflect on the significance of Narlan Matos's poetry."
+    url: "/reception/voices/"
+    btn_label: "Watch Video"
+    btn_class: "btn--primary"
   - excerpt: "Narlan Matos’s poetry has received sustained critical attention in Brazil and internationally. It has been the subject of reviews, essays, and academic studies, and is frequently discussed within the broader context of contemporary Latin American poetry."  
     url: "/reception/"
     btn_label: "Read Criticism"
     btn_class: "btn--primary"
   - image_path: /assets/images/features/quotes.jpg
+
     
 feature_row_beyond:
   - image_path: /assets/images/portraits/books.jpg

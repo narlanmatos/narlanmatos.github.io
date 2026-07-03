@@ -49,6 +49,8 @@ main:
   - title: "Critical Reception"
     url: /reception/
     children:
+      - title: "Voices"
+        url: /reception/voices/
       - title: "Reviews"
         url: /reception/reviews/
       - title: "Critical Essays"

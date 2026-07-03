@@ -9,6 +9,13 @@ header:
 
 feature_row:
   - image_path: /assets/images/features/xx.jpg
+    title: "Voices"
+    excerpt: "Includes video tributes, reflections, and appreciations by writers, musicians, and other cultural figures."
+    url: /reception/voices/
+    btn_label: "Explore"
+    btn_class: "btn--primary"
+    
+  - image_path: /assets/images/features/xx.jpg
     title: "Reviews"
     excerpt: "Contemporary reviews of poetry collections published in literary journals, newspapers, magazines, and online publications."
     url: /reception/reviews/
