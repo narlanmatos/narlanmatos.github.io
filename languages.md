@@ -57,7 +57,6 @@ feature_row_languages:
 
 ## Hindi
 
-## Lithuanian
 
 ## Persian
 <!--https://lyricstranslate.com/en/narlan-matos-lyrics.html-->
