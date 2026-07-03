@@ -64,6 +64,12 @@ feature_row_poems:
     url: https://narlanmatos.github.io/poetry/poems/elegia-ao-novo-mundo/
     btn_label: "Read Full Poem"
     btn_class: "btn--primary"
+  - image_path: /assets/images/feature/xx.jpg
+    title: "Featured Reading"
+    excerpt: "Watch Narlan Matos reading a selection of poems at the 2012 Druskininkai International Fall Poetic Festival."
+    url: https://narlanmatos.github.io/poetry/performances#druskininkai-international-fall-poetic-festival-lithuania-2012/
+    btn_label: "Watch the Readings"
+    btn_class: "btn--primary"
     
 feature_row_reception:
   - image_path: /assets/images/features/reception.jpg
@@ -88,7 +94,7 @@ optional call-to-action: Explore the Poetry or Latest Book-->
 <!--Highlight the most recent or most significant poetry collection with cover, brief description, and link.-->
 {% include feature_row id="feature_row_books" %}
 
-## Featured Poems
+## Experience the Poetry
 <!--One to three representative poems or excerpts with links to read more.-->
 {% include feature_row id="feature_row_poems" %}
 
