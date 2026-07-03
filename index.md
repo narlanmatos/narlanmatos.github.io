@@ -137,18 +137,11 @@ optional call-to-action: Explore the Poetry or Latest Book-->
 {% include feature_row id="feature_row_reception" %}
 
 # Beyond Poetry
+{% include feature_row id="feature_row_beyond" %}
 
 # Latest News
 <!--The two or three most recent events, publications, or readings.-->
+{% include feature_row id="feature_row_news" %}
 
-
-<!--Visual cards linking to the site's major sections:
-Poetry
-Translations
-Critical Reception
-Scholarship
-Music-->
-
-{% include feature_row id="feature_row_explore" %}
 
 
