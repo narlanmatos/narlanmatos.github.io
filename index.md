@@ -85,7 +85,7 @@ feature_row_poems:
     btn_class: "btn--primary"
     
 feature_row_reception:
-  - image_path: /assets/images/features/reception.jpg
+  - image_path: /assets/images/features/quotes.jpg
   - excerpt: "Narlan Matos’s poetry has received sustained critical attention in Brazil and internationally. It has been the subject of reviews, essays, and academic studies, and is frequently discussed within the broader context of contemporary Latin American poetry."  
     url: "/reception/"
     btn_label: "Read Criticism"
