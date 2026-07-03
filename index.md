@@ -34,25 +34,7 @@ feature_row_languages:
     btn_label: "Explore All Translations"
     btn_class: "btn--primary"
 
-feature_row_books:
-  - image_path: /assets/images/books/rebanhos.jpg
-    title: "Rebanhos de Estrelas"
-    excerpt: ""
-    url: /poetry/books/rebanhos/
-    btn_label: "View Book"
-    btn_class: "btn--primary"
-  - image_path: /assets/images/books/narciso.jpg
-    title: "Narciso selvagem"
-    excerpt: ""
-    url: /poetry/books/narciso/
-    btn_label: "View Book"
-    btn_class: "btn--primary"
-  - image_path: /assets/images/books/canto.jpg
-    title: "Canto aos Homens de Boa Vontade"
-    excerpt: ""
-    url: /poetry/books/canto/
-    btn_label: "View Book"
-    btn_class: "btn--primary"
+
 
 feature_row_poems:
   - image_path: /assets/images/feature/xx.jpg
@@ -82,6 +64,26 @@ feature_row_poems:
     excerpt: "Watch Narlan Matos reading a selection of poems, starting with <b>Elegy to the New World</b>, at the 2012 Druskininkai International Fall Poetic Festival."
     url: https://narlanmatos.github.io/poetry/performances#druskininkai-international-fall-poetic-festival-lithuania-2012/
     btn_label: "Watch the Readings"
+    btn_class: "btn--primary"
+
+feature_row_books:
+  - image_path: /assets/images/books/rebanhos.jpg
+    title: "Rebanhos de Estrelas"
+    excerpt: ""
+    url: /poetry/books/rebanhos/
+    btn_label: "View Book"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/books/narciso.jpg
+    title: "Narciso selvagem"
+    excerpt: ""
+    url: /poetry/books/narciso/
+    btn_label: "View Book"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/books/canto.jpg
+    title: "Canto aos Homens de Boa Vontade"
+    excerpt: ""
+    url: /poetry/books/canto/
+    btn_label: "View Book"
     btn_class: "btn--primary"
     
 feature_row_reception:
