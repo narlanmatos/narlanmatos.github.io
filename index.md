@@ -87,7 +87,7 @@ feature_row_books:
     btn_class: "btn--primary"
     
 feature_row_reception:
-  - image_path: /assets/images/portraits/Narlan-stockholm-2013.jpg
+  - image_path: /assets/images/portraits/stockholm.jpeg
   - excerpt: "Narlan Matos’s poetry has received sustained critical attention in Brazil and internationally. It has been the subject of reviews, essays, and academic studies, and is frequently discussed within the broader context of contemporary Latin American poetry."  
     url: "/reception/"
     btn_label: "Read Criticism"
