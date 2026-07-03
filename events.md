@@ -16,6 +16,8 @@ Oct. 2026: XXIX Encuentro de Poetas Iberoamericanos; Salamanca, Spain
 
 # Past Events
 
+2023: Narlan participated in the [New Orleans Poetry Festival](https://nolapoetry.com/user/926).
+
 2020: *Sarao no Pátio das Flores*, a recitation of Narlan's poetry by Luiz Caldas, released. Listen on [Luiz Caldas's webpage](https://www.luizcaldas.com.br/)!
 
 2017: Narlan organized and led the [first delegation of US Poets to Cuba](https://gwhatchet.com/2017/09/07/professor-leads-poet-group-on-historic-trip-to-cuba/).
