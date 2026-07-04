@@ -100,7 +100,7 @@ feature_row_reception:
   - image_path: /assets/images/features/quotes.jpg
     title: "Writers' Voices"
     excerpt: "Read responses of other writers to the work of Narlan Matos."
-    url: "/reception/voices/"
+    url: "/reception/voices/#writers-and-poets"
     btn_label: "More Voices"
     btn_class: "btn--primary"
 
