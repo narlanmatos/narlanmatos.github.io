@@ -27,7 +27,7 @@ Brief introduction (60–80 words)
 
 Music forms another dimension of Narlan Matos's creative work. Alongside his poetry, he has written lyrics, collaborated with musicians, and contributed to recordings that bring literary language into dialogue with Brazilian musical traditions.-->
 
-## Featured Album
+# Featured Album
 
 {% include feature_row id="feature_row_album" %}
 <!--Featured Songs
