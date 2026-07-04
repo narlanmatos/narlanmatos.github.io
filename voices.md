@@ -11,6 +11,13 @@ header:
     
 ---
 
-Page under development.
 
-<!--LUIZ VIDEO-->
+
+
+
+# Luiz Caldas
+
+<video controls preload="metadata" width="100%" poster="/assets/images/features/luiz-caldas.jpg">
+  <source src="/assets/videos/luiz-caldas.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
