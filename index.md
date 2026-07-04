@@ -92,7 +92,7 @@ feature_row_reception:
     excerpt:  |
       <b>\"One of the best poets we have in the world.\" - Luiz Caldas</b>  
       
-      Watch acclaimed Brazilian musician Luiz Caldas reflect on the significance of Narlan Matos's poetry.
+      Watch acclaimed Brazilian musician Luiz Caldas speak about Narlan Matos and their collaborative work.
     url: "/reception/voices/#luiz-caldas"
     btn_label: "Watch Video"
     btn_class: "btn--primary"
