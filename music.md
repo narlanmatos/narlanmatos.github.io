@@ -7,7 +7,13 @@ header:
   overlay_image: /assets/images/header.jpg  # header image
   caption: "Detail from artwork in Narlan Matos' *Antología poética bilingüe*, by legendary Spanish poet and artist Juan Carlos Mestre."
 
-
+feature_row_album:
+  - image_path: /assets/images/music/bossa-negra-cover.jpg
+    title: "Bossa Negra"
+    excerpt: ""
+    url: /music/album/
+    btn_label: "View Album"
+    btn_class: "btn--primary"
     
 ---
 
@@ -18,16 +24,12 @@ Hero
 
 Brief introduction (60–80 words)
 
-Music forms another dimension of Narlan Matos's creative work. Alongside his poetry, he has written lyrics, collaborated with musicians, and contributed to recordings that bring literary language into dialogue with Brazilian musical traditions.
+Music forms another dimension of Narlan Matos's creative work. Alongside his poetry, he has written lyrics, collaborated with musicians, and contributed to recordings that bring literary language into dialogue with Brazilian musical traditions.-->
 
-Featured Album
+## Featured Album
 
-One feature card:
-
-cover
-short description
-View Album
-Featured Songs
+{% include feature_row id="feature_row_album" %}
+<!--Featured Songs
 
 Three or four feature cards.
 
