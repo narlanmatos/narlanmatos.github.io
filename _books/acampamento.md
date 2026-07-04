@@ -61,23 +61,6 @@ In 2001, it won the Prêmio Xerox de Literatura Brasileira (Xerox Prize for Braz
 </p>
 {% endif %}
 
---- 
-
-## International Reception
-
-{% if page.translation_languages %}
-<p>Poems from <em>{{ page.title }}</em> have appeared in translation in {% assign langs = page.translation_languages %}{% if langs.size == 1 %}{{ langs[0] }}{% elsif langs.size == 2 %}{{ langs[0] }} and {{ langs[1] }}{% else %}{% for lang in langs %}{% if forloop.last %}and {{ lang }}{% else %}{{ lang }}{% unless forloop.index == langs.size | minus: 1 %}, {% endunless %}{% endif %}{% endfor %}{% endif %}.</p>
-{% endif %}
-
-### *Italian Translation*
-[Selected Poems translated by Manuela Colombo, published by *Fili d’Aquilone*](https://www.filidaquilone.it/num063colombo.html)
-
-## Reviews
-
-- Colombo, Manuela. “Narlan Matos, Narciso selvagem.” *Fili d’Aquilone*, no. 63 (2023). Italian introduction and translations from *Narciso selvagem*. [Read article](https://www.filidaquilone.it/num063colombo.html).
-
-
-
 
 
 {% if page.buy_link %}
