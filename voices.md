@@ -11,6 +11,9 @@ header:
     
 ---
 
+*This page brings together selected reflections and responses from across the international literary and artistic community.*
+
+---
 
 # Luiz Caldas
 
