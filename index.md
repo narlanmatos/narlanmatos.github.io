@@ -92,7 +92,7 @@ feature_row_reception:
     excerpt:  |
       <b>\"One of the best poets we have in the world.\" - Luiz Caldas</b>  
       
-      Watch acclaimed Brazilian musician Luiz Caldas speak about Narlan Matos and their collaborative work.
+      Watch acclaimed Brazilian musician Luiz Caldas introduce Narlan Matos and speak about their collaborative work.
     url: "/reception/voices/#luiz-caldas"
     btn_label: "Watch Video"
     btn_class: "btn--primary"
@@ -106,7 +106,7 @@ feature_row_reception:
 
   - image_path: /assets/images/features/quotes.jpg
     title: "Selected Perspectives"
-    excerpt: "Read reflections by poets, translators, critics, and scholars on the themes, style, and international reception of Narlan Matos's work."
+    excerpt: "Read responses of other writers and poets to the work of Narlan Matos."
     url: "/reception/voices/"
     btn_label: "Read Perspectives"
     btn_class: "btn--primary"
