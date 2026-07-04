@@ -87,7 +87,7 @@ feature_row_books:
     btn_class: "btn--primary"
     
 feature_row_reception:
-  - image_path: /assets/images/features/Luiz.jpg
+  - image_path: /assets/images/features/luiz-caldas.jpg
     title: "Recognition from Writers and Artists"
     excerpt: "Watch Brazilian musician Luiz Caldas reflect on the significance of Narlan Matos's poetry."
     url: "/reception/voices/"
