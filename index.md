@@ -96,20 +96,22 @@ feature_row_reception:
     url: "/reception/voices/#luiz-caldas"
     btn_label: "Watch Video"
     btn_class: "btn--primary"
+    
+  - image_path: /assets/images/features/quotes.jpg
+    title: "Writers' Voices"
+    excerpt: "Read responses of other writers to the work of Narlan Matos."
+    url: "/reception/voices/"
+    btn_label: "More Voices"
+    btn_class: "btn--primary"
 
   - image_path: /assets/images/portraits/stockholm.jpeg
-    title: "Critical Reception"
+    title: "Literary Criticism"
     excerpt: "Narlan Matos's poetry has attracted sustained critical attention in Brazil and abroad through reviews, critical essays, interviews, and academic studies, situating his work within contemporary Latin American poetry."
     url: "/reception/"
     btn_label: "Explore Reception"
     btn_class: "btn--primary"
 
-  - image_path: /assets/images/features/quotes.jpg
-    title: "Selected Perspectives"
-    excerpt: "Read responses of other writers and poets to the work of Narlan Matos."
-    url: "/reception/voices/"
-    btn_label: "Read Perspectives"
-    btn_class: "btn--primary"
+
 
     
 feature_row_beyond:
