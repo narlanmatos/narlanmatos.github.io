@@ -89,7 +89,10 @@ feature_row_books:
 feature_row_reception:
   - image_path: /assets/images/features/luiz-caldas.jpg
     title: "Voices from the Arts"
-    excerpt: "\"One of the best poets we have in the world.\" Watch acclaimed Brazilian musician Luiz Caldas reflect on the significance of Narlan Matos's poetry."
+    excerpt:  |
+      <b>\"One of the best poets we have in the world.\" - Luiz Caldas</b>  
+      
+      Watch acclaimed Brazilian musician Luiz Caldas reflect on the significance of Narlan Matos's poetry.
     url: "/reception/voices/#luiz-caldas"
     btn_label: "Watch Video"
     btn_class: "btn--primary"
