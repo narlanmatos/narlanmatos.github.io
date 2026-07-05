@@ -9,9 +9,7 @@ header:
     
 ---
 
-*This page is currently under development.*
 
----
 
 # Featured Artwork: Juan Carlos Mestre
 
