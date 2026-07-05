@@ -1,6 +1,6 @@
 ---
 
-title: "Critical Reception"
+title: "Reception"
 permalink: /reception/
 layout: splash
 header:
@@ -41,6 +41,20 @@ feature_row:
     excerpt: "Scholarly articles, book chapters, theses, dissertations, conference papers, and other academic research."
     url: /reception/academic-studies/
     btn_label: "Explore Research"
+    btn_class: "btn--primary"
+    
+  - image_path: /assets/images/features/xx.jpg
+    title: "Academic Studies"
+    excerpt: "Scholarly articles, book chapters, theses, dissertations, conference papers, and other academic research."
+    url: /reception/academic-studies/
+    btn_label: "Explore Research"
+    btn_class: "btn--primary"
+    
+  - image_path: /assets/images/features/xx.jpg
+    title: "Visual Responses"
+    excerpt: "..."
+    url: /reception/visual-art/
+    btn_label: "Explore the Gallery"
     btn_class: "btn--primary"
 
   - image_path: /assets/images/features/xx.jpg

@@ -46,7 +46,7 @@ main:
         url: /translations/languages/
 
 
-  - title: "Critical Reception"
+  - title: "Reception"
     url: /reception/
     children:
       - title: "Voices"
@@ -59,6 +59,8 @@ main:
         url: /reception/interviews/
       - title: "Academic Studies"
         url: /reception/academic-studies/
+      - title: "Visual Responses"
+        url: /reception/visual-art/
       - title: "Media Coverage"
         url: /reception/media/
 

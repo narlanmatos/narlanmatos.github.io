@@ -103,6 +103,13 @@ feature_row_reception:
     url: "/reception/voices/#writers-and-poets"
     btn_label: "More Voices"
     btn_class: "btn--primary"
+    
+  - image_path: /assets/images/features/xx.jpg
+    title: "Visual Responses"
+    excerpt: "Narlan Matos's poetry has inspired original artwork by celebrated artists, including Juan Carlos Mestre."
+    url: "/reception/visual-art/"
+    btn_label: "Explore the Gallery"
+    btn_class: "btn--primary"
 
   - image_path: /assets/images/portraits/stockholm.jpeg
     title: "Literary Criticism"
