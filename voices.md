@@ -29,15 +29,15 @@ Acclaimed Brazilian musician Luiz Caldas introduces Narlan Matos and their colla
 
 # Writers and Poets
 
-**"the best poet of the young generation" - _Waly Salomão_**
+"the best poet of the young generation" - _Waly Salomão_
 
-**"a breath of fresh air" - _Robert Creeley_**
+"a breath of fresh air" - _Robert Creeley_
 
-**"Dear brother, I bless you. You are a true poet, not only for your verses but also for your character" - _Yevgeny Yevtushenko_**
+"Dear brother, I bless you. You are a true poet, not only for your verses but also for your character" - _Yevgeny Yevtushenko_
 
-**"The first poems pleased me and encouraged me to continue reading.... There is no doubt that this is the book of a poet, and that is what matters" - _Ferreira Gullar_**
+"The first poems pleased me and encouraged me to continue reading.... There is no doubt that this is the book of a poet, and that is what matters" - _Ferreira Gullar_
 
-**"What impressed me about the poetry of Narlan Matos Teixeira was his consummate art of dealing with the word, his servant and his accomplice, in the creation of unexpectedly beautiful things, hard to find every day." - _Herberto Sales_**
+"What impressed me about the poetry of Narlan Matos Teixeira was his consummate art of dealing with the word, his servant and his accomplice, in the creation of unexpectedly beautiful things, hard to find every day." - _Herberto Sales_
 
 
 
