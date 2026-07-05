@@ -15,11 +15,7 @@ artist: Narlan Matos & Cesar Rasec
 collaborators:
   - Luiz Caldas
 
-feature_row_songs:  
-  - title: "Sopro da Alegria (Tô, tô, tô...)"
-    url: "https://music.apple.com/us/song/sopro-da-alegria-t%C3%B4-t%C3%B4-t%C3%B4-feat-luiz-caldas/494187305"
-    btn_label: "Listen on iTunes"
-    btn_class: "btn--primary"
+
 
 feature_row_links:
   - url: "https://music.apple.com/us/album/bossa-negra-feat-luiz-caldas/494187247"
@@ -35,13 +31,10 @@ feature_row_links:
     btn_class: "btn--primary"
 ---
 
-## About
+# Bossa Negra
+### Narlan Matos & César Rasec | Featuring Luiz Caldas
+### 2011
 
-<!--Description of the project.-->
-
-## Selected Songs
-
-{% include feature_row id="feature_row_songs" %}
 
 ## Track Listing 
 

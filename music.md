@@ -16,12 +16,10 @@ feature_row_album:
     btn_label: "View Album"
     btn_class: "btn--primary"
 
-feature_row_songs:
-  - image_path: /assets/images/music/xx.jpg
-    title: "Sopra de Alegria"
-    excerpt: ""
-    url: /music/album/
-    btn_label: "Listen"
+feature_row_songs:  
+  - title: "Sopro da Alegria (Tô, tô, tô...)"
+    url: "https://music.apple.com/us/song/sopro-da-alegria-t%C3%B4-t%C3%B4-t%C3%B4-feat-luiz-caldas/494187305"
+    btn_label: "Listen on iTunes"
     btn_class: "btn--primary"
     
 feature_row_collaborations:
