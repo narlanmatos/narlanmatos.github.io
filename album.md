@@ -24,9 +24,11 @@ feature_row_links:
   - url: "https://music.apple.com/us/album/bossa-negra-feat-luiz-caldas/494187247"
     btn_label: "iTunes"
     btn_class: "btn--primary"
+    
   - url: "https://open.spotify.com/album/6YUYMvJx4qBUCTrWlvTtU9"
     btn_label: "Spotify"
     btn_class: "btn--primary"
+    
   - url: "https://www.amazon.com/dp/B006XDS4C4/"
     btn_label: "Amazon"
     btn_class: "btn--primary"
@@ -38,7 +40,7 @@ feature_row_links:
 
 ## Track Listing 
 
-1. [Sopro da Alegria (Tô, tô, tô...)](https://music.apple.com/us/song/sopro-da-alegria-t%C3%B4-t%C3%B4-t%C3%B4-feat-luiz-caldas/494187305)
+1. Sopro da Alegria (Tô, tô, tô...)
 
 2. Samba de Obama
 
