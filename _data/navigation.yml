@@ -62,9 +62,6 @@ main:
       - title: "Media Coverage"
         url: /reception/media/
 
-  - title: "Scholarship"
-    url: /scholarship/
-
   - title: "Music"
     url: /music/
     children:
@@ -76,6 +73,10 @@ main:
         url: /music/collaborations/
       - title: "Lyrics"
         url: /music/lyrics/
+
+  - title: "Scholarship"
+    url: /scholarship/
+
 
   - title: "News & Events"
     url: /events/

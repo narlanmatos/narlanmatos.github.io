@@ -115,18 +115,19 @@ feature_row_reception:
 
     
 feature_row_beyond:
-  - image_path: /assets/images/portraits/books.jpg
-    title: "Scholarship"
-    excerpt: "Academic research in Latin American literature and culture."  
-    url: "/scholarship/"
-    btn_label: "Learn More"
-    btn_class: "btn--primary"
   - image_path: /assets/images/portraits/guitar.jpg
     title: "Music"
     excerpt: "Musical compositions and collaborations extending poetic language into sound, performance, and recorded work."  
     url: "/music/"
     btn_label: "Listen"
     btn_class: "btn--primary"
+  - image_path: /assets/images/portraits/books.jpg
+    title: "Scholarship"
+    excerpt: "Academic research in Latin American literature and culture."  
+    url: "/scholarship/"
+    btn_label: "Learn More"
+    btn_class: "btn--primary"
+
     
 feature_row_events:
   - image_path: /assets/images/events/poetas_iberoamericanos.jpg
