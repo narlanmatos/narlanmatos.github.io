@@ -154,6 +154,8 @@ optional call-to-action: Explore the Poetry or Latest Book-->
 {% include feature_row id="feature_row_languages" %}
 
 # Reception
+*The work of Narlan Matos has been received by writers, musicians, and scholars across languages and artistic traditions.*
+
 {% include feature_row id="feature_row_reception" %}
 
 
