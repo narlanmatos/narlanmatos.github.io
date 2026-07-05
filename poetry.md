@@ -4,8 +4,7 @@ layout: splash
 permalink: /poetry/
 header:
   overlay_image: /assets/images/header.jpg  # header image
-  caption: "Detail from artwork in Narlan Matos's *Antología poética bilingüe*, by legendary Spanish poet and artist Juan Carlos Mestre."
-  
+
 feature_row:
   - image_path: /assets/images/features/books.jpg
     title: "Books"
