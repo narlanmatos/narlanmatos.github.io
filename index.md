@@ -102,7 +102,7 @@ feature_row_reception:
     btn_label: "More Voices"
     btn_class: "btn--primary"
     
-  - image_path: /assets/images/visual-art/j-c-mestre1-cropped.png.jpg
+  - image_path: /assets/images/visual-art/j-c-mestre1-cropped.jpg
     title: "Visual Responses"
     excerpt: "Narlan Matos's poetry has inspired original artwork by celebrated artists, including Juan Carlos Mestre."
     url: "/reception/visual-art/"
