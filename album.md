@@ -34,8 +34,26 @@ feature_row_links:
 
 ## Track Listing
 
--<iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/song/sopro-da-alegria-t%C3%B4-t%C3%B4-t%C3%B4-feat-luiz-caldas/494187305"></iframe> 
-...
+1. Sopro da Alegria (Tô, tô, tô...)
+
+2. Samba de Obama
+
+3. Martinica
+
+4. É longe, mas é perto 
+
+5. A minha vizinha
+
+6. Ouro de Ofir
+
+7. El Salvador
+
+8. Gingado da musa
+
+9. Sol de abril
+
+10. Swing de acaso 
+
 
 ## Selected Songs
 
