@@ -44,7 +44,7 @@ feature_row_links:
 
 <div class="responsive-video-container">
   <iframe
-    src="https://www.youtube.com/embed/v=6cg0Q1yf6vo"
+    src="https://www.youtube.com/embed/6cg0Q1yf6vo"
     title="Bossa Negra" 
     frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
