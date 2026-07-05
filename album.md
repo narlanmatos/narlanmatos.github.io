@@ -14,7 +14,11 @@ release: 2011
 artist: Narlan Matos & Cesar Rasec
 collaborators:
   - Luiz Caldas
-  
+
+feature_row_songs:  
+  - url: "https://music.apple.com/us/song/sopro-da-alegria-t%C3%B4-t%C3%B4-t%C3%B4-feat-luiz-caldas/494187305"
+    btn_label: "Sopro da Alegria (Tô, tô, tô...)"
+    btn_class: "btn--primary"
 
 feature_row_links:
   - url: "https://music.apple.com/us/album/bossa-negra-feat-luiz-caldas/494187247"
