@@ -13,6 +13,7 @@ feature_row_hero:
     btn_label: "Meet Narlan"
     btn_class: "btn--primary"
     
+    
 feature_row_languages:
   - title: "Original Poetry in Portuguese"
     excerpt: "Explore Narlan Matos's poetry in its original language through published collections, selected poems, and performances."
@@ -32,6 +33,30 @@ feature_row_languages:
     btn_label: "Explore All Translations"
     btn_class: "btn--primary"
 
+feature_row_reception:
+  - image_path: /assets/images/features/luiz-caldas.jpg
+    title: "Voices from the Arts"
+    excerpt:  |
+      <b>\"One of the best poets we have in the world.\" - Luiz Caldas</b>  
+      
+      Watch acclaimed Brazilian musician Luiz Caldas introduce Narlan Matos and speak about their collaborative work.
+    url: "/reception/voices/#featured-voice-luiz-caldas"
+    btn_label: "Watch Video"
+    btn_class: "btn--primary"
+    
+  - image_path: /assets/images/features/quotes.jpg
+    title: "Writers' Voices"
+    excerpt: "Read responses of other writers to the work of Narlan Matos."
+    url: "/reception/voices/#writers-and-poets"
+    btn_label: "More Voices"
+    btn_class: "btn--primary"
+    
+  - image_path: /assets/images/visual-art/j-c-mestre1-cropped.jpg
+    title: "Visual Responses"
+    excerpt: "Narlan Matos's poetry has inspired original artwork by celebrated artists, including Juan Carlos Mestre."
+    url: "/reception/visual-art/"
+    btn_label: "Explore the Gallery"
+    btn_class: "btn--primary"
 
 
 feature_row_poems:
@@ -84,38 +109,15 @@ feature_row_books:
     btn_label: "View Book"
     btn_class: "btn--primary"
     
-feature_row_reception:
-  - image_path: /assets/images/features/luiz-caldas.jpg
-    title: "Voices from the Arts"
-    excerpt:  |
-      <b>\"One of the best poets we have in the world.\" - Luiz Caldas</b>  
-      
-      Watch acclaimed Brazilian musician Luiz Caldas introduce Narlan Matos and speak about their collaborative work.
-    url: "/reception/voices/#featured-voice-luiz-caldas"
-    btn_label: "Watch Video"
-    btn_class: "btn--primary"
-    
-  - image_path: /assets/images/features/quotes.jpg
-    title: "Writers' Voices"
-    excerpt: "Read responses of other writers to the work of Narlan Matos."
-    url: "/reception/voices/#writers-and-poets"
-    btn_label: "More Voices"
-    btn_class: "btn--primary"
-    
-  - image_path: /assets/images/visual-art/j-c-mestre1-cropped.jpg
-    title: "Visual Responses"
-    excerpt: "Narlan Matos's poetry has inspired original artwork by celebrated artists, including Juan Carlos Mestre."
-    url: "/reception/visual-art/"
-    btn_label: "Explore the Gallery"
-    btn_class: "btn--primary"
 
+
+feature_row_criticm:
   - image_path: /assets/images/portraits/stockholm.jpeg
     title: "Literary Criticism"
     excerpt: "Narlan Matos's poetry has attracted sustained critical attention in Brazil and abroad through reviews, critical essays, interviews, and academic studies, situating his work within contemporary Latin American poetry."
     url: "/reception/"
     btn_label: "Explore Reception"
     btn_class: "btn--primary"
-
     
 feature_row_beyond:
   - image_path: /assets/images/portraits/guitar.jpg
@@ -163,6 +165,8 @@ optional call-to-action: Explore the Poetry or Latest Book-->
 <!--Highlight the most recent or most significant poetry collection with cover, brief description, and link.-->
 {% include feature_row id="feature_row_books" %}
 
+# Critical Reception
+{% include feature_row id="feature_row_criticism" %}
 
 # Beyond Poetry
 {% include feature_row id="feature_row_beyond" %}
