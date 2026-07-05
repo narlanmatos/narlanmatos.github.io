@@ -3,6 +3,8 @@ title: "Bossa Negra"
 layout: single
 permalink: /music/album/
 
+header:
+  overlay_image: /assets/images/music/bossa-negra-banner.jpg
 
 sidebar:
   - image: /assets/images/music/bossa-negra-cover.jpg

@@ -4,6 +4,9 @@ title: "Music"
 permalink: /music/
 layout: splash
 
+
+header:
+  overlay_image: /assets/images/music/bossa-negra-banner.jpg
   
 feature_row_album:
   - image_path: /assets/images/music/bossa-negra-cover.jpg

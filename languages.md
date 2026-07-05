@@ -3,7 +3,8 @@
 title: "Translations by Language"
 permalink: /translations/languages/
 layout: splash
-
+header:
+  overlay_image: /assets/images/header.jpg  # header image
 
     
 feature_row_languages:

@@ -3,7 +3,8 @@
 title: "Books"
 permalink: /poetry/books
 layout: splash
-
+header:
+  overlay_image: /assets/images/header.jpg  # header image
 
 feature_row:
   - image_path: /assets/images/books/rebanhos.jpg

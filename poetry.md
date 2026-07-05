@@ -2,7 +2,8 @@
 title: "Poetry"
 layout: splash
 permalink: /poetry/
-
+header:
+  overlay_image: /assets/images/header.jpg  # header image
 
 feature_row:
   - image_path: /assets/images/features/books.jpg
