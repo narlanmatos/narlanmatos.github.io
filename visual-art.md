@@ -20,6 +20,7 @@ Narlan's publication [Antología Poética Bilingüe](/translations/antologia/) f
   <img src="/assets/images/translations/antologia.jpg">
 </figure>
 
-<!--my painting on Luiz album-->
 
-/assets/images/translations/antologia.jpg
+
+
+<!--my painting on Luiz album-->
