@@ -34,12 +34,6 @@ feature_row:
     btn_label: "See Interviews"
     btn_class: "btn--primary"
 
-  - image_path: /assets/images/features/xx.jpg
-    title: "Academic Studies"
-    excerpt: "Scholarly articles, book chapters, theses, dissertations, conference papers, and other academic research."
-    url: /reception/academic-studies/
-    btn_label: "Explore Research"
-    btn_class: "btn--primary"
     
   - image_path: /assets/images/features/xx.jpg
     title: "Academic Studies"
