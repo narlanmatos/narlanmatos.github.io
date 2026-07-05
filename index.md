@@ -93,7 +93,7 @@ feature_row_reception:
       <b>\"One of the best poets we have in the world.\" - Luiz Caldas</b>  
       
       Watch acclaimed Brazilian musician Luiz Caldas introduce Narlan Matos and speak about their collaborative work.
-    url: "/reception/voices/#luiz-caldas"
+    url: "/reception/voices/#featured-voice-luiz-caldas"
     btn_label: "Watch Video"
     btn_class: "btn--primary"
     
