@@ -38,6 +38,10 @@ feature_row_links:
 
 <!--Description of the project.-->
 
+## Selected Songs
+
+{% include feature_row id="feature_row_songs" %}
+
 ## Track Listing 
 
 1. Sopro da Alegria (Tô, tô, tô...)
@@ -61,9 +65,7 @@ feature_row_links:
 10. Swing de acaso 
 
 
-## Selected Songs
 
-<!--(feature row)-->
 
 ## Listen / Buy
 
