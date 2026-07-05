@@ -2,9 +2,6 @@
 title: "Narlan Matos"
 layout: splash
 permalink: /about/biography/
-header:
-  overlay_image: /assets/images/header.jpg  # header image
-
 
 ---
 

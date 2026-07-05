@@ -3,8 +3,6 @@
 title: "Academic Studies"
 permalink: /reception/academic-studies/
 layout: single
-header:
-  overlay_image: /assets/images/header.jpg  # header image
 
 
     

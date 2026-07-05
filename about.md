@@ -2,8 +2,7 @@
 title: "Narlan Matos"
 layout: splash
 permalink: /about/
-header:
-  overlay_image: /assets/images/header.jpg  # header image
+
 
 feature_row:
   - image_path: /assets/images/portraits/profile.jpg

@@ -3,8 +3,7 @@
 title: "Performances and Readings"
 permalink: /poetry/performances
 layout: splash
-header:
-  overlay_image: /assets/images/header.jpg  # header image
+
 
 feature_row:
   - image_path: /assets/images/audio/sarau.jpg

@@ -3,8 +3,7 @@
 title: "Visual Responses"
 permalink: /reception/visual-art/
 layout: single
-header:
-  overlay_image: /assets/images/header.jpg  # header image
+
 
     
 ---

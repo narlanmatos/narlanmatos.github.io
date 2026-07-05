@@ -3,8 +3,6 @@
 title: "Voices"
 permalink: /reception/voices/
 layout: single
-header:
-  overlay_image: /assets/images/header.jpg  # header image
 
     
 ---
