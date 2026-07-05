@@ -75,7 +75,7 @@ feature_row_links:
 
 {% include feature_row id="feature_row_links" %}
 
-## Credits
+<!--## Credits-->
 
 <!--Composer
 Lyricist
