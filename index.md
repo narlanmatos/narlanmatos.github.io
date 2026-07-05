@@ -159,7 +159,7 @@ optional call-to-action: Explore the Poetry or Latest Book-->
 <!--Highlight the most recent or most significant poetry collection with cover, brief description, and link.-->
 {% include feature_row id="feature_row_books" %}
 
-# Critical Reception
+# Reception
 {% include feature_row id="feature_row_reception" %}
 
 # Beyond Poetry
