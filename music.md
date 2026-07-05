@@ -6,7 +6,7 @@ layout: splash
 
 
 header:
-  overlay_image: /assets/images/music/bossa-negra-banner.jpg
+  overlay_image: /assets/images/header.jpg
   
 feature_row_album:
   - image_path: /assets/images/music/bossa-negra-cover.jpg
