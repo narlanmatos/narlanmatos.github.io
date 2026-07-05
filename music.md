@@ -15,7 +15,22 @@ feature_row_album:
     url: /music/album/
     btn_label: "View Album"
     btn_class: "btn--primary"
+
+feature_row_songs:
+  - image_path: /assets/images/music/xx.jpg
+    title: "Sopra de Alegria"
+    excerpt: ""
+    url: /music/album/
+    btn_label: "Listen"
+    btn_class: "btn--primary"
     
+feature_row_collaborations:
+  - image_path: /assets/images/features/narlan-luiz.jpg
+    title: "Luiz Caldas"
+    excerpt: "...."
+    url: /music/collaborations/luiz-caldas
+    btn_label: " ... "
+    btn_class: "btn--primary"
 ---
 
 Page under development.
@@ -30,20 +45,26 @@ Music forms another dimension of Narlan Matos's creative work. Alongside his poe
 # Featured Album
 
 {% include feature_row id="feature_row_album" %}
-<!--Featured Songs
 
-Three or four feature cards.
+# Featured Songs
+
+{% include feature_row id="feature_row_songs" %}
+
+<!--Three or four feature cards.
 
 For example:
 
 Song written by Narlan
 Song with translated lyrics
 Song performed by Luiz Caldas
-Instrumental collaboration
-Collaborations
+Instrumental collaboration-->
 
-A short paragraph introducing recurring collaborators.
+# Collaborations
 
-Videos
+<!--A short paragraph introducing recurring collaborators.-->
 
-Embedded performances or music videos.-->
+{% include feature_row id="feature_row_collaborations" %}
+
+# Videos
+
+<!--Embedded performances or music videos.-->
