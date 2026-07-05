@@ -27,9 +27,9 @@ feature_row_songs:
 feature_row_collaborations:
   - image_path: /assets/images/features/narlan-luiz.jpg
     title: "Luiz Caldas"
-    excerpt: "...."
+    excerpt: "A long-standing artistic partnership spanning recordings, songs, and performances."
     url: /music/collaborations/luiz-caldas
-    btn_label: " ... "
+    btn_label: "Explore"
     btn_class: "btn--primary"
 ---
 
