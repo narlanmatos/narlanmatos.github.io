@@ -15,8 +15,7 @@ header:
 
 ---
 
-# Featured Voice: 
-# Luiz Caldas
+# Featured Voice: Luiz Caldas
 
 Acclaimed Brazilian musician Luiz Caldas introduces Narlan Matos and their collaborative project, [*Sarao no Pátio das Flores*](https://narlanmatos.github.io/poetry/performances#recitations).
 
