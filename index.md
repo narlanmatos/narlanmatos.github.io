@@ -111,7 +111,7 @@ feature_row_books:
     
 
 
-feature_row_criticm:
+feature_row_criticism:
   - image_path: /assets/images/portraits/stockholm.jpeg
     title: "Literary Criticism"
     excerpt: "Narlan Matos's poetry has attracted sustained critical attention in Brazil and abroad through reviews, critical essays, interviews, and academic studies, situating his work within contemporary Latin American poetry."
@@ -165,7 +165,7 @@ optional call-to-action: Explore the Poetry or Latest Book-->
 <!--Highlight the most recent or most significant poetry collection with cover, brief description, and link.-->
 {% include feature_row id="feature_row_books" %}
 
-# Critical Reception
+# Criticism
 {% include feature_row id="feature_row_criticism" %}
 
 # Beyond Poetry
