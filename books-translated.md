@@ -12,6 +12,11 @@ feature_row_books:
     url: /translations/caminheiros-ru/
     btn_label: "View Book"
     btn_class: "btn--primary"
+  - image_path: /assets/images/translations/canto-ro.jpg
+    title: "Eu Cânt Pentru Oameni de Bine (Canto aos Homens de Boa Vontade)"
+    url: /translations/canto-ro/
+    btn_label: "View Book"
+    btn_class: "btn--primary"
 
 ---
 
