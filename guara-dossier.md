@@ -1,5 +1,6 @@
 ---
 title: "Guará Dossier: Narlan Matos"
+permalink: /reception/criticism/academic/gaura-dossier/
 layout: single
 
 collection: guara-dossier
