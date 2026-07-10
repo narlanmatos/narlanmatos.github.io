@@ -100,7 +100,7 @@ excerpt: []
 
 ## Overview
 
-
+<!--content-->
 
 {% if page.read_link %}
 <p>
@@ -234,13 +234,4 @@ Purchase
 </p>
 {% endif %}
 
-{% if page.read_link %}
-<p>
-<a href="{{ page.read_link }}"
-   class="btn btn--primary"
-   target="_blank"
-   rel="noopener">
-Read Sample
-</a>
-</p>
-{% endif %}
+
