@@ -136,8 +136,7 @@ feature_row_beyond:
     
 feature_row_events:
   - image_path: /assets/images/translations/canto-ro.jpg
-    title: "Eu Cânt Pentru Oameni de Bine (Canto aos Homens de Boa Vontade)"
-    excerpt: "*Eu Cânt Pentru Oameni de Bine* (*Canto aos Homens de Boa Vontade)*](/translations/canto-ro/) received the Poetry Book of the Year Award in Romania."  
+    excerpt: "*Eu Cânt Pentru Oameni de Bine* (*Canto aos Homens de Boa Vontade*) received the Poetry Book of the Year Award in Romania."  
     url: /translations/canto-ro/
     btn_label: "See all Awards"
     btn_class: "btn--primary"
