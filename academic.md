@@ -1,7 +1,7 @@
 ---
 
 title: "Academic Studies"
-permalink: /reception/criticism/academic-studies/
+permalink: /reception/criticism/academic/
 layout: single
 header:
   overlay_image: /assets/images/header.jpg  # header image

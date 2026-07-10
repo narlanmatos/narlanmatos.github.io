@@ -25,7 +25,7 @@ feature_row:
   - image_path: /assets/images/features/xx.jpg
     title: "Academic Studies"
     excerpt: "Scholarly articles, book chapters, theses, dissertations, conference papers, and other academic research."
-    url: /reception/criticism/academic-studies/
+    url: /reception/criticism/academic/
     btn_label: "Explore Research"
     btn_class: "btn--primary"
 
