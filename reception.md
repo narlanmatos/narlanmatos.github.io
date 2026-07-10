@@ -15,8 +15,8 @@ feature_row:
     btn_class: "btn--primary"
 
   - image_path: /assets/images/features/xx.jpg
-    title: "Critical Perspectives"
-    excerpt: "Reviews, literary criticism, and academic studies."
+    title: "Literary Criticism"
+    excerpt: "Academic studies, critical essays, and reviews."
     url: /reception/criticism/
     btn_label: "Explore Criticism"
     btn_class: "btn--primary"
