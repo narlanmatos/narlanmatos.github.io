@@ -6,19 +6,24 @@ layout: single
 header:
   overlay_image: /assets/images/header.jpg  # header image
 
-
+feature_row:
+  - image_path: /assets/images/portraits/guara-cover.jpg
+    title: "Scholarly Dossier: Guará – Revista de Linguagem e Literatura"
+    excerpt: "A special issue devoted entirely to the poetry and poetics of Narlan Matos, bringing together essays, articles, and reflections on his work across themes of language, memory, identity, and literary reinvention."
+    url: "/reception/criticism/academic/guara-dossier.md/"
+    btn_label: "View Dossier"
+    btn_class: "btn--primary"
     
 ---
+
+## Featured Collection
+{% include feature_row id="feature_row" %}
+
+## All Academic Studies
 
 {% assign items = site.data.reception | where: "type", "academic" %}
 
 {% for item in items %}
-
-{% if item.image %}
-<figure class="align-center">
-  <img src="{{ item.image | relative_url }}" alt="{{ item.title }}">
-</figure>
-{% endif %}
 
 ### {{ item.title }}
 
