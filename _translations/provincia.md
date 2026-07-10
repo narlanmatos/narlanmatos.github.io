@@ -88,3 +88,5 @@ overview_description: |
   The volume introduces Italian readers to Narlan Matos's
   poetry through parallel Portuguese and Italian texts.
 ---
+
+{% include book-page.html %}

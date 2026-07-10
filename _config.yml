@@ -314,21 +314,21 @@ defaults:
       path: ""
       type: books
     values:
-      layout: book
+      layout: single
       author_profile: false
 
   - scope:
       path: ""
       type: translations
     values:
-      layout: book
+      layout: single
       author_profile: false
 
   - scope:
       path: ""
       type: anthologies
     values:
-      layout: book
+      layout: single
       author_profile: false
 
   - scope:
