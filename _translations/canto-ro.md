@@ -33,7 +33,9 @@ excerpt: "xxx"
 
 ## Overview
 
-This is a Russian-language translation of Narlan Matos's 2018 book [*Canto aos Homens de Boa Vontade*](/poetry/books/canto).
+This bilingual edition contains Portuguese originals and Romanian-language translation of Narlan Matos's 2018 book [*Canto aos Homens de Boa Vontade*](/poetry/books/canto).
+
+It was recipient of the Premiul „Cartea de Poezie a Anului 2023” (Poetry Book of the Year Award, Romania).
 
 {% if page.read_link %}
 <p>
@@ -73,7 +75,7 @@ This is a Russian-language translation of Narlan Matos's 2018 book [*Canto aos H
 
 ## Related Work
 
-This edition is a translation of [*Canto aos Homens de Boa Vontade*](/poetry/books/canto).
+- [*Canto aos Homens de Boa Vontade*](/poetry/books/canto)
 
 
 ---

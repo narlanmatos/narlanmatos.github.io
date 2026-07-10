@@ -10,4 +10,6 @@ header:
     
 ---
 
-Page under development.
+*Page under development.*
+
+- 2023: [*Eu Cânt Pentru Oameni de Bine* (*Canto aos Homens de Boa Vontade)*](/translations/canto-ro/) received Poetry Book of the Year Award, Romania 

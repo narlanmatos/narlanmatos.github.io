@@ -72,7 +72,7 @@ This is a Russian-language translation of Narlan Matos's 2019 book [*Eu e Tu, Ca
 
 ## Related Work
 
-This edition is a translation of [*Eu e Tu, Caminheiros Dessa Vida*](/poetry/books/caminheiros).
+- [*Eu e Tu, Caminheiros Dessa Vida*](/poetry/books/caminheiros)
 
 
 ---
