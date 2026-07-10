@@ -89,7 +89,19 @@ videos: []
 gallery:
   - "/assets/images/translations/provincia.jpg"
 
+
+# --------------------------------------------------------------------
+# Descriptive Text 
+# --------------------------------------------------------------------
 excerpt: []
+
+overview_description: |
+  *La Provincia Oscura* is an Italian-Portuguese bilingual edition of selected
+  poems by Narlan Matos, translated by Giorgio Mobili and published by Fili
+  d'Aquilone in 2016. 
+  
+  The volume introduces Italian readers to Narlan Matos's
+  poetry through parallel Portuguese and Italian texts.
 ---
 
 {% if page.cover %}
@@ -98,9 +110,12 @@ excerpt: []
 </figure>
 {% endif %}
 
+{% if page.overview_description %}
 ## Overview
 
-<!--content-->
+{{ page.overview_description | markdownify }}
+
+{% endif %}
 
 {% if page.read_link %}
 <p>
