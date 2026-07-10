@@ -7,6 +7,12 @@ header:
   overlay_image: /assets/images/header.jpg  # header image
   
 feature_row:
+  - image_path: /assets/images/translations/provincia.jpg
+    title: "La Provincia Oscura"
+    url: translations/provincia/
+    btn_label: "Visualizza il Libro"
+    btn_class: "btn--primary"
+
   - image_path: /assets/images/translations/canto-ro.jpg
     title: "Eu Cânt Pentru Oameni de Bine (Canto aos Homens de Boa Vontade)"
     url: /translations/canto-ro/
