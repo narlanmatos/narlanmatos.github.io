@@ -1,5 +1,5 @@
 ---
-type: translated_book
+type: bilingual_edition
 title: "Eu Cânt Pentru Oameni de Bine"
 
 translators:
