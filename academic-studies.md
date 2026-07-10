@@ -12,17 +12,6 @@ header:
 
 {% assign items = site.data.reception | where: "type", "academic" %}
 
-# temp: 
-{% assign items = site.data.reception | where: "type", "academic" %}
-
-{% for item in items %}
-
-{{ item }}
-
-<hr>
-
-{% endfor %}
-
 {% for item in items %}
 
 ### {{ item.title }}
