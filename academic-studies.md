@@ -16,6 +16,12 @@ header:
 
 ### {{ item.title }}
 
+{% if item.image %}
+<figure class="align-center">
+  <img src="{{ item.image | relative_url }}" alt="{{ item.title }}">
+</figure>
+{% endif %}
+
 {% if item.authors %}
 **{{ item.authors }}**  
 {% endif %}
@@ -28,26 +34,22 @@ header:
 Language: {{ item.language }}  
 {% endif %}
 
-{% if item.related_work %}
-Related work: {{ item.related_work }}  
-{% endif %}
-
-{% if item.image %}
-<figure class="align-center">
-  <img src="{{ item.image | relative_url }}" alt="{{ item.title }}">
-</figure>
-{% endif %}
-
-{% if item.url %}
-<a href="{{ item.url }}" target="_blank" rel="noopener">Read online</a>
-{% endif %}
-
 {% if item.doi %}
 <br>
 DOI:
 <a href="https://doi.org/{{ item.doi }}" target="_blank" rel="noopener">
 {{ item.doi }}
 </a>
+{% endif %}
+
+{% if item.related_work %}
+Related work: {{ item.related_work }}  
+{% endif %}
+
+
+
+{% if item.url %}
+<a href="{{ item.url }}" target="_blank" rel="noopener">Read online</a>
 {% endif %}
 
 {% if item.local_copy %}
