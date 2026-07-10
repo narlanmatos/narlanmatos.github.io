@@ -1,33 +1,58 @@
 ---
-type: translated_anthology
 title: "La Provincia Oscura"
+permalink: /translations/provincia/
+cover: "/assets/images/translations/provincia.jpg"
+
+# classification
+collection: translations
+type: translated_anthology
+
+# languages & translation
+original_language: Portuguese
+translated_language: Italian
 
 translators:
   - "Giorgio Mobili"
 
-  
+# publication info  
 year: 2016
 publisher: "Fili d'Aquilone"
+publication_place: "Rome, Italy"
 isbn: "978-88-97490-17-3"
 
-cover: "/assets/images/translations/provincia.jpg"
+# link to original work
+original_work:
+
+# awards
+awards: []
+
+# critical reception
+reviews:
+  - title: "La provincia oscura di Narlan Matos"
+    author: "Silvia Leuzzi"
+    publication: "La Tigre di Carta"
+    url: https://www.latigredicarta.it/2017/05/29/la-provincia-oscura-di-narlan-matos/
+    
+  - title: "Dalla provincia oscura alla città del sole"
+    author: "Marco Testi"
+    publication: "Fili d'Aquilone"
+    url: https://www.filidaquilone.it/num045testi.html
+
+# read and buy links
 read_link: "https://www.efilidaquilone.it/fili_16_la_provincia_oscura_anteprima.pdf"
 publisher_link: "https://www.efilidaquilone.it/Scheda_Fili_16.pdf"
 buy_link: "https://www.ibs.it/provincia-oscura-testo-portoghese-a-libro-narlan-matos/e/9788897490173"
 
 
+# performances
+videos:
 
-# Languages
-original_language: Portuguese
-
-translated_language: Italian
+gallery:
+  - "/assets/images/translations/provincia.jpg"
 
 
-  
-# Link back to original work (important for structure)
-original_work: "xx"
-
-excerpt: "xxx"
+# excerpt:
+excerpt: []
 ---
 
 {% if page.cover %}
