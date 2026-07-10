@@ -15,8 +15,10 @@ feature_row:
     
 ---
 
+<!--
 # Featured Reviews
 {% include feature_row id="feature_row" %}
+-->
 
 # All Reviews
 

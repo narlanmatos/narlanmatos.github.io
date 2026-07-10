@@ -14,9 +14,10 @@ feature_row:
     btn_class: "btn--primary"
     
 ---
-
+<!--
 # Featured Essays
 {% include feature_row id="feature_row" %}
+-->
 
 # All Critical Essays
 
