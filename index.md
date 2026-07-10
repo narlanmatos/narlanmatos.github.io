@@ -122,7 +122,7 @@ feature_row_criticism:
   - image_path: /assets/images/criticism/guara-cover.jpg
     title: "Scholarly Dossier: Guará – Revista de Linguagem e Literatura"
     excerpt: "A special issue devoted entirely to the poetry and poetics of Narlan Matos, bringing together essays, articles, and reflections on his work across themes of language, memory, identity, and literary reinvention."
-    url: "/reception/criticism/academic/guara-dossier.md/"
+    url: "https://seer.pucgoias.edu.br/index.php/guara/issue/view/488"
     btn_label: "View Dossier"
     btn_class: "btn--primary"
     
