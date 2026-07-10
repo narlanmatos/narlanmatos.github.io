@@ -9,7 +9,7 @@ year: 2023
 publisher: ""
 isbn: "978-5604732496"
 
-cover: "/assets/images/books/caminheiros-ru.jpg"
+cover: "/assets/images/translations/caminheiros-ru.jpg"
 
 # Languages
 original_languages:
