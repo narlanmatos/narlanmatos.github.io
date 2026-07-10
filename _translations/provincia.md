@@ -133,6 +133,7 @@ Read Sample
 ## Bibliographic Information
 
 - **Original language:** {{ page.original_language }}
+
 - **Translation:** {{ page.translated_language }}
 
 {% if page.translators %}
