@@ -21,7 +21,7 @@ feature_row:
 # All Reviews
 
 {% assign items = site.data.reception
-  | where: "type", "essay"
+  | where: "type", "review"
   | sort: "year"
   | reverse %}
 
