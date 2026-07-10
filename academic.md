@@ -35,11 +35,6 @@ feature_row:
 <em>{{ item.publication }}</em>{% if item.volume %} {{ item.volume }}{% endif %}{% if item.issue %}({{ item.issue }}){% endif %}{% if item.pages %}, {{ item.pages }}{% endif %}{% if item.year %}, {{ item.year }}{% endif %}.
 {% endif %}
 
-{% if item.language %}
-({{ item.language }})
-{% endif %}
-</p>
-
 {% if item.related_work %}
 <p>
 Related work:
