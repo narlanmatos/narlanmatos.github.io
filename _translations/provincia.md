@@ -58,21 +58,6 @@ awards: []
 #     year: 2023
 
 # --------------------------------------------------------------------
-# Critical Reception
-# --------------------------------------------------------------------
-
-reviews:
-  - title: "La provincia oscura di Narlan Matos"
-    author: "Silvia Leuzzi"
-    publication: "La Tigre di Carta"
-    url: "https://www.latigredicarta.it/2017/05/29/la-provincia-oscura-di-narlan-matos/"
-
-  - title: "Dalla provincia oscura alla città del sole"
-    author: "Marco Testi"
-    publication: "Fili d'Aquilone"
-    url: "https://www.filidaquilone.it/num045testi.html"
-
-# --------------------------------------------------------------------
 # External Resources
 # --------------------------------------------------------------------
 
