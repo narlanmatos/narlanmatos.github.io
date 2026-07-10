@@ -202,25 +202,46 @@ This edition contains poems originally published in:
 ---
 {% endif %}
 
-{% if page.reviews.size > 0 %}
+{% assign reception_items = site.data.reception | where: "related_work_url", page.url %}
+
+{% if reception_items.size > 0 %}
 ## Critical Reception
 
 <ul>
-{% for review in page.reviews %}
+{% for item in reception_items %}
 <li>
-<strong>{{ review.title }}</strong><br>
-{{ review.author }}
-{% if review.publication %}
-(<em>{{ review.publication }}</em>)
+<strong>{{ item.title }}</strong><br>
+
+{% if item.authors %}
+{{ item.authors }}
 {% endif %}
-{% if review.url %}
-— <a href="{{ review.url }}" target="_blank" rel="noopener">Read review</a>
+
+{% if item.publication %}
+(<em>{{ item.publication }}</em>{% if item.year %}, {{ item.year }}{% endif %})
+{% elsif item.year %}
+({{ item.year }})
 {% endif %}
+
+{% if item.type %}
+— 
+{% if item.type == "academic" %}
+[Academic study]
+{% elsif item.type == "essay" %}
+[Critical essay]
+{% elsif item.type == "review" %}
+[Review]
+{% else %}
+[{{ item.type | capitalize }}]
+{% endif %}
+{% endif %}
+
+{% if item.url %}
+— <a href="{{ item.url }}" target="_blank" rel="noopener">Read</a>
+{% endif %}
+
 </li>
 {% endfor %}
 </ul>
-
----
 {% endif %}
 
 ## External Resources
