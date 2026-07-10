@@ -9,7 +9,7 @@ header:
 feature_row:
   - image_path: /assets/images/criticism/guara-cover.jpg
   - excerpt: "A special issue devoted entirely to the poetry and poetics of Narlan Matos, bringing together essays, articles, and reflections on his work across themes of language, memory, identity, and literary reinvention."
-    url: "https://seer.pucgoias.edu.br/index.php/guara/issue/view/488"
+  - url: "https://seer.pucgoias.edu.br/index.php/guara/issue/view/488"
     btn_label: "View Dossier"
     btn_class: "btn--primary"
     
