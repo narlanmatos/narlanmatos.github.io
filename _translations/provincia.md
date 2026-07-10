@@ -8,9 +8,12 @@ translators:
   
 year: 2016
 publisher: "Fili d'Aquilone"
-isbn: ""
+isbn: "978-88-97490-17-3"
 
 cover: "/assets/images/translations/provincia.jpg"
+read_link: "https://www.efilidaquilone.it/fili_16_la_provincia_oscura_anteprima.pdf"
+publisher_link: "https://www.efilidaquilone.it/Scheda_Fili_16.pdf"
+buy_link: "https://www.ibs.it/provincia-oscura-testo-portoghese-a-libro-narlan-matos/e/9788897490173"
 
 
 
