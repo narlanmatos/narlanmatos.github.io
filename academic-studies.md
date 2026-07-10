@@ -35,7 +35,6 @@ Language: {{ item.language }}
 {% endif %}
 
 {% if item.doi %}
-<br>
 DOI:
 <a href="https://doi.org/{{ item.doi }}" target="_blank" rel="noopener">
 {{ item.doi }}
