@@ -19,8 +19,10 @@ original_languages:
 translated_languages:
   - Romanian
 
-# Link back to original work (important for structure)
-original_work: "Canto aos Homens de Boa Vontade"
+# link to original work
+original_work:
+  - title: "Canto aos Homens de Boa Vontade" 
+    url: /poetry/books/canto/
 
 excerpt: "xxx"
 ---
