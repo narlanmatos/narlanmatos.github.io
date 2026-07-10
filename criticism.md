@@ -34,6 +34,6 @@ feature_row:
     
 ---
 
-*Critical Perspectives brings together scholarly studies, critical essays, and reviews that examine and evaluate the poetry of Narlan Matos from academic, literary, and cultural perspectives.*
+*This page brings together scholarly studies, critical essays, and reviews that examine and evaluate the poetry of Narlan Matos from academic, literary, and cultural perspectives.*
 
 {% include feature_row id="feature_row" %}
