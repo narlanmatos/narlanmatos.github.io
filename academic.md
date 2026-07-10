@@ -8,18 +8,18 @@ header:
 
 feature_row:
   - image_path: /assets/images/criticism/guara-cover.jpg
-    title: "Scholarly Dossier: Guará – Revista de Linguagem e Literatura"
-    excerpt: "A special issue devoted entirely to the poetry and poetics of Narlan Matos, bringing together essays, articles, and reflections on his work across themes of language, memory, identity, and literary reinvention."
+  - excerpt: "A special issue devoted entirely to the poetry and poetics of Narlan Matos, bringing together essays, articles, and reflections on his work across themes of language, memory, identity, and literary reinvention."
     url: "https://seer.pucgoias.edu.br/index.php/guara/issue/view/488"
     btn_label: "View Dossier"
     btn_class: "btn--primary"
     
 ---
 
-## Featured Collection
+# Featured Collection
+## Scholarly Dossier: Guará – Revista de Linguagem e Literatura
 {% include feature_row id="feature_row" %}
 
-## All Academic Studies
+# All Academic Studies
 
 {% assign items = site.data.reception | where: "type", "academic" %}
 
