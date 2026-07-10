@@ -121,10 +121,7 @@ Read Sample
 - **Translation:** {{ page.translated_language }}
 
 {% if page.translators %}
-- **Translator{% if page.translators.size > 1 %}s{% endif %}:**
-  {% for translator in page.translators %}
-    {% unless forloop.first %}, {% endunless %}{{ translator }}
-  {% endfor %}
+- **Translator{% if page.translators.size > 1 %}s{% endif %}:** {{ page.translators | join: ", " }}
 {% endif %}
 
 - **Publisher:** {{ page.publisher }}
