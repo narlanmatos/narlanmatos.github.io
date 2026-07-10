@@ -47,9 +47,9 @@ Related work: {% if item.related_work_url %}<a href="{{ item.related_work_url | 
 {% endif %}
 
 {% if item.url %}
-<a href="{{ item.url }}" target="_blank" rel="noopener">Read online</a>{% if item.local_copy %} · {% endif %}
+<br>
+<a href="{{ item.url }}" target="_blank" rel="noopener">Read online</a>{% if item.local_copy %}&nbsp;&nbsp;{% endif %}
 {% endif %}
-
 {% if item.local_copy %}
 <a href="{{ item.local_copy | relative_url }}" target="_blank" rel="noopener">View archived copy</a>
 {% endif %}
