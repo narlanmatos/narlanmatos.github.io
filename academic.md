@@ -15,8 +15,7 @@ feature_row:
     
 ---
 
-# Featured Collection
-## Scholarly Dossier: Guará – Revista de Linguagem e Literatura
+# Scholarly Dossier: *Guará – Revista de Linguagem e Literatura*
 {% include feature_row id="feature_row" %}
 
 # All Academic Studies
