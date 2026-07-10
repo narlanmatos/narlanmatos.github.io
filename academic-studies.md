@@ -52,14 +52,11 @@ Related work:
 {% endif %}
 
 {% if item.url %}
-<br>
-<a href="{{ item.url }}" target="_blank" rel="noopener">Read online</a>
+<a href="{{ item.url }}" target="_blank" rel="noopener">Read online</a>{% if item.local_copy %} · {% endif %}
 {% endif %}
 
 {% if item.local_copy %}
-<a href="{{ item.local_copy | relative_url }}" target="_blank" rel="noopener">
-View archived copy
-</a>
+<a href="{{ item.local_copy | relative_url }}" target="_blank" rel="noopener">View archived copy</a>
 {% endif %}
 
 ---
