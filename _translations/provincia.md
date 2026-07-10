@@ -100,7 +100,7 @@ excerpt: []
 
 ## Overview
 
-{{ content }}
+
 
 {% if page.read_link %}
 <p>
