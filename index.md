@@ -140,6 +140,12 @@ feature_row_events:
     url: "/events/"
     btn_label: "See all Events"
     btn_class: "btn--primary"
+  - image_path: /assets/images/translations/canto-ro.jpg
+    title: "Eu Cânt Pentru Oameni de Bine (Canto aos Homens de Boa Vontade)"
+    excerpt: "*Eu Cânt Pentru Oameni de Bine* (*Canto aos Homens de Boa Vontade)*](/translations/canto-ro/) received the Poetry Book of the Year Award in Romania."  
+    url: /translations/canto-ro/
+    btn_label: "See all Awards"
+    btn_class: "btn--primary"
 ---
 
 <!-- 1. Hero section - 
