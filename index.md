@@ -115,8 +115,15 @@ feature_row_criticism:
   - image_path: /assets/images/portraits/stockholm.jpeg
     title: "Literary Criticism"
     excerpt: "Narlan Matos's poetry has attracted sustained critical attention in Brazil and abroad through reviews, critical essays, interviews, and academic studies, situating his work within contemporary Latin American poetry."
-    url: "/reception/"
-    btn_label: "Explore Reception"
+    url: "/reception/criticism/"
+    btn_label: "Explore Criticism"
+    btn_class: "btn--primary"
+
+  - image_path: /assets/images/portraits/guara-cover.jpg
+    title: "Scholarly Dossier: Guará – Revista de Linguagem e Literatura"
+    excerpt: "A special issue devoted entirely to the poetry and poetics of Narlan Matos, bringing together essays, articles, and reflections on his work across themes of language, memory, identity, and literary reinvention."
+    url: "/reception/criticism/academic/guara-dossier.md/"
+    btn_label: "View Dossier"
     btn_class: "btn--primary"
     
 feature_row_beyond:
