@@ -42,17 +42,21 @@ DOI:
 {% endif %}
 
 {% if item.related_work %}
-Related work: {{ item.related_work }}  
+<br>
+Related work:
+{% if item.related_work_url %}
+<a href="{{ item.related_work_url | relative_url }}"><em>{{ item.related_work }}</em></a>
+{% else %}
+<em>{{ item.related_work }}</em>
+{% endif %}
 {% endif %}
 
-
-
 {% if item.url %}
+<br>
 <a href="{{ item.url }}" target="_blank" rel="noopener">Read online</a>
 {% endif %}
 
 {% if item.local_copy %}
-<br>
 <a href="{{ item.local_copy | relative_url }}" target="_blank" rel="noopener">
 View archived copy
 </a>
