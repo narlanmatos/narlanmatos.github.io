@@ -39,29 +39,18 @@ feature_row:
 <em>{{ item.publication }}</em>{% if item.volume %} {{ item.volume }}{% endif %}{% if item.issue %}({{ item.issue }}){% endif %}{% if item.pages %}, {{ item.pages }}{% endif %}{% if item.year %}, {{ item.year }}{% endif %}.
 {% endif %}
 
-{% if item.language %}
-({{ item.language }})
-{% endif %}
-
-{% if item.related_work %}
-<p>
-Related work:
-{% if item.related_work_url %}
-<a href="{{ item.related_work_url | relative_url }}"><em>{{ item.related_work }}</em></a>
-{% else %}
-<em>{{ item.related_work }}</em>
-{% endif %}
-</p>
-{% endif %}
-
 {% if item.doi %}
-<p>
 DOI:
 <a href="https://doi.org/{{ item.doi }}" target="_blank" rel="noopener">
 {{ item.doi }}
 </a>
 </p>
 {% endif %}
+
+{% if item.language %}
+({{ item.language }})
+{% endif %}
+
 
 {% if item.url or item.local_copy %}
 <p>
@@ -75,6 +64,18 @@ DOI:
 
 {% if item.local_copy %}
 <a href="{{ item.local_copy | relative_url }}" target="_blank" rel="noopener">Archived copy</a>
+{% endif %}
+</p>
+{% endif %}
+
+
+{% if item.related_work %}
+<p>
+Related work:
+{% if item.related_work_url %}
+<a href="{{ item.related_work_url | relative_url }}"><em>{{ item.related_work }}</em></a>
+{% else %}
+<em>{{ item.related_work }}</em>
 {% endif %}
 </p>
 {% endif %}
