@@ -1,5 +1,4 @@
 ---
-layout: book
 
 title: "La Provincia Oscura"
 permalink: /translations/provincia/
