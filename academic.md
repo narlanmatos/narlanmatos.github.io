@@ -24,40 +24,58 @@ feature_row:
 
 {% for item in items %}
 
-### {{ item.title }}
+<p>
+<strong>{{ item.title }}</strong><br>
 
 {% if item.authors %}
-**{{ item.authors }}**  
+{{ item.authors }}.
 {% endif %}
 
 {% if item.publication %}
-*{{ item.publication }}*{% if item.year %} ({{ item.year }}){% endif %}  
+<em>{{ item.publication }}</em>{% if item.volume %} {{ item.volume }}{% endif %}{% if item.issue %}({{ item.issue }}){% endif %}{% if item.pages %}, {{ item.pages }}{% endif %}{% if item.year %}, {{ item.year }}{% endif %}.
 {% endif %}
 
 {% if item.language %}
-Language: {{ item.language }}  
+({{ item.language }})
+{% endif %}
+</p>
+
+{% if item.related_work %}
+<p>
+Related work:
+{% if item.related_work_url %}
+<a href="{{ item.related_work_url | relative_url }}"><em>{{ item.related_work }}</em></a>
+{% else %}
+<em>{{ item.related_work }}</em>
+{% endif %}
+</p>
 {% endif %}
 
 {% if item.doi %}
+<p>
 DOI:
 <a href="https://doi.org/{{ item.doi }}" target="_blank" rel="noopener">
 {{ item.doi }}
 </a>
+</p>
 {% endif %}
 
-{% if item.related_work %}
-<br>
-Related work: {% if item.related_work_url %}<a href="{{ item.related_work_url | relative_url }}"><em>{{ item.related_work }}</em></a>{% else %}<em>{{ item.related_work }}</em>{% endif %}
-{% endif %}
-
+{% if item.url or item.local_copy %}
+<p>
 {% if item.url %}
-<br>
-<a href="{{ item.url }}" target="_blank" rel="noopener">Read online</a>{% if item.local_copy %}&nbsp;&nbsp;{% endif %}
+<a href="{{ item.url }}" target="_blank" rel="noopener">Online version</a>
 {% endif %}
+
+{% if item.url and item.local_copy %}
+&nbsp; | &nbsp;
+{% endif %}
+
 {% if item.local_copy %}
-<a href="{{ item.local_copy | relative_url }}" target="_blank" rel="noopener">View archived copy</a>
+<a href="{{ item.local_copy | relative_url }}" target="_blank" rel="noopener">Archived copy</a>
+{% endif %}
+</p>
 {% endif %}
 
----
+<hr>
 
-{% endfor %} 
+{% endfor %}
