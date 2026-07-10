@@ -7,7 +7,7 @@ header:
   overlay_image: /assets/images/header.jpg  # header image
 
 feature_row:
-  - image_path: /assets/images/portraits/guara-cover.jpg
+  - image_path: /assets/images/criticism/guara-cover.jpg
     title: "Scholarly Dossier: Guará – Revista de Linguagem e Literatura"
     excerpt: "A special issue devoted entirely to the poetry and poetics of Narlan Matos, bringing together essays, articles, and reflections on his work across themes of language, memory, identity, and literary reinvention."
     url: "/reception/criticism/academic/guara-dossier.md/"
