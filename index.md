@@ -121,7 +121,7 @@ feature_row_criticism:
 
   - image_path: /assets/images/criticism/guara-cover.jpg
     title: "Academic Studies"
-    excerpt: "Nine scholarly studies—including a dedicated journal dossier—examine Narlan Matos's poetry, language, and literary contribution."
+    excerpt: "A growing body of scholarly research—including a dedicated journal dossier—examines Narlan Matos's poetry, language, and literary contribution."
     url: "/reception/criticism/academic/"
     btn_label: "View Dossier"
     btn_class: "btn--primary"
