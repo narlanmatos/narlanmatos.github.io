@@ -43,12 +43,7 @@ DOI:
 
 {% if item.related_work %}
 <br>
-Related work:
-{% if item.related_work_url %}
-<a href="{{ item.related_work_url | relative_url }}"><em>{{ item.related_work }}</em></a>
-{% else %}
-<em>{{ item.related_work }}</em>
-{% endif %}
+Related work: {% if item.related_work_url %}<a href="{{ item.related_work_url | relative_url }}"><em>{{ item.related_work }}</em></a>{% else %}<em>{{ item.related_work }}</em>{% endif %}
 {% endif %}
 
 {% if item.url %}
