@@ -20,7 +20,10 @@ feature_row:
 
 # All Academic Studies
 
-{% assign items = site.data.reception | where: "type", "academic" %}
+{% assign items = site.data.reception
+  | where: "type", "academic"
+  | sort: "year"
+  | reverse %}
 
 {% for item in items %}
 
