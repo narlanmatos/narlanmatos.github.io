@@ -4,7 +4,7 @@ title: "Russian Translations"
  
 feature_row_books:
   - image_path: /assets/images/translations/caminheiros-ru.jpg
-    title: ""
+    title: "я И Ты -ПУТНИКИ В ЭТОЙ ЖИЗНИ"
     url: /translations/caminheiros-ru/
     btn_label: "Посмотреть книгу"
     btn_class: "btn--primary"
