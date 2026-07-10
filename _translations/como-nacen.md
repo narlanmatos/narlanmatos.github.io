@@ -41,7 +41,7 @@ excerpt: "xxx"
 ## Overview
 
 This Spanish-language collection brings together a selection of Narlan Matos's poetry,
-beginning with his first book in 1997, [*Senhoras e Senhores: o Aamanhecer*]().
+beginning with his first book in 1997, [*Senhoras e Senhores: o Aamanhecer*](https://narlanmatos.github.io/poetry/books/senhoras/).
 
 {% if page.read_link %}
 <p>
