@@ -13,36 +13,21 @@ feature_row:
     url: /reception/voices/
     btn_label: "Explore"
     btn_class: "btn--primary"
-    
+
   - image_path: /assets/images/features/xx.jpg
-    title: "Reviews"
-    excerpt: "Contemporary reviews of poetry collections published in literary journals, newspapers, magazines, and online publications."
-    url: /reception/reviews/
-    btn_label: "See Reviews"
+    title: "Critical Perspectives"
+    excerpt: "Reviews, literary criticism, and academic studies."
+    url: /reception/criticism/
+    btn_label: "Explore Criticism"
     btn_class: "btn--primary"
 
   - image_path: /assets/images/features/xx.jpg
-    title: "Critical Essays"
-    excerpt: "Literary criticism examining the themes, language, style, and significance of Narlan Matos's poetry."
-    url: /reception/essays/
-    btn_label: "Read Essays"
-    btn_class: "btn--primary"
-
-  - image_path: /assets/images/features/xx.jpg
-    title: "Interviews"
-    excerpt: "Conversations exploring the poet's creative process, literary influences, translation, music, and reflections on poetry."
+    title: "Interviews & Media"
+    excerpt: "..."
     url: /reception/interviews/
     btn_label: "See Interviews"
     btn_class: "btn--primary"
 
-    
-  - image_path: /assets/images/features/xx.jpg
-    title: "Academic Studies"
-    excerpt: "Scholarly articles, book chapters, theses, dissertations, conference papers, and other academic research."
-    url: /reception/academic-studies/
-    btn_label: "Explore Research"
-    btn_class: "btn--primary"
-    
   - image_path: /assets/images/features/xx.jpg
     title: "Visual Responses"
     excerpt: "..."
@@ -50,12 +35,6 @@ feature_row:
     btn_label: "Explore the Gallery"
     btn_class: "btn--primary"
 
-  - image_path: /assets/images/features/xx.jpg
-    title: "Media Coverage"
-    excerpt: "News articles, literary profiles, event coverage, award announcements, and features documenting the poet's public career."
-    url: /reception/media/
-    btn_label: "View Media"
-    btn_class: "btn--primary"
     
 ---
 

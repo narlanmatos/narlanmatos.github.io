@@ -51,18 +51,12 @@ main:
     children:
       - title: "Voices"
         url: /reception/voices/
-      - title: "Reviews"
-        url: /reception/reviews/
-      - title: "Critical Essays"
-        url: /reception/essays/
-      - title: "Interviews"
-        url: /reception/interviews/
-      - title: "Academic Studies"
-        url: /reception/academic-studies/
+      - title: "Critical Perspectives"
+        url: /reception/criticism/
+      - title: "Interviews & Media"
+        url: /reception/interviews-media/
       - title: "Visual Responses"
         url: /reception/visual-art/
-      - title: "Media Coverage"
-        url: /reception/media/
 
   - title: "Music"
     url: /music/
