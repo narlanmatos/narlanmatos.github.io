@@ -7,16 +7,19 @@ header:
   overlay_image: /assets/images/header.jpg  # header image
   
 feature_row_books:
-  - image_path: /assets/images/translations/caminheiros-ru.jpg
-    title: "я И Ты -ПУТНИКИ В ЭТОЙ ЖИЗНИ (Eu e Tu, Caminheiros Dessa Vida)"
-    url: /translations/caminheiros-ru/
-    btn_label: "View Book"
-    btn_class: "btn--primary"
   - image_path: /assets/images/translations/canto-ro.jpg
     title: "Eu Cânt Pentru Oameni de Bine (Canto aos Homens de Boa Vontade)"
     url: /translations/canto-ro/
     btn_label: "View Book"
     btn_class: "btn--primary"
+    
+  - image_path: /assets/images/translations/caminheiros-ru.jpg
+    title: "я И Ты -ПУТНИКИ В ЭТОЙ ЖИЗНИ (Eu e Tu, Caminheiros Dessa Vida)"
+    url: /translations/caminheiros-ru/
+    btn_label: "View Book"
+    btn_class: "btn--primary"
+    
+
 
 ---
 

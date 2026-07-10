@@ -1,25 +1,26 @@
 ---
 type: translated_book
-title: "я И Ты -ПУТНИКИ В ЭТОЙ ЖИЗНИ"
+title: "Eu Cânt Pentru Oameni de Bine"
 
 translators:
-  - Irina Feshchenko-Skvortsova
+  - Ana Vrǎjitoru
   
 year: 2023
-publisher: ""
-isbn: "978-5604732496"
+publisher: "EIKON"
+isbn: "9786064909404"
 
-cover: "/assets/images/translations/caminheiros-ru.jpg"
+cover: "/assets/images/translations/canto-ro.jpg"
+publisher_link: "https://www.librariaeikon.ro/poezie/1584-eu-cant-pentru-oameni-de-bine-canto-aos-homens-de-boa-vontade.html"
 
 # Languages
 original_languages:
   - Portuguese
 
 translated_languages:
-  - Russian
+  - Romanian
 
 # Link back to original work (important for structure)
-original_work: "Eu e Tu, Caminheiros Dessa Vida"
+original_work: "Canto aos Homens de Boa Vontade"
 
 excerpt: "xxx"
 ---
@@ -32,7 +33,7 @@ excerpt: "xxx"
 
 ## Overview
 
-This is a Russian-language translation of Narlan Matos's 2019 book [*Eu e Tu, Caminheiros Dessa Vida*](/poetry/books/caminheiros).
+This is a Russian-language translation of Narlan Matos's 2018 book [*Canto aos Homens de Boa Vontade*](/poetry/books/canto).
 
 {% if page.read_link %}
 <p>
@@ -72,7 +73,7 @@ This is a Russian-language translation of Narlan Matos's 2019 book [*Eu e Tu, Ca
 
 ## Related Work
 
-This edition is a translation of [*Eu e Tu, Caminheiros Dessa Vida*](/poetry/books/caminheiros).
+This edition is a translation of [*Canto aos Homens de Boa Vontade*](/poetry/books/canto).
 
 
 ---
