@@ -28,22 +28,17 @@
 <p class="p1"><span class="s1">## Overview</span></p>
 <p class="p2"><span class="s1"></span><br></p>
 <p class="p1"><span class="s1">{{ page.overview_description | markdownify }}</span></p>
+<p class="p1"><span class="s1">{% endif %}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">{% if page.original_language<span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">or page.translated_language<span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">or page.publisher<span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">or page.year<span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">or page.isbn<span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">or page.translators %}</span></p>
 <p class="p2"><span class="s1"></span><br></p>
 <p class="p1"><span class="s1">---</span></p>
-<p class="p1"><span class="s1">{% endif %}</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">{% if page.read_link %}</span></p>
-<p class="p1"><span class="s1">&lt;p&gt;</span></p>
-<p class="p1"><span class="s1">&lt;a href="{{ page.read_link }}"</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">   </span>class="btn btn--primary"</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">   </span>target="_blank"</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">   </span>rel="noopener"&gt;</span></p>
-<p class="p1"><span class="s1">Read Sample</span></p>
-<p class="p1"><span class="s1">&lt;/a&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1">{% endif %}</span></p>
-<p class="p2"><span class="s1"></span><br></p>
 <p class="p2"><span class="s1"></span><br></p>
 <p class="p1"><span class="s1">## Bibliographic Information</span></p>
 <p class="p2"><span class="s1"></span><br></p>
@@ -81,6 +76,8 @@
 <p class="p2"><span class="s1"></span><br></p>
 <p class="p1"><span class="s1">{% if page.isbn %}</span></p>
 <p class="p1"><span class="s1">- **ISBN:** {{ page.isbn }}</span></p>
+<p class="p1"><span class="s1">{% endif %}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
 <p class="p1"><span class="s1">{% endif %}</span></p>
 <p class="p2"><span class="s1"></span><br></p>
 <p class="p2"><span class="s1"></span><br></p>
@@ -130,13 +127,10 @@
 <p class="p1"><span class="s1">{% endif %}</span></p>
 <p class="p2"><span class="s1"></span><br></p>
 <p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">{% assign reception_items = "" | split: "" %}</span></p>
-<p class="p2"><span class="s1"></span><br></p>
 <p class="p1"><span class="s1">{% if site.data.reception %}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
 <p class="p1"><span class="s1">{% assign reception_items = site.data.reception</span></p>
 <p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>| where: "related_work_url", page.url %}</span></p>
-<p class="p1"><span class="s1">{% endif %}</span></p>
-<p class="p2"><span class="s1"></span><br></p>
 <p class="p2"><span class="s1"></span><br></p>
 <p class="p1"><span class="s1">{% if reception_items.size &gt; 0 %}</span></p>
 <p class="p2"><span class="s1"></span><br></p>
@@ -201,8 +195,6 @@
 <p class="p2"><span class="s1"></span><br></p>
 <p class="p1"><span class="s1">{% if item.publication %}</span></p>
 <p class="p1"><span class="s1">(&lt;em&gt;{{ item.publication }}&lt;/em&gt;, n.d.)</span></p>
-<p class="p1"><span class="s1">{% else %}</span></p>
-<p class="p1"><span class="s1">(n.d.)</span></p>
 <p class="p1"><span class="s1">{% endif %}</span></p>
 <p class="p2"><span class="s1"></span><br></p>
 <p class="p1"><span class="s1">{% if item.type %}</span></p>
@@ -229,6 +221,7 @@
 <p class="p1"><span class="s1">&lt;/ul&gt;</span></p>
 <p class="p2"><span class="s1"></span><br></p>
 <p class="p1"><span class="s1">{% endif %}</span></p>
+<p class="p1"><span class="s1">{% endif %}</span></p>
 <p class="p2"><span class="s1"></span><br></p>
 <p class="p2"><span class="s1"></span><br></p>
 <p class="p1"><span class="s1">{% if page.read_link or page.publisher_link or page.buy_link %}</span></p>
@@ -240,9 +233,9 @@
 <p class="p1"><span class="s1">{% if page.read_link %}</span></p>
 <p class="p1"><span class="s1">&lt;p&gt;</span></p>
 <p class="p1"><span class="s1">&lt;a href="{{ page.read_link }}"</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">   </span>class="btn btn--primary"</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">   </span>target="_blank"</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">   </span>rel="noopener"&gt;</span></p>
+<p class="p1"><span class="s1">class="btn btn--primary"</span></p>
+<p class="p1"><span class="s1">target="_blank"</span></p>
+<p class="p1"><span class="s1">rel="noopener"&gt;</span></p>
 <p class="p1"><span class="s1">Read Sample</span></p>
 <p class="p1"><span class="s1">&lt;/a&gt;</span></p>
 <p class="p1"><span class="s1">&lt;/p&gt;</span></p>
@@ -251,9 +244,9 @@
 <p class="p1"><span class="s1">{% if page.publisher_link %}</span></p>
 <p class="p1"><span class="s1">&lt;p&gt;</span></p>
 <p class="p1"><span class="s1">&lt;a href="{{ page.publisher_link }}"</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">   </span>class="btn btn--primary"</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">   </span>target="_blank"</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">   </span>rel="noopener"&gt;</span></p>
+<p class="p1"><span class="s1">class="btn btn--primary"</span></p>
+<p class="p1"><span class="s1">target="_blank"</span></p>
+<p class="p1"><span class="s1">rel="noopener"&gt;</span></p>
 <p class="p1"><span class="s1">Publisher</span></p>
 <p class="p1"><span class="s1">&lt;/a&gt;</span></p>
 <p class="p1"><span class="s1">&lt;/p&gt;</span></p>
@@ -262,9 +255,9 @@
 <p class="p1"><span class="s1">{% if page.buy_link %}</span></p>
 <p class="p1"><span class="s1">&lt;p&gt;</span></p>
 <p class="p1"><span class="s1">&lt;a href="{{ page.buy_link }}"</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">   </span>class="btn btn--primary"</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">   </span>target="_blank"</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">   </span>rel="noopener"&gt;</span></p>
+<p class="p1"><span class="s1">class="btn btn--primary"</span></p>
+<p class="p1"><span class="s1">target="_blank"</span></p>
+<p class="p1"><span class="s1">rel="noopener"&gt;</span></p>
 <p class="p1"><span class="s1">Purchase</span></p>
 <p class="p1"><span class="s1">&lt;/a&gt;</span></p>
 <p class="p1"><span class="s1">&lt;/p&gt;</span></p>
