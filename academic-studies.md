@@ -14,13 +14,13 @@ header:
 
 {% for item in items %}
 
-### {{ item.title }}
-
 {% if item.image %}
 <figure class="align-center">
   <img src="{{ item.image | relative_url }}" alt="{{ item.title }}">
 </figure>
 {% endif %}
+
+### {{ item.title }}
 
 {% if item.authors %}
 **{{ item.authors }}**  
