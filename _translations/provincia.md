@@ -89,4 +89,3 @@ overview_description: |
   poetry through parallel Portuguese and Italian texts.
 ---
 
-{% include book-page.html %}
