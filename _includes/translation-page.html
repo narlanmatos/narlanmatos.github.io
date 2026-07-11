@@ -1,134 +1,82 @@
-
+```liquid
 {% if page.cover %}
-
 <figure class="align-center">
-
   <img src="{{ page.cover | relative_url }}" alt="{{ page.title }} cover">
-
 </figure>
-
 {% endif %}
-
 
 
 {% if page.overview_description %}
-
 ## Overview
-
 
 {{ page.overview_description | markdownify }}
 
-
 {% endif %}
-
 
 
 {% if page.read_link %}
-
 <p>
-
 <a href="{{ page.read_link }}"
-
    class="btn btn--primary"
-
    target="_blank"
-
    rel="noopener">
-
 Read Sample
-
 </a>
-
 </p>
-
 {% endif %}
-
 
 
 ---
 
-
 ## Bibliographic Information
 
-
 {% if page.original_language %}
-
 - **Original language:** {{ page.original_language }}
-
 {% endif %}
-
 
 {% if page.translated_language %}
-
 - **Translation:** {{ page.translated_language }}
-
 {% endif %}
-
 
 {% if page.translators %}
-
 - **Translator{% if page.translators.size > 1 %}s{% endif %}:** {{ page.translators | join: ", " }}
-
 {% endif %}
-
 
 {% if page.publisher %}
-
 - **Publisher:** {{ page.publisher }}
-
 {% endif %}
-
 
 {% if page.publication_place %}
-
 - **Place:** {{ page.publication_place }}
-
 {% endif %}
-
 
 {% if page.series %}
-
 - **Series:** {{ page.series }}
-
 {% endif %}
-
 
 {% if page.year %}
-
 - **Year:** {{ page.year }}
-
 {% endif %}
-
 
 {% if page.pages %}
-
 - **Pages:** {{ page.pages }}
-
 {% endif %}
 
-
 {% if page.isbn %}
-
 - **ISBN:** {{ page.isbn }}
-
 {% endif %}
 
 
 
 {% if page.original_works %}
 
-
 {% if page.original_works.size > 0 %}
-
 
 ---
 
-
 ## Original Work{% if page.original_works.size > 1 %}s{% endif %}
 
-
 This edition contains poems originally published in:
-
 
 <ul>
 
@@ -137,13 +85,9 @@ This edition contains poems originally published in:
 <li>
 
 {% if work.url %}
-
 <a href="{{ work.url | relative_url }}"><em>{{ work.title }}</em></a>
-
 {% else %}
-
 <em>{{ work.title }}</em>
-
 {% endif %}
 
 </li>
@@ -152,43 +96,75 @@ This edition contains poems originally published in:
 
 </ul>
 
-
+{% endif %}
 {% endif %}
 
-{% endif %}
 
 
+{% comment %}
+Awards are pulled automatically from awards.csv.
 
-{% if page.awards %}
+Two sources are included:
+1. Awards for this translation edition:
+   title_url == page.url
+
+2. Awards for the original work:
+   original_work_id == page.original_work_id
+
+{% endcomment %}
 
 
-{% if page.awards.size > 0 %}
+{% assign edition_awards = site.data.awards | where: "title_url", page.url %}
 
+{% assign original_awards = site.data.awards | where: "original_work_id", page.original_work_id %}
+
+
+{% assign all_awards = edition_awards | concat: original_awards %}
+
+
+{% if all_awards.size > 0 %}
 
 ---
 
-
 ## Awards
-
 
 <ul>
 
-{% for award in page.awards %}
+{% assign all_awards = all_awards | sort: "year" | reverse %}
+
+{% for award in all_awards %}
 
 <li>
 
-<strong>{{ award.title }}</strong>
+<strong>{{ award.award }}</strong>
 
 {% if award.organization %}
-
 — {{ award.organization }}
-
 {% endif %}
 
 {% if award.year %}
-
 ({{ award.year }})
+{% endif %}
 
+<br>
+
+{% if award.award_recipient %}
+Recipient: {{ award.award_recipient }}
+{% endif %}
+
+{% if award.status %}
+— {{ award.status }}
+{% endif %}
+
+{% if award.country %}
+({{ award.country }})
+{% endif %}
+
+{% if award.url %}
+<br>
+<a href="{{ award.url }}" target="_blank" rel="noopener">
+More information
+</a>
 {% endif %}
 
 </li>
@@ -196,9 +172,6 @@ This edition contains poems originally published in:
 {% endfor %}
 
 </ul>
-
-
-{% endif %}
 
 {% endif %}
 
@@ -206,66 +179,46 @@ This edition contains poems originally published in:
 
 {% if site.data.reception %}
 
-
 {% assign reception_items = site.data.reception | where: "related_work_url", page.url %}
-
 
 {% if reception_items.size > 0 %}
 
-
 ---
-
 
 ## Reception
 
-
 {% assign reception_items = reception_items | sort: "year" | reverse %}
-
 
 <ul>
 
-
 {% for item in reception_items %}
-
 
 <li>
 
-
 <strong>{{ item.title }}</strong><br>
 
-
 {% if item.authors %}
-
 {{ item.authors }}.
-
 {% endif %}
-
 
 {% if item.publication %}
-
 (<em>{{ item.publication }}</em>{% if item.year %}, {{ item.year }}{% endif %})
-
 {% endif %}
-
 
 {% if item.type %}
 
 <br>
 
 {% if item.type == "academic" %}
-
 [Academic study]
 
 {% elsif item.type == "essay" %}
-
 [Critical essay]
 
 {% elsif item.type == "review" %}
-
 [Review]
 
 {% else %}
-
 [{{ item.type | capitalize }}]
 
 {% endif %}
@@ -274,27 +227,21 @@ This edition contains poems originally published in:
 
 
 {% if item.url %}
-
 — <a href="{{ item.url }}" target="_blank" rel="noopener">Read</a>
-
 {% endif %}
 
 
 {% if item.local_copy %}
-
-— <a href="{{ item.local_copy | relative_url }}" target="_blank" rel="noopener">Archived copy</a>
-
+— <a href="{{ item.local_copy | relative_url }}" target="_blank" rel="noopener">
+Archived copy
+</a>
 {% endif %}
-
 
 </li>
 
-
 {% endfor %}
 
-
 </ul>
-
 
 {% endif %}
 
@@ -304,9 +251,7 @@ This edition contains poems originally published in:
 
 {% if page.publisher_link or page.buy_link %}
 
-
 ---
-
 
 ## External Resources
 
@@ -314,19 +259,12 @@ This edition contains poems originally published in:
 {% if page.publisher_link %}
 
 <p>
-
 <a href="{{ page.publisher_link }}"
-
    class="btn btn--primary"
-
    target="_blank"
-
    rel="noopener">
-
 Publisher
-
 </a>
-
 </p>
 
 {% endif %}
@@ -336,26 +274,16 @@ Publisher
 {% if page.buy_link %}
 
 <p>
-
 <a href="{{ page.buy_link }}"
-
    class="btn btn--primary"
-
    target="_blank"
-
    rel="noopener">
-
 Purchase
-
 </a>
-
 </p>
 
 {% endif %}
 
 
 {% endif %}
-
-
-
-
+```
