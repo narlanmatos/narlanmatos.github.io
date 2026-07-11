@@ -10,6 +10,77 @@ header:
     
 ---
 
-*Page under development.*
+---
+title: "Awards"
+permalink: /awards/
+layout: single
+---
 
-- 2023: [*Eu Cânt Pentru Oameni de Bine* (*Canto aos Homens de Boa Vontade)*](/translations/canto-ro/) received Poetry Book of the Year Award, Romania 
+# Awards
+
+{% assign awards = site.data.awards | sort: "year" | reverse %}
+
+<table>
+<thead>
+<tr>
+<th>Work</th>
+<th>Award</th>
+<th>Recipient</th>
+<th>Organization</th>
+<th>Year</th>
+<th>Country</th>
+<th>Category</th>
+<th>Status</th>
+</tr>
+</thead>
+
+<tbody>
+
+{% for item in awards %}
+
+<tr>
+
+<td>
+{% if item.title_url %}
+<a href="{{ item.title_url | relative_url }}">
+{{ item.title }}
+</a>
+{% else %}
+{{ item.title }}
+{% endif %}
+</td>
+
+<td>
+{{ item.award }}
+</td>
+
+<td>
+{{ item.award_recipient }}
+</td>
+
+<td>
+{{ item.organization }}
+</td>
+
+<td>
+{{ item.year }}
+</td>
+
+<td>
+{{ item.country }}
+</td>
+
+<td>
+{{ item.category }}
+</td>
+
+<td>
+{{ item.status }}
+</td>
+
+</tr>
+
+{% endfor %}
+
+</tbody>
+</table>
