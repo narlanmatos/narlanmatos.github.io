@@ -10,11 +10,6 @@ header:
     
 ---
 
----
-title: "Awards"
-permalink: /awards/
-layout: single
----
 
 # Awards
 
