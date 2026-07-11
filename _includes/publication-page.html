@@ -392,29 +392,20 @@ Purchase
 
 
 
+
 {% if publication.gallery %}
 
 ---
 
 ## Gallery
 
-{% assign gallery_images = publication.gallery | split: "," %}
+{% assign gallery_images = publication.gallery | split: ";" %}
 
 {% for image in gallery_images %}
 <figure class="align-center">
-  <img src="{{ image | strip | relative_url }}"
+  <img src="{{ image | strip | remove: '"' | remove: '“' | remove: '”' | relative_url }}"
        alt="{{ publication.title }}">
 </figure>
 {% endfor %}
-
-{% endif %}
-
-
-{% else %}
-
-<p>
-Publication metadata not found for:
-{{ page.publication_id }}
-</p>
 
 {% endif %}
