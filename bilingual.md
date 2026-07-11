@@ -14,13 +14,13 @@ feature_row:
     btn_class: "btn--primary"
 
   - image_path: /assets/images/translations/canto-ro.jpg
-    title: "Eu Cânt Pentru Oameni de Bine (Canto aos Homens de Boa Vontade)"
+    title: "Eu Cânt Pentru Oameni de Bine"
     url: /translations/canto-ro/
     btn_label: "View Book"
     btn_class: "btn--primary"
     
   - image_path: /assets/images/translations/antologia.jpg
-    title: "Antología Poética Bilingüe (2017)"
+    title: "Antología Poética Bilingüe"
     url: /translations/antologia/
     btn_label: "View Book"
     btn_class: "btn--primary"
