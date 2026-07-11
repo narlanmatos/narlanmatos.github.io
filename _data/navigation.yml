@@ -1,0 +1,97 @@
+# main links
+main:
+  - title: "Home"
+    url: /
+
+  - title: "About"
+    url: /about/
+    children:
+      - title: "Biography"
+        url: "/about/biography/"
+      - title: "Awards & Honors"
+        url: /awards/
+      - title: "Curriculum Vitae (CV)"
+        url: /cv/
+      - title: "Timeline"
+        url: "/about/timeline/"
+      - title: "Gallery"
+        url: "/about/gallery/"
+
+
+  - title: "Poetry"
+    url: /poetry/
+    children:
+      - title: "Books"
+        url: /poetry/books/
+      - title: "Selected Poems"
+        url: /poetry/selected-poems/
+      - title: "Collected Poems & Anthologies"
+        url: /poetry/anthologies/
+      - title: "Performances & Readings"
+        url: /poetry/performances/
+
+
+  - title: "Translations"
+    url: /translations/
+    children:
+      - title: "Translated Books"
+        url: /translations/books-translated/
+      - title: "Poems in Translation"
+        url: /translations/poems-translated/
+      - title: "Collected Poems & Anthologies"
+        url: /translations/anthologies-translated/
+      - title: "Bilingual Editions"
+        url: /translations/bilingual/
+      - title: "Languages"
+        url: /translations/languages/
+
+
+  - title: "Reception"
+    url: /reception/
+    children:
+      - title: "Voices"
+        url: /reception/voices/
+      - title: "Critical Perspectives"
+        url: /reception/criticism/
+      - title: "Interviews & Media"
+        url: /reception/interviews-media/
+      - title: "Visual Responses"
+        url: /reception/visual-art/
+
+  - title: "Music"
+    url: /music/
+    children:
+      - title: "Albums"
+        url: /music/album/
+      - title: "Songs"
+        url: /music/songs/
+      - title: "Musical Collaborations"
+        url: /music/collaborations/
+      - title: "Lyrics"
+        url: /music/lyrics/
+
+  - title: "Scholarship"
+    url: /scholarship/
+
+
+  - title: "News & Events"
+    url: /events/
+    children:
+      - title: "News"
+        url: /events/news/
+      - title: "Readings"
+        url: /events/readings/
+      - title: "Appearances"
+        url: /events/appearances/
+      - title: "Archive"
+        url: /events/archive/
+
+
+
+  - title: "Contact"
+    url: /contact/
+    children:
+      - title: "Contact Information"
+        url: /contact/contact/
+      - title: "Press Kit"
+        url: /contact/press/
