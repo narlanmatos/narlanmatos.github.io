@@ -39,19 +39,7 @@ isbn: "978-9930-550-12-0"
 original_works:
    - title: Elegia ao Novo Mundo
      url: /poetry/books/elegia/
-    
 
-# --------------------------------------------------------------------
-# Awards
-# --------------------------------------------------------------------
-
-awards: []
-
-# Example:
-# awards:
-#   - title: Poetry Book of the Year
-#     organization: Romanian Writers Association
-#     year: 2023
 
 # --------------------------------------------------------------------
 # External Resources
