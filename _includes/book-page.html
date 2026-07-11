@@ -7,11 +7,225 @@
   <meta name="Generator" content="Cocoa HTML Writer">
   <meta name="CocoaVersion" content="2685.6">
   <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000}
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; -webkit-text-stroke: #000000; min-height: 14.0px}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; -webkit-text-stroke: #000000}
     span.s1 {font-kerning: none}
   </style>
 </head>
 <body>
-<p class="p1"><span class="s1">TEST INCLUDE {{ page.title }}</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">{% if page.cover %}</span></p>
+<p class="p2"><span class="s1">&lt;figure class="align-center"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">  </span>&lt;img src="{{ page.cover | relative_url }}" alt="{{ page.title }} cover"&gt;</span></p>
+<p class="p2"><span class="s1">&lt;/figure&gt;</span></p>
+<p class="p2"><span class="s1">{% endif %}</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">{% if page.overview_description %}</span></p>
+<p class="p2"><span class="s1">## Overview</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">{{ page.overview_description | markdownify }}</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">{% endif %}</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">{% if page.read_link %}</span></p>
+<p class="p2"><span class="s1">&lt;p&gt;</span></p>
+<p class="p2"><span class="s1">&lt;a href="{{ page.read_link }}"</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">   </span>class="btn btn--primary"</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">   </span>target="_blank"</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">   </span>rel="noopener"&gt;</span></p>
+<p class="p2"><span class="s1">Read Sample</span></p>
+<p class="p2"><span class="s1">&lt;/a&gt;</span></p>
+<p class="p2"><span class="s1">&lt;/p&gt;</span></p>
+<p class="p2"><span class="s1">{% endif %}</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">---</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">## Bibliographic Information</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">{% if page.original_language %}</span></p>
+<p class="p2"><span class="s1">- **Original language:** {{ page.original_language }}</span></p>
+<p class="p2"><span class="s1">{% endif %}</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">{% if page.translated_language %}</span></p>
+<p class="p2"><span class="s1">- **Translation:** {{ page.translated_language }}</span></p>
+<p class="p2"><span class="s1">{% endif %}</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">{% if page.translators %}</span></p>
+<p class="p2"><span class="s1">- **Translator{% if page.translators.size &gt; 1 %}s{% endif %}:** {{ page.translators | join: ", " }}</span></p>
+<p class="p2"><span class="s1">{% endif %}</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">{% if page.publisher %}</span></p>
+<p class="p2"><span class="s1">- **Publisher:** {{ page.publisher }}</span></p>
+<p class="p2"><span class="s1">{% endif %}</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">{% if page.publication_place %}</span></p>
+<p class="p2"><span class="s1">- **Place:** {{ page.publication_place }}</span></p>
+<p class="p2"><span class="s1">{% endif %}</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">{% if page.series %}</span></p>
+<p class="p2"><span class="s1">- **Series:** {{ page.series }}</span></p>
+<p class="p2"><span class="s1">{% endif %}</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">{% if page.year %}</span></p>
+<p class="p2"><span class="s1">- **Year:** {{ page.year }}</span></p>
+<p class="p2"><span class="s1">{% endif %}</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">{% if page.pages %}</span></p>
+<p class="p2"><span class="s1">- **Pages:** {{ page.pages }}</span></p>
+<p class="p2"><span class="s1">{% endif %}</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">{% if page.isbn %}</span></p>
+<p class="p2"><span class="s1">- **ISBN:** {{ page.isbn }}</span></p>
+<p class="p2"><span class="s1">{% endif %}</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">{% if page.original_works %}</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">{% if page.original_works.size &gt; 0 %}</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">---</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">## Original Work{% if page.original_works.size &gt; 1 %}s{% endif %}</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">This edition contains poems originally published in:</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">&lt;ul&gt;</span></p>
+<p class="p2"><span class="s1">{% for work in page.original_works %}</span></p>
+<p class="p2"><span class="s1">&lt;li&gt;</span></p>
+<p class="p2"><span class="s1">{% if work.url %}</span></p>
+<p class="p2"><span class="s1">&lt;a href="{{ work.url | relative_url }}"&gt;&lt;em&gt;{{ work.title }}&lt;/em&gt;&lt;/a&gt;</span></p>
+<p class="p2"><span class="s1">{% else %}</span></p>
+<p class="p2"><span class="s1">&lt;em&gt;{{ work.title }}&lt;/em&gt;</span></p>
+<p class="p2"><span class="s1">{% endif %}</span></p>
+<p class="p2"><span class="s1">&lt;/li&gt;</span></p>
+<p class="p2"><span class="s1">{% endfor %}</span></p>
+<p class="p2"><span class="s1">&lt;/ul&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">{% endif %}</span></p>
+<p class="p2"><span class="s1">{% endif %}</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">{% if page.awards %}</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">{% if page.awards.size &gt; 0 %}</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">---</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">## Awards</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">&lt;ul&gt;</span></p>
+<p class="p2"><span class="s1">{% for award in page.awards %}</span></p>
+<p class="p2"><span class="s1">&lt;li&gt;</span></p>
+<p class="p2"><span class="s1">&lt;strong&gt;{{ award.title }}&lt;/strong&gt;</span></p>
+<p class="p2"><span class="s1">{% if award.organization %}</span></p>
+<p class="p2"><span class="s1">— {{ award.organization }}</span></p>
+<p class="p2"><span class="s1">{% endif %}</span></p>
+<p class="p2"><span class="s1">{% if award.year %}</span></p>
+<p class="p2"><span class="s1">({{ award.year }})</span></p>
+<p class="p2"><span class="s1">{% endif %}</span></p>
+<p class="p2"><span class="s1">&lt;/li&gt;</span></p>
+<p class="p2"><span class="s1">{% endfor %}</span></p>
+<p class="p2"><span class="s1">&lt;/ul&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">{% endif %}</span></p>
+<p class="p2"><span class="s1">{% endif %}</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">{% if site.data.reception %}</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">{% assign reception_items = site.data.reception | where: "related_work_url", page.url %}</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">{% if reception_items.size &gt; 0 %}</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">---</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">## Reception</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">{% assign reception_items = reception_items | sort: "year" | reverse %}</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">&lt;ul&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">{% for item in reception_items %}</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">&lt;li&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">&lt;strong&gt;{{ item.title }}&lt;/strong&gt;&lt;br&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">{% if item.authors %}</span></p>
+<p class="p2"><span class="s1">{{ item.authors }}.</span></p>
+<p class="p2"><span class="s1">{% endif %}</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">{% if item.publication %}</span></p>
+<p class="p2"><span class="s1">(&lt;em&gt;{{ item.publication }}&lt;/em&gt;{% if item.year %}, {{ item.year }}{% endif %})</span></p>
+<p class="p2"><span class="s1">{% endif %}</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">{% if item.type %}</span></p>
+<p class="p2"><span class="s1">&lt;br&gt;</span></p>
+<p class="p2"><span class="s1">{% if item.type == "academic" %}</span></p>
+<p class="p2"><span class="s1">[Academic study]</span></p>
+<p class="p2"><span class="s1">{% elsif item.type == "essay" %}</span></p>
+<p class="p2"><span class="s1">[Critical essay]</span></p>
+<p class="p2"><span class="s1">{% elsif item.type == "review" %}</span></p>
+<p class="p2"><span class="s1">[Review]</span></p>
+<p class="p2"><span class="s1">{% else %}</span></p>
+<p class="p2"><span class="s1">[{{ item.type | capitalize }}]</span></p>
+<p class="p2"><span class="s1">{% endif %}</span></p>
+<p class="p2"><span class="s1">{% endif %}</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">{% if item.url %}</span></p>
+<p class="p2"><span class="s1">— &lt;a href="{{ item.url }}" target="_blank" rel="noopener"&gt;Read&lt;/a&gt;</span></p>
+<p class="p2"><span class="s1">{% endif %}</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">{% if item.local_copy %}</span></p>
+<p class="p2"><span class="s1">— &lt;a href="{{ item.local_copy | relative_url }}" target="_blank" rel="noopener"&gt;Archived copy&lt;/a&gt;</span></p>
+<p class="p2"><span class="s1">{% endif %}</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">&lt;/li&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">{% endfor %}</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">&lt;/ul&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">{% endif %}</span></p>
+<p class="p2"><span class="s1">{% endif %}</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">{% if page.publisher_link or page.buy_link %}</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">---</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">## External Resources</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">{% if page.publisher_link %}</span></p>
+<p class="p2"><span class="s1">&lt;p&gt;</span></p>
+<p class="p2"><span class="s1">&lt;a href="{{ page.publisher_link }}"</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">   </span>class="btn btn--primary"</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">   </span>target="_blank"</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">   </span>rel="noopener"&gt;</span></p>
+<p class="p2"><span class="s1">Publisher</span></p>
+<p class="p2"><span class="s1">&lt;/a&gt;</span></p>
+<p class="p2"><span class="s1">&lt;/p&gt;</span></p>
+<p class="p2"><span class="s1">{% endif %}</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">{% if page.buy_link %}</span></p>
+<p class="p2"><span class="s1">&lt;p&gt;</span></p>
+<p class="p2"><span class="s1">&lt;a href="{{ page.buy_link }}"</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">   </span>class="btn btn--primary"</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">   </span>target="_blank"</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">   </span>rel="noopener"&gt;</span></p>
+<p class="p2"><span class="s1">Purchase</span></p>
+<p class="p2"><span class="s1">&lt;/a&gt;</span></p>
+<p class="p2"><span class="s1">&lt;/p&gt;</span></p>
+<p class="p2"><span class="s1">{% endif %}</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">{% endif %}</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
 </body>
 </html>
