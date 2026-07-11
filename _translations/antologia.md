@@ -1,5 +1,7 @@
 ---
 
+title: "Antología Poética Bilingüe"
+
 publication_id: antologia
 
 overview_description: |
