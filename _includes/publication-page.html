@@ -1,10 +1,9 @@
-{% assign publication = site.data.publications 
-  | where_exp: "item", "item.publication_id == page.publication_id" 
-  | first %}
-
+{% assign publication = site.data.publications
+  | where_exp: "item", "item.publication_id == page.publication_id"
+  | first
+%}
 
 {% if publication %}
-
 
 {% if publication.cover %}
 <figure class="align-center">
@@ -14,9 +13,6 @@
 {% endif %}
 
 
-
-
-
 {% if publication.subtitle %}
 ## {{ publication.title }}
 ### {{ publication.subtitle }}
@@ -24,17 +20,13 @@
 
 
 {% if page.overview_description %}
-
 ## Overview
 
 {{ page.overview_description | markdownify }}
-
 {% endif %}
 
 
-
 {% if publication.read_link %}
-
 <p>
 <a href="{{ publication.read_link }}"
    class="btn btn--primary"
@@ -43,105 +35,84 @@
 Read Sample
 </a>
 </p>
-
 {% endif %}
-
 
 
 ---
 
 ## Bibliographic Information
 
-
 {% if publication.authors %}
 - **Author(s):** {{ publication.authors }}
 {% endif %}
-
 
 {% if publication.original_languages %}
 - **Original language(s):** {{ publication.original_languages }}
 {% endif %}
 
-
 {% if publication.translated_languages %}
 - **Translation language(s):** {{ publication.translated_languages }}
 {% endif %}
-
 
 {% if publication.translators %}
 - **Translator(s):** {{ publication.translators }}
 {% endif %}
 
-
 {% if publication.editors %}
 - **Editor(s):** {{ publication.editors }}
 {% endif %}
-
 
 {% if publication.foreword_authors %}
 - **Foreword:** {{ publication.foreword_authors }}
 {% endif %}
 
-
 {% if publication.afterword_authors %}
 - **Afterword:** {{ publication.afterword_authors }}
 {% endif %}
-
 
 {% if publication.illustrators %}
 - **Illustrator(s):** {{ publication.illustrators }}
 {% endif %}
 
-
 {% if publication.publisher %}
 - **Publisher:** {{ publication.publisher }}
 {% endif %}
-
 
 {% if publication.series %}
 - **Series:** {{ publication.series }}
 {% endif %}
 
-
 {% if publication.series_number %}
 - **Series number:** {{ publication.series_number }}
 {% endif %}
-
 
 {% if publication.edition %}
 - **Edition:** {{ publication.edition }}
 {% endif %}
 
-
 {% if publication.volume %}
 - **Volume:** {{ publication.volume }}
 {% endif %}
-
 
 {% if publication.publication_place %}
 - **Place:** {{ publication.publication_place }}
 {% endif %}
 
-
 {% if publication.year %}
 - **Year:** {{ publication.year }}
 {% endif %}
-
 
 {% if publication.pages %}
 - **Pages:** {{ publication.pages }}
 {% endif %}
 
-
 {% if publication.isbn %}
 - **ISBN:** {{ publication.isbn }}
 {% endif %}
 
-
 {% if publication.formats %}
 - **Format(s):** {{ publication.formats }}
 {% endif %}
-
 
 
 
@@ -151,47 +122,36 @@ Read Sample
 
 ## Original Works
 
-
 {% assign works = publication.original_work_ids | split: ";" %}
 
 <ul>
-
 {% for work_id in works %}
 
 {% assign work = site.data.publications
   | where_exp: "item", "item.publication_id == work_id"
-  | first %}
-
+  | first
+%}
 
 <li>
-
 {% if work %}
-
 <a href="/{{ work.collection }}/{{ work.publication_id }}/">
 <em>{{ work.title }}</em>
 </a>
-
 {% else %}
-
 {{ work_id }}
-
 {% endif %}
-
 </li>
 
-
 {% endfor %}
-
 </ul>
 
 {% endif %}
 
 
 
-
 {% assign awards = site.data.awards
-  | where_exp: "item", "item.publication_id == page.publication_id" %}
-
+  | where_exp: "item", "item.publication_id == page.publication_id"
+%}
 
 {% if awards.size > 0 %}
 
@@ -199,11 +159,9 @@ Read Sample
 
 ## Awards
 
-
 <ul>
 
 {% assign awards = awards | sort: "year" | reverse %}
-
 
 {% for award in awards %}
 
@@ -211,37 +169,28 @@ Read Sample
 
 <strong>{{ award.award }}</strong>
 
-
 {% if award.organization %}
 — {{ award.organization }}
 {% endif %}
-
 
 {% if award.year %}
 ({{ award.year }})
 {% endif %}
 
-
 {% if award.category %}
-<br>
-[{{ award.category }}]
+<br>[{{ award.category }}]
 {% endif %}
-
 
 {% if award.status %}
 — {{ award.status }}
 {% endif %}
 
-
 {% if award.url %}
 <br>
-<a href="{{ award.url }}"
-   target="_blank"
-   rel="noopener">
+<a href="{{ award.url }}" target="_blank" rel="noopener">
 More information
 </a>
 {% endif %}
-
 
 </li>
 
@@ -253,11 +202,9 @@ More information
 
 
 
-
-
 {% assign reception = site.data.reception
-  | where_exp: "item", "item.publication_id == page.publication_id" %}
-
+  | where_exp: "item", "item.publication_id == page.publication_id"
+%}
 
 {% if reception.size > 0 %}
 
@@ -265,89 +212,59 @@ More information
 
 ## Reception
 
-
 <ul>
 
-
 {% assign reception = reception | sort: "year" | reverse %}
-
 
 {% for item in reception %}
 
 <li>
 
-
 <strong>{{ item.title }}</strong>
 
-
 {% if item.authors %}
-<br>
-{{ item.authors }}.
+<br>{{ item.authors }}.
 {% endif %}
-
 
 {% if item.publication %}
-<br>
-(<em>{{ item.publication }}</em>{% if item.year %}, {{ item.year }}{% endif %})
+<br>(<em>{{ item.publication }}</em>{% if item.year %}, {{ item.year }}{% endif %})
 {% endif %}
-
 
 {% if item.type %}
 <br>
-
 {% case item.type %}
-
 {% when "academic" %}
 [Academic study]
-
 {% when "essay" %}
 [Critical essay]
-
 {% when "review" %}
 [Review]
-
 {% else %}
 [{{ item.type | capitalize }}]
-
 {% endcase %}
-
 {% endif %}
-
-
 
 {% if item.url %}
 <br>
-<a href="{{ item.url }}"
-   target="_blank"
-   rel="noopener">
+<a href="{{ item.url }}" target="_blank" rel="noopener">
 Read
 </a>
 {% endif %}
 
-
-
 {% if item.local_copy %}
 <br>
-<a href="{{ item.local_copy | relative_url }}"
-   target="_blank">
+<a href="{{ item.local_copy | relative_url }}" target="_blank">
 Archived copy
 </a>
 {% endif %}
 
-
-
 </li>
-
 
 {% endfor %}
 
-
 </ul>
 
-
 {% endif %}
-
-
 
 
 
@@ -357,9 +274,7 @@ Archived copy
 
 ## External Resources
 
-
 {% if publication.publisher_link %}
-
 <p>
 <a href="{{ publication.publisher_link }}"
    class="btn btn--primary"
@@ -368,13 +283,10 @@ Archived copy
 Publisher
 </a>
 </p>
-
 {% endif %}
 
 
-
 {% if publication.buy_link %}
-
 <p>
 <a href="{{ publication.buy_link }}"
    class="btn btn--primary"
@@ -383,13 +295,9 @@ Publisher
 Purchase
 </a>
 </p>
-
 {% endif %}
 
-
 {% endif %}
-
-
 
 
 
@@ -402,10 +310,23 @@ Purchase
 {% assign gallery_images = publication.gallery | split: ";" %}
 
 {% for image in gallery_images %}
+
 <figure class="align-center">
   <img src="{{ image | strip | remove: '"' | remove: '“' | remove: '”' | relative_url }}"
        alt="{{ publication.title }}">
 </figure>
+
 {% endfor %}
+
+{% endif %}
+
+
+
+{% else %}
+
+<p>
+Publication metadata not found for:
+{{ page.publication_id }}
+</p>
 
 {% endif %}
