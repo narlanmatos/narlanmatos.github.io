@@ -14,10 +14,11 @@
 {% endif %}
 
 
-## {{ publication.title }}
+
 
 
 {% if publication.subtitle %}
+## {{ publication.title }}
 ### {{ publication.subtitle }}
 {% endif %}
 
@@ -397,24 +398,16 @@ Purchase
 
 ## Gallery
 
+{% assign gallery_images = publication.gallery | split: "," %}
 
-{% assign images = publication.gallery | split: ";" %}
-
-
-<div class="gallery">
-
-{% for image in images %}
-
-<img src="{{ image | relative_url }}"
-     alt="{{ publication.title }}">
-
+{% for image in gallery_images %}
+<figure class="align-center">
+  <img src="{{ image | strip | relative_url }}"
+       alt="{{ publication.title }}">
+</figure>
 {% endfor %}
 
-</div>
-
-
 {% endif %}
-
 
 
 {% else %}
