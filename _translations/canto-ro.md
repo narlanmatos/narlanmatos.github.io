@@ -27,9 +27,9 @@ translators:
 
 year: 2023
 publisher: "EIKON"
-publication_place: []
-series: []
-pages: []
+# publication_place: []
+# series: []
+pages: 232
 isbn: "9786064909404"
   
   
@@ -46,9 +46,9 @@ original_works:
 # External Resources
 # --------------------------------------------------------------------
 
-read_link: []
+# read_link: []
 publisher_link: "https://www.librariaeikon.ro/poezie/1584-eu-cant-pentru-oameni-de-bine-canto-aos-homens-de-boa-vontade.html"
-buy_link: []
+# buy_link: []
 
 # --------------------------------------------------------------------
 # Media
@@ -68,7 +68,7 @@ overview_description: |
    This bilingual edition contains Portuguese originals and Romanian-language
    translation of Narlan Matos's 2018 book *Canto aos Homens de Boa Vontade*.
    
-   It was recipient of the 2024 Premiul pentru Traducere (Translation Prize).
+   It was recipient of the 2024 *Premiul pentru Traducere* (Translation Prize).
 
 
 ---
