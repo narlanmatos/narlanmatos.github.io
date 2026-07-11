@@ -29,21 +29,8 @@ translators:
 year: 2017
 publisher: "Editorial Maolí"
 # publication_place: "Rome, Italy"
-# series: "I Fili"
-# pages: 138
+pages: 180
 isbn: "978-8494492433"
-
-
-# --------------------------------------------------------------------
-# Publication
-# --------------------------------------------------------------------
-
-year: 2016
-publisher: "Edizioni Fili d'Aquilone"
-publication_place: "Rome, Italy"
-series: "I Fili"
-pages: 138
-isbn: "978-88-97490-17-3"
 
 illustrator:
   - "Juan Carlos Mestre"
@@ -84,4 +71,4 @@ overview_description: |
 
 ---
 
-{% include translation-page.html %}
+{% include translations-page.html %}
