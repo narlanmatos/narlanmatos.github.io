@@ -35,9 +35,9 @@ excerpt: "xxx"
 
 ## Overview
 
-This bilingual edition contains Portuguese originals and Romanian-language translation of Narlan Matos's 2018 book [*Canto aos Homens de Boa Vontade*](/poetry/books/canto).
+This bilingual edition contains Portuguese originals and Romanian-language translation of Narlan Matos's 2018 book [*Canto aos Homens de Boa Vontade*](/poetry/books/canto/).
 
-It was recipient of the Premiul „Cartea de Poezie a Anului 2023” (Poetry Book of the Year Award, Romania).
+It was recipient of the 2024 Premiul pentru Traducere (Translation Prize).
 
 {% if page.read_link %}
 <p>
