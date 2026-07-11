@@ -1,9 +1,16 @@
+Page id: "{{ page.id }}"
+
+<br>
+
+CSV id: "{{ site.data.publications[0].id }}"
+
+<br>
+
+CSV title: "{{ site.data.publications[0].title }}"
+
+<br>
+
 {% assign publication = site.data.publications | where_exp: "item", "item.id == page.id" | first %}
 
-{% if publication %}
-
-## {{ publication.title }}
-
-Publisher: {{ publication.publisher }}
-
-{% endif %}
+Found:
+{{ publication.title }}
