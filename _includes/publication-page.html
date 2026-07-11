@@ -392,6 +392,24 @@ Purchase
 
 
 
+
+
+Gallery raw: {{ publication.gallery }}
+
+{% assign gallery_images = publication.gallery | split: ";" %}
+
+Number of images: {{ gallery_images.size }}
+
+{% for image in gallery_images %}
+Image path: {{ image }}
+{% endfor %}
+
+
+
+
+
+
+
 {% if publication.gallery %}
 
 ---
