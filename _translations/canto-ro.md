@@ -54,8 +54,6 @@ publisher_link: "https://www.librariaeikon.ro/poezie/1584-eu-cant-pentru-oameni-
 # Media
 # --------------------------------------------------------------------
 
-videos: []
-
 gallery:
   - "/assets/images/translations/canto-ro.jpg"
   - "/assets/images/translations/canto-ro-back.jpg"

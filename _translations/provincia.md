@@ -55,16 +55,6 @@ publisher_link: "https://www.efilidaquilone.it/Scheda_Fili_16.pdf"
 buy_link: "https://www.ibs.it/provincia-oscura-testo-portoghese-a-libro-narlan-matos/e/9788897490173"
 
 # --------------------------------------------------------------------
-# Media
-# --------------------------------------------------------------------
-
-videos: []
-
-gallery:
-  - "/assets/images/translations/provincia.jpg"
-
-
-# --------------------------------------------------------------------
 # Descriptive Text 
 # --------------------------------------------------------------------
 
