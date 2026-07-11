@@ -24,6 +24,10 @@ feature_row_languages:
     btn_label: "Lithuanian"
     btn_class: "btn--primary"
     
+  - url: /translations/languages/romanian/
+    btn_label: "Romanian"
+    btn_class: "btn--primary"
+    
   - url: /translations/languages/russian/
     btn_label: "Russian"
     btn_class: "btn--primary"
