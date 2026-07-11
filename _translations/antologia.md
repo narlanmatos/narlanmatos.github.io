@@ -1,8 +1,8 @@
 ---
 
 title: "Antología Poética Bilingüe"
-permalink: /translations/anthologia/
-cover: "/assets/images/translations/anthologia.jpg"
+permalink: /translations/antologia/
+cover: "/assets/images/translations/antologia.jpg"
 
 # --------------------------------------------------------------------
 # Classification
