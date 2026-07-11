@@ -1,4 +1,4 @@
-{% assign publication = site.data.publications | where: "id", page.id | first %}
+{% assign publication = site.data.publications | where_exp: "item", "item.publication_id == page.publication_id" | first %}
 
 {% if publication %}
 
