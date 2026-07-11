@@ -57,7 +57,14 @@ illustrator:
 # publisher_link: 
 buy_link: "https://www.amazon.com/gp/product/8494492438"
 
+# --------------------------------------------------------------------
+# Media
+# --------------------------------------------------------------------
 
+gallery:
+  - "/assets/images/translations/antologia.jpg"
+  - "/assets/images/translations/antologia-back.jpg"
+  
 # --------------------------------------------------------------------
 # Descriptive Text 
 # --------------------------------------------------------------------
