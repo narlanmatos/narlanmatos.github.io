@@ -1,6 +1,6 @@
 ---
 
-id: antologia
+publication_id: antologia
 
 overview_description: |
 
