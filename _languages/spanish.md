@@ -18,10 +18,17 @@ feature_row_books:
     btn_class: "btn--primary"
     
   - image_path: /assets/images/translations/duet-es.jpg
-    title: "Dueto de puntos (Spanish Edition; 2020)"
+    title: "Dueto de puntos (Spanish Edition)"
     url: translations/duet-es/
     btn_label: "Ver Libro"
     btn_class: "btn--primary"
+    
+  - image_path: /assets/images/translations/elegia-es.jpg
+    title: "Elegía al Nuevo Mundo y Otros Poemas"
+    url: /translations/elegia-es/
+    btn_label: "View Book"
+    btn_class: "btn--primary"
+
 
 feature_row_jm:
     

@@ -14,6 +14,11 @@ feature_row_books:
     btn_label: "View Book"
     btn_class: "btn--primary"
     
+  - image_path: /assets/images/translations/elegia-es.jpg
+    title: "Elegía al Nuevo Mundo y Otros Poemas"
+    url: /translations/elegia-es/
+    btn_label: "View Book"
+    btn_class: "btn--primary"
 
 
 ---
