@@ -402,14 +402,10 @@ Purchase
 
 {% for image in gallery_images %}
 <figure class="align-center">
-  <img src="{{ image | strip | relative_url }}" alt="{{ publication.title }}">
+  <img src="{{ image | strip | relative_url }}"
+       alt="{{ publication.title }}">
 </figure>
 {% endfor %}
-
-
-
-</div>
-
 
 {% endif %}
 
