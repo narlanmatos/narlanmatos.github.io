@@ -91,11 +91,11 @@ og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : "Narlan Matos" # If the user or organization name differs from the site's name
-  links:       # An array of links to social media 
+  type: Person
+  name: "Narlan Matos"
+  links:
     - "https://www.facebook.com/narlanmatos/"
-    - "https://www.instagram.com/narlanmatosteixeira7/"profiles
+    - "https://www.instagram.com/narlanmatosteixeira7/"
 
 # Analytics
 analytics:
