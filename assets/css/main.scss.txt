@@ -1,0 +1,30 @@
+.poem {
+white-space: pre-wrap; // preserves line breaks + leading spaces
+background: none; // removes black box
+border: none;
+padding: 0;
+margin: 1em 0;
+font-family: inherit; // avoids code font styling
+color: inherit;
+}
+
+.publication-metadata {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5em 0;
+}
+
+.publication-metadata th {
+  width: 28%;
+  text-align: left;
+  vertical-align: top;
+  font-weight: 600;
+  padding: 0.35em 1em 0.35em 0;
+  border-bottom: 1px solid #eee;
+  white-space: nowrap;
+}
+
+.publication-metadata td {
+  padding: 0.35em 0;
+  border-bottom: 1px solid #eee;
+}
