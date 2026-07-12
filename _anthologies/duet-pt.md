@@ -1,6 +1,6 @@
 ---
 
-title: "Dueto de Pontos (Portuguese Edition)"
+title: "Dueto de Pontos"
 
 publication_id: duet-pt
 
