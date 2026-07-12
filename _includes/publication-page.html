@@ -170,6 +170,7 @@ Read Sample
 </table>
 
 {% if publication.original_work_ids %}
+
 ---
 
 ## Original Works
@@ -177,6 +178,7 @@ Read Sample
 {% assign works = publication.original_work_ids | split: ";" %}
 
 <ul>
+
 {% for work_id in works %}
 
 {% assign work = site.data.publications
@@ -185,16 +187,23 @@ Read Sample
 %}
 
 <li>
+
 {% if work %}
-<a href="/poetry/{{ work.collection }}/{{ work.publication_id }}/">
+
+<a href="{{ work.url | relative_url }}">
 <em>{{ work.title }}</em>
 </a>
+
 {% else %}
+
 {{ work_id }}
+
 {% endif %}
+
 </li>
 
 {% endfor %}
+
 </ul>
 
 {% endif %}
@@ -226,7 +235,7 @@ Read Sample
 
 <li>
 
-<a href="/{{ translation.collection }}/{{ translation.publication_id }}/">
+<a href="{{ translation.url | relative_url }}">
 <em>{{ translation.title }}</em>
 </a>
 
