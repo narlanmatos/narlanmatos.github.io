@@ -11,11 +11,10 @@ COVER IMAGE
 ==================================================
 {% endcomment %}
 
-{% if publication.cover %}
-<figure class="align-center">
-  <img src="{{ publication.cover | relative_url }}"
-       alt="{{ publication.title }} cover">
-</figure>
+{% if publication.subtitle %}
+## {{ publication.title }}
+
+<small><em>{{ publication.subtitle }}</em></small>
 {% endif %}
 
 
