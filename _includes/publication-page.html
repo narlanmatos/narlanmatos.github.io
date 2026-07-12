@@ -41,81 +41,133 @@ Read Sample
 
 ## Bibliographic Information
 
+<table class="publication-metadata">
+
 {% if publication.authors %}
-- **Author(s):** {{ publication.authors }}
+<tr>
+  <th>Author(s)</th>
+  <td>{{ publication.authors }}</td>
+</tr>
 {% endif %}
 
 {% if publication.original_languages %}
-- **Original language(s):** {{ publication.original_languages }}
+<tr>
+  <th>Original language(s)</th>
+  <td>{{ publication.original_languages }}</td>
+</tr>
 {% endif %}
 
 {% if publication.translated_languages %}
-- **Translation language(s):** {{ publication.translated_languages }}
+<tr>
+  <th>Translation language(s)</th>
+  <td>{{ publication.translated_languages }}</td>
+</tr>
 {% endif %}
 
 {% if publication.translators %}
-- **Translator(s):** {{ publication.translators }}
+<tr>
+  <th>Translator(s)</th>
+  <td>{{ publication.translators }}</td>
+</tr>
 {% endif %}
 
 {% if publication.editors %}
-- **Editor(s):** {{ publication.editors }}
+<tr>
+  <th>Editor(s)</th>
+  <td>{{ publication.editors }}</td>
+</tr>
 {% endif %}
 
 {% if publication.foreword_authors %}
-- **Foreword:** {{ publication.foreword_authors }}
+<tr>
+  <th>Foreword</th>
+  <td>{{ publication.foreword_authors }}</td>
+</tr>
 {% endif %}
 
 {% if publication.afterword_authors %}
-- **Afterword:** {{ publication.afterword_authors }}
+<tr>
+  <th>Afterword</th>
+  <td>{{ publication.afterword_authors }}</td>
+</tr>
 {% endif %}
 
 {% if publication.illustrators %}
-- **Illustrator(s):** {{ publication.illustrators }}
+<tr>
+  <th>Illustrator(s)</th>
+  <td>{{ publication.illustrators }}</td>
+</tr>
 {% endif %}
 
 {% if publication.publisher %}
-- **Publisher:** {{ publication.publisher }}
+<tr>
+  <th>Publisher</th>
+  <td>{{ publication.publisher }}</td>
+</tr>
 {% endif %}
 
 {% if publication.series %}
-- **Series:** {{ publication.series }}
-{% endif %}
-
-{% if publication.series_number %}
-- **Series number:** {{ publication.series_number }}
+<tr>
+  <th>Series</th>
+  <td>
+    {{ publication.series }}
+    {% if publication.series_number %}
+      (No. {{ publication.series_number }})
+    {% endif %}
+  </td>
+</tr>
 {% endif %}
 
 {% if publication.edition %}
-- **Edition:** {{ publication.edition }}
+<tr>
+  <th>Edition</th>
+  <td>{{ publication.edition }}</td>
+</tr>
 {% endif %}
 
 {% if publication.volume %}
-- **Volume:** {{ publication.volume }}
+<tr>
+  <th>Volume</th>
+  <td>{{ publication.volume }}</td>
+</tr>
 {% endif %}
 
 {% if publication.publication_place %}
-- **Place:** {{ publication.publication_place }}
+<tr>
+  <th>Place of publication</th>
+  <td>{{ publication.publication_place }}</td>
+</tr>
 {% endif %}
 
 {% if publication.year %}
-- **Year:** {{ publication.year }}
+<tr>
+  <th>Year</th>
+  <td>{{ publication.year }}</td>
+</tr>
 {% endif %}
 
 {% if publication.pages %}
-- **Pages:** {{ publication.pages }}
+<tr>
+  <th>Pages</th>
+  <td>{{ publication.pages }}</td>
+</tr>
 {% endif %}
 
 {% if publication.isbn %}
-- **ISBN:** {{ publication.isbn }}
+<tr>
+  <th>ISBN</th>
+  <td>{{ publication.isbn }}</td>
+</tr>
 {% endif %}
 
 {% if publication.formats %}
-- **Format(s):** {{ publication.formats }}
+<tr>
+  <th>Format(s)</th>
+  <td>{{ publication.formats }}</td>
+</tr>
 {% endif %}
 
-
-
-{% if publication.original_work_ids %}
+</table>
 
 ---
 
