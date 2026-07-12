@@ -92,8 +92,10 @@ og_image                 : # Open Graph/Twitter default site image
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  name                   : "Narlan Matos" # If the user or organization name differs from the site's name
+  links:       # An array of links to social media 
+    - "https://www.facebook.com/narlanmatos/"
+    - "https://www.instagram.com/narlanmatosteixeira7/"profiles
 
 # Analytics
 analytics:
@@ -105,9 +107,9 @@ analytics:
 
 # Site Author
 author:
-  name             : #"Narlan Matos"
+  name             : "Narlan Matos"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : #"Poet, Musician, Scholar"
+  bio              : "Poet, Musician, Scholar"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -125,7 +127,15 @@ author:
 # Site Footer
 footer:
   links:
-  since: ""
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      url: "https://www.facebook.com/narlanmatos/"
+
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://www.instagram.com/narlanmatosteixeira7/"
+
+  since: "1997"
 
 
 # Reading Files
