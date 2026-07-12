@@ -8,10 +8,8 @@ header:
   
 feature_row_poems:
   - image_path: /assets/images/feature/xx.jpg
-    title: "Featured Portuguese Original"
+    title: "Elegia ao Novo Mundo"
     excerpt: |
-      <b>Elegia ao Novo Mundo</b>  
-      
       Tu me perguntas meu amigo
       
       Onde eu estive durante meu longo silêncio...
