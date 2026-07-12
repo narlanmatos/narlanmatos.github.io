@@ -202,131 +202,116 @@ BIBLIOGRAPHIC INFO
 
 {% comment %}
 ==================================================
-ORIGINAL WORKS
+EDITIONS
 ==================================================
 {% endcomment %}
 
 
+{% assign family_id = publication.family_id %}
 
-{% if publication.original_work_ids %}
+{% if family_id %}
 
----
+{% assign editions = "" | split: "" %}
 
-## Original Works
+{% for item in site.data.publications %}
 
-{% assign works = publication.original_work_ids | split: ";" %}
-
-<ul>
-
-{% for work_id in works %}
-
-{% assign work = site.data.publications
-  | where_exp: "item", "item.publication_id == work_id"
-  | first
-%}
-
-<li>
-
-{% if work %}
-
-<a href="{{ work.url | relative_url }}">
-<em>{{ work.title }}</em>
-</a>
-
-{% else %}
-
-{{ work_id }}
-
-{% endif %}
-
-</li>
-
-{% endfor %}
-
-</ul>
-
-{% endif %}
-
-
-
-{% comment %}
-==================================================
-TRANSLATIONS
-==================================================
-{% endcomment %}
-
-
-
-
-
-{% assign found_translation = false %}
-
-{% for translation in site.data.publications %}
-
-  {% if translation.original_work_ids %}
-
-    {% assign originals = translation.original_work_ids | split: ";" %}
-
-    {% for original in originals %}
-
-      {% assign original = original | strip %}
-
-      {% if original == page.publication_id %}
-
-        {% unless found_translation %}
-
----
-
-## Translations
-
-<ul>
-
-          {% assign found_translation = true %}
-        {% endunless %}
-
-<li>
-
-<a href="{{ translation.url | relative_url }}">
-<em>{{ translation.title }}</em>
-</a>
-
-{% if translation.translated_languages %}
- — {{ translation.translated_languages }}
-{% endif %}
-
-{% if translation.translators %}
-<br>
-Translated by {{ translation.translators }}
-{% endif %}
-
-{% if translation.publisher or translation.year %}
-<br>
-
-{% if translation.publisher %}
-{{ translation.publisher }}
-{% endif %}
-
-{% if translation.year %}
- ({{ translation.year }})
-{% endif %}
-
-{% endif %}
-
-</li>
-
-      {% endif %}
-
-    {% endfor %}
-
+  {% if item.family_id == family_id %}
+    {% assign editions = editions | push: item %}
   {% endif %}
 
 {% endfor %}
 
-{% if found_translation %}
-</ul>
+
+{% if editions.size > 1 %}
+
+---
+
+## Editions
+
+
+{% assign editions = editions | sort: "year" %}
+
+<ul>
+
+{% for edition in editions %}
+
+{% assign edition_page = site.documents
+    | where: "publication_id", edition.publication_id
+    | first
+%}
+
+
+<li>
+
+{% if edition_page %}
+<a href="{{ edition_page.url | relative_url }}">
+<strong>{{ edition.title }}</strong>
+</a>
+{% else %}
+<strong>{{ edition.title }}</strong>
 {% endif %}
 
 
+{% if edition.subtitle %}
+<br>
+<em>{{ edition.subtitle }}</em>
+{% endif %}
+
+
+{% if edition.edition %}
+<br>
+{{ edition.edition }}
+{% endif %}
+
+
+{% if edition.year %}
+ ({{ edition.year }})
+{% endif %}
+
+
+{% if edition.original_languages %}
+<br>
+Language:
+{{ edition.original_languages }}
+{% endif %}
+
+
+{% if edition.translated_languages %}
+<br>
+Translation:
+{{ edition.translated_languages }}
+{% endif %}
+
+
+{% if edition.translators %}
+<br>
+Translated by {{ edition.translators }}
+{% endif %}
+
+
+{% if edition.publisher %}
+<br>
+{{ edition.publisher }}
+{% endif %}
+
+
+{% if edition.formats %}
+<br>
+<small>{{ edition.formats }}</small>
+{% endif %}
+
+
+</li>
+
+
+{% endfor %}
+
+</ul>
+
+
+{% endif %}
+
+{% endif %}
 
 
 
