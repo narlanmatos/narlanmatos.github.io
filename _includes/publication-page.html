@@ -186,16 +186,17 @@ Read Sample
 
 <li>
 {% if work %}
-<a href="/poetry/{{ work.collection }}/{{ work.publication_id }}/">
+
+<a href="{{ work.url | relative_url }}">
 <em>{{ work.title }}</em>
 </a>
+
 {% else %}
+
 {{ work_id }}
+
 {% endif %}
 </li>
-
-{% endfor %}
-</ul>
 
 {% endif %}
 
@@ -226,7 +227,7 @@ Read Sample
 
 <li>
 
-<a href="/{{ translation.collection }}/{{ translation.publication_id }}/">
+<a href="{{ translation.url | relative_url }}">
 <em>{{ translation.title }}</em>
 </a>
 
