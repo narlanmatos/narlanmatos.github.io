@@ -1,6 +1,6 @@
 ---
 
-title: "Elegía al Nuevo Mundo y Otros Poemas"
+title: "Elegía al Nuevo Mundo"
 
 publication_id: elegia-es
 
