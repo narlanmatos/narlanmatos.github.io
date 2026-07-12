@@ -1,8 +1,8 @@
 ---
 
-title: "Dueto de Puntos"
+title: "Duo de Points"
 
-publication_id: duet-es
+publication_id: duet-fr
 
 overview_description: |
   *Duet of Dots* is a collaboration between Narlan Matos and the Japanese poetess Maki Starfield,

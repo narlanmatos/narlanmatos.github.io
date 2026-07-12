@@ -6,7 +6,7 @@ publication_id: duet-pt
 
 overview_description: |
   *Duet of Dots* is a collaboration between Narlan Matos and the Japanese poetess Maki Starfield,
-  with translations published in multiple languages: Japanese (original edition), Portuguese, Spanish, and Italian.
+  with translations published in multiple languages: Japanese (original edition), Portuguese, Spanish, Italian, and French.
 
 
 ---
