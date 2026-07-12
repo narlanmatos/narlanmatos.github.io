@@ -23,7 +23,8 @@ Email Narlan Matos
 
 ## Translations and International Editions
 
-Narlan Matos's work has been translated and published in several languages, including Spanish, Italian, Romanian, Japanese, and others. Translators, publishers, editors, and cultural organizations interested in future projects are welcome to get in touch.
+Narlan Matos's work has been translated and published in multiple [languages](https://narlanmatos.github.io/translations/languages/).
+Translators, publishers, editors, and cultural organizations interested in future projects are welcome to get in touch.
 
 ## Readings, Events, and Collaborations
 
