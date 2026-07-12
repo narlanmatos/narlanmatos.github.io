@@ -11,10 +11,11 @@ COVER IMAGE
 ==================================================
 {% endcomment %}
 
-{% if publication.subtitle %}
-## {{ publication.title }}
-
-<small><em>{{ publication.subtitle }}</em></small>
+{% if publication.cover %}
+<figure class="align-center">
+  <img src="{{ publication.cover | relative_url }}"
+       alt="{{ publication.title }} cover">
+</figure>
 {% endif %}
 
 
@@ -26,8 +27,9 @@ TITLE (only repeated here if there is a subtitle)
 
 
 {% if publication.subtitle %}
-## {{ publication.title }} 
-### {{ publication.subtitle }}
+## {{ publication.title }}
+
+<small><em>{{ publication.subtitle }}</em></small>
 {% endif %}
 
 
