@@ -261,50 +261,66 @@ More information
 
 ## Reception
 
+{% assign headings = reception | map: "heading" | uniq %}
+
+{% for heading in headings %}
+
+### {{ heading }}
+
+{% assign entries = reception
+  | where: "heading", heading
+  | sort: "year"
+  | reverse
+%}
+
 <ul>
 
-{% assign reception = reception | sort: "year" | reverse %}
-
-{% for item in reception %}
+{% for item in entries %}
 
 <li>
 
 <strong>{{ item.title }}</strong>
 
 {% if item.authors %}
-<br>{{ item.authors }}.
+<br>
+{{ item.authors }}
 {% endif %}
+
+{% if item.publication or item.year %}
+<br>
 
 {% if item.publication %}
-<br>(<em>{{ item.publication }}</em>{% if item.year %}, {{ item.year }}{% endif %})
+<em>{{ item.publication }}</em>
 {% endif %}
 
-{% if item.type %}
-<br>
-{% case item.type %}
-{% when "academic" %}
-[Academic study]
-{% when "essay" %}
-[Critical essay]
-{% when "review" %}
-[Review]
-{% else %}
-[{{ item.type | capitalize }}]
-{% endcase %}
+{% if item.year %}
+ ({{ item.year }})
 {% endif %}
+
+{% endif %}
+
+{% if item.url or item.local_copy %}
+<br>
 
 {% if item.url %}
-<br>
-<a href="{{ item.url }}" target="_blank" rel="noopener">
-Read
+<a href="{{ item.url }}"
+   target="_blank"
+   rel="noopener">
+Read online
 </a>
+{% endif %}
+
+{% if item.url and item.local_copy %}
+ ·
 {% endif %}
 
 {% if item.local_copy %}
-<br>
-<a href="{{ item.local_copy | relative_url }}" target="_blank">
+<a href="{{ item.local_copy | relative_url }}"
+   target="_blank">
 Archived copy
 </a>
+{% endif %}
+
 {% endif %}
 
 </li>
@@ -312,6 +328,8 @@ Archived copy
 {% endfor %}
 
 </ul>
+
+{% endfor %}
 
 {% endif %}
 
