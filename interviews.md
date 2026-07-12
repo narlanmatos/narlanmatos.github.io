@@ -6,7 +6,7 @@ layout: splash
 header:
   overlay_image: /assets/images/header.jpg  # header image
 
-feature_row:
+#feature_row:
         
 #  - image_path: /assets/images/features/xx.jpg
 #    title: "Academic Studies"
