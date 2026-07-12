@@ -8,7 +8,7 @@ feature_row_books:
   - image_path: /assets/images/translations/duet-fr.jpg
     title: "Duo de Points"
     url: translations/duet-fr/
-    btn_label: "Visualizza il Libro"
+    btn_label: "Voir le Livre"
     btn_class: "btn--primary"
     
 
