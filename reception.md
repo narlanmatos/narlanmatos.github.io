@@ -7,30 +7,30 @@ header:
   overlay_image: /assets/images/header.jpg  # header image
 
 feature_row:
-  - image_path: /assets/images/features/xx.jpg
+  - image_path: /assets/images/features/luiz-caldas.jpg
     title: "Voices"
-    excerpt: "Includes video tributes, reflections, and appreciations by writers, musicians, and other cultural figures."
+    excerpt: "Video tributes, reflections, and appreciations by writers, musicians, and other cultural figures."
     url: /reception/voices/
     btn_label: "Explore"
     btn_class: "btn--primary"
 
-  - image_path: /assets/images/features/xx.jpg
+  - image_path: /assets/images/criticism/guara-cover.jpg
     title: "Literary Criticism"
-    excerpt: "Academic studies, critical essays, and reviews."
+    excerpt: "Academic studies, critical essays, and reviews examining Narlan Matos's poetry and literary work."
     url: /reception/criticism/
     btn_label: "Explore Criticism"
     btn_class: "btn--primary"
 
   - image_path: /assets/images/features/xx.jpg
     title: "Interviews & Media"
-    excerpt: "..."
+    excerpt: "Conversations, interviews, podcasts, and media appearances exploring poetry, music, culture, and creative processes."
     url: /reception/interviews/
     btn_label: "See Interviews"
     btn_class: "btn--primary"
 
-  - image_path: /assets/images/features/xx.jpg
+  - image_path: /assets/images/visual-art/j-c-mestre1-cropped.jpg
     title: "Visual Responses"
-    excerpt: "..."
+    excerpt: "Paintings, illustrations, photographs, and other artistic interpretations inspired by Narlan Matos's poetry."
     url: /reception/visual-art/
     btn_label: "Explore the Gallery"
     btn_class: "btn--primary"
