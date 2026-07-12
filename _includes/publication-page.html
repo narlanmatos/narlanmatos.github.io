@@ -170,6 +170,7 @@ Read Sample
 </table>
 
 {% if publication.original_work_ids %}
+
 ---
 
 ## Original Works
@@ -177,6 +178,7 @@ Read Sample
 {% assign works = publication.original_work_ids | split: ";" %}
 
 <ul>
+
 {% for work_id in works %}
 
 {% assign work = site.data.publications
@@ -185,6 +187,7 @@ Read Sample
 %}
 
 <li>
+
 {% if work %}
 
 <a href="{{ work.url | relative_url }}">
@@ -196,7 +199,12 @@ Read Sample
 {{ work_id }}
 
 {% endif %}
+
 </li>
+
+{% endfor %}
+
+</ul>
 
 {% endif %}
 
