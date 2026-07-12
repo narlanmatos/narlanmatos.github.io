@@ -2,10 +2,11 @@
 
 title: "Contact"
 permalink: /contact/
-layout: splash
+layout: single
+author_profile: true
+
 header:
   overlay_image: /assets/images/header.jpg  # header image
-
 ---
 
 # Contact
