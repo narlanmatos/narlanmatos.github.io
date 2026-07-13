@@ -25,10 +25,14 @@ TITLE (only repeated here if full title is not the same as title)
 ==================================================
 {% endcomment %}
 
-{% if publication.full_title and publication.full_title != publication.title and publication.subtitle %}
+{% if publication.full_title and publication.full_title != publication.title %}
+  {% if publication.subtitle %}
 ## {{ publication.title }}: <em>{{ publication.subtitle }}</em>
-{% elseif publication.full_title and publication.full_title != publication.title %}
+  {% else %}
 ## <em>{{ publication.full_title }}</em>
+  {% endif %}
+{% else %}
+## {{ publication.title }}
 {% endif %}
 
 
