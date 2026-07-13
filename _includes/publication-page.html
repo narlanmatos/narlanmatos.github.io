@@ -62,6 +62,101 @@ Read Sample
 
 ---
 
+
+
+
+
+
+{% comment %}
+==================================================
+SELECTED POEMS
+==================================================
+{% endcomment %}
+
+{% assign found_poems = false %}
+
+{% for poem in site.data.poems %}
+
+  {% assign publication_ids = poem.first_publication_id %}
+
+  {% if poem.additional_publication_ids %}
+    {% assign publication_ids = publication_ids
+      | append: ";"
+      | append: poem.additional_publication_ids %}
+  {% endif %}
+
+  {% assign ids = publication_ids | split: ";" %}
+
+  {% for id in ids %}
+
+    {% assign id = id | strip %}
+
+    {% if id == publication.publication_id %}
+
+      {% unless found_poems %}
+
+---
+
+## Selected Poems
+
+<ul>
+
+        {% assign found_poems = true %}
+
+      {% endunless %}
+
+      {% assign poem_page = site.poems
+        | where: "poem_id", poem.poem_id
+        | first %}
+
+<li>
+
+{% if poem_page %}
+<a href="{{ poem_page.url | relative_url }}">
+{% endif %}
+
+<em>{{ poem.title }}</em>
+
+{% if poem.subtitle %}
+: {{ poem.subtitle }}
+{% endif %}
+
+{% if poem_page %}
+</a>
+{% endif %}
+
+{% if poem.language %}
+— {{ poem.language }}
+{% endif %}
+
+{% if poem.incipit %}
+<br>
+{{ poem.incipit | truncatewords: 12 }}
+{% endif %}
+
+</li>
+
+      {% break %}
+
+    {% endif %}
+
+  {% endfor %}
+
+{% endfor %}
+
+{% if found_poems %}
+</ul>
+{% endif %}
+
+
+
+
+
+
+
+
+
+
 {% comment %}
 ==================================================
 BIBLIOGRAPHIC INFO
