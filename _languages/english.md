@@ -20,24 +20,41 @@ feature_row_jm:
     btn_label: "Read Poems"
     btn_class: "btn--primary" 
     
+  - image_path: /assets/images/features/2018-esla.jpg
+    title: "Selected Poems"
+    excerpt: |
+      Translations by José F. Bañuelos-Montes & Sally Perret
+      
+      *English Studies in Latin America, vol. 14*, 2018
+    url: https://letras.uc.cl/wp-content/uploads/2023/01/esla-issue14-fictionNARLAN.pdf
+    btn_label: "Read Poems"
+    btn_class: "btn--primary" 
+    
   - image_path: /assets/images/features/tupelo.jpg
     title: "Genesis"
     excerpt: |
       Translations by José F. Bañuelos-Montes & Sally Perret
       
       *Tupelo Quarterly*, 2022
-    url: https://www.interimpoetics.org/35-4/narlan-matos-trans-jose-f-banuelos-montes-sally-perret
+    url: https://www.tupeloquarterly.com/translation/narlan-matos-genesis-translated-from-portuguese-by-jose-f-banuelos-montes-sally-perret/
     btn_label: "Read Poem"
     btn_class: "btn--primary" 
 
 feature_row_poems: 
-  - image_path: /assets/images/features/english.jpg
-    title: "Elegy to the New World"
+  - title: "Elegy to the New World"
     excerpt: |
       You ask me, my companion 
       
       Where had I been during my long silence...
     url: poetry/poems/elegia-ao-novo-mundo-en/
+    btn_label: "Read Full Poem"
+    btn_class: "btn--primary" 
+  - title: "Post-Columbians"
+    excerpt: |
+      barely 
+      
+      just barely...
+    url: poetry/poems/pos-colombianos-en/
     btn_label: "Read Full Poem"
     btn_class: "btn--primary" 
     
