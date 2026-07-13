@@ -31,6 +31,12 @@ feature_row:
     btn_label: "View Book"
     btn_class: "btn--primary"
     
+  - image_path: /assets/images/translations/poetinis.jpg
+    title: "Poetinis Druskinink ruduo 2012 (Drukininkai Poetic fall 2012)"
+    url: /translations/poetinis/
+    btn_label: "View Book"
+    btn_class: "btn--primary"
+    
 ---
 
 *This page contains biligual and multilingual editions, where Narlan Matos's original poetry, written in Portuguese, is featured alongside translations in one or more additional languages.*
