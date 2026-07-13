@@ -1,6 +1,6 @@
 ---
 
-title: "Vertimai į Lietuvių Kalbą"
+title: "Vertimai į Lietuvių Kalbą (Translations in Lithuanian)"
 
 
 feature_row_books:
