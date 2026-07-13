@@ -63,7 +63,7 @@ From where gun powder bayonet mirror tuberculosis and syphilis came
 
 From where the sword and the elm came
 
- - The clouds will never forget that!
+ -- The clouds will never forget that!
 
 In the black Atlantic
 
