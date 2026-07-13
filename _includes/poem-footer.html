@@ -88,10 +88,13 @@ PUBLICATIONS
 
 ## First Published In
 
-{% assign first_page = site[first_book.collection]
-  | where: "publication_id", first_book.publication_id
-  | first
-%}
+{% if first_book.url %}
+<a href="{{ first_book.url | relative_url }}">
+<em>{{ first_book.title }}</em>
+</a>
+{% else %}
+<em>{{ first_book.title }}</em>
+{% endif %}
 
 {% if first_page %}
 ### <a href="{{ first_page.url | relative_url }}"><em>{{ first_book.title }}</em></a>
@@ -152,15 +155,8 @@ PUBLICATIONS
 
 {% if book %}
 
-{% assign book_page = site[book.collection]
-  | where: "publication_id", book.publication_id
-  | first
-%}
-
-<li>
-
-{% if book_page %}
-<a href="{{ book_page.url | relative_url }}">
+{% if book.url %}
+<a href="{{ book.url | relative_url }}">
 <em>{{ book.title }}</em>
 </a>
 {% else %}
