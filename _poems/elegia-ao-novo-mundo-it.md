@@ -6,8 +6,6 @@ title: "Elegia al Nuovo Mondo"
   
 ---
 
-**translation: {{ page.translator.name }}**
-
 <div class="poem"> 
 
 tu mi domandi amico mio dove sono stato durante il mio lungo silenzio<br><br>
