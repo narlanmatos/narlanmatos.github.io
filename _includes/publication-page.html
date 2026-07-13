@@ -83,44 +83,32 @@ SELECTED POEMS
 
 {% if publication %}
 
-{% assign poems = "" | split: "" %}
+{% assign poems = site.data.poems | sort: "title" %}
 
-{% for poem in site.data.poems %}
+{% assign displayed = "" %}
 
-  {% assign found = false %}
+{% for poem in poems %}
+
+  {% assign include_poem = false %}
 
   {% if poem.first_publication_id == publication.publication_id %}
-    {% assign found = true %}
+    {% assign include_poem = true %}
   {% endif %}
 
-  {% unless found %}
+  {% unless include_poem %}
     {% if poem.additional_publication_ids %}
       {% assign ids = poem.additional_publication_ids | split: ";" %}
       {% for id in ids %}
         {% if id | strip == publication.publication_id %}
-          {% assign found = true %}
+          {% assign include_poem = true %}
         {% endif %}
       {% endfor %}
     {% endif %}
   {% endunless %}
 
-  {% if found %}
-    {% assign poems = poems | push: poem %}
-  {% endif %}
+  {% if include_poem %}
 
-{% endfor %}
-
-{% if poems.size > 0 %}
-
----
-
-## Selected Poems
-
-<ul>
-
-{% assign poems = poems | sort: "title" %}
-
-{% for poem in poems %}
+    {% unless displayed contains poem.poem_id %}
 
 <li>
 
@@ -142,11 +130,28 @@ SELECTED POEMS
 
 </li>
 
+      {% assign displayed = displayed | append: "|" | append: poem.poem_id %}
+
+    {% endunless %}
+
+  {% endif %}
+
 {% endfor %}
+
+{% if displayed != "" %}
+
+---
+
+## Selected Poems
+
+<ul>
+
+{{ content_for_selected_poems }}
 
 </ul>
 
 {% endif %}
+
 {% endif %}
 
 
@@ -295,7 +300,7 @@ BIBLIOGRAPHIC INFO
 
 {% comment %}
 ==================================================
-EDITIONS
+EDITIONS & TRANSLATIONS
 ==================================================
 {% endcomment %}
 
@@ -315,9 +320,11 @@ EDITIONS
 
 ---
 
-## Editions
+## Editions & Translations
 
-{% assign editions = editions | sort: "year" %}
+### Books
+
+{% assign editions = editions | sort: "publication_date" %}
 
 <ul>
 
@@ -343,42 +350,130 @@ EDITIONS
 {% endif %}
 
 {% if edition.subtitle %}
-<br>
-<em>{{ edition.subtitle }}</em>
+<br><em>{{ edition.subtitle }}</em>
 {% endif %}
 
 {% if edition.edition %}
-<br>
-{{ edition.edition }}
+<br>{{ edition.edition }}
 {% endif %}
 
 {% if edition.publication_date %}
- ({{ edition.publication_date }})
+<br>{{ edition.publication_date }}
 {% endif %}
 
 {% if edition.original_languages %}
-<br>
-Original language(s): {{ edition.original_languages }}
+<br>Original language:
+{{ edition.original_languages }}
 {% endif %}
 
 {% if edition.translated_languages %}
-<br>
-Translation language: {{ edition.translated_languages }}
+<br>Translation:
+{{ edition.translated_languages }}
 {% endif %}
 
 {% if edition.translators %}
-<br>
-Translated by {{ edition.translators }}
+<br>Translated by {{ edition.translators }}
 {% endif %}
 
 {% if edition.publisher %}
-<br>
-{{ edition.publisher }}
+<br>{{ edition.publisher }}
 {% endif %}
 
 {% if edition.formats %}
+<br><small>{{ edition.formats }}</small>
+{% endif %}
+
+</li>
+
+{% endfor %}
+
+</ul>
+
+{% endif %}
+
+
+
+{% comment %}
+----------------------------------------
+Individual poem publications
+----------------------------------------
+{% endcomment %}
+
+{% assign poem_publications = "" | split: "" %}
+
+{% for item in site.data.publications %}
+
+  {% if item.collection == "periodicals" %}
+
+    {% assign originals = item.original_book_ids | default: "" | split: ";" %}
+
+    {% for original in originals %}
+
+      {% if original | strip == family_id %}
+        {% assign poem_publications = poem_publications | push: item %}
+        {% break %}
+      {% endif %}
+
+    {% endfor %}
+
+  {% endif %}
+
+{% endfor %}
+
+
+{% if poem_publications.size > 0 %}
+
+### Individual Poems
+
+<ul>
+
+{% assign poem_publications = poem_publications | sort: "publication_date" %}
+
+{% for item in poem_publications %}
+
+<li>
+
+<strong>{{ item.title }}</strong>
+
+{% if item.subtitle %}
+<br><em>{{ item.subtitle }}</em>
+{% endif %}
+
+{% if item.publisher %}
+<br>{{ item.publisher }}
+{% endif %}
+
+{% if item.volume %}
+, vol. {{ item.volume }}
+{% endif %}
+
+{% if item.issue %}
+, no. {{ item.issue }}
+{% endif %}
+
+{% if item.publication_date %}
+ ({{ item.publication_date }})
+{% endif %}
+
+{% if item.publication_languages %}
+<br>Language:
+{{ item.publication_languages }}
+{% endif %}
+
+{% if item.translators %}
+<br>Translated by {{ item.translators }}
+{% endif %}
+
+{% if item.read_link %}
 <br>
-<small>Available formats: {{ edition.formats }}</small>
+<a href="{{ item.read_link }}">Read online</a>
+{% endif %}
+
+{% if item.other_link %}
+<br>
+<a href="{{ item.other_link }}">
+{{ item.other_link_description | default: "Additional resource" }}
+</a>
 {% endif %}
 
 </li>
@@ -390,7 +485,6 @@ Translated by {{ edition.translators }}
 {% endif %}
 
 {% endif %}
-
 
 
 
