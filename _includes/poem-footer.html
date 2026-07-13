@@ -243,10 +243,12 @@ GALLERY
 {% for image in images %}
 
 <figure class="align-center">
-<img src="{{ image | strip | relative_url }}"
-     alt="{{ poem.title }}">
+  <img src="{{ image | strip | relative_url }}"
+       alt="{{ poem.title }}">
 </figure>
 
 {% endfor %}
+
+{% endif %}
 
 {% endif %}
