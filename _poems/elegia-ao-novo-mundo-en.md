@@ -11,7 +11,7 @@ You ask me, my companion
 
 Where had I been during my long silence
 
-I was in the sweetness of the sugarcane and in the bitterness of the sugar cane plantation
+     I was in the sweetness of the sugarcane and in the bitterness of the sugar cane plantation
 
 Where the leaves trembled of fear of mankind
 
@@ -63,7 +63,7 @@ From where gun powder bayonet mirror tuberculosis and syphilis came
 
 From where the sword and the elm came
 
-- The clouds will never forget that!
+ - The clouds will never forget that!
 
 In the black Atlantic
 
