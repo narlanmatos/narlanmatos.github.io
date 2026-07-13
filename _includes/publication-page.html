@@ -31,10 +31,7 @@ TITLE (only repeated here if full title is not the same as title)
   {% else %}
 ## <em>{{ publication.full_title }}</em>
   {% endif %}
-{% else %}
 {% endif %}
-
-
 
 
 {% comment %}
@@ -42,8 +39,6 @@ TITLE (only repeated here if full title is not the same as title)
 OVERVIEW
 ==================================================
 {% endcomment %}
-
-
 
 {% if page.overview_description %}
 ## Overview
@@ -64,13 +59,6 @@ Read Sample
 {% endif %}
 
 
-
-
-
-
-
-
-
 {% comment %}
 ==================================================
 SELECTED POEMS
@@ -78,31 +66,44 @@ SELECTED POEMS
 {% endcomment %}
 
 {% assign selected_poems = "" | split: "" %}
+{% assign pub_id = publication.publication_id | strip %}
 
-{% for poem in site.data.poems %}
+{% if pub_id != "" %}
 
-  {% assign include_poem = false %}
+  {% for poem in site.data.poems %}
 
-  {% if poem.first_publication_id == publication.publication_id %}
-    {% assign include_poem = true %}
-  {% endif %}
+    {% assign include_poem = false %}
+    {% assign first_id = poem.first_publication_id | default: "" | strip %}
 
-  {% unless include_poem %}
-    {% if poem.additional_publication_ids %}
-      {% assign ids = poem.additional_publication_ids | split: ";" %}
+    {% comment %}
+    Primary publication match
+    {% endcomment %}
+    {% if first_id == pub_id %}
+      {% assign include_poem = true %}
+    {% endif %}
+
+    {% comment %}
+    Additional publication matches
+    {% endcomment %}
+    {% unless include_poem %}
+      {% assign ids = poem.additional_publication_ids | default: "" | split: ";" %}
+
       {% for id in ids %}
-        {% if id | strip == publication.publication_id %}
+        {% assign clean_id = id | strip %}
+        {% if clean_id == pub_id %}
           {% assign include_poem = true %}
+          {% break %}
         {% endif %}
       {% endfor %}
+    {% endunless %}
+
+    {% if include_poem %}
+      {% assign selected_poems = selected_poems | push: poem %}
     {% endif %}
-  {% endunless %}
 
-  {% if include_poem %}
-    {% assign selected_poems = selected_poems | push: poem %}
-  {% endif %}
+  {% endfor %}
 
-{% endfor %}
+{% endif %}
 
 {% if selected_poems.size > 0 %}
 
@@ -142,6 +143,7 @@ SELECTED POEMS
 
 {% endif %}
 
+{% endif %}
 
 
 
