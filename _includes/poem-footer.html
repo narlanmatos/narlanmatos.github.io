@@ -77,19 +77,67 @@ PUBLICATIONS
 ==================================================
 {% endcomment %}
 
-{% assign publication_ids = poem.first_publication_id %}
+{% assign first_book = site.data.publications
+  | where_exp: "item", "item.publication_id == poem.first_publication_id"
+  | first
+%}
 
-{% if poem.additional_publication_ids %}
-  {% assign publication_ids = publication_ids | append: ";" | append: poem.additional_publication_ids %}
-{% endif %}
-
-{% assign ids = publication_ids | split: ";" %}
-
-{% if ids.size > 0 %}
+{% if first_book %}
 
 ---
 
-## Publications
+## First Published In
+
+{% assign first_page = site[first_book.collection]
+  | where: "publication_id", first_book.publication_id
+  | first
+%}
+
+{% if first_page %}
+### <a href="{{ first_page.url | relative_url }}"><em>{{ first_book.title }}</em></a>
+{% else %}
+### <em>{{ first_book.title }}</em>
+{% endif %}
+
+<table class="publication-metadata">
+
+<tr>
+  <th>Year</th>
+  <td>{{ first_book.year }}</td>
+</tr>
+
+{% if first_book.publisher %}
+<tr>
+  <th>Publisher</th>
+  <td>{{ first_book.publisher }}</td>
+</tr>
+{% endif %}
+
+{% if first_book.pages %}
+<tr>
+  <th>Pages</th>
+  <td>{{ first_book.pages }}</td>
+</tr>
+{% endif %}
+
+{% if first_book.language %}
+<tr>
+  <th>Language</th>
+  <td>{{ first_book.language }}</td>
+</tr>
+{% endif %}
+
+</table>
+
+{% endif %}
+
+{% if poem.additional_publication_ids %}
+
+---
+
+## Also Appears In
+
+{% assign ids = poem.additional_publication_ids | split:";" %}
 
 <ul>
 
@@ -97,66 +145,34 @@ PUBLICATIONS
 
 {% assign id = id | strip %}
 
-{% assign publication = site.data.publications
+{% assign book = site.data.publications
   | where_exp: "item", "item.publication_id == id"
   | first
 %}
 
-{% if publication %}
+{% if book %}
 
-  {% assign publication_page = site.books
-    | where: "publication_id", publication.publication_id
-    | first %}
-
-  {% unless publication_page %}
-    {% assign publication_page = site.translations
-      | where: "publication_id", publication.publication_id
-      | first %}
-  {% endunless %}
-
-  {% unless publication_page %}
-    {% assign publication_page = site.anthologies
-      | where: "publication_id", publication.publication_id
-      | first %}
-  {% endunless %}
+{% assign book_page = site[book.collection]
+  | where: "publication_id", book.publication_id
+  | first
+%}
 
 <li>
 
-{% if publication_page %}
-<a href="{{ publication_page.url | relative_url }}">
-{% endif %}
-
-<em>{{ publication.title }}</em>
-
-{% if publication.subtitle %}
-: {{ publication.subtitle }}
-{% endif %}
-
-{% if publication_page %}
+{% if book_page %}
+<a href="{{ book_page.url | relative_url }}">
+<em>{{ book.title }}</em>
 </a>
+{% else %}
+<em>{{ book.title }}</em>
 {% endif %}
 
-{% if publication.year %}
- ({{ publication.year }})
+{% if book.year %}
+ ({{ book.year }})
 {% endif %}
 
-{% if publication.publisher %}
-<br>{{ publication.publisher }}
-{% endif %}
-
-{% if publication.language %}
-<br>{{ publication.language }}
-{% elsif publication.original_languages or publication.translated_languages %}
-<br>
-
-{% if publication.original_languages %}
-{{ publication.original_languages }}
-{% endif %}
-
-{% if publication.translated_languages %}
- → {{ publication.translated_languages }}
-{% endif %}
-
+{% if book.publisher %}
+<br>{{ book.publisher }}
 {% endif %}
 
 </li>
