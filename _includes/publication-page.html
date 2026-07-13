@@ -267,10 +267,10 @@ BIBLIOGRAPHIC INFO
 </tr>
 {% endif %}
 
-{% if publication.year %}
+{% if publication.publication_date %}
 <tr>
   <th>Year</th>
-  <td>{{ publication.year }}</td>
+  <td>{{ publication.publication_date }}</td>
 </tr>
 {% endif %}
 
@@ -358,8 +358,8 @@ EDITIONS
 {{ edition.edition }}
 {% endif %}
 
-{% if edition.year %}
- ({{ edition.year }})
+{% if edition.publication_date %}
+ ({{ edition.publication_date }})
 {% endif %}
 
 {% if edition.original_languages %}
