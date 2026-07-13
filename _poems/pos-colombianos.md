@@ -7,45 +7,45 @@ title: "Pós-Colombianos"
 ---
 
 <div class="poem"> 
+<br><br>
 
+por pouco<br><br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;por pouco<br><br>
+muito pouco<br><br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;muito pouco<br><br>
+os índios<br><br> 
 
-&nbsp;&nbsp;&nbsp;&nbsp;os índios<br><br> 
+das Américas<br><br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;das Américas<br><br>
+não conseguiram<br><br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;não conseguiram<br><br>
+cristianizar<br><br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;cristianizar<br><br>
+os conquistadores<br><br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;os conquistadores<br><br>
-
-&nbsp;&nbsp;&nbsp;&nbsp;europeus<br><br>
-
- <br><br>
-
-&nbsp;&nbsp;&nbsp;&nbsp;os europeus<br><br>
-
-&nbsp;&nbsp;&nbsp;&nbsp;conquistadores<br><br>
-
-&nbsp;&nbsp;&nbsp;&nbsp;por pouco<br><br>
-
-&nbsp;&nbsp;&nbsp;&nbsp;muito pouco<br><br>
-
-&nbsp;&nbsp;&nbsp;&nbsp;os índios <br><br>
-
-&nbsp;&nbsp;&nbsp;&nbsp;das Américas<br><br>
-
-&nbsp;&nbsp;&nbsp;&nbsp;não conseguiram<br><br>
-
-&nbsp;&nbsp;&nbsp;&nbsp;cristianizar
+europeus<br><br>
 
  <br><br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;por pouco<br><br>
+os europeus<br><br>
+
+conquistadores<br><br>
+
+por pouco<br><br>
+
+muito pouco<br><br>
+
+os índios <br><br>
+
+das Américas<br><br>
+
+não conseguiram<br><br>
+
+cristianizar
+
+ <br><br>
+
+por pouco<br><br>
 
 muito pouco
 
