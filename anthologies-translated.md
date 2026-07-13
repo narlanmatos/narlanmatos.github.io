@@ -44,7 +44,7 @@ feature_row:
     btn_class: "btn--primary"
     
   - image_path: /assets/images/translations/duet-fr.jpg
-    title: "Duo de Points"
+    title: "Duo de Points (French Edition; 2021)"
     url: translations/duet-fr/
     btn_label: "Voir le Livre"
     btn_class: "btn--primary"
