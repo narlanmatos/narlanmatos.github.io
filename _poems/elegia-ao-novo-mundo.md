@@ -1,6 +1,6 @@
 ---
 
-id: elegia-ao-novo-mundo
+poem_id: elegia-ao-novo-mundo
 
 title: "Elegia ao Novo Mundo"
   
