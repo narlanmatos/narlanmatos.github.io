@@ -71,15 +71,11 @@ METADATA
 
 
 
-
 {% comment %}
 ==================================================
 PUBLICATIONS
 ==================================================
 {% endcomment %}
-
-
-
 
 {% assign publication_ids = poem.first_publication_id %}
 
@@ -101,25 +97,66 @@ PUBLICATIONS
 
 {% assign id = id | strip %}
 
-{% assign book = site.data.publications
+{% assign publication = site.data.publications
   | where_exp: "item", "item.publication_id == id"
   | first
 %}
 
-{% if book %}
+{% if publication %}
+
+  {% assign publication_page = site.books
+    | where: "publication_id", publication.publication_id
+    | first %}
+
+  {% unless publication_page %}
+    {% assign publication_page = site.translations
+      | where: "publication_id", publication.publication_id
+      | first %}
+  {% endunless %}
+
+  {% unless publication_page %}
+    {% assign publication_page = site.anthologies
+      | where: "publication_id", publication.publication_id
+      | first %}
+  {% endunless %}
 
 <li>
 
-<a href="{{ book.url | relative_url }}">
-<em>{{ book.title }}</em>
-</a>
-
-{% if book.year %}
- ({{ book.year }})
+{% if publication_page %}
+<a href="{{ publication_page.url | relative_url }}">
 {% endif %}
 
-{% if book.publisher %}
-<br>{{ book.publisher }}
+<em>{{ publication.title }}</em>
+
+{% if publication.subtitle %}
+: {{ publication.subtitle }}
+{% endif %}
+
+{% if publication_page %}
+</a>
+{% endif %}
+
+{% if publication.year %}
+ ({{ publication.year }})
+{% endif %}
+
+{% if publication.publisher %}
+<br>{{ publication.publisher }}
+{% endif %}
+
+{% if publication.language %}
+<br>{{ publication.language }}
+{% elsif publication.original_languages or publication.translated_languages %}
+<br>
+
+{% if publication.original_languages %}
+{{ publication.original_languages }}
+{% endif %}
+
+{% if publication.translated_languages %}
+ → {{ publication.translated_languages }}
+{% endif %}
+
 {% endif %}
 
 </li>
@@ -134,29 +171,22 @@ PUBLICATIONS
 
 
 
-
-
-
-
-
-
 {% comment %}
 ==================================================
-OTHER LANGAUGE VERSIONS
+OTHER LANGUAGE VERSIONS
 ==================================================
 {% endcomment %}
 
-
-
 {% assign versions = site.data.poems
   | where_exp: "item", "item.family_id == poem.family_id"
+  | sort: "language"
 %}
 
 {% if versions.size > 1 %}
 
 ---
 
-## Other Versions
+## Other Language Versions
 
 <ul>
 
@@ -164,19 +194,32 @@ OTHER LANGAUGE VERSIONS
 
 {% unless version.poem_id == poem.poem_id %}
 
+{% assign version_page = site.poems
+  | where: "poem_id", version.poem_id
+  | first %}
+
 <li>
 
-<a href="{{ version.url | relative_url }}">
-{{ version.language }}
+{% if version_page %}
+<a href="{{ version_page.url | relative_url }}">
+{% endif %}
+
+<strong>{{ version.language }}</strong>
 
 {% if version.title %}
 — <em>{{ version.title }}</em>
 {% endif %}
 
+{% if version_page %}
 </a>
+{% endif %}
 
 {% if version.translator %}
 <br>Translated by {{ version.translator }}
+{% endif %}
+
+{% if version.year_translated %}
+ ({{ version.year_translated }})
 {% endif %}
 
 </li>
@@ -188,11 +231,6 @@ OTHER LANGAUGE VERSIONS
 </ul>
 
 {% endif %}
-
-
-
-
-
 
 
 
