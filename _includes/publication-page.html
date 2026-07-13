@@ -77,27 +77,40 @@ SELECTED POEMS
 ==================================================
 {% endcomment %}
 
-{% assign found_poems = false %}
+{% assign publication = site.data.publications
+  | where: "publication_id", page.publication_id
+  | first %}
+
+{% if publication %}
+
+{% assign poems = "" | split: "" %}
 
 {% for poem in site.data.poems %}
 
-  {% assign publication_ids = poem.first_publication_id %}
+  {% assign found = false %}
 
-  {% if poem.additional_publication_ids %}
-    {% assign publication_ids = publication_ids
-      | append: ";"
-      | append: poem.additional_publication_ids %}
+  {% if poem.first_publication_id == publication.publication_id %}
+    {% assign found = true %}
   {% endif %}
 
-  {% assign ids = publication_ids | split: ";" %}
+  {% unless found %}
+    {% if poem.additional_publication_ids %}
+      {% assign ids = poem.additional_publication_ids | split: ";" %}
+      {% for id in ids %}
+        {% if id | strip == publication.publication_id %}
+          {% assign found = true %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+  {% endunless %}
 
-  {% for id in ids %}
+  {% if found %}
+    {% assign poems = poems | push: poem %}
+  {% endif %}
 
-    {% assign id = id | strip %}
+{% endfor %}
 
-    {% if id == publication.publication_id %}
-
-      {% unless found_poems %}
+{% if poems.size > 0 %}
 
 ---
 
@@ -105,55 +118,36 @@ SELECTED POEMS
 
 <ul>
 
-        {% assign found_poems = true %}
+{% assign poems = poems | sort: "title" %}
 
-      {% endunless %}
-
-      {% assign poem_page = site.poems
-        | where: "poem_id", poem.poem_id
-        | first %}
+{% for poem in poems %}
 
 <li>
 
-{% if poem_page %}
-<a href="{{ poem_page.url | relative_url }}">
-{% endif %}
-
-<em>{{ poem.title }}</em>
-
-{% if poem.subtitle %}
-: {{ poem.subtitle }}
-{% endif %}
-
-{% if poem_page %}
+<a href="{{ '/poetry/poems/' | append: poem.poem_id | relative_url }}">
+<strong>{{ poem.title }}</strong>
 </a>
-{% endif %}
 
 {% if poem.language %}
-— {{ poem.language }}
+<br>{{ poem.language }}
+{% endif %}
+
+{% if poem.translator %}
+<br>Translated by {{ poem.translator }}
 {% endif %}
 
 {% if poem.incipit %}
-<br>
-{{ poem.incipit | truncatewords: 12 }}
+<br><small>{{ poem.incipit | truncate: 140 }}</small>
 {% endif %}
 
 </li>
 
-      {% break %}
-
-    {% endif %}
-
-  {% endfor %}
-
 {% endfor %}
 
-{% if found_poems %}
 </ul>
+
 {% endif %}
-
-
-
+{% endif %}
 
 
 

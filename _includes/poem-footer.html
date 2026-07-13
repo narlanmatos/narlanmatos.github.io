@@ -69,78 +69,32 @@ METADATA
 
 
 
-
-
 {% comment %}
 ==================================================
 PUBLICATIONS
 ==================================================
 {% endcomment %}
 
-{% assign first_book = site.data.publications
-  | where_exp: "item", "item.publication_id == poem.first_publication_id"
-  | first
-%}
+{% assign publication_ids = "" %}
 
-{% if first_book %}
-
----
-
-## First Published In
-
-{% if first_book.url %}
-<a href="{{ first_book.url | relative_url }}">
-<em>{{ first_book.title }}</em>
-</a>
-{% else %}
-<em>{{ first_book.title }}</em>
-{% endif %}
-
-{% if first_page %}
-### <a href="{{ first_page.url | relative_url }}"><em>{{ first_book.title }}</em></a>
-{% else %}
-### <em>{{ first_book.title }}</em>
-{% endif %}
-
-<table class="publication-metadata">
-
-<tr>
-  <th>Year</th>
-  <td>{{ first_book.publication_date }}</td>
-</tr>
-
-{% if first_book.publisher %}
-<tr>
-  <th>Publisher</th>
-  <td>{{ first_book.publisher }}</td>
-</tr>
-{% endif %}
-
-{% if first_book.pages %}
-<tr>
-  <th>Pages</th>
-  <td>{{ first_book.pages }}</td>
-</tr>
-{% endif %}
-
-{% if first_book.language %}
-<tr>
-  <th>Language</th>
-  <td>{{ first_book.language }}</td>
-</tr>
-{% endif %}
-
-</table>
-
+{% if poem.first_publication_id %}
+  {% assign publication_ids = poem.first_publication_id %}
 {% endif %}
 
 {% if poem.additional_publication_ids %}
+  {% if publication_ids != "" %}
+    {% assign publication_ids = publication_ids | append: ";" %}
+  {% endif %}
+  {% assign publication_ids = publication_ids | append: poem.additional_publication_ids %}
+{% endif %}
+
+{% assign ids = publication_ids | split: ";" %}
+
+{% if ids.size > 0 %}
 
 ---
 
-## Also Appears In
-
-{% assign ids = poem.additional_publication_ids | split:";" %}
+## Publications
 
 <ul>
 
@@ -148,27 +102,59 @@ PUBLICATIONS
 
 {% assign id = id | strip %}
 
-{% assign book = site.data.publications
-  | where_exp: "item", "item.publication_id == id"
-  | first
-%}
+{% assign pub = site.data.publications
+  | where: "publication_id", id
+  | first %}
 
-{% if book %}
+{% if pub %}
 
-{% if book.url %}
-<a href="{{ book.url | relative_url }}">
-<em>{{ book.title }}</em>
+<li>
+
+{% if pub.url and pub.url != "" %}
+
+<a href="{{ pub.url | relative_url }}">
+<strong>{{ pub.title }}</strong>
 </a>
+
+{% elsif pub.read_link %}
+
+<a href="{{ pub.read_link }}">
+<strong>{{ pub.title }}</strong>
+</a>
+
 {% else %}
-<em>{{ book.title }}</em>
+
+<strong>{{ pub.title }}</strong>
+
 {% endif %}
 
-{% if book.publication_date %}
- ({{ book.publication_date }})
+{% if pub.subtitle %}
+<br><em>{{ pub.subtitle }}</em>
 {% endif %}
 
-{% if book.publisher %}
-<br>{{ book.publisher }}
+{% if pub.publication_date %}
+<br>{{ pub.publication_date }}
+{% endif %}
+
+{% if pub.publisher %}
+<br>{{ pub.publisher }}
+{% endif %}
+
+{% if pub.volume %}
+<br>Vol. {{ pub.volume }}
+{% endif %}
+
+{% if pub.issue %}
+{% if pub.volume %}, {% endif %}
+No. {{ pub.issue }}
+{% endif %}
+
+{% if pub.translated_languages %}
+<br>Translation: {{ pub.translated_languages }}
+{% endif %}
+
+{% if pub.translators %}
+<br>Translated by {{ pub.translators }}
 {% endif %}
 
 </li>
@@ -180,6 +166,10 @@ PUBLICATIONS
 </ul>
 
 {% endif %}
+
+
+
+
 
 
 
