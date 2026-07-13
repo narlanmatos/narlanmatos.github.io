@@ -301,7 +301,6 @@ EDITIONS
 ==================================================
 {% endcomment %}
 
-
 {% assign family_id = publication.family_id %}
 
 {% if family_id %}
@@ -309,13 +308,10 @@ EDITIONS
 {% assign editions = "" | split: "" %}
 
 {% for item in site.data.publications %}
-
   {% if item.family_id == family_id %}
     {% assign editions = editions | push: item %}
   {% endif %}
-
 {% endfor %}
-
 
 {% if editions.size > 1 %}
 
@@ -323,86 +319,75 @@ EDITIONS
 
 ## Editions
 
-
 {% assign editions = editions | sort: "year" %}
 
 <ul>
 
 {% for edition in editions %}
 
-{% assign edition_page = site.documents
-    | where: "publication_id", edition.publication_id
-    | first
-%}
-
-
 <li>
 
-{% if edition_page %}
-<a href="{{ edition_page.url | relative_url }}">
+{% if edition.publication_id == publication.publication_id %}
+
+<strong>{{ edition.title }}</strong>
+<em>(current edition)</em>
+
+{% elsif edition.url %}
+
+<a href="{{ edition.url | relative_url }}">
 <strong>{{ edition.title }}</strong>
 </a>
-{% else %}
-<strong>{{ edition.title }}</strong>
-{% endif %}
 
+{% else %}
+
+<strong>{{ edition.title }}</strong>
+
+{% endif %}
 
 {% if edition.subtitle %}
 <br>
 <em>{{ edition.subtitle }}</em>
 {% endif %}
 
-
 {% if edition.edition %}
 <br>
 {{ edition.edition }}
 {% endif %}
 
-
 {% if edition.year %}
  ({{ edition.year }})
 {% endif %}
 
-
 {% if edition.original_languages %}
 <br>
-Language:
-{{ edition.original_languages }}
+Original language(s): {{ edition.original_languages }}
 {% endif %}
-
 
 {% if edition.translated_languages %}
 <br>
-Translation:
-{{ edition.translated_languages }}
+Translation language: {{ edition.translated_languages }}
 {% endif %}
-
 
 {% if edition.translators %}
 <br>
 Translated by {{ edition.translators }}
 {% endif %}
 
-
 {% if edition.publisher %}
 <br>
 {{ edition.publisher }}
 {% endif %}
 
-
 {% if edition.formats %}
 <br>
-<small>{{ edition.formats }}</small>
+<small>Available formats: {{ edition.formats }}</small>
 {% endif %}
 
-
 </li>
-
 
 {% endfor %}
 
 </ul>
-
 
 {% endif %}
 
