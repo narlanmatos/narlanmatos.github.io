@@ -106,7 +106,7 @@ PUBLICATIONS
 
 <tr>
   <th>Year</th>
-  <td>{{ first_book.year }}</td>
+  <td>{{ first_book.publication_date }}</td>
 </tr>
 
 {% if first_book.publisher %}
@@ -163,8 +163,8 @@ PUBLICATIONS
 <em>{{ book.title }}</em>
 {% endif %}
 
-{% if book.year %}
- ({{ book.year }})
+{% if book.publication_date %}
+ ({{ book.publication_date }})
 {% endif %}
 
 {% if book.publisher %}
