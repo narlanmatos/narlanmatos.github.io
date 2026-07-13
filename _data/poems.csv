@@ -1,4 +1,4 @@
-﻿index,family_id,poem_id,title,subtitle,language,author,original_poem_id,translator,year_written,year_translated,first_publication_id,additional_publication_ids,incipit,genre,keywords,dedication,epigraph,reading_video,reading_audio,gallery,notes
-,elegia-ao-novo-mundo,elegia-ao-novo-mundo,Elegia ao Novo Mundo,,Portuguese,Narlan Matos,,,,,elegia,antologia,Tu me perguntas meu amigo; Onde eu estive durante meu longo silêncio,,,,,https://www.youtube.com/watch?v=I_ol-ZwWP0s,,/assets/images/books/elegia.jpg,
-,elegia-ao-novo-mundo,elegia-ao-novo-mundo-en,Elegy to the New World,,English,Narlan Matos,,,,,,,"You ask me, my companion; Where had I been during my long silence",,,,,,,,
-,elegia-ao-novo-mundo,elegia-ao-novo-mundo-it,,,Italian,Narlan Matos,,Giorgio Mobili,,,,,Tu mi domandi amico mio; Dove sono stato durante il mio lungo silenzio,,,,,,,,
+﻿index,family_id,poem_id,title,subtitle,language,author,original_poem_id,translator,year_written,year_translated,first_publication_id,additional_publication_ids,incipit,genre,keywords,dedication,epigraph,gallery,notes
+,elegia-ao-novo-mundo,elegia-ao-novo-mundo,Elegia ao Novo Mundo,,Portuguese,Narlan Matos,,,,,elegia,antologia; poetinis,Tu me perguntas meu amigo; Onde eu estive durante meu longo silêncio,,,,,,https://www.youtube.com/watch?v=I_ol-ZwWP0s
+,elegia-ao-novo-mundo,elegia-ao-novo-mundo-en,Elegy to the New World,,English,Narlan Matos,,,,,,,"You ask me, my companion; Where had I been during my long silence",,,,,,
+,elegia-ao-novo-mundo,elegia-ao-novo-mundo-it,,,Italian,Narlan Matos,,Giorgio Mobili,,,,,Tu mi domandi amico mio; Dove sono stato durante il mio lungo silenzio,,,,,,

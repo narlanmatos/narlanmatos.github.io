@@ -11,7 +11,7 @@ You ask me, my companion
 
 Where had I been during my long silence
 
-     I was in the sweetness of the sugarcane and in the bitterness of the sugar cane plantation
+I was in the sweetness of the sugarcane and in the bitterness of the sugar cane plantation
 
 Where the leaves trembled of fear of mankind
 
