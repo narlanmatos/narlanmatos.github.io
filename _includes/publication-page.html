@@ -83,9 +83,17 @@ SELECTED POEMS
 
 {% if publication %}
 
+## {{ publication.title }}
+
+{% if publication.subtitle %}
+<em>{{ publication.subtitle }}</em>
+{% endif %}
+
 {% assign poems = site.data.poems | sort: "title" %}
 
 {% assign displayed = "" %}
+
+<ul>
 
 {% for poem in poems %}
 
@@ -99,7 +107,8 @@ SELECTED POEMS
     {% if poem.additional_publication_ids %}
       {% assign ids = poem.additional_publication_ids | split: ";" %}
       {% for id in ids %}
-        {% if id | strip == publication.publication_id %}
+        {% assign clean_id = id | strip %}
+        {% if clean_id == publication.publication_id %}
           {% assign include_poem = true %}
         {% endif %}
       {% endfor %}
@@ -111,23 +120,21 @@ SELECTED POEMS
     {% unless displayed contains poem.poem_id %}
 
 <li>
+  <a href="{{ '/poetry/poems/' | append: poem.poem_id | relative_url }}">
+    <strong>{{ poem.title }}</strong>
+  </a>
 
-<a href="{{ '/poetry/poems/' | append: poem.poem_id | relative_url }}">
-<strong>{{ poem.title }}</strong>
-</a>
+  {% if poem.language %}
+  <br>{{ poem.language }}
+  {% endif %}
 
-{% if poem.language %}
-<br>{{ poem.language }}
-{% endif %}
+  {% if poem.translator %}
+  <br>Translated by {{ poem.translator }}
+  {% endif %}
 
-{% if poem.translator %}
-<br>Translated by {{ poem.translator }}
-{% endif %}
-
-{% if poem.incipit %}
-<br><small>{{ poem.incipit | truncate: 140 }}</small>
-{% endif %}
-
+  {% if poem.incipit %}
+  <br><small>{{ poem.incipit | truncate: 140 }}</small>
+  {% endif %}
 </li>
 
       {% assign displayed = displayed | append: "|" | append: poem.poem_id %}
@@ -138,23 +145,9 @@ SELECTED POEMS
 
 {% endfor %}
 
-{% if displayed != "" %}
-
----
-
-## Selected Poems
-
-<ul>
-
-{{ content_for_selected_poems }}
-
 </ul>
 
 {% endif %}
-
-{% endif %}
-
-
 
 
 
@@ -395,7 +388,7 @@ EDITIONS & TRANSLATIONS
 
 {% comment %}
 ----------------------------------------
-Individual poem publications
+Poem publications
 ----------------------------------------
 {% endcomment %}
 
@@ -423,7 +416,7 @@ Individual poem publications
 
 {% if poem_publications.size > 0 %}
 
-### Individual Poems
+### Poems
 
 <ul>
 
