@@ -1,6 +1,6 @@
 ---
 
-title: "Bilingual Editions"
+title: "Bilingual and Multilingual Editions"
 permalink: /translations/bilingual/
 layout: splash
 header:
@@ -25,6 +25,14 @@ feature_row:
     btn_label: "View Book"
     btn_class: "btn--primary"
     
+  - image_path: /assets/images/translations/autores.jpg
+    title: "Autores Baianos"
+    url: /translations/autores/
+    btn_label: "View Book"
+    btn_class: "btn--primary"
+    
 ---
+
+*This page contains biligual and multilingual editions, where Narlan Matos's original poetry, written in Portuguese, is featured alongside translations in one or more additional languages.*
 
 {% include feature_row id="feature_row" %}
