@@ -18,6 +18,12 @@ feature_row:
     url: translations/poetry-mens-lives/
     btn_label: "View Book"
     btn_class: "btn--primary" 
+      
+  - image_path: /assets/images/translations/pesem.jpg
+    title: "Pesem o Vetru in Mojem Zivljenju (2015)"
+    url: /translations/pesem/
+    btn_label: "View Book"
+    btn_class: "btn--primary"
     
   - image_path: /assets/images/translations/duet.jpg
     title: "Duet of Dots (Japanese Edition; 2015)"
@@ -37,11 +43,12 @@ feature_row:
     btn_label: "View Book"
     btn_class: "btn--primary"
     
-  - image_path: /assets/images/translations/pesem.jpg
-    title: "Pesem o Vetru in Mojem Zivljenju (2015)"
-    url: /translations/pesem/
-    btn_label: "View Book"
+  - image_path: /assets/images/translations/duet-fr.jpg
+    title: "Duo de Points"
+    url: translations/duet-fr/
+    btn_label: "Voir le Livre"
     btn_class: "btn--primary"
+
     
 ---
 
