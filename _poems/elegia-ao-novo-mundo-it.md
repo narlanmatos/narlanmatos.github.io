@@ -1,31 +1,8 @@
 ---
 
-type: poem
-
 id: elegia-ao-novo-mundo
 
-language: it
-
 title: "Elegia al Nuovo Mondo"
-
-author: "Narlan Matos"
-
-book_id: elegia
-
-original_language: pt
-
-publication_id:  
-
-translator: 
-   name: "Giorgio Mobili"
-   translated: 
-   
-  
-images:
-   book_cover: "/assets/images/books/elegia.jpg"
-   
-performance: 
-  available: false
   
 ---
 
@@ -154,3 +131,9 @@ e solo ora posso rompere il mio silenzio<br><br>
 sono stato con me.
 
 </div>
+
+
+---
+
+
+{% include poem-footer.html %}

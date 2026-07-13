@@ -1,0 +1,252 @@
+
+
+
+
+
+{% comment %}
+==================================================
+METADATA
+==================================================
+{% endcomment %}
+
+
+
+
+
+
+
+{% assign poem = site.data.poems
+  | where_exp: "item", "item.poem_id == page.poem_id"
+  | first
+%}
+
+{% if poem %}
+
+---
+
+## About this poem
+
+<table class="publication-metadata">
+
+{% if poem.author %}
+<tr>
+  <th>Author</th>
+  <td>{{ poem.author }}</td>
+</tr>
+{% endif %}
+
+{% if poem.translator %}
+<tr>
+  <th>Translator</th>
+  <td>{{ poem.translator }}</td>
+</tr>
+{% endif %}
+
+{% if poem.language %}
+<tr>
+  <th>Language</th>
+  <td>{{ poem.language }}</td>
+</tr>
+{% endif %}
+
+{% if poem.year_written %}
+<tr>
+  <th>Written</th>
+  <td>{{ poem.year_written }}</td>
+</tr>
+{% endif %}
+
+{% if poem.year_translated %}
+<tr>
+  <th>Translated</th>
+  <td>{{ poem.year_translated }}</td>
+</tr>
+{% endif %}
+
+</table>
+
+
+
+
+
+
+
+
+{% comment %}
+==================================================
+PUBLICATIONS
+==================================================
+{% endcomment %}
+
+
+
+
+{% assign publication_ids = poem.first_publication_id %}
+
+{% if poem.additional_publication_ids %}
+  {% assign publication_ids = publication_ids | append: ";" | append: poem.additional_publication_ids %}
+{% endif %}
+
+{% assign ids = publication_ids | split: ";" %}
+
+{% if ids.size > 0 %}
+
+---
+
+## Publications
+
+<ul>
+
+{% for id in ids %}
+
+{% assign id = id | strip %}
+
+{% assign book = site.data.publications
+  | where_exp: "item", "item.publication_id == id"
+  | first
+%}
+
+{% if book %}
+
+<li>
+
+<a href="{{ book.url | relative_url }}">
+<em>{{ book.title }}</em>
+</a>
+
+{% if book.year %}
+ ({{ book.year }})
+{% endif %}
+
+{% if book.publisher %}
+<br>{{ book.publisher }}
+{% endif %}
+
+</li>
+
+{% endif %}
+
+{% endfor %}
+
+</ul>
+
+{% endif %}
+
+
+
+
+
+
+
+
+
+{% comment %}
+==================================================
+OTHER LANGAUGE VERSIONS
+==================================================
+{% endcomment %}
+
+
+
+{% assign versions = site.data.poems
+  | where_exp: "item", "item.family_id == poem.family_id"
+%}
+
+{% if versions.size > 1 %}
+
+---
+
+## Other Versions
+
+<ul>
+
+{% for version in versions %}
+
+{% unless version.poem_id == poem.poem_id %}
+
+<li>
+
+<a href="{{ version.url | relative_url }}">
+{{ version.language }}
+
+{% if version.title %}
+— <em>{{ version.title }}</em>
+{% endif %}
+
+</a>
+
+{% if version.translator %}
+<br>Translated by {{ version.translator }}
+{% endif %}
+
+</li>
+
+{% endunless %}
+
+{% endfor %}
+
+</ul>
+
+{% endif %}
+
+
+
+
+
+
+
+
+
+{% comment %}
+==================================================
+VIDOES
+==================================================
+{% endcomment %}
+
+
+
+
+
+
+
+
+
+
+{% comment %}
+==================================================
+AUDIO
+==================================================
+{% endcomment %}
+
+
+
+
+
+
+{% comment %}
+==================================================
+GALLERY
+==================================================
+{% endcomment %}
+
+
+
+
+{% if poem.gallery %}
+
+---
+
+## Gallery
+
+{% assign images = poem.gallery | split: ";" %}
+
+{% for image in images %}
+
+<figure class="align-center">
+<img src="{{ image | strip | relative_url }}"
+     alt="{{ poem.title }}">
+</figure>
+
+{% endfor %}
+
+{% endif %}

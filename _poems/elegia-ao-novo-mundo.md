@@ -3,33 +3,6 @@
 id: elegia-ao-novo-mundo
 
 title: "Elegia ao Novo Mundo"
-language: pt
-
-translations:
-  - language: en
-    title: Elegy to the New World
-    slug: elegy-to-the-new-world
-  
-  - language: it
-    title: Elegia al Nuovo Mondo
-    slug: elegia-al-nuovo-mondo 
-
-author: "Narlan Matos"
-
-book_id: elegia
-
-
-audio: 
-  portuguese: https://www.youtube.com/watch?v=I_ol-ZwWP0s
-  lithuanian: https://www.youtube.com/watch?v=I_ol-ZwWP0s
-
-images:
-   book_cover: "/assets/images/books/elegia.jpg"
-  
-
-performance: 
-  available: true
-  url: https://www.youtube.com/watch?v=I_ol-ZwWP0s
   
 ---
 
@@ -144,4 +117,7 @@ Eu estive comigo.
 
 </div>
 
+---
 
+
+{% include poem-footer.html %}

@@ -1,31 +1,8 @@
 ---
 
-type: poem
-
 id: elegia-ao-novo-mundo
 
-language: en
-
 title: "Elegy to the New World"
-
-author: "Narlan Matos"
-
-book_id: elegia
-
-original_language: pt
-
-publication_id:  
-
-translator: 
-   name: 
-   translated: 
-   
-  
-images:
-   book_cover: "/assets/images/books/elegia.jpg"
-   
-performance: 
-  available: false
   
 ---
 
@@ -128,3 +105,7 @@ Where had I been and only now I can break my silence:
 I was with myself.
 
 
+---
+
+
+{% include poem-footer.html %}
