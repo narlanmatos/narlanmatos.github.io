@@ -27,8 +27,8 @@ TITLE (only repeated here if full title is not the same as title)
 
 {% if publication.full_title and publication.full_title != publication.title and publication.subtitle %}
 ## {{ publication.title }}: <em>{{ publication.subtitle }}</em>
-{% else %}
-## {{ publication.full_title | default: publication.title }}
+{% elseif publication.full_title and publication.full_title != publication.title %}
+## <em>{{ publication.full_title }}</em>
 {% endif %}
 
 
