@@ -23,8 +23,8 @@ feature_row_poems:
       Por pouco
       
       Muito pouco...
-    url: /poetry/poems/elegia-ao-novo-mundo/
-    btn_label: "pos-colombianos"
+    url: /poetry/poems/pos-colombianos/
+    btn_label: "Read Full Poem"
     btn_class: "btn--primary"
 ---
 
