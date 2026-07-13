@@ -302,6 +302,13 @@ EDITIONS & TRANSLATIONS
 {% if family_id %}
 
 {% assign editions = "" | split: "" %}
+{% assign poem_publications = "" | split: "" %}
+
+{% comment %}
+----------------------------------------
+Collect book editions
+----------------------------------------
+{% endcomment %}
 
 {% for item in site.data.publications %}
   {% if item.family_id == family_id %}
@@ -309,11 +316,55 @@ EDITIONS & TRANSLATIONS
   {% endif %}
 {% endfor %}
 
-{% if editions.size > 1 %}
+{% comment %}
+----------------------------------------
+Collect periodicals that republish poems
+originally published in this publication
+----------------------------------------
+{% endcomment %}
+
+{% assign original_poems = site.data.poems
+  | where: "first_publication_id", publication.publication_id %}
+
+{% for periodical in site.data.publications %}
+
+  {% if periodical.collection == "periodicals" %}
+
+    {% assign include = false %}
+
+    {% for poem in original_poems %}
+
+      {% if poem.additional_publication_ids %}
+
+        {% assign ids = poem.additional_publication_ids | split: ";" %}
+
+        {% for id in ids %}
+
+          {% if id | strip == periodical.publication_id %}
+            {% assign include = true %}
+          {% endif %}
+
+        {% endfor %}
+
+      {% endif %}
+
+    {% endfor %}
+
+    {% if include %}
+      {% assign poem_publications = poem_publications | push: periodical %}
+    {% endif %}
+
+  {% endif %}
+
+{% endfor %}
+
+{% if editions.size > 1 or poem_publications.size > 0 %}
 
 ---
 
 ## Editions & Translations
+
+{% if editions.size > 1 %}
 
 ### Books
 
@@ -386,41 +437,13 @@ EDITIONS & TRANSLATIONS
 
 
 
-{% comment %}
-----------------------------------------
-Poem publications
-----------------------------------------
-{% endcomment %}
-
-{% assign poem_publications = "" | split: "" %}
-
-{% for item in site.data.publications %}
-
-  {% if item.collection == "periodicals" %}
-
-    {% assign originals = item.original_book_ids | default: "" | split: ";" %}
-
-    {% for original in originals %}
-
-      {% if original | strip == family_id %}
-        {% assign poem_publications = poem_publications | push: item %}
-        {% break %}
-      {% endif %}
-
-    {% endfor %}
-
-  {% endif %}
-
-{% endfor %}
-
-
 {% if poem_publications.size > 0 %}
 
 ### Poems
 
-<ul>
-
 {% assign poem_publications = poem_publications | sort: "publication_date" %}
+
+<ul>
 
 {% for item in poem_publications %}
 
@@ -474,6 +497,8 @@ Poem publications
 {% endfor %}
 
 </ul>
+
+{% endif %}
 
 {% endif %}
 
