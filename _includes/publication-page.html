@@ -77,25 +77,9 @@ SELECTED POEMS
 ==================================================
 {% endcomment %}
 
-{% assign publication = site.data.publications
-  | where: "publication_id", page.publication_id
-  | first %}
+{% assign selected_poems = "" | split: "" %}
 
-{% if publication %}
-
-## Selected Poems
-
-{% if publication.subtitle %}
-<em>{{ publication.subtitle }}</em>
-{% endif %}
-
-{% assign poems = site.data.poems | sort: "title" %}
-
-{% assign displayed = "" %}
-
-<ul>
-
-{% for poem in poems %}
+{% for poem in site.data.poems %}
 
   {% assign include_poem = false %}
 
@@ -107,8 +91,7 @@ SELECTED POEMS
     {% if poem.additional_publication_ids %}
       {% assign ids = poem.additional_publication_ids | split: ";" %}
       {% for id in ids %}
-        {% assign clean_id = id | strip %}
-        {% if clean_id == publication.publication_id %}
+        {% if id | strip == publication.publication_id %}
           {% assign include_poem = true %}
         {% endif %}
       {% endfor %}
@@ -116,32 +99,42 @@ SELECTED POEMS
   {% endunless %}
 
   {% if include_poem %}
+    {% assign selected_poems = selected_poems | push: poem %}
+  {% endif %}
 
-    {% unless displayed contains poem.poem_id %}
+{% endfor %}
+
+{% if selected_poems.size > 0 %}
+
+---
+
+## Selected Poems
+
+<ul>
+
+{% assign selected_poems = selected_poems | sort: "title" %}
+
+{% for poem in selected_poems %}
 
 <li>
-  <a href="{{ '/poetry/poems/' | append: poem.poem_id | relative_url }}">
-    <strong>{{ poem.title }}</strong>
-  </a>
 
-  {% if poem.language %}
-  <br>{{ poem.language }}
-  {% endif %}
+<a href="{{ '/poetry/poems/' | append: poem.poem_id | relative_url }}">
+<strong>{{ poem.title }}</strong>
+</a>
 
-  {% if poem.translator %}
-  <br>Translated by {{ poem.translator }}
-  {% endif %}
+{% if poem.language %}
+<br>{{ poem.language }}
+{% endif %}
 
-  {% if poem.incipit %}
-  <br><small>{{ poem.incipit | truncate: 140 }}</small>
-  {% endif %}
+{% if poem.translator %}
+<br>Translated by {{ poem.translator }}
+{% endif %}
+
+{% if poem.incipit %}
+<br><small>{{ poem.incipit | truncate: 140 }}</small>
+{% endif %}
+
 </li>
-
-      {% assign displayed = displayed | append: "|" | append: poem.poem_id %}
-
-    {% endunless %}
-
-  {% endif %}
 
 {% endfor %}
 
