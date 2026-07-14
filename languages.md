@@ -21,6 +21,8 @@ Page under development.
 
 {% assign language = row.language %}
 
+Language = "{{ language }}"
+
 {% if language == "Portuguese" %}
 
   {% for item in site.data.publications %}
