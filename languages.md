@@ -14,12 +14,27 @@ header:
 
 ## Languages
 
-| Language | Books | Anthologies | Periodicals | Poem Translations | Community | Festivals |
-|:----------|------:|------------:|------------:|------------------:|----------:|----------:|
+## Languages
 
-{% assign lt_languages = site.data.lyrics_translate_languages | sort: "language" %}
+<table>
 
-{% for row in lt_languages %}
+<thead>
+<tr>
+  <th>Language</th>
+  <th>Books</th>
+  <th>Anthologies</th>
+  <th>Periodicals</th>
+  <th>Poem Translations</th>
+  <th>LyricsTranslate</th>
+  <th>Performances</th>
+</tr>
+</thead>
+
+<tbody>
+
+{% assign languages = site.data.lyrics_translate_languages | sort: "language" %}
+
+{% for row in languages %}
 
 {% assign language = row.language | strip %}
 
@@ -27,22 +42,19 @@ header:
 {% assign anthologies = 0 %}
 {% assign periodicals = 0 %}
 {% assign poems = 0 %}
-{% assign community = 0 %}
-{% assign festivals = 0 %}
+{% assign performances = 0 %}
 
 {% for publication in site.data.publications %}
 
   {% assign found = false %}
 
-  {% assign fields = "original_languages|translated_languages|publication_languages" | split: "|" %}
-
-  {% for field in fields %}
+  {% for field in "original_languages|translated_languages|publication_languages" | split:"|" %}
 
     {% assign value = publication[field] %}
 
     {% if value %}
 
-      {% assign values = value | split: ";" %}
+      {% assign values = value | split:";" %}
 
       {% for item in values %}
         {% if item | strip == language %}
@@ -70,34 +82,41 @@ header:
       {% when "poems" %}
         {% assign poems = poems | plus: 1 %}
 
+      {% when "performances" %}
+        {% assign performances = performances | plus: 1 %}
+
     {% endcase %}
 
   {% endif %}
 
 {% endfor %}
 
-{% if row.has_translation == "TRUE" %}
-  {% assign community = 1 %}
-{% endif %}
+<tr>
 
-{% comment %}
-Future:
-{% for item in site.data.festival_languages %}
-  {% if item.language == language %}
-    {% assign festivals = festivals | plus: 1 %}
-  {% endif %}
-{% endfor %}
-{% endcomment %}
-
-{% assign slug = language | slugify %}
+<td>
 
 {% if row.has_page == "TRUE" %}
-  {% assign page = site.languages | where: "slug", slug | first %}
+<a href="{{ '/translations/languages/' | append: (language | slugify) | append:'/' | relative_url }}">
+{{ language }}
+</a>
 {% else %}
-  {% assign page = nil %}
+{{ language }}
 {% endif %}
 
-| {% if page %}[{{ language }}]({{ page.url | relative_url }}){% else %}{{ language }}{% endif %} | {{ books }} | {{ anthologies }} | {{ periodicals }} | {{ poems }} | {{ community }} | {{ festivals }} |
+</td>
+
+<td>{{ books }}</td>
+<td>{{ anthologies }}</td>
+<td>{{ periodicals }}</td>
+<td>{{ poems }}</td>
+<td>{{ row.n_poems | default: 0 }}</td>
+<td>{{ performances }}</td>
+
+</tr>
 
 {% endfor %}
+
+</tbody>
+
+</table>
 
