@@ -14,6 +14,9 @@ Page under development.
 
 <!--*This page links to translations and bilingual editions by language. Entries include original books, anthologies, periodical publications, translations of individual poems, and festival publications or recordings.*-->
 
+<!-- trying to make table. This does not work:
+
+
 | Language | Books | Anthologies | Periodicals | Poems |
 |:---------|------:|------------:|------------:|------:|
 {% for row in site.data.lyrics_translate_languages %}
@@ -108,3 +111,5 @@ Page under development.
 | {{ language }} | {{ books }} | {{ anthologies }} | {{ periodicals }} | {{ poems }} |
 
 {% endfor %}
+
+-->
