@@ -14,14 +14,16 @@ Page under development.
 
 <!--*This page links to translations and bilingual editions by language. Entries include original books, anthologies, periodical publications, translations of individual poems, and festival publications or recordings.*-->
 
+| Language | Books | Anthologies | Periodicals | Poems |
+|:---------|------:|------------:|------------:|------:|
+{% for row in site.data.lyrics_translate_languages %}
+
 {% assign books = 0 %}
 {% assign anthologies = 0 %}
 {% assign periodicals = 0 %}
 {% assign poems = 0 %}
 
 {% assign language = row.language %}
-
-Language = "{{ language }}"
 
 {% if language == "Portuguese" %}
 
@@ -101,4 +103,8 @@ Language = "{{ language }}"
   {% if poem.language == language %}
     {% assign poems = poems | plus: 1 %}
   {% endif %}
+{% endfor %}
+
+| {{ language }} | {{ books }} | {{ anthologies }} | {{ periodicals }} | {{ poems }} |
+
 {% endfor %}
