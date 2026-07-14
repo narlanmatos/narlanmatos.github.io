@@ -1,13 +1,13 @@
-﻿language,has_translation,has_page
-Dutch,TRUE,FALSE
-French,TRUE,TRUE
-German,TRUE,TRUE
-Persian,TRUE,FALSE
-Russian,TRUE,TRUE
-English,TRUE,TRUE
-Japanese,FALSE,TRUE
-Italian ,TRUE,TRUE
-Lithuanian,FALSE,TRUE
-Romanian,FALSE,TRUE
-Slovenian,FALSE,TRUE
-Spanish,TRUE,TRUE
+﻿language,has_translation,has_page,n_poems
+Dutch,TRUE,FALSE,1
+French,TRUE,TRUE,50
+German,TRUE,TRUE,2
+Persian,TRUE,FALSE,12
+Russian,TRUE,TRUE,3
+English,TRUE,TRUE,2
+Japanese,FALSE,TRUE,0
+Italian ,TRUE,TRUE,50
+Lithuanian,FALSE,TRUE,0
+Romanian,FALSE,TRUE,0
+Slovenian,FALSE,TRUE,0
+Spanish,TRUE,TRUE,1
