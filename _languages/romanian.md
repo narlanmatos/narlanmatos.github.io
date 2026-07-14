@@ -1,6 +1,8 @@
 ---
 
 title: "Traduceri în Limba Română"
+language: Romanian
+slug: romanian
  
 feature_row_books:
   - image_path: /assets/images/translations/canto-ro.jpg

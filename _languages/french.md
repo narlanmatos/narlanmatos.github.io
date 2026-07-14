@@ -1,7 +1,8 @@
 ---
 
 title: "Traductions en Français (French Translations)"
-
+language: French
+slug: french
 
     
 feature_row_books:

@@ -2,7 +2,8 @@
 
 title: "Traducciones al Español"
 
-
+language: Spanish
+slug: spanish
     
 feature_row_books:
   - image_path: /assets/images/translations/como-nacen.jpg

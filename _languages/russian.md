@@ -1,6 +1,8 @@
 ---
 
 title: "Russian Translations"
+language: Russian
+slug: russian
  
 feature_row_books:
   - image_path: /assets/images/translations/caminheiros-ru.jpg

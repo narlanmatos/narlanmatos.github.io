@@ -1,6 +1,8 @@
 ---
 
 title: "English Translations"
+language: English
+slug: english
 
 feature_row_books:    
   - image_path: /assets/images/translations/poetry-mens-lives.jpg

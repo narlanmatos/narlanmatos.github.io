@@ -1,7 +1,8 @@
 ---
 
 title: "Deutsche Übersetzungen (German Translations)"
-
+language: German
+slug: german
 
     
 feature_row_books:

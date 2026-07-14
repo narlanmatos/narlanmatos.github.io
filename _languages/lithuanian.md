@@ -1,6 +1,8 @@
 ---
 
 title: "Vertimai į Lietuvių Kalbą (Translations in Lithuanian)"
+language: Lithuanian
+slug: lithuanian
 
 
 feature_row_books:

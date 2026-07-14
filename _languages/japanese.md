@@ -1,6 +1,8 @@
 ---
 
 title: "Japanese Translations"
+language: Japanese
+slug: japanese
 
 feature_row_books:    
   - image_path: /assets/images/translations/duet.jpg
@@ -15,6 +17,6 @@ feature_row_books:
 ---
 
 # 日本語訳
-## 書籍やアンソロジー 
+## 書籍やアンソロジー (Books and Anthologies)
 {% include feature_row id="feature_row_books" %}
 
