@@ -11,11 +11,12 @@ header:
 ---
 
 *This page links to translations and bilingual editions by language. Entries include original books, anthologies, periodical publications, translations of individual poems, and festival publications or recordings.*
-
 {% assign books = 0 %}
 {% assign anthologies = 0 %}
 {% assign periodicals = 0 %}
 {% assign poems = 0 %}
+
+{% assign language = row.language %}
 
 {% if language == "Portuguese" %}
 
@@ -33,16 +34,18 @@ header:
 
       {% assign found = false %}
 
-      {% for field in "original_languages|translated_languages" | split:"|" %}
+      {% assign langs = item.original_languages | default: "" | split: ";" %}
+      {% for lang in langs %}
+        {% if lang | strip == "Portuguese" %}
+          {% assign found = true %}
+        {% endif %}
+      {% endfor %}
 
-        {% assign values = item[field] | default:"" | split:";" %}
-
-        {% for value in values %}
-          {% if value | strip == "Portuguese" %}
-            {% assign found = true %}
-          {% endif %}
-        {% endfor %}
-
+      {% assign langs = item.translated_languages | default: "" | split: ";" %}
+      {% for lang in langs %}
+        {% if lang | strip == "Portuguese" %}
+          {% assign found = true %}
+        {% endif %}
       {% endfor %}
 
       {% if found %}
@@ -59,7 +62,7 @@ header:
 
     {% assign translated = false %}
 
-    {% assign langs = item.translated_languages | default:"" | split:";" %}
+    {% assign langs = item.translated_languages | default: "" | split: ";" %}
 
     {% for lang in langs %}
       {% if lang | strip == language %}
