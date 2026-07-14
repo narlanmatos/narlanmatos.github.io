@@ -9,6 +9,12 @@ feature_row_books:
     btn_label: "View Book"
     btn_class: "btn--primary" 
     
+  - image_path: /assets/images/translations/autores.jpg
+    title: "Autores Baianos"
+    url: translations/autores/
+    btn_label: "View Book"
+    btn_class: "btn--primary"
+    
 feature_row_jm:
   - image_path: /assets/images/features/interim.jpg
     title: "Ten Poems"

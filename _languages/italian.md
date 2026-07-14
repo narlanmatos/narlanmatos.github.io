@@ -50,21 +50,21 @@ feature_row_community_translations:
 feature_row_performances: 
 ---
 
-## Libri & Antologie
+## Libri & Antologie (Books & Anthologies)
 {% include feature_row id="feature_row_books" %}
 
-## Riviste & Pubblicazioni Letterarie
+## Riviste & Pubblicazioni Letterarie (Literary Journals & Magazines)
 
 {% include feature_row id="feature_row_jm" %}
 
-## Poesie
+## Poesie (Poetry)
 {% include feature_row id="feature_row_poems" %}
 
-## Traduzioni della Comunità
+## Traduzioni della Comunità (Community Translations)
 
 {% include feature_row id="feature_row_community_translations" %}
 
 
-## Performance & Letture
+## Performance & Letture (Performances & Readings)
 
 {% include feature_row id="feature_row_performances" %}

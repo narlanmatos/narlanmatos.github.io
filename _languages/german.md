@@ -1,12 +1,14 @@
 ---
 
-title: "Russian Translations"
- 
+title: "Deutsche Übersetzungen (German Translations)"
+
+
+    
 feature_row_books:
-  - image_path: /assets/images/translations/caminheiros-ru.jpg
-    title: "я И Ты -ПУТНИКИ В ЭТОЙ ЖИЗНИ"
-    url: /translations/caminheiros-ru/
-    btn_label: "Посмотреть книгу"
+  - image_path: /assets/images/translations/autores.jpg
+    title: "Autores Baianos"
+    url: translations/autores/
+    btn_label: "Deutsche Übersetzungen (View Book)"
     btn_class: "btn--primary"
 
 feature_row_community_translations:
@@ -16,12 +18,10 @@ feature_row_community_translations:
     url: https://lyricstranslate.com/en/narlan-matos-lyrics.html
     btn_label: "View Translations on Lyrics Translate"
     btn_class: "btn--primary"     
+
 ---
 
-# Переводы на русский язык
-
-## Книги и сборники (Books and Anthologies)
-
+## Bücher und Anthologien (Books and Anthologies)
 {% include feature_row id="feature_row_books" %}
 
 <!--
@@ -32,7 +32,11 @@ feature_row_community_translations:
 ## Poems
 {% include feature_row id="feature_row_poems" %}-->
 
-## Переводы сообщества (Community Translations)
-
+## Community-Übersetzungen (Community Translations)
 
 {% include feature_row id="feature_row_community_translations" %}
+
+<!--
+## Performance & Letture
+
+{% include feature_row id="feature_row_performances" %}-->

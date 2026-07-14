@@ -15,6 +15,10 @@ feature_row_languages:
     btn_label: "French"
     btn_class: "btn--primary"
     
+  - url: /translations/languages/german/
+    btn_label: "German"
+    btn_class: "btn--primary"
+    
   - url: /translations/languages/japanese/
     btn_label: "Japanese"
     btn_class: "btn--primary"

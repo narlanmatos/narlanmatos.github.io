@@ -51,14 +51,9 @@ feature_row_languages:
 
 {% include feature_row id="feature_row_languages" %}
 
+
+
 ## Dutch
-<!--https://lyricstranslate.com/en/narlan-matos-lyrics.html-->
-
-
-## French
-<!--https://lyricstranslate.com/en/narlan-matos-lyrics.html-->
-
-## German
 <!--https://lyricstranslate.com/en/narlan-matos-lyrics.html-->
 
 
@@ -66,9 +61,6 @@ feature_row_languages:
 
 
 ## Persian
-<!--https://lyricstranslate.com/en/narlan-matos-lyrics.html-->
-
-## Russian
 <!--https://lyricstranslate.com/en/narlan-matos-lyrics.html-->
 
 

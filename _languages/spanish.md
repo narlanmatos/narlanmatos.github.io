@@ -28,6 +28,12 @@ feature_row_books:
     url: /translations/elegia-es/
     btn_label: "View Book"
     btn_class: "btn--primary"
+    
+  - image_path: /assets/images/translations/autores.jpg
+    title: "Autores Baianos"
+    url: translations/autores/
+    btn_label: "View Book"
+    btn_class: "btn--primary"
 
 
 feature_row_jm:
@@ -47,20 +53,20 @@ feature_row_performances:
 ---
 
 
-## Livros & Antologías
+## Livros & Antologías (Books and Anthologies)
 {% include feature_row id="feature_row_books" %}
 
-## Revistas Literarias
+## Revistas Literarias (Literary Journals & Magazines)
 
 {% include feature_row id="feature_row_jm" %}
 
-## Poemas
+## Poemas (Poems)
 {% include feature_row id="feature_row_poems" %}
 
-## Traducciones de la Comunidad
+## Traducciones de la Comunidad (Community Translations)
 
 {% include feature_row id="feature_row_community_translations" %}
 
 
-## Presentaciones & Lecturas
+## Presentaciones & Lecturas (Performances & Readings)
 

@@ -13,7 +13,7 @@ feature_row_books:
 ---
 
 
-## Cărți și Antologii
+## Cărți și Antologii (Books & Anthologies)
 
 {% include feature_row id="feature_row_books" %}
 
