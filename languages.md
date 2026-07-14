@@ -10,7 +10,10 @@ header:
     
 ---
 
-*This page links to translations and bilingual editions by language. Entries include original books, anthologies, periodical publications, translations of individual poems, and festival publications or recordings.*
+Page under development.
+
+<!--*This page links to translations and bilingual editions by language. Entries include original books, anthologies, periodical publications, translations of individual poems, and festival publications or recordings.*-->
+
 {% assign books = 0 %}
 {% assign anthologies = 0 %}
 {% assign periodicals = 0 %}
