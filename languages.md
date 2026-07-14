@@ -12,111 +12,85 @@ header:
 
 *This page links to translations and bilingual editions by language. Entries include original books, anthologies, periodical publications, translations of individual poems, and festival publications or recordings.*
 
-## Languages
-
-## Languages
-
-<table>
-
-<thead>
-<tr>
-  <th>Language</th>
-  <th>Books</th>
-  <th>Anthologies</th>
-  <th>Periodicals</th>
-  <th>Poem Translations</th>
-  <th>LyricsTranslate</th>
-  <th>Performances</th>
-</tr>
-</thead>
-
-<tbody>
-
-{% assign languages = site.data.lyrics_translate_languages | sort: "language" %}
-
-{% for row in languages %}
-
-{% assign language = row.language | strip %}
-
 {% assign books = 0 %}
 {% assign anthologies = 0 %}
 {% assign periodicals = 0 %}
 {% assign poems = 0 %}
-{% assign performances = 0 %}
 
-{% for publication in site.data.publications %}
+{% if language == "Portuguese" %}
 
-  {% assign found = false %}
+  {% for item in site.data.publications %}
 
-  {% for field in "original_languages|translated_languages|publication_languages" | split:"|" %}
+    {% if item.collection == "books" %}
+      {% assign books = books | plus: 1 %}
+    {% endif %}
 
-    {% assign value = publication[field] %}
+    {% if item.collection == "anthologies" %}
+      {% assign anthologies = anthologies | plus: 1 %}
+    {% endif %}
 
-    {% if value %}
+    {% if item.collection == "periodicals" %}
 
-      {% assign values = value | split:";" %}
+      {% assign found = false %}
 
-      {% for item in values %}
-        {% if item | strip == language %}
-          {% assign found = true %}
-        {% endif %}
+      {% for field in "original_languages|translated_languages" | split:"|" %}
+
+        {% assign values = item[field] | default:"" | split:";" %}
+
+        {% for value in values %}
+          {% if value | strip == "Portuguese" %}
+            {% assign found = true %}
+          {% endif %}
+        {% endfor %}
+
       {% endfor %}
+
+      {% if found %}
+        {% assign periodicals = periodicals | plus: 1 %}
+      {% endif %}
 
     {% endif %}
 
   {% endfor %}
 
-  {% if found %}
+{% else %}
 
-    {% case publication.collection %}
+  {% for item in site.data.publications %}
 
-      {% when "books" %}
-        {% assign books = books | plus: 1 %}
+    {% assign translated = false %}
 
-      {% when "anthologies" %}
-        {% assign anthologies = anthologies | plus: 1 %}
+    {% assign langs = item.translated_languages | default:"" | split:";" %}
 
-      {% when "periodicals" %}
+    {% for lang in langs %}
+      {% if lang | strip == language %}
+        {% assign translated = true %}
+      {% endif %}
+    {% endfor %}
+
+    {% if translated %}
+
+      {% if item.collection == "translations" %}
+
+        {% if item.type == "translated_book" %}
+          {% assign books = books | plus: 1 %}
+        {% else %}
+          {% assign anthologies = anthologies | plus: 1 %}
+        {% endif %}
+
+      {% elsif item.collection == "periodicals" %}
+
         {% assign periodicals = periodicals | plus: 1 %}
 
-      {% when "poems" %}
-        {% assign poems = poems | plus: 1 %}
+      {% endif %}
 
-      {% when "performances" %}
-        {% assign performances = performances | plus: 1 %}
+    {% endif %}
 
-    {% endcase %}
+  {% endfor %}
 
-  {% endif %}
-
-{% endfor %}
-
-<tr>
-
-<td>
-
-{% if row.has_page == "TRUE" %}
-<a href="{{ '/translations/languages/' | append: (language | slugify) | append:'/' | relative_url }}">
-{{ language }}
-</a>
-{% else %}
-{{ language }}
 {% endif %}
 
-</td>
-
-<td>{{ books }}</td>
-<td>{{ anthologies }}</td>
-<td>{{ periodicals }}</td>
-<td>{{ poems }}</td>
-<td>{{ row.n_poems | default: 0 }}</td>
-<td>{{ performances }}</td>
-
-</tr>
-
+{% for poem in site.data.poems %}
+  {% if poem.language == language %}
+    {% assign poems = poems | plus: 1 %}
+  {% endif %}
 {% endfor %}
-
-</tbody>
-
-</table>
-
