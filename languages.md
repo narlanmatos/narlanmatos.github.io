@@ -7,10 +7,53 @@ header:
   overlay_image: /assets/images/header.jpg  # header image
 
   
+feature_row_languages:
+  - url: /translations/languages/english/
+    btn_label: "English"
+    btn_class: "btn--primary"
     
+  - url: /translations/languages/french/
+    btn_label: "French"
+    btn_class: "btn--primary"
+    
+  - url: /translations/languages/german/
+    btn_label: "German"
+    btn_class: "btn--primary"
+    
+  - url: /translations/languages/japanese/
+    btn_label: "Japanese"
+    btn_class: "btn--primary"
+    
+  - url: /translations/languages/italian/
+    btn_label: "Italian"
+    btn_class: "btn--primary"
+    
+  - url: /translations/languages/lithuanian/
+    btn_label: "Lithuanian"
+    btn_class: "btn--primary"
+    
+  - url: /translations/languages/romanian/
+    btn_label: "Romanian"
+    btn_class: "btn--primary"
+    
+  - url: /translations/languages/russian/
+    btn_label: "Russian"
+    btn_class: "btn--primary"
+    
+  - url: /translations/languages/slovenian/
+    btn_label: "Slovenian"
+    btn_class: "btn--primary"
+    
+  - url: /translations/languages/spanish/
+    btn_label: "Spanish"
+    btn_class: "btn--primary"
 ---
 
-Page under development.
+
+Page under development. 
+
+
+{% include feature_row id="feature_row_languages" %}
 
 <!--*This page links to translations and bilingual editions by language. Entries include original books, anthologies, periodical publications, translations of individual poems, and festival publications or recordings.*-->
 
