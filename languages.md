@@ -6,63 +6,98 @@ layout: splash
 header:
   overlay_image: /assets/images/header.jpg  # header image
 
-    
-feature_row_languages:
-  - url: /translations/languages/english/
-    btn_label: "English"
-    btn_class: "btn--primary"
-        
-  - url: /translations/languages/french/
-    btn_label: "French"
-    btn_class: "btn--primary"
-    
-  - url: /translations/languages/japanese/
-    btn_label: "Japanese"
-    btn_class: "btn--primary"
-    
-  - url: /translations/languages/italian/
-    btn_label: "Italian"
-    btn_class: "btn--primary"
-    
-  - url: /translations/languages/lithuanian/
-    btn_label: "Lithuanian"
-    btn_class: "btn--primary"
-    
-  - url: /translations/languages/romanian/
-    btn_label: "Romanian"
-    btn_class: "btn--primary"
-    
-  - url: /translations/languages/russian/
-    btn_label: "Russian"
-    btn_class: "btn--primary"
-    
-  - url: /translations/languages/slovenian/
-    btn_label: "Slovenian"
-    btn_class: "btn--primary"
-    
-  - url: /translations/languages/spanish/
-    btn_label: "Spanish"
-    btn_class: "btn--primary"
   
     
 ---
 
 *This page links to translations and bilingual editions by language. Entries include original books, anthologies, periodical publications, translations of individual poems, and festival publications or recordings.*
 
-{% include feature_row id="feature_row_languages" %}
+## Languages
 
+| Language | Books | Anthologies | Periodicals | Poem Translations | Community | Festivals |
+|:----------|------:|------------:|------------:|------------------:|----------:|----------:|
 
+{% assign lt_languages = site.data.lyrics_translate_languages | sort: "language" %}
 
-## Dutch
-<!--https://lyricstranslate.com/en/narlan-matos-lyrics.html-->
+{% for row in lt_languages %}
 
+{% assign language = row.language | strip %}
 
-## Hindi
+{% assign books = 0 %}
+{% assign anthologies = 0 %}
+{% assign periodicals = 0 %}
+{% assign poems = 0 %}
+{% assign community = 0 %}
+{% assign festivals = 0 %}
 
+{% for publication in site.data.publications %}
 
-## Persian
-<!--https://lyricstranslate.com/en/narlan-matos-lyrics.html-->
+  {% assign found = false %}
 
+  {% assign fields = "original_languages|translated_languages|publication_languages" | split: "|" %}
 
-## Swedish
+  {% for field in fields %}
+
+    {% assign value = publication[field] %}
+
+    {% if value %}
+
+      {% assign values = value | split: ";" %}
+
+      {% for item in values %}
+        {% if item | strip == language %}
+          {% assign found = true %}
+        {% endif %}
+      {% endfor %}
+
+    {% endif %}
+
+  {% endfor %}
+
+  {% if found %}
+
+    {% case publication.collection %}
+
+      {% when "books" %}
+        {% assign books = books | plus: 1 %}
+
+      {% when "anthologies" %}
+        {% assign anthologies = anthologies | plus: 1 %}
+
+      {% when "periodicals" %}
+        {% assign periodicals = periodicals | plus: 1 %}
+
+      {% when "poems" %}
+        {% assign poems = poems | plus: 1 %}
+
+    {% endcase %}
+
+  {% endif %}
+
+{% endfor %}
+
+{% if row.has_translation == "TRUE" %}
+  {% assign community = 1 %}
+{% endif %}
+
+{% comment %}
+Future:
+{% for item in site.data.festival_languages %}
+  {% if item.language == language %}
+    {% assign festivals = festivals | plus: 1 %}
+  {% endif %}
+{% endfor %}
+{% endcomment %}
+
+{% assign slug = language | slugify %}
+
+{% if row.has_page == "TRUE" %}
+  {% assign page = site.languages | where: "slug", slug | first %}
+{% else %}
+  {% assign page = nil %}
+{% endif %}
+
+| {% if page %}[{{ language }}]({{ page.url | relative_url }}){% else %}{{ language }}{% endif %} | {{ books }} | {{ anthologies }} | {{ periodicals }} | {{ poems }} | {{ community }} | {{ festivals }} |
+
+{% endfor %}
 
