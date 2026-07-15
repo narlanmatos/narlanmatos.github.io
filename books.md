@@ -32,8 +32,10 @@ Many have subsequently appeared in translation or inspired multilingual editions
     {% if book.cover %}
     <div class="archive__item-teaser">
       <a href="{{ book.url | relative_url }}">
-        <img src="{{ book.cover | relative_url }}"
-             alt="{{ book.title }} cover">
+        <div class="book-cover">
+           <img src="{{ book.cover | relative_url }}"
+           alt="{{ book.title }}">
+        </div>
       </a>
     </div>
     {% endif %}
