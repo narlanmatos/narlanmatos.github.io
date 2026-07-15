@@ -24,7 +24,27 @@ feature_row_jm:
       Translations by Giorgio Mobili
       
       *FILI D'AQUILONE*, 2014
-    url: https://www.interimpoetics.org/35-4/narlan-matos-trans-jose-f-banuelos-montes-sally-perret
+    url: https://www.filidaquilone.it/num035mobili.html
+    btn_label: "Leggere"
+    btn_class: "btn--primary" 
+    
+  - image_path: /assets/images/features/interim.jpg
+    title: "DALLA PROVINCIA OSCURA ALLA CITTÀ DEL SOLE: Aporie quotidiane e circolarità necessaria nella poesia di Narlan Matos"
+    excerpt: |
+      Translations by Giorgio Mobili
+      
+      *FILI D'AQUILONE*, 2017
+    url: https://www.filidaquilone.it/num045testi.html
+    btn_label: "Leggere"
+    btn_class: "btn--primary" 
+    
+  - image_path: /assets/images/features/interim.jpg
+    title: "NARLAN MATOS, NARCISO SELVAGEM: IL MITO RIVISITATO"
+    excerpt: |
+      Translations by Manuela Colombo
+      
+      *FILI D'AQUILONE*, 2023
+    url: https://www.filidaquilone.it/num063colombo.html
     btn_label: "Leggere"
     btn_class: "btn--primary" 
     
