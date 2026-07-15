@@ -13,7 +13,7 @@ header:
 The table below provides an ongoing inventory of Narlan Matos's work by language,
 including original books and their translations, anthologies and translated anthologies,
 poetry published in literary journals and other periodicals, individual poems available on this website,
-and community translations on [LyricsTranslate](https://lyricstranslate.com/en/narlan-matos-lyrics.html).
+and community translations of poems on [LyricsTranslate](https://lyricstranslate.com/en/narlan-matos-lyrics.html).
 
 
 <!-- add numbers for books and translations based on _data/publications.csv, as follows. 
