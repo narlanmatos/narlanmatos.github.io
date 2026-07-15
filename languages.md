@@ -14,21 +14,134 @@ The table below summarizes the languages into which Narlan Matos's work has been
 It includes books, anthologies, poetry published in literary journals and other periodicals, individual poems available on this website, and community translations on [LyricsTranslate](https://lyricstranslate.com/en/narlan-matos-lyrics.html).
 This inventory is being expanded as additional publications and translations are documented.
 
+<table class="language-table">
 
+<thead>
+<tr>
+  <th>Language</th>
+  <th style="text-align:center;">Books</th>
+  <th style="text-align:center;">Anthologies</th>
+  <th style="text-align:center;">Periodicals</th>
+  <th style="text-align:center;">Poems on this website</th>
+  <th style="text-align:center;">
+    <a href="https://lyricstranslate.com/en/narlan-matos-lyrics.html"
+       target="_blank"
+       rel="noopener">
+      Community Translations<br>on LyricsTranslate
+    </a>
+  </th>
+</tr>
+</thead>
+
+<tbody>
 
 {% assign portuguese = site.data.language_statistics
-  | where: "language", "Portuguese" %}
+   | where: "language", "Portuguese" %}
 
-{% assign other_languages = site.data.language_statistics
-  | where_exp: "item", "item.language != 'Portuguese'"
-  | sort: "language" %}
-
-| Language | Books | Anthologies | Periodicals | Poems on this website | Community Translations on <a href="https://lyricstranslate.com/en/narlan-matos-lyrics.html" target="_blank" rel="noopener">LyricsTranslate</a> |
-|:---------|------:|------------:|------------:|----------------------:|--------------------------------------:|
 {% for row in portuguese %}
-| **{% if row.slug != "" %}[{{ row.language }}]({{ '/translations/languages/' | append: row.slug | append: '/' | relative_url }}){% else %}{{ row.language }}{% endif %}** | {% unless row.n_books == "0" or row.n_books == 0 %}{{ row.n_books }}{% endunless %} | {% unless row.n_anthologies == "0" or row.n_anthologies == 0 %}{{ row.n_anthologies }}{% endunless %} | {% unless row.n_periodicals == "0" or row.n_periodicals == 0 %}{{ row.n_periodicals }}{% endunless %} | {% unless row.n_poems == "0" or row.n_poems == 0 %}{{ row.n_poems }}{% endunless %} | {% unless row.n_poems_LyricsTranslate == "0" or row.n_poems_LyricsTranslate == 0 %}{{ row.n_poems_LyricsTranslate }}{% endunless %} |
+
+<tr style="border-bottom:2px solid #bbb;">
+
+<td>
+
+{% if row.slug and row.slug != "" %}
+<a href="{{ '/translations/languages/' | append: row.slug | append: '/' | relative_url }}">
+<strong>{{ row.language }}</strong>
+</a>
+{% else %}
+<strong>{{ row.language }}</strong>
+{% endif %}
+
+</td>
+
+<td align="center">
+{% unless row.n_books == 0 or row.n_books == "0" %}
+{{ row.n_books }}
+{% endunless %}
+</td>
+
+<td align="center">
+{% unless row.n_anthologies == 0 or row.n_anthologies == "0" %}
+{{ row.n_anthologies }}
+{% endunless %}
+</td>
+
+<td align="center">
+{% unless row.n_periodicals == 0 or row.n_periodicals == "0" %}
+{{ row.n_periodicals }}
+{% endunless %}
+</td>
+
+<td align="center">
+{% unless row.n_poems == 0 or row.n_poems == "0" %}
+{{ row.n_poems }}
+{% endunless %}
+</td>
+
+<td align="center">
+{% unless row.n_poems_LyricsTranslate == 0 or row.n_poems_LyricsTranslate == "0" %}
+{{ row.n_poems_LyricsTranslate }}
+{% endunless %}
+</td>
+
+</tr>
+
 {% endfor %}
-| | | | | | |
-{% for row in other_languages %}
-| {% if row.slug != "" %}[{{ row.language }}]({{ '/translations/languages/' | append: row.slug | append: '/' | relative_url }}){% else %}{{ row.language }}{% endif %} | {% unless row.n_books == "0" or row.n_books == 0 %}{{ row.n_books }}{% endunless %} | {% unless row.n_anthologies == "0" or row.n_anthologies == 0 %}{{ row.n_anthologies }}{% endunless %} | {% unless row.n_periodicals == "0" or row.n_periodicals == 0 %}{{ row.n_periodicals }}{% endunless %} | {% unless row.n_poems == "0" or row.n_poems == 0 %}{{ row.n_poems }}{% endunless %} | {% unless row.n_poems_LyricsTranslate == "0" or row.n_poems_LyricsTranslate == 0 %}{{ row.n_poems_LyricsTranslate }}{% endunless %} |
+
+{% assign languages = site.data.language_statistics
+   | where_exp: "item", "item.language != 'Portuguese'"
+   | sort: "language" %}
+
+{% for row in languages %}
+
+<tr>
+
+<td>
+
+{% if row.slug and row.slug != "" %}
+<a href="{{ '/translations/languages/' | append: row.slug | append: '/' | relative_url }}">
+{{ row.language }}
+</a>
+{% else %}
+{{ row.language }}
+{% endif %}
+
+</td>
+
+<td align="center">
+{% unless row.n_books == 0 or row.n_books == "0" %}
+{{ row.n_books }}
+{% endunless %}
+</td>
+
+<td align="center">
+{% unless row.n_anthologies == 0 or row.n_anthologies == "0" %}
+{{ row.n_anthologies }}
+{% endunless %}
+</td>
+
+<td align="center">
+{% unless row.n_periodicals == 0 or row.n_periodicals == "0" %}
+{{ row.n_periodicals }}
+{% endunless %}
+</td>
+
+<td align="center">
+{% unless row.n_poems == 0 or row.n_poems == "0" %}
+{{ row.n_poems }}
+{% endunless %}
+</td>
+
+<td align="center">
+{% unless row.n_poems_LyricsTranslate == 0 or row.n_poems_LyricsTranslate == "0" %}
+{{ row.n_poems_LyricsTranslate }}
+{% endunless %}
+</td>
+
+</tr>
+
 {% endfor %}
+
+</tbody>
+
+</table>
