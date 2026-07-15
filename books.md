@@ -18,7 +18,7 @@ Many have subsequently appeared in translation or inspired multilingual editions
 
 {% assign books = site.data.publications
   | where: "collection", "books"
-  | sort: "publication_date" %}
+  | sort: "publication_date"
   | reverse %}
 
 <div class="feature__wrapper">
