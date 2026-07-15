@@ -29,7 +29,18 @@ color: inherit;
   border-bottom: 1px solid #eee;
 }
 
+﻿/* ==================================================
+   Book covers
+   ================================================== */
+
 .book-cover {
-  border: 8px solid red;
-  background: yellow;
+  height: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.book-cover img {
+  max-height: 100%;
+  width: auto;
 }
