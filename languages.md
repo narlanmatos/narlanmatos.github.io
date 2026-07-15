@@ -57,6 +57,20 @@ Page under development.
 
 <!--*This page links to translations and bilingual editions by language. Entries include original books, anthologies, periodical publications, translations of individual poems, and festival publications or recordings.*-->
 
+
+## Community Translations (LyricsTranslate)
+
+| Language | Community Translations |
+|:----------|-----------------------:|
+{% assign languages = site.data.lyrics_translate_languages | sort: "language" %}
+{% for row in languages %}
+
+{% assign slug = row.language | downcase | replace: " ", "-" %}
+
+| {% if row.has_page == "TRUE" or row.has_page == true %}[{{ row.language }}]({{ "/translations/languages/" | append: slug | append: "/" | relative_url }}){% else %}{{ row.language }}{% endif %} | {{ row.n_poems | default: 0 }} |
+
+{% endfor %}
+
 <!-- trying to make table. This does not work:
 
 
