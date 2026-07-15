@@ -15,6 +15,16 @@ including original books and their translations, anthologies and translated anth
 poetry published in literary journals and other periodicals, individual poems available on this website,
 and community translations on [LyricsTranslate](https://lyricstranslate.com/en/narlan-matos-lyrics.html).
 
+
+<!-- add numbers for books and translations based on _data/publications.csv, as follows. 
+
+books in portuguese : n collection = books 
+
+books in other languages: n type = translated_book
+
+anthologies in portuguese: n [collection = anthologies] + [type = bilingual_edition  or translated_anthology AND bilingual_multilingual = TRUE]
+
+anthologies in other languages: n type = bilingual_edition  or translated_anthology-->
 ---
 
 <table class="language-table">
@@ -27,7 +37,7 @@ and community translations on [LyricsTranslate](https://lyricstranslate.com/en/n
       <th style="text-align:center;">Periodicals</th>
       <th style="text-align:center;">Poems on this Website</th>
       <th style="text-align:center;">
-        Community Translations<br>
+        Poem Translations on <br>
         <small>
           <a href="https://lyricstranslate.com/en/narlan-matos-lyrics.html"
              target="_blank"
