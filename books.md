@@ -14,7 +14,7 @@ header:
 
 The following original poetry books by Narlan Matos, published in Portuguese between 1997 and the present, form Narlan Matos’s core poetic corpus.
 Together these volumes trace the evolution of a body of work exploring memory, language, identity, migration, spirituality, and the human condition. 
-Many have subsequently appeared in translation or inspired multilingual editions, which are linked from the individual book pages.*
+Many have subsequently appeared in translation or inspired multilingual editions, which are linked from the individual book pages.
 
 {% assign books = site.data.publications
   | where: "collection", "books"
