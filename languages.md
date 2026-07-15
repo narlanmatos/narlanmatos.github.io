@@ -14,7 +14,6 @@ The table below summarizes the languages into which Narlan Matos's work has been
 It includes books, anthologies, poetry published in literary journals and other periodicals, individual poems available on this website, and community translations on [LyricsTranslate](https://lyricstranslate.com/en/narlan-matos-lyrics.html).
 This inventory is being expanded as additional publications and translations are documented.
 
-<!--modify the script so that (1) the hyperlink for lyricstranslate is only on the word "LyricsTranslate", and (2) there are hyperlinks on the n books and n anthologies in portuguese to /poetry/books/ and /poetry/anthologies/, respectively, and also from n poems on this website to /poetry/selected-poems/-->
 
 <table class="language-table">
 
@@ -59,13 +58,17 @@ This inventory is being expanded as additional publications and translations are
 
 <td align="center">
 {% unless row.n_books == 0 or row.n_books == "0" %}
+<a href="{{ '/poetry/books/' | relative_url }}">
 {{ row.n_books }}
+</a>
 {% endunless %}
 </td>
 
 <td align="center">
 {% unless row.n_anthologies == 0 or row.n_anthologies == "0" %}
+<a href="{{ '/poetry/anthologies/' | relative_url }}">
 {{ row.n_anthologies }}
+</a>
 {% endunless %}
 </td>
 
@@ -77,7 +80,9 @@ This inventory is being expanded as additional publications and translations are
 
 <td align="center">
 {% unless row.n_poems == 0 or row.n_poems == "0" %}
+<a href="{{ '/poetry/selected-poems/' | relative_url }}">
 {{ row.n_poems }}
+</a>
 {% endunless %}
 </td>
 
