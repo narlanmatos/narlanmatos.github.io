@@ -58,8 +58,6 @@ Page under development.
 <!--*This page links to translations and bilingual editions by language. Entries include original books, anthologies, periodical publications, translations of individual poems, and festival publications or recordings.*-->
 
 
-## Community Translations
-
 <table>
   <thead>
     <tr>
@@ -67,15 +65,51 @@ Page under development.
       <th style="text-align:right;">Community Translations</th>
     </tr>
   </thead>
+
+  <!-- Portuguese -->
+  <tbody>
+  {% assign portuguese = site.data.lyrics_translate_languages
+     | where: "language", "Portuguese" %}
+
+  {% for row in portuguese %}
+    <tr class="featured-language">
+      <td>
+        {% if row.has_page %}
+          <a href="{{ '/translations/languages/' | append: row.slug | append: '/' | relative_url }}">
+            <strong>{{ row.language }}</strong>
+          </a>
+        {% else %}
+          <strong>{{ row.language }}</strong>
+        {% endif %}
+      </td>
+
+      <td style="text-align:right;">
+        <strong>{{ row.n_poems }}</strong>
+      </td>
+    </tr>
+  {% endfor %}
+  </tbody>
+
+  <tbody>
+    <tr>
+      <td colspan="2">
+        <hr style="margin:.4em 0;">
+      </td>
+    </tr>
+  </tbody>
+
+  <!-- All other languages -->
   <tbody>
 
-{% assign languages = site.data.lyrics_translate_languages | sort: "language" %}
+  {% assign languages = site.data.lyrics_translate_languages | sort: "language" %}
 
-{% for row in languages %}
+  {% for row in languages %}
+
+    {% unless row.language == "Portuguese" %}
 
     <tr>
       <td>
-        {% if row.has_page == "TRUE" or row.has_page == true %}
+        {% if row.has_page %}
           <a href="{{ '/translations/languages/' | append: row.slug | append: '/' | relative_url }}">
             {{ row.language }}
           </a>
@@ -89,7 +123,9 @@ Page under development.
       </td>
     </tr>
 
-{% endfor %}
+    {% endunless %}
+
+  {% endfor %}
 
   </tbody>
 </table>
