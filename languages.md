@@ -37,7 +37,7 @@ anthologies in other languages: n type = bilingual_edition  or translated_anthol
       <th style="text-align:center;">Periodicals</th>
       <th style="text-align:center;">Poems on this Website</th>
       <th style="text-align:center;">
-        Poem Translations on <br>
+        Poems on <br>
         <small>
           <a href="https://lyricstranslate.com/en/narlan-matos-lyrics.html"
              target="_blank"
