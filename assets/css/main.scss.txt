@@ -28,3 +28,16 @@ color: inherit;
   padding: 0.35em 0;
   border-bottom: 1px solid #eee;
 }
+
+.book-cover {
+  height: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.8rem;
+}
+
+.book-cover img {
+  max-height: 100%;
+  width: auto;
+}
