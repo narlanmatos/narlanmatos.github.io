@@ -13,7 +13,7 @@ header:
 *The following anthologies include selected poems in Portuguese originally published in one or more [books](/poetry/books/).*
 
 {% assign books = site.data.publications
-  | where: "collection", "translations"
+  | where: "collection", "anthologies"
   | sort: "publication_date"
   | reverse %}
 
@@ -83,7 +83,7 @@ header:
 
 
 {% assign books = site.data.publications
-  | where: "collection", "translations"
+  | where: "type", "translated_anthology"
   | where: "bilingual_multilingual", "TRUE"
   | sort: "publication_date"
   | reverse %}
