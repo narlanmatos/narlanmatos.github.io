@@ -77,7 +77,7 @@ feature_row:
     
 ---
 
-*The following are anthologies contain selected works of Narlan Matos and sometimes other poets.*
+*The following anthologies contain selected works of Narlan Matos, sometimes alongside those of other poets.*
 
 {% assign books = site.data.publications
   | where: "type", "translated_anthology"
