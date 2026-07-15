@@ -49,6 +49,6 @@ feature_row_bilingual:
 
 ## Bilingual and Multilingual Anthologies
 
-*The following anthologies include originals in Portuguese alongside translations in one or more additional languages.*
+*The following anthologies include originals in Portuguese alongside translations in one or more additional languages (see also [Translated Anthologies](/translations/anthologies-translated/)).*
 
 {% include feature_row id="feature_row_bilingual" %}
