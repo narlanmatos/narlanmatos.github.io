@@ -14,6 +14,8 @@ The table below summarizes the languages into which Narlan Matos's work has been
 It includes books, anthologies, poetry published in literary journals and other periodicals, individual poems available on this website, and community translations on [LyricsTranslate](https://lyricstranslate.com/en/narlan-matos-lyrics.html).
 This inventory is being expanded as additional publications and translations are documented.
 
+<!--modify the script so that (1) the hyperlink for lyricstranslate is only on the word "LyricsTranslate", and (2) there are hyperlinks on the n books and n anthologies in portuguese to /poetry/books/ and /poetry/anthologies/, respectively, and also from n poems on this website to /poetry/selected-poems/-->
+
 <table class="language-table">
 
 <thead>
@@ -24,10 +26,11 @@ This inventory is being expanded as additional publications and translations are
   <th style="text-align:center;">Periodicals</th>
   <th style="text-align:center;">Poems on this website</th>
   <th style="text-align:center;">
+    Community Translations on
     <a href="https://lyricstranslate.com/en/narlan-matos-lyrics.html"
        target="_blank"
        rel="noopener">
-      Community Translations<br>on LyricsTranslate
+      LyricsTranslate
     </a>
   </th>
 </tr>
