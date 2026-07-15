@@ -54,6 +54,13 @@ feature_row_languages:
     
 feature_row_children:
 
+  - image_path: /assets/images/features/books-translation.jpg
+    title: "Books"
+    excerpt: "Original poetry collections published in other languages."
+    url: /translations/books-translated/
+    btn_label: "Explore"
+    btn_class: "btn--primary"
+
   - image_path: /assets/images/features/anthologies.jpg
     title: "Collected Poems & Anthologies"
     excerpt: "Selected and collected works published internationally."
@@ -68,12 +75,7 @@ feature_row_children:
     btn_label: "Explore"
     btn_class: "btn--primary"
 
-  - image_path: /assets/images/features/books-translation.jpg
-    title: "Books"
-    excerpt: "Original poetry collections published in other languages."
-    url: /translations/books-translated/
-    btn_label: "Explore"
-    btn_class: "btn--primary"
+
 
 feature_row_poem_translations:
   - image_path: /assets/images/features/english.jpg

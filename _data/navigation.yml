@@ -23,10 +23,10 @@ main:
     children:
       - title: "Books"
         url: /poetry/books/
-      - title: "Selected Poems"
-        url: /poetry/selected-poems/
       - title: "Collected Poems & Anthologies"
         url: /poetry/anthologies/
+      - title: "Selected Poems"
+        url: /poetry/selected-poems/
       - title: "Performances & Readings"
         url: /poetry/performances/
 
@@ -36,12 +36,10 @@ main:
     children:
       - title: "Translated Books"
         url: /translations/books-translated/
-      - title: "Poems in Translation"
-        url: /translations/poems-translated/
       - title: "Collected Poems & Anthologies"
         url: /translations/anthologies-translated/
-      - title: "Bilingual Editions"
-        url: /translations/bilingual/
+      - title: "Poems in Translation"
+        url: /translations/poems-translated/
       - title: "Languages"
         url: /translations/languages/
 

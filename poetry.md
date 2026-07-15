@@ -13,13 +13,6 @@ feature_row:
     btn_label: "Explore Books"
     btn_class: "btn--primary"
     
-  - image_path: /assets/images/features/poems.jpg
-    title: "Selected Poems"
-    excerpt: "A selection of poems available online."
-    url: /poetry/selected-poems/
-    btn_label: "Explore Poems"
-    btn_class: "btn--primary"
-    
   - image_path: /assets/images/features/anthologies.jpg
     title: "Collected Poems & Anthologies"
     excerpt: "Poems published in collective and international volumes."
@@ -27,6 +20,15 @@ feature_row:
     btn_label: "View Anthologies"
     btn_class: "btn--primary"
     
+    
+  - image_path: /assets/images/features/poems.jpg
+    title: "Selected Poems"
+    excerpt: "A selection of poems available online."
+    url: /poetry/selected-poems/
+    btn_label: "Explore Poems"
+    btn_class: "btn--primary"
+    
+
 feature_row2:
 
   - image_path: /assets/images/features/performances.jpg
