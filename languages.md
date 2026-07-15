@@ -10,15 +10,10 @@ header:
 
 ---
 
-
-Page under development. 
-
-
-
-<!--*This page links to translations and bilingual editions by language. Entries include original books, anthologies, periodical publications, translations of individual poems, and festival publications or recordings.*-->
-
-
----
+The table below provides an ongoing inventory of Narlan Matos's work by language,
+including original books and their translations, anthologies and translated anthologies,
+poetry published in literary journals and other periodicals, individual poems available on this website,
+and community translations on [LyricsTranslate](https://lyricstranslate.com/en/narlan-matos-lyrics.html).
 
 ---
 
