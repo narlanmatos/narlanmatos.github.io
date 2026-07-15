@@ -68,13 +68,6 @@ feature_row_children:
     btn_label: "Explore"
     btn_class: "btn--primary"
 
-  - image_path: /assets/images/features/bilingual.jpg
-    title: "Bilingual and Multilingual Editions"
-    excerpt: "Parallel-language editions presenting the original text alongside translation(s)."
-    url: /translations/bilingual/
-    btn_label: "Explore"
-    btn_class: "btn--primary"
-
 
 
 feature_row_poem_translations:

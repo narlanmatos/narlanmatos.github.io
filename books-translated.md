@@ -19,6 +19,13 @@ feature_row_books:
     url: /translations/elegia-es/
     btn_label: "View Book"
     btn_class: "btn--primary"
+    
+    
+  - image_path: /assets/images/translations/canto-ro.jpg
+    title: "Eu Cânt Pentru Oameni de Bine"
+    url: /translations/canto-ro/
+    btn_label: "View Book"
+    btn_class: "btn--primary"
 
 
 ---

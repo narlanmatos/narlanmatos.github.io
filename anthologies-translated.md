@@ -48,6 +48,31 @@ feature_row:
     url: translations/duet-fr/
     btn_label: "Voir le Livre"
     btn_class: "btn--primary"
+    
+  - image_path: /assets/images/translations/provincia.jpg
+    title: "La Provincia Oscura"
+    url: translations/provincia/
+    btn_label: "Visualizza il Libro"
+    btn_class: "btn--primary"
+
+    
+  - image_path: /assets/images/translations/antologia.jpg
+    title: "Antología Poética Bilingüe"
+    url: /translations/antologia/
+    btn_label: "View Book"
+    btn_class: "btn--primary"
+    
+  - image_path: /assets/images/translations/autores.jpg
+    title: "Autores Baianos"
+    url: /translations/autores/
+    btn_label: "View Book"
+    btn_class: "btn--primary"
+    
+  - image_path: /assets/images/translations/poetinis.jpg
+    title: "Poetinis Druskinink ruduo 2012 (Drukininkai Poetic fall 2012)"
+    url: /translations/poetinis/
+    btn_label: "View Book"
+    btn_class: "btn--primary"
 
     
 ---
