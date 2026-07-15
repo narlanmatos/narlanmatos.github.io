@@ -15,183 +15,152 @@ It includes books, anthologies, poetry published in literary journals and other 
 This inventory is being expanded as additional publications and translations are documented.
 
 
-<!-- add numbers for books and translations based on _data/publications.csv, as follows. 
-
-books in portuguese : n collection = books 
-
-books in other languages: n type = translated_book
-
-anthologies in portuguese: n [collection = anthologies] + [type = bilingual_edition  or translated_anthology AND bilingual_multilingual = TRUE]
-
-anthologies in other languages: n type = bilingual_edition  or translated_anthology-->
 ---
 
-<table class="language-table">
+<table class="language-summary">
 
-  <thead>
-    <tr>
-      <th>Language</th>
-      <th style="text-align:center;">Books</th>
-      <th style="text-align:center;">Anthologies</th>
-      <th style="text-align:center;">Periodicals</th>
-      <th style="text-align:center;">Poems on this Website</th>
-      <th style="text-align:center;">
-        Community Translations<br>
-        <small>
-          <a href="https://lyricstranslate.com/en/narlan-matos-lyrics.html"
-             target="_blank"
-             rel="noopener">
-            LyricsTranslate
-          </a>
-        </small>
-      </th>
-    </tr>
-  </thead>
+<thead>
+<tr>
+  <th>Language</th>
+  <th>Books</th>
+  <th>Anthologies</th>
+  <th>Periodicals</th>
+  <th>Poems on this website</th>
+  <th>
+    Community Translations on
+    <a href="https://lyricstranslate.com/en/narlan-matos-lyrics.html"
+       target="_blank"
+       rel="noopener">
+      LyricsTranslate
+    </a>
+  </th>
+</tr>
+</thead>
 
-  {% assign languages = site.data.lyrics_translate_languages | sort: "language" %}
-  {% assign portuguese = languages | where: "language", "Portuguese" %}
+<tbody>
 
-  <!-- Portuguese first -->
-  <tbody>
+{% assign portuguese = site.data.lyrics_translate_languages
+  | where: "language", "Portuguese"
+  | first %}
 
-  {% for row in portuguese %}
+{% if portuguese %}
 
-    {% assign books = 0 %}
-    {% assign anthologies = 0 %}
+<tr class="language-native">
 
-    {% for item in site.data.publications %}
+<td>
+{% if portuguese.slug %}
+<a href="{{ '/translations/languages/' | append: portuguese.slug | append: '/' | relative_url }}">
+<strong>Portuguese</strong>
+</a>
+{% else %}
+<strong>Portuguese</strong>
+{% endif %}
+</td>
 
-      {% if item.collection == "books" %}
-        {% assign books = books | plus: 1 %}
-      {% endif %}
+{% assign books = 0 %}
+{% assign anthologies = 0 %}
+{% assign poems = 0 %}
 
-      {% if item.collection == "anthologies" %}
-        {% assign anthologies = anthologies | plus: 1 %}
-      {% endif %}
+{% for item in site.data.publications %}
 
-      {% if item.type == "translated_anthology"
-            and (item.bilingual_multilingual == "TRUE"
-                 or item.bilingual_multilingual == true) %}
-        {% assign anthologies = anthologies | plus: 1 %}
-      {% endif %}
+  {% if item.collection == "books" %}
+    {% assign books = books | plus: 1 %}
+  {% endif %}
 
-    {% endfor %}
+  {% if item.collection == "anthologies" %}
+    {% assign anthologies = anthologies | plus: 1 %}
+  {% endif %}
 
-    <tr class="featured-language">
+  {% if item.type == "translated_anthology"
+        and item.bilingual_multilingual == "TRUE" %}
+    {% assign anthologies = anthologies | plus: 1 %}
+  {% endif %}
 
-      <td>
-        {% if row.slug %}
-          <a href="{{ '/translations/languages/' | append: row.slug | append: '/' | relative_url }}">
-            <strong>{{ row.language }}</strong>
-          </a>
-        {% else %}
-          <strong>{{ row.language }}</strong>
-        {% endif %}
-      </td>
+{% endfor %}
 
-      <td style="text-align:center;">
-        {% if books > 0 %}{{ books }}{% endif %}
-      </td>
+{% for poem in site.data.poems %}
+  {% if poem.language == "Portuguese" %}
+    {% assign poems = poems | plus: 1 %}
+  {% endif %}
+{% endfor %}
 
-      <td style="text-align:center;">
-        {% if anthologies > 0 %}{{ anthologies }}{% endif %}
-      </td>
+<td>{{ books }}</td>
+<td>{{ anthologies }}</td>
+<td></td>
+<td>{{ poems }}</td>
+<td>{{ portuguese.n_poems }}</td>
 
-      <td style="text-align:center;"></td>
+</tr>
 
-      <td style="text-align:center;"></td>
+{% endif %}
 
-      <td style="text-align:center;">
-        {% if row.n_poems %}{{ row.n_poems }}{% endif %}
-      </td>
+{% assign rows = site.data.lyrics_translate_languages
+  | sort: "language" %}
 
-    </tr>
+{% for row in rows %}
 
+{% unless row.language == "Portuguese" %}
+
+{% assign books = 0 %}
+{% assign anthologies = 0 %}
+{% assign poems = 0 %}
+
+{% for item in site.data.publications %}
+
+  {% assign translated = false %}
+
+  {% assign langs = item.translated_languages | default: "" | split: ";" %}
+
+  {% for lang in langs %}
+    {% if lang | strip == row.language %}
+      {% assign translated = true %}
+    {% endif %}
   {% endfor %}
 
-  </tbody>
+  {% if translated %}
 
-  <tbody>
-    <tr>
-      <td colspan="6">
-        <hr style="margin:.35em 0;">
-      </td>
-    </tr>
-  </tbody>
+    {% if item.type == "translated_book" %}
+      {% assign books = books | plus: 1 %}
+    {% endif %}
 
-  <!-- Other languages -->
-  <tbody>
+    {% if item.type == "translated_anthology" %}
+      {% assign anthologies = anthologies | plus: 1 %}
+    {% endif %}
 
-  {% for row in languages %}
+  {% endif %}
 
-    {% unless row.language == "Portuguese" %}
+{% endfor %}
 
-      {% assign books = 0 %}
-      {% assign anthologies = 0 %}
+{% for poem in site.data.poems %}
+  {% if poem.language == row.language %}
+    {% assign poems = poems | plus: 1 %}
+  {% endif %}
+{% endfor %}
 
-      {% for item in site.data.publications %}
+<tr>
 
-        {% assign translated = false %}
+<td>
+{% if row.slug %}
+<a href="{{ '/translations/languages/' | append: row.slug | append: '/' | relative_url }}">
+{{ row.language }}
+</a>
+{% else %}
+{{ row.language }}
+{% endif %}
+</td>
 
-        {% assign langs = item.translated_languages | default: "" | split: ";" %}
+<td>{{ books }}</td>
+<td>{{ anthologies }}</td>
+<td></td>
+<td>{{ poems }}</td>
+<td>{{ row.n_poems }}</td>
 
-        {% for lang in langs %}
-          {% if lang | strip == row.language %}
-            {% assign translated = true %}
-          {% endif %}
-        {% endfor %}
+</tr>
 
-        {% if translated %}
+{% endunless %}
 
-          {% if item.type == "translated_book" %}
-            {% assign books = books | plus: 1 %}
-          {% endif %}
+{% endfor %}
 
-          {% if item.type == "translated_anthology" %}
-            {% assign anthologies = anthologies | plus: 1 %}
-          {% endif %}
-
-        {% endif %}
-
-      {% endfor %}
-
-      <tr>
-
-        <td>
-
-          {% if row.slug %}
-            <a href="{{ '/translations/languages/' | append: row.slug | append: '/' | relative_url }}">
-              {{ row.language }}
-            </a>
-          {% else %}
-            {{ row.language }}
-          {% endif %}
-
-        </td>
-
-        <td style="text-align:center;">
-          {% if books > 0 %}{{ books }}{% endif %}
-        </td>
-
-        <td style="text-align:center;">
-          {% if anthologies > 0 %}{{ anthologies }}{% endif %}
-        </td>
-
-        <td style="text-align:center;"></td>
-
-        <td style="text-align:center;"></td>
-
-        <td style="text-align:center;">
-          {% if row.n_poems %}{{ row.n_poems }}{% endif %}
-        </td>
-
-      </tr>
-
-    {% endunless %}
-
-  {% endfor %}
-
-  </tbody>
+</tbody>
 
 </table>
-
