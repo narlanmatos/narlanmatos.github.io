@@ -1,14 +1,14 @@
-﻿language,slug,has_translation,has_page,n_poems
-Portuguese,portuguese,TRUE,FALSE,50
-Dutch,dutch,TRUE,FALSE,1
-English,english,TRUE,TRUE,2
-French,french,TRUE,TRUE,50
-German,german,TRUE,TRUE,2
-Italian ,italian ,TRUE,TRUE,50
-Japanese,japanese,FALSE,TRUE,0
-Lithuanian,lithuanian,FALSE,TRUE,0
-Persian,persian,TRUE,FALSE,12
-Romanian,romanian,FALSE,TRUE,0
-Russian,russian,TRUE,TRUE,3
-Slovenian,slovenian,FALSE,TRUE,0
-Spanish,spanish,TRUE,TRUE,1
+﻿index,language,slug,has_translation,has_page,n_poems
+1,Portuguese,portuguese,TRUE,FALSE,50
+2,Dutch,dutch,TRUE,FALSE,1
+3,English,english,TRUE,TRUE,2
+4,French,french,TRUE,TRUE,50
+5,German,german,TRUE,TRUE,2
+6,Italian ,italian ,TRUE,TRUE,50
+7,Japanese,japanese,FALSE,TRUE,0
+8,Lithuanian,lithuanian,FALSE,TRUE,0
+9,Persian,persian,TRUE,FALSE,12
+10,Romanian,romanian,FALSE,TRUE,0
+11,Russian,russian,TRUE,TRUE,3
+12,Slovenian,slovenian,FALSE,TRUE,0
+13,Spanish,spanish,TRUE,TRUE,1
