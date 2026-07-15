@@ -58,36 +58,52 @@ Page under development.
 <!--*This page links to translations and bilingual editions by language. Entries include original books, anthologies, periodical publications, translations of individual poems, and festival publications or recordings.*-->
 
 
+---
+
+## <a href="https://lyricstranslate.com/en/narlan-matos-lyrics.html" target="_blank" rel="noopener">Community Translations on LyricsTranslate</a>
+
 <table>
   <thead>
     <tr>
       <th>Language</th>
-      <th style="text-align:right;">Community Translations</th>
+      <th style="text-align:right;">Poems</th>
     </tr>
   </thead>
 
   <!-- Portuguese -->
   <tbody>
+
   {% assign portuguese = site.data.lyrics_translate_languages
      | where: "language", "Portuguese" %}
 
   {% for row in portuguese %}
+
     <tr class="featured-language">
+
       <td>
-        {% if row.has_page %}
+
+        {% if row.slug %}
+
           <a href="{{ '/translations/languages/' | append: row.slug | append: '/' | relative_url }}">
             <strong>{{ row.language }}</strong>
           </a>
+
         {% else %}
+
           <strong>{{ row.language }}</strong>
+
         {% endif %}
+
       </td>
 
       <td style="text-align:right;">
         <strong>{{ row.n_poems }}</strong>
       </td>
+
     </tr>
+
   {% endfor %}
+
   </tbody>
 
   <tbody>
@@ -98,7 +114,7 @@ Page under development.
     </tr>
   </tbody>
 
-  <!-- All other languages -->
+  <!-- Other languages -->
   <tbody>
 
   {% assign languages = site.data.lyrics_translate_languages | sort: "language" %}
@@ -108,19 +124,27 @@ Page under development.
     {% unless row.language == "Portuguese" %}
 
     <tr>
+
       <td>
-        {% if row.has_page %}
+
+        {% if row.slug %}
+
           <a href="{{ '/translations/languages/' | append: row.slug | append: '/' | relative_url }}">
             {{ row.language }}
           </a>
+
         {% else %}
+
           {{ row.language }}
+
         {% endif %}
+
       </td>
 
       <td style="text-align:right;">
         {{ row.n_poems }}
       </td>
+
     </tr>
 
     {% endunless %}
@@ -128,6 +152,7 @@ Page under development.
   {% endfor %}
 
   </tbody>
+
 </table>
 
 <!-- trying to make table. This does not work:
