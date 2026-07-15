@@ -30,14 +30,6 @@ color: inherit;
 }
 
 .book-cover {
-  height: 280px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 0.8rem;
-}
-
-.book-cover img {
-  max-height: 100%;
-  width: auto;
+  border: 8px solid red;
+  background: yellow;
 }
