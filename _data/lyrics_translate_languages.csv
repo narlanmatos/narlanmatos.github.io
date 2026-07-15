@@ -5,10 +5,10 @@
 4,French,french,TRUE,50
 5,German,german,TRUE,2
 6,Italian ,italian ,TRUE,50
-7,Japanese,japanese,FALSE,0
-8,Lithuanian,lithuanian,FALSE,0
+7,Japanese,japanese,FALSE,
+8,Lithuanian,lithuanian,FALSE,
 9,Persian,,TRUE,12
-10,Romanian,romanian,FALSE,0
+10,Romanian,romanian,FALSE,
 11,Russian,russian,TRUE,3
-12,Slovenian,slovenian,FALSE,0
+12,Slovenian,slovenian,FALSE,
 13,Spanish,spanish,TRUE,1
