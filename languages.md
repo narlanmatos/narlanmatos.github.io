@@ -58,18 +58,41 @@ Page under development.
 <!--*This page links to translations and bilingual editions by language. Entries include original books, anthologies, periodical publications, translations of individual poems, and festival publications or recordings.*-->
 
 
-## Community Translations (LyricsTranslate)
+## Community Translations
 
-| Language | Community Translations |
-|:----------|-----------------------:|
+<table>
+  <thead>
+    <tr>
+      <th>Language</th>
+      <th style="text-align:right;">Community Translations</th>
+    </tr>
+  </thead>
+  <tbody>
+
 {% assign languages = site.data.lyrics_translate_languages | sort: "language" %}
+
 {% for row in languages %}
 
-{% assign slug = row.language | downcase | replace: " ", "-" %}
+    <tr>
+      <td>
+        {% if row.has_page == "TRUE" or row.has_page == true %}
+          <a href="{{ '/translations/languages/' | append: row.slug | append: '/' | relative_url }}">
+            {{ row.language }}
+          </a>
+        {% else %}
+          {{ row.language }}
+        {% endif %}
+      </td>
 
-| {% if row.has_page == "TRUE" or row.has_page == true %}[{{ row.language }}]({{ "/translations/languages/" | append: slug | append: "/" | relative_url }}){% else %}{{ row.language }}{% endif %} | {{ row.n_poems | default: 0 }} |
+      <td style="text-align:right;">
+        {{ row.n_poems }}
+      </td>
+    </tr>
 
 {% endfor %}
+
+  </tbody>
+</table>
 
 <!-- trying to make table. This does not work:
 
