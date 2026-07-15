@@ -60,47 +60,69 @@ Page under development.
 
 ---
 
-## <a href="https://lyricstranslate.com/en/narlan-matos-lyrics.html" target="_blank" rel="noopener">Community Translations on LyricsTranslate</a>
+---
 
-<table>
+<table class="language-table">
+
   <thead>
     <tr>
       <th>Language</th>
-      <th style="text-align:right;">Poems</th>
+      <th style="text-align:center;">Books</th>
+      <th style="text-align:center;">Anthologies</th>
+      <th style="text-align:center;">Periodicals</th>
+      <th style="text-align:center;">Poems on this Website</th>
+      <th style="text-align:center;">
+        Community Translations<br>
+        <small>
+          <a href="https://lyricstranslate.com/en/narlan-matos-lyrics.html"
+             target="_blank"
+             rel="noopener">
+            LyricsTranslate
+          </a>
+        </small>
+      </th>
     </tr>
   </thead>
 
-  <!-- Portuguese -->
+  <!-- Portuguese first -->
   <tbody>
 
   {% assign portuguese = site.data.lyrics_translate_languages
-     | where: "language", "Portuguese" %}
+      | where: "language", "Portuguese" %}
 
   {% for row in portuguese %}
 
-    <tr class="featured-language">
+  <tr class="featured-language">
 
-      <td>
+    <td>
 
-        {% if row.slug %}
+      {% if row.slug %}
 
-          <a href="{{ '/translations/languages/' | append: row.slug | append: '/' | relative_url }}">
-            <strong>{{ row.language }}</strong>
-          </a>
+      <a href="{{ '/translations/languages/' | append: row.slug | append: '/' | relative_url }}">
+        <strong>{{ row.language }}</strong>
+      </a>
 
-        {% else %}
+      {% else %}
 
-          <strong>{{ row.language }}</strong>
+      <strong>{{ row.language }}</strong>
 
-        {% endif %}
+      {% endif %}
 
-      </td>
+    </td>
 
-      <td style="text-align:right;">
-        <strong>{{ row.n_poems }}</strong>
-      </td>
+    <td style="text-align:center;"></td>
 
-    </tr>
+    <td style="text-align:center;"></td>
+
+    <td style="text-align:center;"></td>
+
+    <td style="text-align:center;"></td>
+
+    <td style="text-align:center;">
+      <strong>{{ row.n_poems }}</strong>
+    </td>
+
+  </tr>
 
   {% endfor %}
 
@@ -108,16 +130,17 @@ Page under development.
 
   <tbody>
     <tr>
-      <td colspan="2">
-        <hr style="margin:.4em 0;">
+      <td colspan="6">
+        <hr style="margin:.35em 0;">
       </td>
     </tr>
   </tbody>
 
-  <!-- Other languages -->
+  <!-- Remaining languages -->
   <tbody>
 
-  {% assign languages = site.data.lyrics_translate_languages | sort: "language" %}
+  {% assign languages = site.data.lyrics_translate_languages
+      | sort: "language" %}
 
   {% for row in languages %}
 
@@ -129,19 +152,27 @@ Page under development.
 
         {% if row.slug %}
 
-          <a href="{{ '/translations/languages/' | append: row.slug | append: '/' | relative_url }}">
-            {{ row.language }}
-          </a>
+        <a href="{{ '/translations/languages/' | append: row.slug | append: '/' | relative_url }}">
+          {{ row.language }}
+        </a>
 
         {% else %}
 
-          {{ row.language }}
+        {{ row.language }}
 
         {% endif %}
 
       </td>
 
-      <td style="text-align:right;">
+      <td style="text-align:center;"></td>
+
+      <td style="text-align:center;"></td>
+
+      <td style="text-align:center;"></td>
+
+      <td style="text-align:center;"></td>
+
+      <td style="text-align:center;">
         {{ row.n_poems }}
       </td>
 
