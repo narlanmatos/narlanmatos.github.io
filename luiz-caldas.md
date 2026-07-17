@@ -11,7 +11,7 @@ header:
 feature_row_performance:
   - image_path: /assets/images/audio/sarau.jpg
     title: "Sarao no Pátio das Flores (2020)"
-    excerpt: "A recitation of Narlan's poetry by Brazilian musician Luiz Caldas."
+    excerpt: "A recitation of Narlan's poetry by Luiz Caldas."
     url: https://www.luizcaldas.com.br/
     btn_label: "Listen on Luiz Caldas's Website"
     btn_class: "btn--primary"
@@ -76,3 +76,11 @@ Luiz Caldas introduces Narlan Matos and their collaborative project,  [*Sarao no
 
 # Gallery
 <!--Selected photographs together (if you have them)-->
+
+<figure class="align-center">
+  <img src="/assets/images/features/Narlan-Luiz-1.jpg">
+</figure>
+
+<figure class="align-center">
+  <img src="/assets/images/features/Narlan-Luiz.jpg">
+</figure>
