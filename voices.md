@@ -26,7 +26,7 @@ Acclaimed Brazilian musician Luiz Caldas introduces Narlan Matos and their colla
 
 ## Gerson Conrad
 
-Ex-*Secos & Molhados* Gerson Conrad fala de sua amizade e parcerias musicais com Narlan Matos.
+Gerson Conrad of Brazilian band *Secos & Molhados* talks about his friendship and muscial collaborations with Narlan Matos. 
 
 <video controls preload="metadata" width="100%" poster="/assets/images/features/gerson-conrad.jpg">
   <source src="/assets/videos/GersonConrad-Narlan.mp4" type="video/mp4">
