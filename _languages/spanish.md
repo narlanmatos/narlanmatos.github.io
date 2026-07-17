@@ -11,12 +11,7 @@ feature_row_books:
     url: /translations/como-nacen/
     btn_label: "Ver Libro"
     btn_class: "btn--primary"
-    
-  - image_path: /assets/images/translations/duet-es.jpg
-    title: "Dueto de puntos (2020)"
-    url: translations/duet-es/
-    btn_label: "Ver Libro"
-    btn_class: "btn--primary"
+
     
   - image_path: /assets/images/translations/antologia.jpg
     title: "Antología Poética Bilingüe (2017)"
@@ -29,6 +24,13 @@ feature_row_books:
     title: "Elegía al Nuevo Mundo y Otros Poemas (2017)"
     url: /translations/elegia-es/
     btn_label: "View Book"
+    btn_class: "btn--primary"
+    
+      
+  - image_path: /assets/images/translations/duet-es.jpg
+    title: "Dueto de puntos (2020)"
+    url: translations/duet-es/
+    btn_label: "Ver Libro"
     btn_class: "btn--primary"
     
   - image_path: /assets/images/translations/autores.jpg
