@@ -24,12 +24,22 @@ Acclaimed Brazilian musician Luiz Caldas introduces Narlan Matos and their colla
   Your browser does not support the video tag.
 </video>
 
+
 ## Gerson Conrad
 
-Gerson Conrad of Brazilian band *Secos & Molhados* talks about his friendship and muscial collaborations with Narlan Matos. 
+Gerson Conrad, former member of legendary Brazilian band *Secos & Molhados*, talks about his friendship and muscial collaborations with Narlan Matos. 
 
 <video controls preload="metadata" width="100%" poster="/assets/images/features/gerson-conrad.jpg">
   <source src="/assets/videos/GersonConrad-Narlan.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+## Vinicius Cantuaria
+
+Vinicius Cantuaria, one of Brazil's most accomplished songwriters, talks about Narlan's poetry and career. 
+
+<video controls preload="metadata" width="100%" poster="/assets/images/features/vinicius-cantuaria.jpg">
+  <source src="/assets/videos/ViniciusCantuaria-Narlan.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 ---
