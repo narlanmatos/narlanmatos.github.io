@@ -13,7 +13,7 @@ header:
 
 ---
 
-# Featured Voices
+# Voices from the Arts
 
 ## Luiz Caldas
 
