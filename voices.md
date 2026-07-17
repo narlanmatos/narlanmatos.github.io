@@ -13,7 +13,9 @@ header:
 
 ---
 
-# Featured Voice: Luiz Caldas
+# Featured Voices
+
+## Luiz Caldas
 
 Acclaimed Brazilian musician Luiz Caldas introduces Narlan Matos and their collaborative project, [*Sarao no Pátio das Flores*](https://narlanmatos.github.io/poetry/performances#recitations).
 
@@ -22,7 +24,14 @@ Acclaimed Brazilian musician Luiz Caldas introduces Narlan Matos and their colla
   Your browser does not support the video tag.
 </video>
 
+## Gerson Conrad
 
+Ex-*Secos & Molhados* Gerson Conrad fala de sua amizade e parcerias musicais com Narlan Matos.
+
+<video controls preload="metadata" width="100%" poster="/assets/images/features/gerson-conrad.jpg">
+  <source src="/assets/videos/GersonConrad-Narlan.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 ---
 
 # Writers and Poets
