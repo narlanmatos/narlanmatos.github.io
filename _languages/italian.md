@@ -29,7 +29,7 @@ feature_row_jm:
     btn_class: "btn--primary" 
     
   - image_path: /assets/images/features/interim.jpg
-    title: "DALLA PROVINCIA OSCURA ALLA CITTÀ DEL SOLE: Aporie quotidiane e circolarità necessaria nella poesia di Narlan Matos"
+    title: "Dalla Provincia Oscura ala Città del Sole: Aporie quotidiane e circolarità necessaria nella poesia di Narlan Matos"
     excerpt: |
       Translations by Giorgio Mobili
       
@@ -39,7 +39,7 @@ feature_row_jm:
     btn_class: "btn--primary" 
     
   - image_path: /assets/images/features/interim.jpg
-    title: "NARLAN MATOS, NARCISO SELVAGEM: IL MITO RIVISITATO"
+    title: "Narlan Matos, Narciso Selvagem: Il mito rivisitato"
     excerpt: |
       Translations by Manuela Colombo
       
