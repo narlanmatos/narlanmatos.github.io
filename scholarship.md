@@ -9,4 +9,6 @@ header:
     
 ---
 
+*This page summarizes Narlan Matos's own scholarship. For scholarship about his poetry, please see the [Academic Studies page](/reception/criticism/academic/)*
+
 Page under development.
