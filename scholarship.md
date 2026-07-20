@@ -55,6 +55,7 @@ University of Illinois.
 *A bibliography of additional scholarly works will be added.*
 
 <!--
+{% comment %}
 The following publications represent selected academic work by Narlan Matos.
 
 {% assign publications = site.data.scholarship
@@ -149,6 +150,7 @@ The following publications represent selected academic work by Narlan Matos.
 {% endif %}
 
 ---
+{% endcomment %}
 -->
 <!--
 ## Research Interests
