@@ -49,6 +49,15 @@ feature_row_jm:
     btn_class: "btn--primary" 
     
 feature_row_special:
+  - title: "Calendar, translated by Michael Palmer"
+    excerpt: |
+      it’s right to forget about March
+      
+      so that April can finally arrive
+    url: poetry/poems/calendario-en/
+    btn_label: "Read Poem"
+    btn_class: "btn--primary" 
+    
   - title: "Michael Palmer's translations"
     excerpt: |
       Translations of *Calendar* and *Czar* by Michael Palmer.
@@ -57,6 +66,7 @@ feature_row_special:
     url: assets/docs/poems/Narlan_Matos_Michael_Palmer_translations.pdf
     btn_label: "Read Poems"
     btn_class: "btn--primary" 
+
 
 feature_row_poems: 
   - title: "Elegy to the New World"
