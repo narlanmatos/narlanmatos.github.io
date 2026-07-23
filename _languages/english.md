@@ -49,7 +49,7 @@ feature_row_jm:
     btn_class: "btn--primary" 
     
 feature_row_special:
-  - title: "Calendar, translated by Michael Palmer"
+  - title: "Calendar"
     excerpt: |
       it’s right to forget about March
       
@@ -58,13 +58,13 @@ feature_row_special:
     btn_label: "Read Poem"
     btn_class: "btn--primary" 
     
-  - title: "Michael Palmer's translations"
+  - title: "Tzar"
     excerpt: |
-      Translations of *Calendar* and *Czar* by Michael Palmer.
+      vast the waiting for everything
       
-      *These translations have not yet appeared in print and are reproduced with permission.*
-    url: assets/docs/poems/Narlan_Matos_Michael_Palmer_translations.pdf
-    btn_label: "Read Poems"
+      for the sea the west conceals and reveals
+    url: poetry/poems/tzar-en/
+    btn_label: "Read Poem"
     btn_class: "btn--primary" 
 
 
@@ -108,7 +108,7 @@ feature_row_performances: []
 
 {% include feature_row id="feature_row_jm" %}
 
-## Special Translations
+## Featured Translations by Michael Palmer
 
 {% include feature_row id="feature_row_special" %}
 
