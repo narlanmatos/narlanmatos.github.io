@@ -22,7 +22,7 @@ feature_row_languages:
     btn_class: "btn--primary"
     
   - title: "Read in English"
-    excerpt: "Begin with books and selected poems available in English translation, including previously unpublished translations by the American poet Michael Palmer."
+    excerpt: "Begin with books and selected poems available in English translation, including previously unpublished translations by American poet Michael Palmer."
     url: /translations/languages/english/
     btn_label: "Explore English Translations"
     btn_class: "btn--primary"
