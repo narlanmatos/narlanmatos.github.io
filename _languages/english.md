@@ -49,11 +49,11 @@ feature_row_jm:
     btn_class: "btn--primary" 
     
 feature_row_special:
-  - title: "Michael Palmer translations"
+  - title: "Michael Palmer's translations"
     excerpt: |
       Translations of *Calendar* and *Czar* by Michael Palmer.
       
-      *This translation has not yet appeared in print and is reproduced with permission.*
+      *These translations have not yet appeared in print and are reproduced with permission.*
     url: assets/docs/poems/Narlan_Matos_Michael_Palmer_translations.pdf
     btn_label: "Read Poems"
     btn_class: "btn--primary" 
