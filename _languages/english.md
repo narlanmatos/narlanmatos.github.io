@@ -53,7 +53,7 @@ feature_row_special:
     excerpt: |
       it’s right to forget about March
       
-      so that April can finally arrive
+      so that April can finally arrive...
     url: poetry/poems/calendario-en/
     btn_label: "Read Poem"
     btn_class: "btn--primary" 
@@ -62,7 +62,7 @@ feature_row_special:
     excerpt: |
       vast the waiting for everything
       
-      for the sea the west conceals and reveals
+      for the sea the west conceals and reveals...
     url: poetry/poems/tzar-en/
     btn_label: "Read Poem"
     btn_class: "btn--primary" 
