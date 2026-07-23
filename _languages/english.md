@@ -47,6 +47,16 @@ feature_row_jm:
     url: https://www.tupeloquarterly.com/translation/narlan-matos-genesis-translated-from-portuguese-by-jose-f-banuelos-montes-sally-perret/
     btn_label: "Read Poem"
     btn_class: "btn--primary" 
+    
+feature_row_special:
+  - title: "Michael Palmer's translations of *Calendar* and *Czar*"
+    excerpt: |
+      Translations of *Calendar* and *Czar* by Michael Palmer.
+      
+      *This translation has not yet appeared in print and is reproduced with permission.*
+    url: assets/docs/poems/Narlan_Matos_Michael_Palmer_translations.pdf
+    btn_label: "Read Poems"
+    btn_class: "btn--primary" 
 
 feature_row_poems: 
   - title: "Elegy to the New World"
@@ -87,6 +97,10 @@ feature_row_performances: []
 ## Literary Journals & Magazines
 
 {% include feature_row id="feature_row_jm" %}
+
+## Special Translations
+
+{% include feature_row id="feature_row_special" %}
 
 ## Poems
 {% include feature_row id="feature_row_poems" %}
