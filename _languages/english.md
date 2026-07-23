@@ -101,7 +101,7 @@ feature_row_performances: []
 ---
 
 *Narlan Matos's poetry has appeared in English in journals, anthologies, and books.*
-*The website also includes two previously unpublished translations by the American poet Michael Palmer, presented with permission.*
+*The website also includes [two previously unpublished translations by the American poet Michael Palmer](https://narlanmatos.com/translations/languages/english/#featured-translations-by-michael-palmer), presented with permission.*
 
 ## Books & Anthologies
 {% include feature_row id="feature_row_books" %}
