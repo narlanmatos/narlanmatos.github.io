@@ -49,7 +49,7 @@ feature_row_jm:
     btn_class: "btn--primary" 
     
 feature_row_special:
-  - title: "Michael Palmer's translations of *Calendar* and *Czar*"
+  - title: "Michael Palmer translations"
     excerpt: |
       Translations of *Calendar* and *Czar* by Michael Palmer.
       
