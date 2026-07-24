@@ -7,50 +7,50 @@ title: "Post-Columbians"
 ---
 
 <div class="poem"> 
-<br><br>
+<br>
 
-barely<br><br>
+barely<br>
 
-just barely<br><br>
+just barely<br>
 
-the Indians<br><br>
+the Indians<br>
 
-of the Americas<br><br>
+of the Americas<br>
 
-failed to<br><br>
+failed to<br>
 
-Christianize<br><br>
+Christianize<br>
 
-the conquering<br><br>
+the conquering<br>
 
-Europeans<br><br>
-
-
-<br><br>
+Europeans<br>
 
 
-the Europeans<br><br>
-
-conquering<br><br>
-
-barely<br><br>
-
-just barely<br><br>
-
-the Indians<br><br>
-
-of the Americas<br><br>
-
-failed to<br><br>
-
-Christianize<br><br>
+<br>
 
 
-<br><br>
+the Europeans<br>
 
-barely<br><br>
+conquering<br>
 
-just barely<br><br>
+barely<br>
+
+just barely<br>
+
+the Indians<br>
+
+of the Americas<br>
+
+failed to<br>
+
+Christianize<br>
+
+
+<br>
+
+barely<br>
+
+just barely<br>
 
 </div>
 ---

@@ -7,45 +7,45 @@ title: "Pós-Colombianos"
 ---
 
 <div class="poem"> 
-<br><br>
+<br>
 
-por pouco<br><br>
+por pouco<br>
 
-muito pouco<br><br>
+muito pouco<br>
 
-os índios<br><br> 
+os índios<br> 
 
-das Américas<br><br>
+das Américas<br>
 
-não conseguiram<br><br>
+não conseguiram<br>
 
-cristianizar<br><br>
+cristianizar<br>
 
-os conquistadores<br><br>
+os conquistadores<br>
 
-europeus<br><br>
+europeus<br>
 
- <br><br>
+ <br>
 
-os europeus<br><br>
+os europeus<br>
 
-conquistadores<br><br>
+conquistadores<br>
 
-por pouco<br><br>
+por pouco<br>
 
-muito pouco<br><br>
+muito pouco<br>
 
-os índios <br><br>
+os índios <br>
 
-das Américas<br><br>
+das Américas<br>
 
-não conseguiram<br><br>
+não conseguiram<br>
 
-cristianizar<br><br>
+cristianizar<br>
 
- <br><br>
+ <br>
 
-por pouco<br><br>
+por pouco<br>
 
 muito pouco
 
