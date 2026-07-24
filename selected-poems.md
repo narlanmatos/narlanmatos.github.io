@@ -52,11 +52,9 @@ feature_row_poems:
 
 ## All Poems
 
-## All Poems
+{% assign originals = site.poems %}
 
-{% assign originals = site.poems
-  | where: "language", "Portuguese"
-  | sort: "title" %}
+<p>Total poems: {{ originals.size }}</p>
 
 {% if originals.size > 0 %}
 
