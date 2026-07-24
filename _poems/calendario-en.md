@@ -55,4 +55,6 @@ to the night of my being<br>
 
 {% include poem-footer.html %}
 
+--- 
+
 *This translation has not yet appeared in print and is reproduced with permission.*

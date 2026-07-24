@@ -51,4 +51,6 @@ because waiting for mankind is vast
 
 {% include poem-footer.html %}
 
+---
+
 *This translation has not yet appeared in print and is reproduced with permission.*

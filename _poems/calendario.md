@@ -57,4 +57,3 @@ para a noite da minha existência<br>
 
 {% include poem-footer.html %}
 
-*This translation has not yet appeared in print and is reproduced with permission.*
