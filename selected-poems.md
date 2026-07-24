@@ -52,42 +52,34 @@ feature_row_poems:
 
 ## All Poems
 
-{% assign originals = site.poems
+{% assign originals = site.data.poems
   | where: "language", "Portuguese"
   | sort: "title" %}
 
-<p>Total poems: {{ originals.size }}</p>
+{% for record in originals %}
 
-{% if originals.size > 0 %}
+  {% assign page = site.poems
+    | where: "poem_id", record.poem_id
+    | first %}
 
-<div class="entries-list">
+  {% if page %}
 
-{% for poem in originals %}
+  <article class="archive__item">
 
-<article class="archive__item">
+    <h2>
+      <a href="{{ page.url | relative_url }}">{{ record.title }}</a>
+    </h2>
 
-<h2 class="archive__item-title">
-<a href="{{ poem.url | relative_url }}">{{ poem.title }}</a>
-</h2>
+    {% if record.incipit %}
+      <p>{{ record.incipit }}</p>
+    {% endif %}
 
-{% if poem.first_publication %}
-<p><strong>First published:</strong> {{ poem.first_publication }}</p>
-{% endif %}
+    <p>
+      <a href="{{ page.url | relative_url }}">Read poem →</a>
+    </p>
 
-{% if poem.excerpt %}
-<p>{{ poem.excerpt }}</p>
-{% endif %}
+  </article>
 
-<p><a href="{{ poem.url | relative_url }}">Read poem →</a></p>
-
-</article>
+  {% endif %}
 
 {% endfor %}
-
-</div>
-
-{% else %}
-
-*No poems have been added yet.*
-
-{% endif %}
