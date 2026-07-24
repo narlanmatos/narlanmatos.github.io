@@ -1,8 +1,8 @@
 ---
 
-poem_id: tzar-en
+poem_id: tzar
 
-title: "Czar"
+title: "Tzar"
   
 ---
 
