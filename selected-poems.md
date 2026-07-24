@@ -52,8 +52,11 @@ feature_row_poems:
 
 ## All Poems
 
+## All Poems
+
 {% assign originals = site.poems
-  | where: "language", "Portuguese"}
+  | where: "language", "Portuguese"
+  | sort: "title" %}
 
 {% if originals.size > 0 %}
 
@@ -67,28 +70,24 @@ feature_row_poems:
 <a href="{{ poem.url | relative_url }}">{{ poem.title }}</a>
 </h2>
 
-{% if poem.original_title and poem.original_title != poem.title %}
-<p><em>{{ poem.original_title }}</em></p>
-{% endif %}
-
 {% if poem.first_publication %}
-<p>
-<strong>First published:</strong> {{ poem.first_publication }}
-</p>
+<p><strong>First published:</strong> {{ poem.first_publication }}</p>
 {% endif %}
 
 {% if poem.excerpt %}
 <p>{{ poem.excerpt }}</p>
 {% endif %}
 
-<p>
-<a href="{{ poem.url | relative_url }}">Read poem →</a>
-</p>
+<p><a href="{{ poem.url | relative_url }}">Read poem →</a></p>
 
 </article>
 
 {% endfor %}
 
 </div>
+
+{% else %}
+
+*No poems have been added yet.*
 
 {% endif %}
