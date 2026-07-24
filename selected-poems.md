@@ -54,8 +54,7 @@ feature_row_poems:
 ## All Poems
 
 {% assign originals = site.poems
-  | where: "language", "Portuguese"
-  | reverse %}
+  | where: "language", "Portuguese"}
 
 {% if originals.size > 0 %}
 
