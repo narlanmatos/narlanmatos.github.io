@@ -124,7 +124,6 @@ author:
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/narlanmatosteixeira7/"
 
-# Site Footer
 footer:
   links:
     - label: "Facebook"
@@ -135,8 +134,11 @@ footer:
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/narlanmatosteixeira7/"
 
-  since: "1997"
+    - label: "Website Credits"
+      icon: "fas fa-fw fa-info-circle"
+      url: "/website-credits/"
 
+  since: "1997"
 
 # Reading Files
 include:
