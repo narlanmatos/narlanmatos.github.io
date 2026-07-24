@@ -24,7 +24,8 @@ The website is an ongoing archival project. New publications, translations, reco
 | Website Curation | **Kristina Teixeira** |
 | Research & Bibliography | **Kristina Teixeira**, **Jô Bertelli** |
 | Metadata & Digital Archive | **Kristina Teixeira** |
-| Content Editing | **Kristina Teixeira**, in consultation with **Narlan Matos** |
+| Content Editing | **Kristina Teixeira** and **Yannik Teixeira**, in consultation with **Narlan Matos** |
+| Website Advisor | **Yannik Teixeira** |
 | Photography | Individual photographers and rights holders, credited where known |
 | Book Cover Images | Publishers, authors, or other rights holders, credited where applicable |
 
