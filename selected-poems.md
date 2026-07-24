@@ -39,8 +39,8 @@ feature_row_poems:
 
 ---
 
-*This page brings together the poems currently available to read on this website. *
-*Written originally in Portuguese, these works are presented alongside translations into multiple languages where available. *
+*This page brings together the poems currently available to read on this website.*
+*Written originally in Portuguese, these works are presented alongside translations into multiple languages where available.*
 *Each poem page includes publication information and links to other language versions.*
 
 *As additional poems and translations are published on the website, this collection will continue to grow.*
@@ -51,11 +51,10 @@ feature_row_poems:
 {% include feature_row id="feature_row_poems" %}
 
 
----
+## All Poems
 
 {% assign originals = site.poems
   | where: "language", "Portuguese"
-  | sort: "publication_date"
   | reverse %}
 
 {% if originals.size > 0 %}
