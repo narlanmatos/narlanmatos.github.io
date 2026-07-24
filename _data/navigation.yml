@@ -94,6 +94,4 @@ main:
       - title: "Press Kit"
         url: /contact/press/
 
-footer:
-  - title: "Website Credits"
-    url: /website-credits/
+
