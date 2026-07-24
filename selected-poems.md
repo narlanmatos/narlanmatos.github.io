@@ -27,7 +27,15 @@ feature_row_poems:
     btn_label: "Read Full Poem"
     btn_class: "btn--primary"
     
-
+  - image_path: /assets/images/feature/xx.jpg
+    title: "Tzar"
+    excerpt: |
+      é colossal a espera por tudo
+      
+      pelo mar que o poente esconde e desenha…
+    url: /poetry/poems/tzar/
+    btn_label: "Read Full Poem"
+    btn_class: "btn--primary"
 
 ---
 
@@ -59,3 +67,31 @@ feature_row_poems:
 <article class="archive__item">
 
 <h2 class="archive__item-title">
+<a href="{{ poem.url | relative_url }}">{{ poem.title }}</a>
+</h2>
+
+{% if poem.original_title and poem.original_title != poem.title %}
+<p><em>{{ poem.original_title }}</em></p>
+{% endif %}
+
+{% if poem.first_publication %}
+<p>
+<strong>First published:</strong> {{ poem.first_publication }}
+</p>
+{% endif %}
+
+{% if poem.excerpt %}
+<p>{{ poem.excerpt }}</p>
+{% endif %}
+
+<p>
+<a href="{{ poem.url | relative_url }}">Read poem →</a>
+</p>
+
+</article>
+
+{% endfor %}
+
+</div>
+
+{% endif %}
