@@ -39,8 +39,7 @@ feature_row_poems:
 
 ---
 
-*This page brings together the poems currently available to read on this website.*
-*Written originally in Portuguese, these works are presented alongside translations into multiple languages where available.*
+*This page brings together the original Portuguese poems currently available to read on this website.*
 *Each poem page includes publication information and links to other language versions.*
 
 *As additional poems and translations are published on the website, this collection will continue to grow.*
