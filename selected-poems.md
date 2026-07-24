@@ -28,12 +28,12 @@ feature_row_poems:
     btn_class: "btn--primary"
     
   - image_path: /assets/images/feature/xx.jpg
-    title: "Tzar"
+    title: "Eu Creio nos Homens"
     excerpt: |
-      é colossal a espera por tudo
+      eu creio nos homens
       
-      pelo mar que o poente esconde e desenha…
-    url: /poetry/poems/tzar/
+      quando conversam com nuvens…
+    url: /poetry/poems/eu-creio-nos-homens/
     btn_label: "Read Full Poem"
     btn_class: "btn--primary"
 
