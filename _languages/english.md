@@ -76,7 +76,8 @@ feature_row_poems:
       Where had I been during my long silence...
     url: poetry/poems/elegia-ao-novo-mundo-en/
     btn_label: "Read Full Poem"
-    btn_class: "btn--primary" 
+    btn_class: "btn--primary"
+    
   - title: "Post-Columbians"
     excerpt: |
       barely 
@@ -85,6 +86,16 @@ feature_row_poems:
     url: poetry/poems/pos-colombianos-en/
     btn_label: "Read Full Poem"
     btn_class: "btn--primary" 
+
+  - title: "Wall STreet"
+    excerpt: |
+      I am standing
+      
+      on a corner on Wall Street...
+    url: poetry/poems/wall-street-en/
+    btn_label: "Read Full Poem"
+    btn_class: "btn--primary" 
+
     
 feature_row_community_translations:
   - image_path: /assets/images/translations/lyrics-translate.jpg

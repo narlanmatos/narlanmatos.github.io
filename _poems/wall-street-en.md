@@ -6,7 +6,7 @@ title: "Wall Street"
   
 ---
 <div class="poem"> 
-. . . . *to Howard Piggee*
+       <it>to Howard Piggee</it>
 
 
 <br><br><br>
