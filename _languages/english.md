@@ -65,7 +65,7 @@ feature_row_special:
       vast the waiting for everything
       
       for the sea the west conceals and reveals...
-    url: poetry/poems/tzar-en/
+    url: /poetry/poems/tzar-en/
     btn_label: "Read Poem"
     btn_class: "btn--primary" 
 
@@ -76,7 +76,7 @@ feature_row_poems:
       You ask me, my companion 
       
       Where had I been during my long silence...
-    url: poetry/poems/elegia-ao-novo-mundo-en/
+    url: /poetry/poems/elegia-ao-novo-mundo-en/
     btn_label: "Read Full Poem"
     btn_class: "btn--primary"
     
@@ -85,14 +85,14 @@ feature_row_poems:
       barely 
       
       just barely...
-    url: poetry/poems/pos-colombianos-en/
+    url: /poetry/poems/pos-colombianos-en/
     btn_label: "Read Full Poem"
     btn_class: "btn--primary" 
 
   - title: "More English Translations"
     excerpt: |
       All English poem translations available on this website.
-    url: poetry/translations/languages/english-selected-poems/
+    url: /translations/languages/english-selected-poems/
     btn_label: "Read More Poems"
     btn_class: "btn--primary" 
 
