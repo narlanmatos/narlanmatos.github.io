@@ -51,13 +51,13 @@ The Swedish cultural magazine *Tidningen Kulturen* introduced his work to Swedis
 <!--festival photo-->
 
 ### Festival Introduction
-#### Original Swedish
+
 <div class="notice--info">
 
 
 
 <details>
-<summary><strong>Show Swedish text</strong></summary>
+<summary><strong>Show Original Swedish text</strong></summary>
 
 Narlan Matos är inbjuden till Södermalms Poesifestival 2013.
 
@@ -82,7 +82,7 @@ Han har doktorerat vid University of Illinois och varit forskare vid University 
 </div>
 
 ---
-#### English Translation
+
 <div class="notice--primary">
 
 
