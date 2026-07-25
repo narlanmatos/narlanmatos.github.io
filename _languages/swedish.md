@@ -8,7 +8,7 @@ slug: swedish
 
 
 feature_row_poems: 
-  - title: "Problema"
+  - title: "Problemet"
     excerpt: |
 
     url: /poetry/poems/problema-sv/
@@ -35,14 +35,14 @@ feature_row_poems:
 ---
 
 
-# Poems 
+## Poems 
 {% include feature_row id="feature_row_poems" %}
 
 
 
 
 
-# Södermalms Poesifestival 2013
+## Södermalms Poesifestival 2013
 
 In September 2013, **Narlan Matos** was an invited participant in **Södermalms Poesifestival**, held at Medborgarhuset in Stockholm, Sweden.
 
@@ -50,8 +50,8 @@ The Swedish cultural magazine *Tidningen Kulturen* introduced his work to Swedis
 
 <!--festival photo-->
 
-## Festival Introduction
-### Original Swedish
+### Festival Introduction
+#### Original Swedish
 <div class="notice--info">
 
 
@@ -82,7 +82,7 @@ Han har doktorerat vid University of Illinois och varit forskare vid University 
 </div>
 
 ---
-### English Translation
+#### English Translation
 <div class="notice--primary">
 
 
@@ -113,7 +113,7 @@ He holds a doctorate from the University of Illinois and has conducted research 
 ---
 
 
-## Archive
+### Archive
 
 The original article is preserved as an archived PDF after the original webpage disappeared.
 
@@ -121,6 +121,6 @@ The original article is preserved as an archived PDF after the original webpage 
 
 ---
 
-### Citation
+#### Citation
 
 Originally published in *Tidningen Kulturen* in connection with Södermalms Poesifestival, Stockholm, 2013. Reproduced here from an archived copy after the original webpage became unavailable.
