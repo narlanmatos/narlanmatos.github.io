@@ -10,31 +10,26 @@ slug: swedish
 feature_row_poems: 
   - title: "Problema"
     excerpt: |
-      You ask me, my companion 
-      
-      Where had I been during my long silence...
-    url: /poetry/poems/elegia-ao-novo-mundo-en/
+
+    url: /poetry/poems/problema-sv/
     btn_label: "Read Full Poem"
     btn_class: "btn--primary"
     
-  - title: "Post-Columbians"
+  - title: "Kalender"
     excerpt: |
-      barely 
-      
-      just barely...
-    url: /poetry/poems/pos-colombianos-en/
+
+    url: /poetry/poems/calendario-sv/
     btn_label: "Read Full Poem"
     btn_class: "btn--primary" 
 
-  - title: "More English Translations"
+  - title: "Tzar"
     excerpt: |
-      All English poem translations available on this website.
-    url: /translations/languages/english-selected-poems/
+      
+    url: /poetry/poems/tzar-sv/
     btn_label: "Read More Poems"
     btn_class: "btn--primary" 
 
-toc: true
-toc_sticky: true
+
 
     
 ---
@@ -113,23 +108,14 @@ He holds a doctorate from the University of Illinois and has conducted research 
 ---
 
 ## Poems Published
-<!--{% include feature_row id="feature_row_poems" %}-->
-
-
-<!--Problema
+{% include feature_row id="feature_row_poems" %}
 
 
 
-Kalender
-
-
-Tzar
-
--->
 
 ## Archive
 
-The original article survives only as an archived PDF created from the now-defunct webpage.
+The original article is preserved as an archived PDF after the original webpage disappeared.
 
 [Download archived article (PDF)](/assets/docs/NarlanMatos-Poesifestival-2013.pdf)
 
