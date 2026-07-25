@@ -35,6 +35,11 @@ feature_row_poems:
 ---
 
 
+# Poems 
+{% include feature_row id="feature_row_poems" %}
+
+
+
 
 
 # Södermalms Poesifestival 2013
@@ -106,11 +111,6 @@ He holds a doctorate from the University of Illinois and has conducted research 
 </div>
 
 ---
-
-## Poems Published
-{% include feature_row id="feature_row_poems" %}
-
-
 
 
 ## Archive
