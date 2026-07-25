@@ -50,6 +50,7 @@ feature_row_jm:
     
 feature_row_special:
   - image_path: /assets/images/features/MichaelPalmer-Narlan.jpeg
+    excerpt: "Michael Palmer & Narlan Matos, San Francisco, 2012"
     
   - title: "Calendar"
     excerpt: |
