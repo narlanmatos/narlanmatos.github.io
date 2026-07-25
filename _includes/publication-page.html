@@ -59,7 +59,16 @@ Read Sample
 {% endif %}
 
 
-
+{% if publication.other_link %}
+<p>
+<a href="{{ publication.other_link }}"
+   class="btn btn--primary"
+   target="_blank"
+   rel="noopener">
+{{ publication.other_link_description | default: "More Information" }}
+</a>
+</p>
+{% endif %}
 
 
 
