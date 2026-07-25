@@ -18,6 +18,16 @@ feature_row_books:
     btn_class: "btn--primary"
     
 feature_row_jm:
+  - image_path: /assets/images/features/2009-exquisite-corpse.jpg
+    title: "Two Poems by Narlan Matos "
+    excerpt: |
+      Translations by Narlan Matos and Kristina Anderson Teixeira
+      
+      *Exquisite Corpse*, 2009
+    url: https://corpse.org/poetry/two-poems-by-narlan-matos
+    btn_label: "Read Poems"
+    btn_class: "btn--primary" 
+    
   - image_path: /assets/images/features/interim.jpg
     title: "Ten Poems"
     excerpt: |
