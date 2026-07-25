@@ -49,6 +49,8 @@ feature_row_jm:
     btn_class: "btn--primary" 
     
 feature_row_special:
+  - image_path: /assets/images/features/MichaelPalmer-Narlan.jpeg
+    
   - title: "Calendar"
     excerpt: |
       it’s right to forget about March
