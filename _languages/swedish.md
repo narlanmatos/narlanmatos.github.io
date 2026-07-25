@@ -51,9 +51,10 @@ The Swedish cultural magazine *Tidningen Kulturen* introduced his work to Swedis
 <!--festival photo-->
 
 ## Festival Introduction
+### Original Swedish
 <div class="notice--info">
 
-## Original Swedish
+
 
 <details>
 <summary><strong>Show Swedish text</strong></summary>
@@ -81,10 +82,10 @@ Han har doktorerat vid University of Illinois och varit forskare vid University 
 </div>
 
 ---
-
+### English Translation
 <div class="notice--primary">
 
-## English Translation
+
 
 <details open>
 <summary><strong>Show English translation</strong></summary>
