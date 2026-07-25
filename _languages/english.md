@@ -87,13 +87,11 @@ feature_row_poems:
     btn_label: "Read Full Poem"
     btn_class: "btn--primary" 
 
-  - title: "Wall STreet"
+  - title: "More English Translations"
     excerpt: |
-      I am standing
-      
-      on a corner on Wall Street...
+      All English poem translations available on this website.
     url: poetry/poems/wall-street-en/
-    btn_label: "Read Full Poem"
+    btn_label: "Read More Poems"
     btn_class: "btn--primary" 
 
     
