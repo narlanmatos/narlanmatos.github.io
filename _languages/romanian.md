@@ -5,6 +5,12 @@ language: Romanian
 slug: romanian
  
 feature_row_books:
+  - image_path: /assets/images/translations/rebanhos-ro.jpg
+    title: "Turme de Stele si Alte Poeme"
+    url: /translations/rebanhos-ro/
+    btn_label: "Vezi Cartea"
+    btn_class: "btn--primary"
+
   - image_path: /assets/images/translations/canto-ro.jpg
     title: "Eu Cânt Pentru Oameni de Bine"
     url: /translations/canto-ro/
