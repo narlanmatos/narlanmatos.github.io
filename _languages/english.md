@@ -92,7 +92,7 @@ feature_row_poems:
   - title: "More English Translations"
     excerpt: |
       All English poem translations available on this website.
-    url: poetry/poems/wall-street-en/
+    url: poetry/translations/languages/english/
     btn_label: "Read More Poems"
     btn_class: "btn--primary" 
 
