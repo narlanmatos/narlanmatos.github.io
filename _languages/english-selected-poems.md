@@ -15,7 +15,6 @@ slug: english-selected-poems
 
 *As additional poems and translations are published on the website, this collection will continue to grow.*
 
-## All English Poems
 
 {% assign originals = site.data.poems
   | where: "language", "English"
