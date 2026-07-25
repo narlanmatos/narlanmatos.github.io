@@ -46,6 +46,10 @@ feature_row_languages:
   - url: /translations/languages/spanish/
     btn_label: "Spanish"
     btn_class: "btn--primary"
+    
+  - url: /translations/languages/swedish/
+    btn_label: "Swedish"
+    btn_class: "btn--primary"
 
   - url: /translations/languages/
     btn_label: "All Languages"
