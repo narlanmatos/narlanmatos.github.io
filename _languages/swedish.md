@@ -46,7 +46,8 @@ feature_row_poems:
 
 In September 2013, **Narlan Matos** was an invited participant in **Södermalms Poesifestival**, held at Medborgarhuset in Stockholm, Sweden.
 
-The Swedish cultural magazine *Tidningen Kulturen* introduced his work to Swedish readers with a biographical essay and published Swedish translations of three poems. Although the original webpage has disappeared, the article survives through an archived copy reproduced below.
+The Swedish cultural magazine *Tidningen Kulturen* introduced his work to Swedish readers with a biographical essay and published Swedish translations of six poems. 
+Although the original webpage has disappeared, the article survives through an archived copy reproduced below.
 
 <!--festival photo-->
 
@@ -115,7 +116,7 @@ He holds a doctorate from the University of Illinois and has conducted research 
 
 ### Archive
 
-The original article is preserved as an archived PDF after the original webpage disappeared.
+The original article with poem translations is preserved as an archived PDF after the original webpage disappeared.
 
 [Download archived article (PDF)](/assets/docs/NarlanMatos-Poesifestival-2013.pdf)
 
