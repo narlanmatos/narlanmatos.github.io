@@ -7,17 +7,26 @@ header:
 
 feature_row:
   - image_path: /assets/images/portraits/profile.jpg
+  
   - image_path: /assets/images/portraits/p.jpg
     title: "Biography"
     excerpt: " "
     url: /about/biography/
     btn_label: "Read Biography"
     btn_class: "btn--primary"
+    
   - image_path: /assets/images/features/awards.jpg
     title: "Awards & Honors"
     excerpt: ""
     url: "/about/awards/"
     btn_label: "View Awards"
+    btn_class: "btn--primary" 
+    
+  - image_path: /assets/images/features/awards.jpg
+    title: "International Invitations"
+    excerpt: ""
+    url: "/about/international-invitations/"
+    btn_label: "View Invitations"
     btn_class: "btn--primary" 
 
 feature_row2:

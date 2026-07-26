@@ -10,6 +10,8 @@ main:
         url: "/about/biography/"
       - title: "Awards & Honors"
         url: /awards/
+      - title: "Invitations"
+        url: /invitations/
       - title: "Curriculum Vitae (CV)"
         url: /cv/
       - title: "Timeline"
