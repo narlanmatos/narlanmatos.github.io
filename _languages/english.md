@@ -18,14 +18,14 @@ feature_row_books:
     btn_class: "btn--primary"
     
 feature_row_jm:
-  - image_path: /assets/images/features/2009-exquisite-corpse.jpg
-    title: "Two Poems by Narlan Matos "
+  - image_path: /assets/images/features/tupelo.jpg
+    title: "Genesis"
     excerpt: |
-      Translations by Narlan Matos and Kristina Anderson Teixeira
+      Translations by José F. Bañuelos-Montes & Sally Perret
       
-      *Exquisite Corpse*, 2009
-    url: https://corpse.org/poetry/two-poems-by-narlan-matos
-    btn_label: "Read Poems"
+      *Tupelo Quarterly*, 2022
+    url: https://www.tupeloquarterly.com/translation/narlan-matos-genesis-translated-from-portuguese-by-jose-f-banuelos-montes-sally-perret/
+    btn_label: "Read Poem"
     btn_class: "btn--primary" 
     
   - image_path: /assets/images/features/interim.jpg
@@ -48,15 +48,29 @@ feature_row_jm:
     btn_label: "Read Poems"
     btn_class: "btn--primary" 
     
-  - image_path: /assets/images/features/tupelo.jpg
-    title: "Genesis"
+  - image_path: /assets/images/features/2009-exquisite-corpse.jpg
+    title: "Two Poems by Narlan Matos "
     excerpt: |
-      Translations by José F. Bañuelos-Montes & Sally Perret
+      Translations by Sally Perret
       
-      *Tupelo Quarterly*, 2022
-    url: https://www.tupeloquarterly.com/translation/narlan-matos-genesis-translated-from-portuguese-by-jose-f-banuelos-montes-sally-perret/
-    btn_label: "Read Poem"
+      *Exquisite Corpse*, 2014
+    url: https://corpse.org/poetry/narlan-matos-translated-by-sally-perret
+    btn_label: "Read Poems"
     btn_class: "btn--primary" 
+    
+  - image_path: /assets/images/features/2009-exquisite-corpse.jpg
+    title: "Two Poems by Narlan Matos "
+    excerpt: |
+      Translations by Narlan Matos and Kristina Anderson Teixeira
+      
+      *Exquisite Corpse*, 2009
+    url: https://corpse.org/poetry/two-poems-by-narlan-matos
+    btn_label: "Read Poems"
+    btn_class: "btn--primary" 
+    
+
+    
+
     
 feature_row_special:
   - image_path: /assets/images/features/MichaelPalmer-Narlan.jpeg
