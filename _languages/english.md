@@ -159,8 +159,9 @@ feature_row_performances: []
 
 {% include feature_row id="feature_row_community_translations" %}
 
-
+<!--
 ## Performances & Readings
 
 {% include feature_row id="feature_row_performances" %}
+-->
 
