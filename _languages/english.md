@@ -151,7 +151,7 @@ feature_row_performances: []
 
 {% include feature_row id="feature_row_special" %}
 
-## Poems
+## Featured Poems
 {% include feature_row id="feature_row_poems" %}
 
 ## Community Translations
