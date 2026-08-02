@@ -675,11 +675,22 @@ EXTERNAL RESOURCES
 {% endcomment %}
 
 
-{% if publication.publisher_link or publication.buy_link %}
+{% if publication.publisher_link or publication.worldcat_link  or publication.buy_link %}
 
 ---
 
 ## External Resources
+
+{% if publication.worldcat_link %}
+<p>
+<a href="{{ publication.worldcat_link }}"
+   class="btn btn--primary"
+   target="_blank"
+   rel="noopener">
+Find in a Library
+</a>
+</p>
+{% endif %}
 
 {% if publication.publisher_link %}
 <p>
