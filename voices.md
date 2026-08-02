@@ -56,6 +56,14 @@ Vinicius Cantuaria, one of Brazil's most accomplished songwriters, talks about N
 
 "What impressed me about the poetry of Narlan Matos Teixeira was his consummate art of dealing with the word, his servant and his accomplice, in the creation of unexpectedly beautiful things, hard to find every day." - _Herberto Sales_
 
+## Andrej Blatnik
+
+Andrej Blatnik, acclaimed Slovenian writer, talks about meeting Narlan and getting to know his poetry. 
+
+<video controls preload="metadata" width="100%" poster="/assets/images/features/andrej-blatnik.jpg">
+  <source src="/assets/videos/AndrejBlatnik-Narlan.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ---
 
