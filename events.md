@@ -34,4 +34,4 @@ Oct. 2026: XXIX Encuentro de Poetas Iberoamericanos; Salamanca, Spain
 
 2011: Narlan Matos becomes a member of the Jequié Academy of Letters. [Story in Portuguese](https://miscelaneajuliolucas.blogspot.com/2011/06/narlan-matos-toma-posse-na-academia-de.html)
 
-2000: Narlan Matos hosted the first official visit of Slovenian writers in Brazil and introduced their literature to Brazil through the first translations, *[Cinquo autores eslovenos](https://plus-legacy.cobiss.net/cobiss/si/sl/bib/106820864) (*Five Slovenian Writers*). 
+2000: Narlan Matos hosted the first official visit of Slovenian writers in Brazil and introduced their literature to Brazil through the first translations, *[Cinquo autores eslovenos](https://plus-legacy.cobiss.net/cobiss/si/sl/bib/106820864)* (*Five Slovenian Writers*). 
