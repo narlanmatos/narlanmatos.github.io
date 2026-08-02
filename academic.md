@@ -47,19 +47,27 @@ DOI:
 </p>
 {% endif %}
 
-{% if item.url or item.local_copy %}
+{% if item.url or item.local_copy or item.worldcat_link %}
 <p>
+
+{% assign separator = false %}
+
 {% if item.url %}
 <a href="{{ item.url }}" target="_blank" rel="noopener">Online version</a>
-{% endif %}
-
-{% if item.url and item.local_copy %}
-&nbsp; | &nbsp;
+{% assign separator = true %}
 {% endif %}
 
 {% if item.local_copy %}
+{% if separator %}&nbsp; | &nbsp;{% endif %}
 <a href="{{ item.local_copy | relative_url }}" target="_blank" rel="noopener">Archived copy</a>
+{% assign separator = true %}
 {% endif %}
+
+{% if item.worldcat_link %}
+{% if separator %}&nbsp; | &nbsp;{% endif %}
+<a href="{{ item.worldcat_link }}" target="_blank" rel="noopener">WorldCat</a>
+{% endif %}
+
 </p>
 {% endif %}
 
