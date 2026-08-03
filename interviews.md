@@ -3,6 +3,8 @@ title: "Interviews & Media"
 permalink: /reception/interviews/
 layout: single
 classes: wide
+header:
+  overlay_image: /assets/images/header.jpg  # header image
 ---
 
 Interviews, conversations, and media appearances provide a more personal perspective on Narlan Matos's literary work, artistic influences, and intellectual life. Conducted in multiple countries and languages, these conversations document his reflections on poetry, translation, exile, Brazilian and international literature, and the cultural contexts in which his work has been received.
