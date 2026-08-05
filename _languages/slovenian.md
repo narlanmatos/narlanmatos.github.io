@@ -8,7 +8,7 @@ feature_row_books:
   - image_path: /assets/images/translations/pesem.jpg
     title: "Pesem o Vetru in Mojem Zivljenju"
     url: /translations/pesem/
-    btn_label: "Glej Knjigo"
+    btn_label: "Glej Knjigo (See Book)"
     btn_class: "btn--primary"
 
 feature_row_jm:
@@ -19,6 +19,8 @@ feature_row_jm:
       
       *Mentor*, 2005
     url: https://search.worldcat.org/title/780803380
+    btn_label: "Izvedeti Več (Learn More)"
+    btn_class: "btn--primary"
 ---
 
 
