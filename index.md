@@ -91,14 +91,14 @@ feature_row_poems:
 
 feature_row_books:
   - image_path: /assets/images/books/elegia.jpg
-    title: "Elegia ao Novo Mundo e outros poemas"
+    title: "Elegia ao Novo Mundo e outros poemas (2012)"
     excerpt: "A landmark collection."
     url: /poetry/books/elegia/
     btn_label: "View Book"
     btn_class: "btn--primary"
     
   - image_path: /assets/images/books/rebanhos.jpg
-    title: "Rebanhos de Estrelas"
+    title: "Rebanhos de Estrelas (2023)"
     excerpt: "Most recent original poetry collection."
     url: /poetry/books/rebanhos/
     btn_label: "View Book"
@@ -106,7 +106,7 @@ feature_row_books:
     
   - image_path: /assets/images/translations/como-nacen.jpg
     title: "Cómo nacen las estrellas (2024)"
-    excerpt: "Read in translation."
+    excerpt: "Recent Spanish-language translation."
     url: /translations/como-nacen/
     btn_label: "Ver Libro"
     btn_class: "btn--primary"
