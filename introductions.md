@@ -26,16 +26,16 @@ header:
 
 <strong>{{ item.title }}</strong>
 
-{% if item.related_work %}
+{% if item.publication_id %}
 <br>
 
-{% if item.related_work_url %}
+{% if item.publication_url %}
 For
-<a href="{{ item.related_work_url | relative_url }}">
-<em>{{ item.related_work }}</em>
+<a href="{{ item.publication_url | relative_url }}">
+<em>{{ item.publication_id }}</em>
 </a>
 {% else %}
-For <em>{{ item.related_work }}</em>
+For <em>{{ item.publication_id }}</em>
 {% endif %}
 
 {% endif %}
