@@ -90,23 +90,25 @@ feature_row_poems:
     btn_class: "btn--primary"
 
 feature_row_books:
+  - image_path: /assets/images/books/elegia.jpg
+    title: "Elegia ao Novo Mundo e outros poemas"
+    excerpt: "A landmark collection."
+    url: /poetry/books/elegia/
+    btn_label: "View Book"
+    btn_class: "btn--primary"
+    
   - image_path: /assets/images/books/rebanhos.jpg
     title: "Rebanhos de Estrelas"
-    excerpt: ""
+    excerpt: "Most recent original poetry collection."
     url: /poetry/books/rebanhos/
     btn_label: "View Book"
     btn_class: "btn--primary"
-  - image_path: /assets/images/books/narciso.jpg
-    title: "Narciso selvagem"
-    excerpt: ""
-    url: /poetry/books/narciso/
-    btn_label: "View Book"
-    btn_class: "btn--primary"
-  - image_path: /assets/images/books/canto.jpg
-    title: "Canto aos Homens de Boa Vontade"
-    excerpt: ""
-    url: /poetry/books/canto/
-    btn_label: "View Book"
+    
+  - image_path: /assets/images/translations/como-nacen.jpg
+    title: "Cómo nacen las estrellas (2024)"
+    excerpt: "Read in translation."
+    url: /translations/como-nacen/
+    btn_label: "Ver Libro"
     btn_class: "btn--primary"
     
 
@@ -177,7 +179,7 @@ optional call-to-action: Explore the Poetry or Latest Book-->
 <!--One to three representative poems or excerpts with links to read more.-->
 {% include feature_row id="feature_row_poems" %}
 
-# Featured Books
+# Featured Books & Translations
 <!--Highlight the most recent or most significant poetry collection with cover, brief description, and link.-->
 {% include feature_row id="feature_row_books" %}
 
