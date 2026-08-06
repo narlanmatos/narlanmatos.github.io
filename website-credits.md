@@ -22,7 +22,7 @@ The website is an ongoing archival project. New publications, translations, reco
 | Editorial Direction | **Narlan Matos** |
 | Website Design & Development | **Kristina Teixeira** |
 | Website Curation | **Kristina Teixeira** |
-| Research & Bibliography | **Kristina Teixeira**, **Jô Bertelli** |
+| Research & Bibliography | **Kristina Teixeira**, **Jô Bertelli**, **Antonio Donizeti da Cruz** |
 | Metadata & Digital Archive | **Kristina Teixeira** |
 | Content Editing | **Kristina Teixeira** and **Yannik Teixeira**, in consultation with **Narlan Matos** |
 | Website Advisor | **Yannik Teixeira** |
