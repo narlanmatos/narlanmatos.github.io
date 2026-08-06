@@ -24,16 +24,24 @@ header:
 
 {% for item in items %}
 
-<p>
-
-<strong>{{ item.title }}</strong>
-
-{% if item.publication_id %}
-
 {% assign book = site.data.publications
   | where: "publication_id", item.publication_id
   | first %}
 
+<p>
+
+<strong>{{ item.authors }}</strong>
+
+{% if item.year %}
+ ({{ item.year }})
+{% endif %}
+
+{% if item.title %}
+<br>
+{{ item.title }}
+{% endif %}
+
+{% if item.publication_id %}
 <br>
 
 For
@@ -71,13 +79,6 @@ For
 
 {% endif %}
 
-
-
-{% if item.authors %}
-<br>
-{{ item.authors }}
-{% endif %}
-
 {% if item.publication %}
 <br>
 
@@ -89,10 +90,6 @@ For
 
 {% if item.publisher %}
 : {{ item.publisher }}
-{% endif %}
-
-{% if item.year %}
-, {{ item.year }}
 {% endif %}
 
 {% endif %}
