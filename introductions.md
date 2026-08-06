@@ -27,18 +27,49 @@ header:
 <strong>{{ item.title }}</strong>
 
 {% if item.publication_id %}
+
+{% assign book = site.data.publications
+  | where: "publication_id", item.publication_id
+  | first %}
+
 <br>
 
-{% if item.publication_url %}
 For
-<a href="{{ item.publication_url | relative_url }}">
-<em>{{ item.publication_id }}</em>
-</a>
+
+{% if book and book.url %}
+<a href="{{ book.url | relative_url }}">
+<em>
+{% if book.full_title %}
+{{ book.full_title }}
+{% elsif book.subtitle %}
+{{ book.title }}: {{ book.subtitle }}
 {% else %}
-For <em>{{ item.publication_id }}</em>
+{{ book.title }}
+{% endif %}
+</em>
+</a>
+
+{% elsif book %}
+
+<em>
+{% if book.full_title %}
+{{ book.full_title }}
+{% elsif book.subtitle %}
+{{ book.title }}: {{ book.subtitle }}
+{% else %}
+{{ book.title }}
+{% endif %}
+</em>
+
+{% else %}
+
+<em>{{ item.publication_id }}</em>
+
 {% endif %}
 
 {% endif %}
+
+
 
 {% if item.authors %}
 <br>
