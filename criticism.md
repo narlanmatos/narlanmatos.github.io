@@ -30,16 +30,16 @@ feature_row:
     btn_class: "btn--primary"
 
   - image_path: /assets/images/features/xx.jpg
-    title: "Introductions & Forewords"
-    excerpt: "Introductions, forewords, prefaces, and afterwords to Narlan Matos's books."
-    url: /reception/criticism/introductions/
-    btn_label: "See Introductions"
+    title: "Book Essays"
+    excerpt: "Introductions, forewords, prologues, prefaces, and afterwords to Narlan Matos's books."
+    url: /reception/criticism/book-essays/
+    btn_label: "Read Essays"
     btn_class: "btn--primary"
 
     
 ---
 
-*This page brings together scholarly studies, critical essays, and reviews that examine and evaluate the poetry of Narlan Matos from academic, literary, and cultural perspectives.*
-*Also summarized are introductions, forewords, prefaces and afterwords to Narlan Matos's books.*
+*This page brings together scholarly studies, critical essays, reviews, and book essays that examine and evaluate the poetry of Narlan Matos from academic, literary, and cultural perspectives.*
+
 
 {% include feature_row id="feature_row" %}

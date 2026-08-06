@@ -1,7 +1,7 @@
 ---
 
-title: "Introductions & Forewords"
-permalink: /reception/criticism/introductions/
+title: "Book Essays"
+permalink: /reception/criticism/book-essays/
 layout: single
 header:
   overlay_image: /assets/images/header.jpg  # header image
@@ -13,10 +13,12 @@ header:
 {% include feature_row id="feature_row" %}
 -->
 
-# Introductions, Forewords, Prefaces, and Afterwords
+# Book Essays
+
+*This section brings together introductions, forewords, prefaces, prologues, and afterwords written by poets, critics, scholars, and translators to accompany editions of Narlan Matos's books.*
 
 {% assign items = site.data.reception
-  | where: "type", "introduction"
+  | where: "type", "book-essay"
   | sort: "year"
   | reverse %}
 
