@@ -40,5 +40,6 @@ feature_row:
 ---
 
 *This page brings together scholarly studies, critical essays, and reviews that examine and evaluate the poetry of Narlan Matos from academic, literary, and cultural perspectives.*
+*Also summarized are introductions, forewords, prefaces and afterwords to Narlan Matos's books.*
 
 {% include feature_row id="feature_row" %}
