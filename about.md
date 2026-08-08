@@ -28,6 +28,13 @@ feature_row:
     url: "/about/international-invitations/"
     btn_label: "View Invitations"
     btn_class: "btn--primary" 
+    
+  - image_path: /assets/images/features/awards.jpg
+    title: "Complete Bibliography"
+    excerpt: ""
+    url: "/about/bibliography/"
+    btn_label: "View Invitations"
+    btn_class: "btn--primary" 
 
 feature_row2:
   - image_path: /assets/images/features/cv.jpg
