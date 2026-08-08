@@ -12,6 +12,8 @@ main:
         url: /awards/
       - title: "Invitations"
         url: /invitations/
+      - title: "Bibliography"
+        url: /bibliography/
       - title: "Curriculum Vitae (CV)"
         url: /cv/
       - title: "Timeline"
