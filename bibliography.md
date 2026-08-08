@@ -11,56 +11,42 @@ header:
 
 *This bibliography provides a comprehensive record of Narlan Matos's published work, including books, poems, translations, anthologies, interviews, scholarly publications, and other literary contributions. Where available, entries link to records elsewhere on this site and to external or archived sources.*
 
-
 {% comment %}
-==================================================
-I. BOOKS
-==================================================
+HELPER: DISPLAY BOOK TITLE
+
 {% endcomment %}
 
-# Books
+{% comment %}
+I. ORIGINAL BOOKS
 
-{% assign books = site.data.publications
-  | where: "collection", "books"
+{% endcomment %}
+
+Books
+Original Poetry Collections
+
+{% assign original_books = site.data.publications
+| where: "collection", "books"
+| where: "type", "original"
+| sort: "publication_date"
+| reverse
 %}
-
-{% assign original_books = books
-  | where_exp: "item", "item.type == 'original'"
-  | sort: "publication_date"
-  | reverse
-%}
-
-{% if original_books.size > 0 %}
-
-## Poetry Collections
 
 {% for item in original_books %}
 
 <p>
+
 <strong>{{ item.publication_date }}</strong><br>
 
 {% if item.url %}
 <a href="{{ item.url | relative_url }}">
-<em>
-{% if item.full_title %}
-{{ item.full_title }}
-{% elsif item.subtitle %}
-{{ item.title }}: {{ item.subtitle }}
-{% else %}
-{{ item.title }}
-{% endif %}
-</em>
+<em>{{ item.full_title | default: item.title }}</em>
 </a>
 {% else %}
-<em>
-{% if item.full_title %}
-{{ item.full_title }}
-{% elsif item.subtitle %}
-{{ item.title }}: {{ item.subtitle }}
-{% else %}
-{{ item.title }}
+<em>{{ item.full_title | default: item.title }}</em>
 {% endif %}
-</em>
+
+{% if item.authors %}
+. {{ item.authors }}
 {% endif %}
 
 {% if item.publication_place %}
@@ -71,60 +57,57 @@ I. BOOKS
 : {{ item.publisher }}
 {% endif %}
 
+{% if item.edition %}
+. {{ item.edition }}
+{% endif %}
+
+{% if item.isbn %}
+. ISBN {{ item.isbn }}
+{% endif %}
+
 {% if item.worldcat_link %}
- · <a href="{{ item.worldcat_link }}" target="_blank" rel="noopener">WorldCat</a>
+· <a href="{{ item.worldcat_link }}" target="_blank" rel="noopener">WorldCat</a>
 {% endif %}
 
 </p>
 
 {% endfor %}
 
-{% endif %}
+
 
 
 {% comment %}
-==================================================
-TRANSLATED BOOKS
-==================================================
+II. BOOK TRANSLATIONS AND OTHER EDITIONS
+
 {% endcomment %}
 
-{% assign translated_books = books
-  | where_exp: "item", "item.type == 'translation'"
-  | sort: "publication_date"
-  | reverse
+{% assign translated_books = site.data.publications
+| where: "collection", "books"
+| where_exp: "item", "item.type != 'original'"
+| sort: "publication_date"
+| reverse
 %}
 
 {% if translated_books.size > 0 %}
 
-## Translated and Multilingual Editions
+Translated and Multilingual Editions
 
 {% for item in translated_books %}
 
 <p>
+
 <strong>{{ item.publication_date }}</strong><br>
 
 {% if item.url %}
 <a href="{{ item.url | relative_url }}">
-<em>
-{% if item.full_title %}
-{{ item.full_title }}
-{% elsif item.subtitle %}
-{{ item.title }}: {{ item.subtitle }}
-{% else %}
-{{ item.title }}
-{% endif %}
-</em>
+<em>{{ item.full_title | default: item.title }}</em>
 </a>
 {% else %}
-<em>
-{% if item.full_title %}
-{{ item.full_title }}
-{% elsif item.subtitle %}
-{{ item.title }}: {{ item.subtitle }}
-{% else %}
-{{ item.title }}
+<em>{{ item.full_title | default: item.title }}</em>
 {% endif %}
-</em>
+
+{% if item.authors %}
+. {{ item.authors }}
 {% endif %}
 
 {% if item.translated_languages %}
@@ -143,8 +126,12 @@ TRANSLATED BOOKS
 : {{ item.publisher }}
 {% endif %}
 
+{% if item.isbn %}
+. ISBN {{ item.isbn }}
+{% endif %}
+
 {% if item.worldcat_link %}
- · <a href="{{ item.worldcat_link }}" target="_blank" rel="noopener">WorldCat</a>
+· <a href="{{ item.worldcat_link }}" target="_blank" rel="noopener">WorldCat</a>
 {% endif %}
 
 </p>
@@ -155,22 +142,18 @@ TRANSLATED BOOKS
 
 
 
+
 {% comment %}
-==================================================
-II. POEMS IN ANTHOLOGIES AND PERIODICALS
-==================================================
-==================================================
-Uses publications that are not books and connects
-them to poems through first/additional publication IDs.
-==================================================
+III. POEMS IN ANTHOLOGIES AND PERIODICALS
+
 {% endcomment %}
 
-# Poems in Anthologies and Periodicals
+Poems in Anthologies and Periodicals
 
 {% assign poem_publications = site.data.publications
-  | where_exp: "item", "item.collection == 'anthologies' or item.collection == 'periodicals'"
-  | sort: "publication_date"
-  | reverse
+| where_exp: "item", "item.collection == 'anthologies' or item.collection == 'periodicals'"
+| sort: "publication_date"
+| reverse
 %}
 
 {% for publication in poem_publications %}
@@ -181,8 +164,10 @@ them to poems through first/additional publication IDs.
 
 {% assign poem_matches = false %}
 
-{% if poem.first_publication_id == publication.publication_id %}
-  {% assign poem_matches = true %}
+{% assign first_id = poem.first_publication_id | default: "" | strip %}
+
+{% if first_id == publication.publication_id %}
+{% assign poem_matches = true %}
 {% endif %}
 
 {% unless poem_matches %}
@@ -194,8 +179,8 @@ them to poems through first/additional publication IDs.
 {% for id in additional_ids %}
 
 {% if id | strip == publication.publication_id %}
-  {% assign poem_matches = true %}
-  {% break %}
+{% assign poem_matches = true %}
+{% break %}
 {% endif %}
 
 {% endfor %}
@@ -205,49 +190,48 @@ them to poems through first/additional publication IDs.
 {% endunless %}
 
 {% if poem_matches %}
-  {% assign publication_poems = publication_poems | push: poem %}
+{% assign publication_poems = publication_poems | push: poem %}
 {% endif %}
 
 {% endfor %}
 
-
 {% if publication_poems.size > 0 %}
-
-{% assign publication_year = publication.publication_date %}
 
 <p>
 
-<strong>{{ publication_year }}</strong><br>
+<strong>{{ publication.publication_date }}</strong><br>
 
 {% if publication.url %}
 <a href="{{ publication.url | relative_url }}">
-<em>{{ publication.title }}</em>
+<em>{{ publication.full_title | default: publication.title }}</em>
 </a>
 {% else %}
-<em>{{ publication.title }}</em>
+<em>{{ publication.full_title | default: publication.title }}</em>
 {% endif %}
 
-{% if publication.publisher %}
-. {{ publication.publisher }}
+{% if publication.authors %}
+. {{ publication.authors }}
 {% endif %}
 
 {% if publication.publication_place %}
 . {{ publication.publication_place }}
 {% endif %}
 
-{% if publication.worldcat_link %}
- · <a href="{{ publication.worldcat_link }}" target="_blank" rel="noopener">WorldCat</a>
+{% if publication.publisher %}
+: {{ publication.publisher }}
 {% endif %}
 
-<br>
+{% if publication.worldcat_link %}
+· <a href="{{ publication.worldcat_link }}" target="_blank" rel="noopener">WorldCat</a>
+{% endif %}
 
-Poems by Narlan Matos:
+<br> Poems by Narlan Matos:
 
-{% for poem in publication_poems | sort: "title" %}
+{% assign publication_poems = publication_poems | sort: "title" %}
 
-<a href="{{ '/poetry/poems/' | append: poem.poem_id | relative_url }}">
-“{{ poem.title }}”
-</a>{% unless forloop.last %}; {% endunless %}
+{% for poem in publication_poems %}
+
+<a href="{{ '/poetry/poems/' | append: poem.poem_id | relative_url }}"> “{{ poem.title }}” </a>{% unless forloop.last %}; {% endunless %}
 
 {% endfor %}
 
@@ -259,23 +243,19 @@ Poems by Narlan Matos:
 
 
 
+
 {% comment %}
-==================================================
-III. CRITICAL WRITING ABOUT NARLAN
-==================================================
-==================================================
-REVIEWS
-==================================================
+IV. REVIEWS
+
 {% endcomment %}
 
-# Critical Writing About Narlan
-
-## Reviews
+Writing About Narlan
+Reviews
 
 {% assign reviews = site.data.reception
-  | where: "type", "review"
-  | sort: "year"
-  | reverse
+| where: "type", "review"
+| sort: "year"
+| reverse
 %}
 
 {% for item in reviews %}
@@ -307,11 +287,10 @@ REVIEWS
 {% if item.publication_id %}
 
 {% assign book = site.data.publications
-  | where: "publication_id", item.publication_id
-  | first %}
+| where: "publication_id", item.publication_id
+| first %}
 
 {% if book %}
-
 <br>
 On
 {% if book.url %}
@@ -321,7 +300,6 @@ On
 {% else %}
 <em>{{ book.full_title | default: book.title }}</em>
 {% endif %}
-
 {% endif %}
 
 {% endif %}
@@ -337,7 +315,7 @@ On
 {% endif %}
 
 {% if item.url and item.local_copy %}
-&nbsp; | &nbsp;
+  |  
 {% endif %}
 
 {% if item.local_copy %}
@@ -354,18 +332,18 @@ Archived copy
 
 
 
+
 {% comment %}
-==================================================
-CRITICAL ESSAYS
-==================================================
+V. CRITICAL ESSAYS
+
 {% endcomment %}
 
-## Critical Essays
+Critical Essays
 
 {% assign essays = site.data.reception
-  | where: "type", "critical-essay"
-  | sort: "year"
-  | reverse
+| where: "type", "critical-essay"
+| sort: "year"
+| reverse
 %}
 
 {% for item in essays %}
@@ -394,53 +372,39 @@ CRITICAL ESSAYS
 : {{ item.publisher }}
 {% endif %}
 
-</p>
-
-{% if item.url or item.local_copy %}
-
-<p>
-
 {% if item.url %}
-<a href="{{ item.url }}" target="_blank" rel="noopener">Online version</a>
-{% endif %}
-
-{% if item.url and item.local_copy %}
-&nbsp; | &nbsp;
+· <a href="{{ item.url }}" target="_blank" rel="noopener">Online version</a>
 {% endif %}
 
 {% if item.local_copy %}
-<a href="{{ item.local_copy | relative_url }}" target="_blank" rel="noopener">
-Archived copy
-</a>
+· <a href="{{ item.local_copy | relative_url }}" target="_blank" rel="noopener">Archived copy</a>
 {% endif %}
 
 </p>
-
-{% endif %}
 
 {% endfor %}
 
 
 
+
 {% comment %}
-==================================================
-BOOK ESSAYS
-==================================================
+VI. BOOK ESSAYS
+
 {% endcomment %}
 
-## Book Essays
+Book Essays
 
 {% assign book_essays = site.data.reception
-  | where: "type", "book-essay"
-  | sort: "year"
-  | reverse
+| where: "type", "book-essay"
+| sort: "year"
+| reverse
 %}
 
 {% for item in book_essays %}
 
 {% assign book = site.data.publications
-  | where: "publication_id", item.publication_id
-  | first %}
+| where: "publication_id", item.publication_id
+| first %}
 
 <p>
 
@@ -455,7 +419,6 @@ BOOK ESSAYS
 {% endif %}
 
 {% if book %}
-
 <br>
 For
 {% if book.url %}
@@ -465,12 +428,19 @@ For
 {% else %}
 <em>{{ book.full_title | default: book.title }}</em>
 {% endif %}
-
 {% endif %}
 
 {% if item.publication %}
 <br>
 <em>{{ item.publication }}</em>
+{% endif %}
+
+{% if item.url %}
+· <a href="{{ item.url }}" target="_blank" rel="noopener">Online version</a>
+{% endif %}
+
+{% if item.local_copy %}
+· <a href="{{ item.local_copy | relative_url }}" target="_blank" rel="noopener">Archived copy</a>
 {% endif %}
 
 </p>
@@ -479,21 +449,18 @@ For
 
 
 
+
 {% comment %}
-==================================================
-ACADEMIC STUDIES
-==================================================
-==================================================
-This assumes type = academic-study in reception.csv
-==================================================
+VII. ACADEMIC STUDIES
+
 {% endcomment %}
 
-## Academic Studies
+Academic Studies
 
 {% assign studies = site.data.reception
-  | where: "type", "academic-study"
-  | sort: "year"
-  | reverse
+| where: "type", "academic-study"
+| sort: "year"
+| reverse
 %}
 
 {% for item in studies %}
@@ -522,35 +489,38 @@ This assumes type = academic-study in reception.csv
 : {{ item.publisher }}
 {% endif %}
 
+{% if item.url %}
+· <a href="{{ item.url }}" target="_blank" rel="noopener">Online version</a>
+{% endif %}
+
+{% if item.local_copy %}
+· <a href="{{ item.local_copy | relative_url }}" target="_blank" rel="noopener">Archived copy</a>
+{% endif %}
+
 </p>
 
 {% endfor %}
 
 
 
+
 {% comment %}
-==================================================
-INTRODUCTIONS, FOREWORDS, PREFACES, PROLOGUES,
-AND AFTERWORDS
-==================================================
-==================================================
-Assumes type = introduction
-==================================================
+
 {% endcomment %}
 
-## Introductions, Forewords, Prefaces, Prologues & Afterwords
+Introductions, Forewords, Prefaces, Prologues & Afterwords
 
 {% assign introductions = site.data.reception
-  | where: "type", "introduction"
-  | sort: "year"
-  | reverse
+| where: "type", "introduction"
+| sort: "year"
+| reverse
 %}
 
 {% for item in introductions %}
 
 {% assign book = site.data.publications
-  | where: "publication_id", item.publication_id
-  | first %}
+| where: "publication_id", item.publication_id
+| first %}
 
 <p>
 
@@ -565,7 +535,6 @@ Assumes type = introduction
 {% endif %}
 
 {% if book %}
-
 <br>
 For
 {% if book.url %}
@@ -575,7 +544,19 @@ For
 {% else %}
 <em>{{ book.full_title | default: book.title }}</em>
 {% endif %}
+{% endif %}
 
+{% if item.publication %}
+<br>
+<em>{{ item.publication }}</em>
+{% endif %}
+
+{% if item.url %}
+· <a href="{{ item.url }}" target="_blank" rel="noopener">Online version</a>
+{% endif %}
+
+{% if item.local_copy %}
+· <a href="{{ item.local_copy | relative_url }}" target="_blank" rel="noopener">Archived copy</a>
 {% endif %}
 
 </p>
@@ -584,21 +565,18 @@ For
 
 
 
+
 {% comment %}
-==================================================
-INTERVIEWS
-==================================================
-==================================================
-Assumes type = interview
-==================================================
+IX. INTERVIEWS
+
 {% endcomment %}
 
-## Interviews & Conversations
+Interviews & Conversations
 
 {% assign interviews = site.data.reception
-  | where: "type", "interview"
-  | sort: "year"
-  | reverse
+| where: "type", "interview"
+| sort: "year"
+| reverse
 %}
 
 {% for item in interviews %}
@@ -623,30 +601,18 @@ Assumes type = interview
 , {{ item.publication_place }}
 {% endif %}
 
-</p>
-
-{% if item.url or item.local_copy %}
-
-<p>
-
-{% if item.url %}
-<a href="{{ item.url }}" target="_blank" rel="noopener">
-Online version
-</a>
+{% if item.publisher %}
+: {{ item.publisher }}
 {% endif %}
 
-{% if item.url and item.local_copy %}
-&nbsp; | &nbsp;
+{% if item.url %}
+· <a href="{{ item.url }}" target="_blank" rel="noopener">Online version</a>
 {% endif %}
 
 {% if item.local_copy %}
-<a href="{{ item.local_copy | relative_url }}" target="_blank" rel="noopener">
-Archived copy
-</a>
+· <a href="{{ item.local_copy | relative_url }}" target="_blank" rel="noopener">Archived copy</a>
 {% endif %}
 
 </p>
-
-{% endif %}
 
 {% endfor %}
