@@ -48,6 +48,17 @@ feature_row_jm:
     btn_label: "Leggere"
     btn_class: "btn--primary" 
     
+        
+  - image_path: /assets/images/criticism/fili-2023.jpg
+    title: "Narlan Matos, Rebanhos de estrelas"
+    excerpt: |
+      Translations by Manuela Colombo
+      
+      *FILI D'AQUILONE*, 2024
+    url: https://www.filidaquilone.it/num067colombo.html
+    btn_label: "Leggere"
+    btn_class: "btn--primary" 
+    
 feature_row_poems:
   - image_path: /assets/images/translations/x.jpg
     title: "Elegia al Nuovo Mondo"
