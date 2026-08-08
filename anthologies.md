@@ -62,7 +62,7 @@ header:
 
       <a class="btn btn--primary"
          href="{{ book.url | relative_url }}">
-         View book
+         View anthology
       </a>
 
       </p>
