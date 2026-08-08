@@ -33,7 +33,7 @@ feature_row:
     title: "Complete Bibliography"
     excerpt: ""
     url: "/about/bibliography/"
-    btn_label: "View Invitations"
+    btn_label: "View Bibliography"
     btn_class: "btn--primary" 
 
 feature_row2:
