@@ -18,7 +18,7 @@ feature_row_books:
     btn_class: "btn--primary"
     
 feature_row_jm:
-  - image_path: /assets/images/features/interim.jpg
+  - image_path: /assets/images/features/fili-2014.jpg
     title: "Manca Qualcosa Nella Stanza: La poesia di Narlan Matos"
     excerpt: |
       Translations by Giorgio Mobili
@@ -28,7 +28,7 @@ feature_row_jm:
     btn_label: "Leggere"
     btn_class: "btn--primary" 
     
-  - image_path: /assets/images/features/interim.jpg
+  - image_path: /assets/images/features/fili-2017-45.jpg
     title: "Dalla Provincia Oscura ala Città del Sole: Aporie quotidiane e circolarità necessaria nella poesia di Narlan Matos"
     excerpt: |
       Translations by Giorgio Mobili
@@ -38,7 +38,7 @@ feature_row_jm:
     btn_label: "Leggere"
     btn_class: "btn--primary" 
     
-  - image_path: /assets/images/features/interim.jpg
+  - image_path: /assets/images/features/fili-2023.jpg
     title: "Narlan Matos, Narciso Selvagem: Il mito rivisitato"
     excerpt: |
       Translations by Manuela Colombo
@@ -49,7 +49,7 @@ feature_row_jm:
     btn_class: "btn--primary" 
     
         
-  - image_path: /assets/images/criticism/fili-2023.jpg
+  - image_path: /assets/images/criticism/fili-2024.jpg
     title: "Narlan Matos, Rebanhos de estrelas"
     excerpt: |
       Translations by Manuela Colombo
