@@ -52,7 +52,7 @@ header:
 {% assign periodicals = site.data.publications
   | where: "collection", "periodicals"
 %}
-{% assign translated_books = translated_books | concat: periodicals | sort: "publication_date" | reverse
+{% assign portuguese_anthologies = translated_books | concat: periodicals | sort: "publication_date" | reverse
 %}
 
 {% if portuguese_anthologies.size > 0 %}
