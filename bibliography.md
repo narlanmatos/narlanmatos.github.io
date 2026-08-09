@@ -46,13 +46,11 @@ header:
 
 ## Original-Language (Portuguese) Anthologies and Periodical Publications
 
-{% assign translated_books = site.data.publications
-  | where: "collection", "translations"
-%}
-{% assign periodicals = site.data.publications
-  | where: "collection", "periodicals"
-%}
-{% assign portuguese_anthologies = translated_books | concat: periodicals | sort: "publication_date" | reverse
+{% assign portuguese_publications = site.data.publications
+  | where_exp: "publication", "publication.collection == 'anthologies' or publication.collection == 'periodicals'"
+  | where: "publication_languages", "Portuguese"
+  | sort: "publication_date"
+  | reverse
 %}
 
 {% if portuguese_anthologies.size > 0 %}
@@ -119,7 +117,39 @@ header:
 {% endif %}
 
 ## Translated and Multilingual Periodical Publications
-(coming soon!)
+{% assign translated_books = site.data.publications
+| where: "collection", "periodicals"
+| where_exp: "item", "publication_languages != 'Portuguese'"
+| sort: "publication_date"
+| reverse
+%}
+
+{% if translated_books.size > 0 %}
+
+{% for item in translated_books %}
+
+<p><strong>{{ item.publication_date }}</strong><br>
+
+{%- if item.url -%}
+<a href="{{ item.url | relative_url }}"><em>{{ item.full_title | default: item.title }}</em></a>
+{%- else -%}
+<em>{{ item.full_title | default: item.title }}</em>
+{%- endif -%}
+
+{%- if item.authors %} {{ item.authors }}.{% endif -%}
+{%- if item.translated_languages %} {{ item.translated_languages }}.{% endif -%}
+{%- if item.translators %} Translated by {{ item.translators }}.{% endif -%}
+{%- if item.publication_place %} {{ item.publication_place }}.{% endif -%}
+{%- if item.publisher %} {{ item.publisher }}:{% endif -%}
+{%- if item.edition %} {{ item.edition }}.{% endif -%}
+{%- if item.isbn %} ISBN {{ item.isbn }}.{% endif -%}
+{%- if item.worldcat_link %} · <a href="{{ item.worldcat_link }}" target="_blank" rel="noopener">WorldCat</a>{% endif -%}
+
+</p>
+
+{% endfor %}
+
+{% endif %}
 
 # Reception
 ## Reviews
