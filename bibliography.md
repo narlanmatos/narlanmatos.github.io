@@ -47,7 +47,7 @@ header:
 ## Original-Language (Portuguese) Anthologies and Periodical Publications
 
 {% assign portuguese_publications = site.data.publications
-  | where_exp: "publication", "publication.collection == 'anthologies' or publication.collection == 'periodicals'"
+  | where_exp: "publications", "publications.collection == 'anthologies' or publications.collection == 'periodicals'"
   | where: "publication_languages", "Portuguese"
   | sort: "publication_date"
   | reverse
@@ -117,16 +117,16 @@ header:
 {% endif %}
 
 ## Translated and Multilingual Periodical Publications
-{% assign translated_books = site.data.publications
+{% assign translated_periodicals = site.data.publications
 | where: "collection", "periodicals"
 | where_exp: "item", "publication_languages != 'Portuguese'"
 | sort: "publication_date"
 | reverse
 %}
 
-{% if translated_books.size > 0 %}
+{% if translated_periodicals.size > 0 %}
 
-{% for item in translated_books %}
+{% for item in translated_periodicals %}
 
 <p><strong>{{ item.publication_date }}</strong><br>
 
