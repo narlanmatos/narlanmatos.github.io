@@ -44,6 +44,41 @@ header:
 
 {% endfor %}
 
+## Original-Language (Portuguese) Anthologies and Periodical Publications
+
+{% assign portuguese_anthologies = site.data.publications
+| where: "collection", "anthologies"
+| sort: "publication_date"
+| reverse
+%}
+
+{% if portuguese_anthologies.size > 0 %}
+
+{% for item in portuguese_anthologies %}
+
+<p><strong>{{ item.publication_date }}</strong><br>
+
+{%- if item.url -%}
+<a href="{{ item.url | relative_url }}"><em>{{ item.full_title | default: item.title }}</em></a>
+{%- else -%}
+<em>{{ item.full_title | default: item.title }}</em>
+{%- endif -%}
+
+{%- if item.authors %} {{ item.authors }}.{% endif -%}
+{%- if item.publication_place %} {{ item.publication_place }}.{% endif -%}
+{%- if item.publisher %} {{ item.publisher }}.{% endif -%}
+{%- if item.edition %} {{ item.edition }}.{% endif -%}
+{%- if item.pages %} pp. {{ item.pages }}.{% endif -%}
+{%- if item.isbn %} ISBN {{ item.isbn }}.{% endif -%}
+{%- if item.worldcat_link %} · <a href="{{ item.worldcat_link }}" target="_blank" rel="noopener">WorldCat</a>{% endif -%}
+{%- if item.read_link %} · <a href="{{ item.read_link }}" target="_blank" rel="noopener">Read</a>{% endif -%}
+
+</p>
+
+{% endfor %}
+
+{% endif %}
+
 
 ## Translated and Multilingual Editions
 
@@ -79,3 +114,13 @@ header:
 {% endfor %}
 
 {% endif %}
+
+## Translated and Multilingual Periodical Publications
+
+
+# Reception
+## Reviews
+## Critical Essays
+## Academic Studies
+## Book Essays
+## Interviews
