@@ -50,8 +50,7 @@ header:
 ## Translated and Multilingual Editions
 
 {% assign translated_books = site.data.publications
-| where: "collection", "books"
-| where_exp: "item", "item.type != 'original'"
+| where: "collection", "translations"
 | sort: "publication_date"
 | reverse
 %}
