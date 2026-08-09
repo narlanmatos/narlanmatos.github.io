@@ -46,10 +46,13 @@ header:
 
 ## Original-Language (Portuguese) Anthologies and Periodical Publications
 
-{% assign portuguese_anthologies = site.data.publications
-| where: "collection", "anthologies"
-| sort: "publication_date"
-| reverse
+{% assign translated_books = site.data.publications
+  | where: "collection", "translations"
+%}
+{% assign periodicals = site.data.publications
+  | where: "collection", "periodicals"
+%}
+{% assign translated_books = translated_books | concat: periodicals | sort: "publication_date" | reverse
 %}
 
 {% if portuguese_anthologies.size > 0 %}
