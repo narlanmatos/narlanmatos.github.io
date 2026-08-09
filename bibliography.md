@@ -44,7 +44,7 @@ header:
 
 {% endfor %}
 
-## Original-Language (Portuguese) Anthologies and Periodical Publications
+## Original-Language (Portuguese) Anthologies
 
 {% assign portuguese_anthologies = site.data.publications
 | where: "collection", "anthologies"
@@ -116,7 +116,7 @@ header:
 
 {% endif %}
 
-## Translated and Multilingual Periodical Publications
+## Periodical Publications
 {% assign translated_periodicals = site.data.publications
 | where: "collection", "periodicals"
 | where_exp: "item", "publication_languages != 'Portuguese'"
