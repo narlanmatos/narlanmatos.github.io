@@ -119,11 +119,16 @@ header:
 {% endif %}
 
 ## Translated and Multilingual Periodical Publications
-
+(coming soon!)
 
 # Reception
 ## Reviews
+(coming soon!)
 ## Critical Essays
+(coming soon!)
 ## Academic Studies
+(coming soon!)
 ## Book Essays
+(coming soon!)
 ## Interviews
+(coming soon!)
