@@ -219,38 +219,27 @@ sidebar:
 ## Critical Essays
 
 
-{% assign critical_essays = site.data.reception
+{% assign essays = site.data.reception
 | where: "type", "essay"
-| sort: "year"
-| reverse
 %}
 
-{% if critical_essays.size > 0 %}
+{% assign dated_essays = essays | where_exp: "item", "item.year != nil and item.year != '' and item.year != 'n.d.' and item.year != 'nd' and item.year != 'N.D.' and item.year != 'ND'" %}
 
-<h2>Critical Essays</h2>
+{% assign undated_essays = essays | where_exp: "item", "item.year == nil or item.year == '' or item.year == 'n.d.' or item.year == 'nd' or item.year == 'N.D.' or item.year == 'ND'" %}
 
-{% for item in critical_essays %}
+{% assign dated_essays = dated_essays | sort: "year" | reverse %}
 
-<p><strong>{{ item.year }}</strong><br>
+{% for item in dated_essays %}
 
-{%- if item.authors %}{{ item.authors }}.{% endif -%}
-{%- if item.title %} “{{ item.title }}.”{% endif -%}
-{%- if item.publication %} <em>{{ item.publication }}</em>{% endif -%}
-{%- if item.volume %} {{ item.volume }}{% endif -%}
-{%- if item.issue %}({{ item.issue }}){% endif -%}
-{%- if item.pages %}, pp. {{ item.pages }}{% endif -%}
-
-</p>
+<p><strong>{{ item.year }}</strong><br> {%- if item.authors %}{{ item.authors }}.{% endif -%} {%- if item.title %} “{{ item.title }}.”{% endif -%} {%- if item.publication %} <em>{{ item.publication }}</em>{% endif -%} {%- if item.volume %} {{ item.volume }}{% endif -%} {%- if item.issue %}({{ item.issue }}){% endif -%} {%- if item.pages %}, pp. {{ item.pages }}{% endif -%} </p>
 
 {% if item.description %}
 
 <p>{{ item.description }}</p> {% endif %}
 
-<p>
+{% if item.url or item.local_copy or item.worldcat_link %}
 
-{% if item.url %}
-<a href="{{ item.url }}" target="_blank" rel="noopener">Online version</a>
-{% endif %}
+<p> {% if item.url %} <a href="{{ item.url }}" target="_blank" rel="noopener">Online version</a> {% endif %}
 
 {% if item.url and item.local_copy %}
   |  
@@ -265,7 +254,38 @@ sidebar:
 <a href="{{ item.worldcat_link }}" target="_blank" rel="noopener">WorldCat</a>
 {% endif %}
 
-</p>
+</p> {% endif %}
+
+{% endfor %}
+
+{% if undated_essays.size > 0 %}
+
+{% for item in undated_essays %}
+
+<p><strong>n.d.</strong><br> {%- if item.authors %}{{ item.authors }}.{% endif -%} {%- if item.title %} “{{ item.title }}.”{% endif -%} {%- if item.publication %} <em>{{ item.publication }}</em>{% endif -%} {%- if item.volume %} {{ item.volume }}{% endif -%} {%- if item.issue %}({{ item.issue }}){% endif -%} {%- if item.pages %}, pp. {{ item.pages }}{% endif -%} </p>
+
+{% if item.description %}
+
+<p>{{ item.description }}</p> {% endif %}
+
+{% if item.url or item.local_copy or item.worldcat_link %}
+
+<p> {% if item.url %} <a href="{{ item.url }}" target="_blank" rel="noopener">Online version</a> {% endif %}
+
+{% if item.url and item.local_copy %}
+  |  
+{% endif %}
+
+{% if item.local_copy %}
+<a href="{{ item.local_copy | relative_url }}" target="_blank" rel="noopener">Archived copy</a>
+{% endif %}
+
+{% if item.worldcat_link %}
+{% if item.url or item.local_copy %}  |  {% endif %}
+<a href="{{ item.worldcat_link }}" target="_blank" rel="noopener">WorldCat</a>
+{% endif %}
+
+</p> {% endif %}
 
 {% endfor %}
 
