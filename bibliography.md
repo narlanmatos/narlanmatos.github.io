@@ -204,52 +204,7 @@ header:
 
 ## Critical Essays
 
-{% assign critical_essays = site.data.reception
-| where: "type", "critical-essay"
-| sort: "year"
-| reverse
-%}
 
-
-<p><strong>{{ item.year }}</strong><br>
-
-{%- if item.authors %}{{ item.authors }}.{% endif -%}
-{%- if item.title %} “{{ item.title }}.”{% endif -%}
-{%- if item.publication %} <em>{{ item.publication }}</em>{% endif -%}
-{%- if item.volume %} {{ item.volume }}{% endif -%}
-{%- if item.issue %}({{ item.issue }}){% endif -%}
-{%- if item.pages %}, pp. {{ item.pages }}{% endif -%}
-
-</p>
-
-{% if item.description %}
-
-<p>{{ item.description }}</p> {% endif %}
-
-<p>
-
-{% if item.url %}
-<a href="{{ item.url }}" target="_blank" rel="noopener">Online version</a>
-{% endif %}
-
-{% if item.url and item.local_copy %}
-  |  
-{% endif %}
-
-{% if item.local_copy %}
-<a href="{{ item.local_copy | relative_url }}" target="_blank" rel="noopener">Archived copy</a>
-{% endif %}
-
-{% if item.worldcat_link %}
-{% if item.url or item.local_copy %}  |  {% endif %}
-<a href="{{ item.worldcat_link }}" target="_blank" rel="noopener">WorldCat</a>
-{% endif %}
-
-</p>
-
-{% endfor %}
-
-{% endif %}
 
 
 ## Academic Studies
@@ -306,6 +261,146 @@ header:
 {% endif %}
 
 ## Book Essays
-(coming soon!)
+
+{% assign book_essays = site.data.reception
+| where: "type", "book-essay"
+| sort: "year"
+| reverse
+%}
+
+
+{% assign book = site.data.publications
+| where: "publication_id", item.publication_id
+| first
+%}
+
+<p><strong>{{ item.year }}</strong><br>
+
+{%- if item.authors %}{{ item.authors }}.{% endif -%}
+{%- if item.title %} “{{ item.title }}.”{% endif -%}
+
+{% if book %}
+<br>
+For
+{% if book.url %}
+<a href="{{ book.url | relative_url }}">
+<em>{{ book.full_title | default: book.title }}</em>
+</a>
+{% else %}
+<em>{{ book.full_title | default: book.title }}</em>
+{% endif %}
+{% endif %}
+
+{%- if item.publication %} <em>{{ item.publication }}</em>{% endif -%}
+{%- if item.volume %} {{ item.volume }}{% endif -%}
+{%- if item.issue %}({{ item.issue }}){% endif -%}
+{%- if item.pages %}, pp. {{ item.pages }}{% endif -%}
+
+</p>
+
+{% if item.description %}
+
+<p>{{ item.description }}</p> {% endif %}
+
+<p>
+
+{% if item.url %}
+<a href="{{ item.url }}" target="_blank" rel="noopener">Online version</a>
+{% endif %}
+
+{% if item.url and item.local_copy %}
+  |  
+{% endif %}
+
+{% if item.local_copy %}
+<a href="{{ item.local_copy | relative_url }}" target="_blank" rel="noopener">Archived copy</a>
+{% endif %}
+
+{% if item.worldcat_link %}
+{% if item.url or item.local_copy %}  |  {% endif %}
+<a href="{{ item.worldcat_link }}" target="_blank" rel="noopener">WorldCat</a>
+{% endif %}
+
+</p>
+
+{% endfor %}
+
+{% endif %}
+
+
+
+
+{% comment %}
+
+{% endcomment %}
+
+{% assign introductions = site.data.reception
+| where: "type", "introduction"
+| sort: "year"
+| reverse
+%}
+
+{% if introductions.size > 0 %}
+
+<h2>Introductions, Forewords, Prefaces, Prologues &amp; Afterwords</h2>
+
+{% for item in introductions %}
+
+{% assign book = site.data.publications
+| where: "publication_id", item.publication_id
+| first
+%}
+
+<p><strong>{{ item.year }}</strong><br>
+
+{%- if item.authors %}{{ item.authors }}.{% endif -%}
+{%- if item.title %} “{{ item.title }}.”{% endif -%}
+
+{% if book %}
+<br>
+For
+{% if book.url %}
+<a href="{{ book.url | relative_url }}">
+<em>{{ book.full_title | default: book.title }}</em>
+</a>
+{% else %}
+<em>{{ book.full_title | default: book.title }}</em>
+{% endif %}
+{% endif %}
+
+{%- if item.publication %} <em>{{ item.publication }}</em>{% endif -%}
+{%- if item.pages %}, pp. {{ item.pages }}{% endif -%}
+
+</p>
+
+{% if item.description %}
+
+<p>{{ item.description }}</p> {% endif %}
+
+<p>
+
+{% if item.url %}
+<a href="{{ item.url }}" target="_blank" rel="noopener">Online version</a>
+{% endif %}
+
+{% if item.url and item.local_copy %}
+  |  
+{% endif %}
+
+{% if item.local_copy %}
+<a href="{{ item.local_copy | relative_url }}">Archived copy</a>
+{% endif %}
+
+{% if item.worldcat_link %}
+{% if item.url or item.local_copy %}  |  {% endif %}
+<a href="{{ item.worldcat_link }}" target="_blank" rel="noopener">WorldCat</a>
+{% endif %}
+
+</p>
+
+{% endfor %}
+
+{% endif %}
+
 ## Interviews
 (coming soon!)
