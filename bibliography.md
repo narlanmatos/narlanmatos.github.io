@@ -160,6 +160,10 @@ header:
 | reverse
 %}
 
+{% if reviews.size > 0 %}
+
+{% for item in reviews %}
+
 <p><strong>{{ item.year }}</strong><br>
 
 {%- if item.authors %}{{ item.authors }}.{% endif -%}
@@ -215,6 +219,12 @@ header:
 | reverse
 %}
 
+{% if academic_collections.size > 0 %}
+
+
+{% for item in academic_collections %}
+
+
 <p><strong>{{ item.year }}</strong><br>
 
 {%- if item.authors %}{{ item.authors }}.{% endif -%}
@@ -267,6 +277,11 @@ header:
 | sort: "year"
 | reverse
 %}
+
+{% if book_essays.size > 0 %}
+
+
+{% for item in book_essays %}
 
 
 {% assign book = site.data.publications
