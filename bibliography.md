@@ -161,10 +161,11 @@ header:
 | reverse
 %}
 
-{% if academic_collections.size > 0 %}
+{% if academic.size > 0 %}
 
 
-{% for item in academic_collections %}
+
+{% for item in academic %}
 
 
 <p><strong>{{ item.year }}</strong><br>
