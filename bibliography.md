@@ -219,7 +219,7 @@ header:
 
 
 {% assign critical_essays = site.data.reception
-| where: "type", "critical-essay"
+| where: "type", "essay"
 | sort: "year"
 | reverse
 %}
