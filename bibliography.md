@@ -152,25 +152,33 @@ header:
 {% endif %}
 
 # Reception
-## Reviews
 
-{% assign reviews = site.data.reception
-| where: "type", "review"
+## Academic Studies
+
+{% assign academic = site.data.reception
+| where: "type", "academic"
 | sort: "year"
 | reverse
 %}
 
-{% if reviews.size > 0 %}
+{% if academic_collections.size > 0 %}
 
-{% for item in reviews %}
+
+{% for item in academic_collections %}
+
 
 <p><strong>{{ item.year }}</strong><br>
 
 {%- if item.authors %}{{ item.authors }}.{% endif -%}
+
 {%- if item.title %} “{{ item.title }}.”{% endif -%}
+
 {%- if item.publication %} <em>{{ item.publication }}</em>{% endif -%}
+
 {%- if item.volume %} {{ item.volume }}{% endif -%}
+
 {%- if item.issue %}({{ item.issue }}){% endif -%}
+
 {%- if item.pages %}, pp. {{ item.pages }}{% endif -%}
 
 </p>
@@ -261,32 +269,27 @@ header:
 
 {% endif %}
 
-## Academic Studies
 
-{% assign academic = site.data.reception
-| where: "type", "academic"
+
+## Reviews
+
+{% assign reviews = site.data.reception
+| where: "type", "review"
 | sort: "year"
 | reverse
 %}
 
-{% if academic_collections.size > 0 %}
+{% if reviews.size > 0 %}
 
-
-{% for item in academic_collections %}
-
+{% for item in reviews %}
 
 <p><strong>{{ item.year }}</strong><br>
 
 {%- if item.authors %}{{ item.authors }}.{% endif -%}
-
 {%- if item.title %} “{{ item.title }}.”{% endif -%}
-
 {%- if item.publication %} <em>{{ item.publication }}</em>{% endif -%}
-
 {%- if item.volume %} {{ item.volume }}{% endif -%}
-
 {%- if item.issue %}({{ item.issue }}){% endif -%}
-
 {%- if item.pages %}, pp. {{ item.pages }}{% endif -%}
 
 </p>
