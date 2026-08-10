@@ -142,7 +142,8 @@ feature_row_community_translations:
 
 *Narlan Matos's poetry has been translated into numerous languages and published in books, anthologies, literary journals, and multilingual editions around the world.
 These translations reflect the continuing international circulation of his work through the efforts of translators, editors, publishers, and literary organizations.
-This section documents translated books, individual poems, multilingual publications, and the languages in which his poetry is available.*
+This section documents translated books, individual poems, multilingual publications, and the languages in which his poetry is available.
+Concise lists of the [translated editions](https://narlanmatos.com/about/bibliography/#translated-and-multilingual-editions) and [periodical publications](https://narlanmatos.com/about/bibliography/#periodical-publications) are available in the Complete Bibliography.*
 
 ## Languages
 

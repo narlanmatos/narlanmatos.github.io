@@ -11,6 +11,7 @@ header:
 ## Anthologies in Portuguese
 
 *The following anthologies include selected poems in Portuguese originally published in one or more [books](/poetry/books/).*
+*A concise list is available in the [Anthologies section of the Complete Bibliography](https://narlanmatos.com/about/bibliography/#original-poetry-books).
 
 {% assign books = site.data.publications
   | where: "collection", "anthologies"
