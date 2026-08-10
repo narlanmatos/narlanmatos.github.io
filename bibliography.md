@@ -12,8 +12,8 @@ header:
 
 
 
-# Books
-## Original Poetry Collections
+# Poetry Publications
+## Original Poetry Books
 
 {% assign original_books = site.data.publications
 | where: "collection", "books"
@@ -224,8 +224,6 @@ header:
 %}
 
 {% if critical_essays.size > 0 %}
-
-<h2>Critical Essays</h2>
 
 {% for item in critical_essays %}
 
