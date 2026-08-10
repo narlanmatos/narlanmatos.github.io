@@ -481,7 +481,6 @@ For
 
 {% if interviews.size > 0 %}
 
-<h2>Interviews &amp; Conversations</h2>
 
 {% for item in interviews %}
 
