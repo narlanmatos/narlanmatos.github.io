@@ -9,7 +9,7 @@ header:
 
 ---
 
-```liquid
+
 {% assign journal_translations = site.data.publications
   | where: "collection", "periodicals"
   | where: "type", "literary_journal"
@@ -61,4 +61,4 @@ header:
 </p>
 
 {% endfor %}
-```
+
