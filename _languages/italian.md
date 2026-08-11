@@ -24,7 +24,7 @@ feature_row_jm:
       Translations by Giorgio Mobili
       
       *Poesia*, 2014
-    url: 
+    url: https://narlanmatos.com/assets/docs/publications/2014_Revista Poesia_NarlanMatos.pdf
     btn_label: "Leggere"
     btn_class: "btn--primary" 
     
