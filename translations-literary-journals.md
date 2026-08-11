@@ -33,7 +33,6 @@ header:
 {% if item.authors %}. {{ item.authors }}{% endif %}
 
 {% if item.translated_languages %}. {{ item.translated_languages }}{% endif %}
-
 {% if item.translators %}. Translated by {{ item.translators }}{% endif %}
 {% if item.publication %}. <em>{{ item.publication }}</em>{% endif %}
 
