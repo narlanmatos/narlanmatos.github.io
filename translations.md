@@ -59,7 +59,7 @@ feature_row_languages:
 feature_row_children:
 
   - image_path: /assets/images/features/books-translation.jpg
-    title: "Books"
+    title: "Original Books in Translation"
     excerpt: "Original poetry collections published in other languages."
     url: /translations/books-translated/
     btn_label: "Explore"
