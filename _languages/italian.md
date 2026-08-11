@@ -18,6 +18,16 @@ feature_row_books:
     btn_class: "btn--primary"
     
 feature_row_jm:
+  - image_path: /assets/images/translations/2014-poesia.jpg
+    title: "Narlan Matos: Elegia al Nuovo Mondo"
+    excerpt: |
+      Translations by Giorgio Mobili
+      
+      *Poesia*, 2014
+    url: 
+    btn_label: "Leggere"
+    btn_class: "btn--primary" 
+    
   - image_path: /assets/images/criticism/fili-2014.jpg
     title: "Manca Qualcosa Nella Stanza: La poesia di Narlan Matos"
     excerpt: |
