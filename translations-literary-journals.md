@@ -35,7 +35,6 @@ header:
 {% if item.translated_languages %}. {{ item.translated_languages }}{% endif %}
 
 {% if item.translators %}. Translated by {{ item.translators }}{% endif %}
-
 {% if item.publication %}. <em>{{ item.publication }}</em>{% endif %}
 
 {% if item.volume %} {{ item.volume }}{% endif %}
