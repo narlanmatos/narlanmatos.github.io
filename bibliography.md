@@ -1,6 +1,6 @@
 ---
 title: "Complete Bibliography"
-layout: single
+layout: splash
 permalink: /about/bibliography/
 header:
   overlay_image: /assets/images/header.jpg  # header image
