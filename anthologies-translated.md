@@ -1,6 +1,6 @@
 ---
 
-title: "Collected Poems & Anthologies"
+title: "Translations in Anthologies"
 permalink: /translations/anthologies-translated/
 layout: splash
 header:

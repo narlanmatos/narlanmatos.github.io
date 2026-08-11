@@ -66,12 +66,18 @@ feature_row_children:
     btn_class: "btn--primary"
 
   - image_path: /assets/images/features/anthologies.jpg
-    title: "Collected Poems & Anthologies"
-    excerpt: "Selected and collected works published internationally."
+    title: "Translations in Anthologies"
+    excerpt: "Translated works published internationally in anthologies."
     url: /translations/anthologies-translated/
     btn_label: "Explore"
     btn_class: "btn--primary"
 
+  - image_path: /assets/images/features/anthologies.jpg
+    title: "Translations in Literary Journals"
+    excerpt: "Individual poems or groups of poems published in literary journals, magazines, reviews, etc."
+    url: /translations/translations-literary-journals/
+    btn_label: "Explore"
+    btn_class: "btn--primary"
 
 
 feature_row_poem_translations:

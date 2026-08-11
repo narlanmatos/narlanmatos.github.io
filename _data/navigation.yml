@@ -40,8 +40,10 @@ main:
     children:
       - title: "Translated Books"
         url: /translations/books-translated/
-      - title: "Collected Poems & Anthologies"
+      - title: "Translations in Anthologies"
         url: /translations/anthologies-translated/
+      - title: "Translations in Literary Journals"
+        url: /translations/translations-literary-journals/
       - title: "Poems in Translation"
         url: /translations/poems-translated/
       - title: "Languages"
