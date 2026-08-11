@@ -110,23 +110,12 @@ feature_row_translations:
     btn_label: "View Book"
     btn_class: "btn--primary"
     
-  - image_path: /assets/images/translations/poetry-mens-lives.jpg
-    title: "The Poetry of Men's Lives: an International Anthology"
-    url: translations/poetry-mens-lives/
-    btn_label: "View Book"
-    btn_class: "btn--primary"   
-    
   - image_path: /assets/images/translations/provincia.jpg
     title: "La Provincia Oscura"
     url: translations/provincia/
     btn_label: "View Book"
     btn_class: "btn--primary" 
-    
-  - image_path: /assets/images/translations/duet.jpg
-    title: "Duet of Dots"
-    url: translations/duet/
-    btn_label: "View Book"
-    btn_class: "btn--primary" 
+
 
 feature_row_community_translations:
   - image_path: /assets/images/translations/lyrics-translate.jpg
