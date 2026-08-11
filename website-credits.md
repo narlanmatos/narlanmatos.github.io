@@ -23,7 +23,7 @@ The website is an ongoing archival project. New publications, translations, reco
 | Website Design & Development | **Kristina Teixeira** |
 | Website Curation | **Kristina Teixeira** |
 | Research & Bibliography | **Kristina Teixeira**, **Jô Bertelli**, **Antonio Donizeti da Cruz** |
-| Metadata & Digital Archive | **Kristina Teixeira** |
+| Metadata & Digital Archive | **Kristina Teixeira**, **Yannik Teixeira**, **Antonio Donizeti da Cruz** |
 | Content Editing | **Kristina Teixeira** and **Yannik Teixeira**, in consultation with **Narlan Matos** |
 | Website Advisor | **Yannik Teixeira** |
 | Photography | Individual photographers and rights holders, credited where known |
