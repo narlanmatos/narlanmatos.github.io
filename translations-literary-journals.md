@@ -13,7 +13,7 @@ header:
 {% assign journal_translations = site.data.publications
   | where: "collection", "periodicals"
   | where: "type", "literary_journal"
-  | where_exp: "item", "publication_languages != 'Portuguese'"
+  | where_exp: "item", "item.publication_languages != 'Portuguese'"
   | sort: "publication_date"
   | reverse
 %}
