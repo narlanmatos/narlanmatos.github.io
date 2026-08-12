@@ -22,41 +22,72 @@ header:
 
 <p><strong>{{ item.publication_date }}</strong><br>
 
-{% if item.url %}
-<a href="{{ item.url | relative_url }}">
+{% if item.url -%}
+<a href="{{ item.url | relative_url }}"><em>{{ item.full_title | default: item.title }}</em></a>
+{%- else -%}
 <em>{{ item.full_title | default: item.title }}</em>
-</a>
-{% else %}
-<em>{{ item.full_title | default: item.title }}</em>
-{% endif %}
+{%- endif %}
 
-{% if item.authors %}. {{ item.authors }}{% endif %}
+{% if item.authors -%}
+. {{ item.authors }}
+{%- endif %}
 
-{% if item.translated_languages %}. {{ item.translated_languages }}{% endif %}
-{% if item.translators %}. Translated by {{ item.translators }}{% endif %}
-{% if item.publication %}. <em>{{ item.publication }}</em>{% endif %}
+{% if item.translated_languages -%}
+. {{ item.translated_languages }}
+{%- endif %}
 
-{% if item.volume %} {{ item.volume }}{% endif %}
+{% if item.translators -%}
+. Translated by {{ item.translators }}
+{%- endif %}
 
-{% if item.issue %}({{ item.issue }}){% endif %}
+{% if item.publication -%}
+. <em>{{ item.publication }}</em>
+{%- endif %}
 
-{% if item.pages %}, {{ item.pages }}{% endif %}
+{% if item.volume -%}
+ {{ item.volume }}
+{%- endif %}
 
-{% if item.publication_place %}. {{ item.publication_place }}{% endif %}
+{% if item.issue -%}
+({{ item.issue }})
+{%- endif %}
 
-{% if item.publisher %}: {{ item.publisher }}{% endif %}
+{% if item.pages -%}
+, {{ item.pages }}
+{%- endif %}
 
-{% if item.isbn %}. ISBN {{ item.isbn }}{% endif %}
+{% if item.publication_place -%}
+. {{ item.publication_place }}
+{%- endif %}
 
-{% if item.issn %}. ISSN {{ item.issn }}{% endif %}
+{% if item.publisher -%}
+: {{ item.publisher }}
+{%- endif %}
 
-{% if item.read_link %} · <a href="{{ item.read_link }}" target="_blank" rel="noopener">Read</a>{% endif %}
+{% if item.edition -%}
+. {{ item.edition }}
+{%- endif %}
 
-{% if item.local_copy %} · <a href="{{ item.local_copy }}" target="_blank" rel="noopener">Archived Copy</a>{% endif %}
+{% if item.isbn -%}
+. ISBN {{ item.isbn }}
+{%- endif %}
 
-{% if item.worldcat_link %} · <a href="{{ item.worldcat_link }}" target="_blank" rel="noopener">WorldCat</a>{% endif %}
+{% if item.issn -%}
+. ISSN {{ item.issn }}
+{%- endif %}
+
+{% if item.worldcat_link -%}
+ · <a href="{{ item.worldcat_link }}" target="_blank" rel="noopener">WorldCat</a>
+{%- endif %}
+
+{% if item.read_link -%}
+ · <a href="{{ item.read_link }}" target="_blank" rel="noopener">Read</a>
+{%- endif %}
+
+{% if item.local_copy -%}
+ · <a href="{{ item.local_copy | relative_url }}" target="_blank" rel="noopener">Archived Copy</a>
+{%- endif %}
 
 </p>
 
 {% endfor %}
-
