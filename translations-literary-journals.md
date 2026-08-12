@@ -28,8 +28,8 @@ header:
 {%- if item.authors -%}. {{ item.authors }}{%- endif -%}
 {%- if item.translated_languages -%}. {{ item.translated_languages }}{%- endif -%}
 {%- if item.translators -%}. Translated by {{ item.translators }}{%- endif -%}
-{%- if item.publisher -%}: {{ item.publisher }}{%- endif -%}
-{%- if item.volume -%} {{ item.volume }}{%- endif -%}
+{%- if item.publisher -%}. <em>{{ item.publisher }}</em>{%- endif -%}
+{%- if item.volume -%}: {{ item.volume }}{%- endif -%}
 {%- if item.issue -%}({{ item.issue }}){%- endif -%}
 {%- if item.pages -%}, {{ item.pages }}{%- endif -%}
 {%- if item.publication_place -%}. {{ item.publication_place }}{%- endif -%}
