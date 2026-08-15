@@ -56,7 +56,7 @@ Vinicius Cantuaria, one of Brazil's most accomplished songwriters, talks about N
 
 "What impressed me about the poetry of Narlan Matos Teixeira was his consummate art of dealing with the word, his servant and his accomplice, in the creation of unexpectedly beautiful things, hard to find every day." - _Herberto Sales_
 
-"one of the most promising voices on the international scene" - _Roberto Deidier_ (see [quote in original context](https://robertodeidier.blogspot.com/2016/11/ailanto-n-36-su-narlan-matos.html))
+"one of the most promising voices on the international scene" - _Roberto Deidier_ (from [Roberto Deidier's blog](https://robertodeidier.blogspot.com/2016/11/ailanto-n-36-su-narlan-matos.html))
 
 ## Andrej Blatnik
 
