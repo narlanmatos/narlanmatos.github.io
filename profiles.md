@@ -12,38 +12,65 @@ header:
 *Profiles of Narlan Matos published in literary journals, cultural publications, and other venues offer a broader view of his life, work, and international literary career.
 These pieces often combine biography, bibliography, critical commentary, interviews, and selections of poetry.*
 
-{% assign profiles = site.data.reception | where: "type", "profile" %}
+{% assign items = site.data.reception
+  | where: "type", "profile"
+  | sort: "year"
+  | reverse %}
 
-{% if profiles.size > 0 %}
+{% for item in items %}
 
-{% for item in profiles %}
-  <article class="archive__item">
-    {% if item.title %}
-      <h2 class="archive__item-title">
-        {% if item.url %}
-          <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
-        {% else %}
-          {{ item.title }}
-        {% endif %}
-      </h2>
-    {% endif %}
+<p>
+<strong>{{ item.title }}</strong><br>
 
-    {% if item.author %}
-      <p><strong>{{ item.author }}</strong></p>
-    {% endif %}
+{% if item.authors %}
+{{ item.authors }}.
+{% endif %}
 
-    {% if item.publication %}
-      <p><em>{{ item.publication }}</em>{% if item.date %}, {{ item.date }}{% endif %}</p>
-    {% endif %}
+{% if item.publication %}
+<em>{{ item.publication }}</em>{% if item.volume %} {{ item.volume }}{% endif %}{% if item.issue %}({{ item.issue }}){% endif %}{% if item.pages %}, {{ item.pages }}{% endif %}{% if item.year %}, {{ item.year }}{% endif %}.
+{% endif %}
 
-    {% if item.description %}
-      <p>{{ item.description }}</p>
-    {% endif %}
-  </article>
-{% endfor %}
+{% if item.doi %}
+DOI:
+<a href="https://doi.org/{{ item.doi }}" target="_blank" rel="noopener">
+{{ item.doi }}
+</a>
+</p>
+{% endif %}
 
+{% if item.language %}
+({{ item.language }})
 {% endif %}
 
 
+{% if item.url or item.local_copy %}
+<p>
+{% if item.url %}
+<a href="{{ item.url }}" target="_blank" rel="noopener">Online version</a>
+{% endif %}
+
+{% if item.url and item.local_copy %}
+&nbsp; | &nbsp;
+{% endif %}
+
+{% if item.local_copy %}
+<a href="{{ item.local_copy | relative_url }}" target="_blank" rel="noopener">Archived copy</a>
+{% endif %}
+</p>
+{% endif %}
 
 
+{% if item.related_work %}
+<p>
+Related work:
+{% if item.related_work_url %}
+<a href="{{ item.related_work_url | relative_url }}"><em>{{ item.related_work }}</em></a>
+{% else %}
+<em>{{ item.related_work }}</em>
+{% endif %}
+</p>
+{% endif %}
+
+<hr>
+
+{% endfor %}
