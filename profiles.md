@@ -1,5 +1,5 @@
 ---
-title: "Narlan Matos"
+title: "Biographical & Literary Profiles"
 layout: splash
 permalink: /about/profiles/
 header:

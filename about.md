@@ -1,5 +1,5 @@
 ---
-title: "Narlan Matos"
+title: "About"
 layout: splash
 permalink: /about/
 header:
@@ -34,6 +34,13 @@ feature_row:
     excerpt: ""
     url: "/about/bibliography/"
     btn_label: "View Bibliography"
+    btn_class: "btn--primary" 
+    
+  - image_path: /assets/images/features/awards.jpg
+    title: "Biographical & Literary Profiles"
+    excerpt: ""
+    url: "/about/profiles/"
+    btn_label: "View Profiles"
     btn_class: "btn--primary" 
 
 feature_row2:
