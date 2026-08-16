@@ -18,8 +18,7 @@ feature_row_books:
     btn_class: "btn--primary"
     
 feature_row_jm:
-  - image_path: /assets/images/features/tupelo.jpg
-    title: "Genesis"
+  - title: "Genesis"
     excerpt: |
       Translations by José F. Bañuelos-Montes & Sally Perret
       
@@ -28,8 +27,7 @@ feature_row_jm:
     btn_label: "Read Poem"
     btn_class: "btn--primary" 
     
-  - image_path: /assets/images/features/interim.jpg
-    title: "Ten Poems"
+  - title: "Ten Poems"
     excerpt: |
       Translations by José F. Bañuelos-Montes and Sally Perret
       
@@ -38,8 +36,7 @@ feature_row_jm:
     btn_label: "Read Poems"
     btn_class: "btn--primary" 
     
-  - image_path: /assets/images/features/2018-esla.jpg
-    title: "Selected Poems"
+  - title: "Selected Poems"
     excerpt: |
       Translations by José F. Bañuelos-Montes & Sally Perret
       
@@ -48,8 +45,7 @@ feature_row_jm:
     btn_label: "Read Poems"
     btn_class: "btn--primary" 
     
-  - image_path: /assets/images/features/2009-exquisite-corpse.jpg
-    title: "Two Poems by Narlan Matos "
+  - title: "Two Poems by Narlan Matos "
     excerpt: |
       Translations by Sally Perret
       
@@ -58,8 +54,7 @@ feature_row_jm:
     btn_label: "Read Poems"
     btn_class: "btn--primary" 
     
-  - image_path: /assets/images/features/2009-exquisite-corpse.jpg
-    title: "Two Poems by Narlan Matos"
+  - title: "Two Poems by Narlan Matos"
     excerpt: |
       Translations by Narlan Matos and Kristina Anderson Teixeira
       
