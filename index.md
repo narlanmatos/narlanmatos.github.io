@@ -60,8 +60,7 @@ feature_row_reception:
 
 
 feature_row_poems:
-  - image_path: /assets/images/feature/xx.jpg
-    title: "Featured Portuguese Original"
+  - title: "Featured Portuguese Original"
     excerpt: |
       <b>Elegia ao Novo Mundo</b>  
       
@@ -71,8 +70,7 @@ feature_row_poems:
     url: /poetry/poems/elegia-ao-novo-mundo/
     btn_label: "Read Full Poem"
     btn_class: "btn--primary"
-  - image_path: /assets/images/features/english.jpg
-    title: "Featured English Translation"
+  - title: "Featured English Translation"
     excerpt: |
       <b>Elegy to the New World</b> 
       
@@ -82,8 +80,8 @@ feature_row_poems:
     url: /poetry/poems/elegia-ao-novo-mundo-en/
     btn_label: "Read Full Poem"
     btn_class: "btn--primary" 
-  - image_path: /assets/images/feature/xx.jpg
-    title: "Featured Reading"
+    
+  - title: "Featured Reading"
     excerpt: "Watch Narlan Matos reading a selection of poems, starting with <b>Elegy to the New World</b>, at the 2012 Druskininkai International Fall Poetic Festival."
     url: https://narlanmatos.github.io/poetry/performances#druskininkai-international-fall-poetic-festival-lithuania-2012/
     btn_label: "Watch the Readings"
