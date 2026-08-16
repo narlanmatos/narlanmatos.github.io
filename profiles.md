@@ -17,9 +17,7 @@ These pieces often combine biography, bibliography, critical commentary, intervi
   | sort: "year"
   | reverse %}
 
-{% if critical_essays.size > 0 %}
-
-{% for item in critical_essays %}
+{% for item in items %}
 
 <p><strong>{{ item.year }}</strong><br>
 
@@ -59,4 +57,3 @@ These pieces often combine biography, bibliography, critical commentary, intervi
 
 {% endfor %}
 
-{% endif %}
