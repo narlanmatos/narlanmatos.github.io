@@ -17,60 +17,46 @@ These pieces often combine biography, bibliography, critical commentary, intervi
   | sort: "year"
   | reverse %}
 
-{% for item in items %}
+{% if critical_essays.size > 0 %}
 
-<p>
-<strong>{{ item.title }}</strong><br>
+{% for item in critical_essays %}
 
-{% if item.authors %}
-{{ item.authors }}.
-{% endif %}
+<p><strong>{{ item.year }}</strong><br>
 
-{% if item.publication %}
-<em>{{ item.publication }}</em>{% if item.volume %} {{ item.volume }}{% endif %}{% if item.issue %}({{ item.issue }}){% endif %}{% if item.pages %}, {{ item.pages }}{% endif %}{% if item.year %}, {{ item.year }}{% endif %}.
-{% endif %}
+{%- if item.authors %}{{ item.authors }}.{% endif -%}
+{%- if item.title %} “{{ item.title }}.”{% endif -%}
+{%- if item.publication %} <em>{{ item.publication }}</em>{% endif -%}
+{%- if item.volume %} {{ item.volume }}{% endif -%}
+{%- if item.issue %}({{ item.issue }}){% endif -%}
+{%- if item.pages %}, pp. {{ item.pages }}{% endif -%}
 
-{% if item.doi %}
-DOI:
-<a href="https://doi.org/{{ item.doi }}" target="_blank" rel="noopener">
-{{ item.doi }}
-</a>
 </p>
-{% endif %}
 
-{% if item.language %}
-({{ item.language }})
-{% endif %}
+{% if item.description %}
 
+<p>{{ item.description }}</p> {% endif %}
 
-{% if item.url or item.local_copy %}
 <p>
+
 {% if item.url %}
 <a href="{{ item.url }}" target="_blank" rel="noopener">Online version</a>
 {% endif %}
 
 {% if item.url and item.local_copy %}
-&nbsp; | &nbsp;
+  |  
 {% endif %}
 
 {% if item.local_copy %}
 <a href="{{ item.local_copy | relative_url }}" target="_blank" rel="noopener">Archived copy</a>
 {% endif %}
+
+{% if item.worldcat_link %}
+{% if item.url or item.local_copy %}  |  {% endif %}
+<a href="{{ item.worldcat_link }}" target="_blank" rel="noopener">WorldCat</a>
+{% endif %}
+
 </p>
-{% endif %}
-
-
-{% if item.related_work %}
-<p>
-Related work:
-{% if item.related_work_url %}
-<a href="{{ item.related_work_url | relative_url }}"><em>{{ item.related_work }}</em></a>
-{% else %}
-<em>{{ item.related_work }}</em>
-{% endif %}
-</p>
-{% endif %}
-
-<hr>
 
 {% endfor %}
+
+{% endif %}
