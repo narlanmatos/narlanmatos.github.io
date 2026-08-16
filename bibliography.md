@@ -115,7 +115,7 @@ header:
 
 {% endif %}
 
-## Periodical Publications
+## Periodical & Other Publications
 {% assign periodical_publications = site.data.publications
   | where: "collection", "periodicals"
   | where: "type", "literary_journal"

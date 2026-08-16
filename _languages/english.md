@@ -59,7 +59,7 @@ feature_row_jm:
     btn_class: "btn--primary" 
     
   - image_path: /assets/images/features/2009-exquisite-corpse.jpg
-    title: "Two Poems by Narlan Matos "
+    title: "Two Poems by Narlan Matos"
     excerpt: |
       Translations by Narlan Matos and Kristina Anderson Teixeira
       
@@ -68,7 +68,14 @@ feature_row_jm:
     btn_label: "Read Poems"
     btn_class: "btn--primary" 
     
-
+  - title: "Narlan Matos Writing Sample"
+    excerpt: |
+      Translations by Narlan Matos and Iowa International Writers Program
+      
+      *Iowa International Writers Program*, 2002
+    url: https://iwp.uiowa.edu/sites/iwp.uiowa.edu/files/2024-06/IWP2002_Matos_narian.pdf
+    btn_label: "Read Poems"
+    btn_class: "btn--primary" 
     
 
     
@@ -142,7 +149,7 @@ feature_row_performances: []
 ## Books & Anthologies
 {% include feature_row id="feature_row_books" %}
 
-## Literary Journals & Magazines
+## Literary Journals & Other Publications
 
 {% include feature_row id="feature_row_jm" %}
 

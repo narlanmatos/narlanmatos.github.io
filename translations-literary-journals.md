@@ -1,6 +1,6 @@
 ---
 
-title: "Translations in Literary Journals"
+title: "Translations in Literary Journals and Other Publications"
 permalink: /translations/translations-literary-journals/
 layout: splash
 header:
