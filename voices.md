@@ -58,7 +58,7 @@ Vinicius Cantuaria, one of Brazil's most accomplished songwriters, talks about N
 
 "one of the most promising voices on the international scene" - _Roberto Deidier_ (from [Roberto Deidier's blog](https://robertodeidier.blogspot.com/2016/11/ailanto-n-36-su-narlan-matos.html))
 
-"A POET PILGRIM: 
+"**A POET PILGRIM**   
 Narlan Matos is a poet-pilgrim. 
 His writing is bold and deep: it witnesses and explores the world around us with profundity and a fearless honesty.
 If the human destiny is to journey, *You and I, Wayfarers of this Life*, does more than bear simple witness to this fact.
