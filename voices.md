@@ -58,13 +58,13 @@ Vinicius Cantuaria, one of Brazil's most accomplished songwriters, talks about N
 
 "one of the most promising voices on the international scene" - _Roberto Deidier_ (from [Roberto Deidier's blog](https://robertodeidier.blogspot.com/2016/11/ailanto-n-36-su-narlan-matos.html))
 
-"**A POET PILGRIM**   
-Narlan Matos is a poet-pilgrim. 
+**A POET PILGRIM**   
+"Narlan Matos is a poet-pilgrim. 
 His writing is bold and deep: it witnesses and explores the world around us with profundity and a fearless honesty.
-If the human destiny is to journey, *You and I, Wayfarers of this Life*, does more than bear simple witness to this fact.
+If the human destiny is to journey, *You and I, Wayfarers of this Life*, ([Eu e Tu, Caminheiros Dessa Vida](/poetry/books/caminheiros/)) does more than bear simple witness to this fact.
 The open texture of Matos’s verse invites us to participate in a series of vividly contrasted episodes within that wayfaring.
 At the same time, these build into an extraordinarily sustained, book-length work.
-*You and I* is an exceptional technical and conceptual feat, put to the most important of ends – a serious exploration of the human condition." - _Fiona Sampson, Sénior Fellow at Harris Manchester College, Oxford University_
+*You and I* is an exceptional technical and conceptual feat, put to the most important of ends – a serious exploration of the human condition." - _Fiona Sampson, Senior Fellow at Harris Manchester College, Oxford University_
 
 ## Andrej Blatnik
 
