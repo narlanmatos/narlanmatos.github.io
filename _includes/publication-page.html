@@ -328,41 +328,27 @@ Collect book editions
 
 {% comment %}
 ----------------------------------------
-Collect periodicals that republish poems
-originally published in this publication
+Collect periodicals associated with this book
+based on original_book_ids
 ----------------------------------------
 {% endcomment %}
 
-{% assign original_poems = site.data.poems
-  | where: "first_publication_id", publication.publication_id %}
-
 {% for periodical in site.data.publications %}
 
-  {% if periodical.collection == "periodicals" %}
+  {% if periodical.collection == "periodicals" and periodical.original_book_ids %}
 
-    {% assign include = false %}
+    {% assign book_ids = periodical.original_book_ids | split: ";" %}
 
-    {% for poem in original_poems %}
+    {% for book_id in book_ids %}
 
-      {% if poem.additional_publication_ids %}
+      {% assign clean_book_id = book_id | strip %}
 
-        {% assign ids = poem.additional_publication_ids | split: ";" %}
-
-        {% for id in ids %}
-
-          {% if id | strip == periodical.publication_id %}
-            {% assign include = true %}
-          {% endif %}
-
-        {% endfor %}
-
+      {% if clean_book_id == publication.publication_id %}
+        {% assign poem_publications = poem_publications | push: periodical %}
+        {% break %}
       {% endif %}
 
     {% endfor %}
-
-    {% if include %}
-      {% assign poem_publications = poem_publications | push: periodical %}
-    {% endif %}
 
   {% endif %}
 
