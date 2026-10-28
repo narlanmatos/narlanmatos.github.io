@@ -7,7 +7,7 @@ slug: russian
 feature_row_books:
   - image_path: /assets/images/translations/rebanhos-ru.jpg
     title: "Звездные стада и другие стихи"
-    url: /translations/caminheiros-ru/
+    url: /translations/rebanhos-ru/
     btn_label: "Посмотреть книгу"
     btn_class: "btn--primary"
     
