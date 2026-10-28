@@ -5,11 +5,18 @@ language: Russian
 slug: russian
  
 feature_row_books:
+  - image_path: /assets/images/translations/rebanhos-ru.jpg
+    title: "Звездные стада и другие стихи"
+    url: /translations/caminheiros-ru/
+    btn_label: "Посмотреть книгу"
+    btn_class: "btn--primary"
+    
   - image_path: /assets/images/translations/caminheiros-ru.jpg
     title: "я И Ты -ПУТНИКИ В ЭТОЙ ЖИЗНИ"
     url: /translations/caminheiros-ru/
     btn_label: "Посмотреть книгу"
     btn_class: "btn--primary"
+
 
 feature_row_community_translations:
   - image_path: /assets/images/translations/lyrics-translate.jpg
