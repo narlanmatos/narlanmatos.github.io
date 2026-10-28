@@ -6,6 +6,12 @@ language: Spanish
 slug: spanish
     
 feature_row_books:
+  - image_path: /assets/images/translations/entonces.jpg
+    title: "Y entonces alguien habló: XXIX Encuentro de Poetas Iberoamericanos (2026)"
+    url: /translations/entonces/
+    btn_label: "Ver Libro"
+    btn_class: "btn--primary"
+
   - image_path: /assets/images/translations/como-nacen.jpg
     title: "Cómo nacen las estrellas (2024)"
     url: /translations/como-nacen/
